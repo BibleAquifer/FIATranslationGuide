@@ -1,4 +1,4 @@
-# _Familiarization, Internalization, Articulation (FIA) _ Aquifer Resource
+# _Familiarization, Internalization, Articulation (FIA)_ Aquifer Resource
 
 This repository (`FIATranslationGuide`) contains Aquifer resource data with resource-level metadata, article-level metadata, and content files in JSON and Markdown formats.
 
