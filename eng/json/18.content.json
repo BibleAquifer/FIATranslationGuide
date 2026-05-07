@@ -71,27 +71,6 @@
 "preferred_label": "Uz"
 },
 {
-"id": "keyterm:Bless",
-"type": "keyterm",
-"confidence": 0.24,
-"match_method": "canonical",
-"preferred_label": "Bless"
-},
-{
-"id": "keyterm:Fear",
-"type": "keyterm",
-"confidence": 0.24,
-"match_method": "canonical",
-"preferred_label": "Fear"
-},
-{
-"id": "keyterm:Holy",
-"type": "keyterm",
-"confidence": 0.24,
-"match_method": "canonical",
-"preferred_label": "Holy"
-},
-{
 "id": "keyterm:Offering",
 "type": "keyterm",
 "confidence": 0.24,
@@ -106,18 +85,25 @@
 "preferred_label": "To Sin"
 },
 {
-"id": "fauna:Donkey",
-"type": "fauna",
-"confidence": 0.18,
+"id": "keyterm:Fear",
+"type": "keyterm",
+"confidence": 0.24,
 "match_method": "canonical",
-"preferred_label": "Donkey"
+"preferred_label": "Fear"
 },
 {
-"id": "fauna:Goat",
-"type": "fauna",
-"confidence": 0.18,
+"id": "keyterm:Bless",
+"type": "keyterm",
+"confidence": 0.24,
 "match_method": "canonical",
-"preferred_label": "Goat"
+"preferred_label": "Bless"
+},
+{
+"id": "keyterm:Holy",
+"type": "keyterm",
+"confidence": 0.24,
+"match_method": "canonical",
+"preferred_label": "Holy"
 },
 {
 "id": "realia:House",
@@ -127,6 +113,20 @@
 "preferred_label": "House"
 },
 {
+"id": "fauna:Bull",
+"type": "fauna",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "Cattle"
+},
+{
+"id": "fauna:Goat",
+"type": "fauna",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "Goat"
+},
+{
 "id": "fauna:Flock",
 "type": "fauna",
 "confidence": 0.18,
@@ -134,11 +134,11 @@
 "preferred_label": "Flock"
 },
 {
-"id": "fauna:Bull",
+"id": "fauna:Donkey",
 "type": "fauna",
 "confidence": 0.18,
 "match_method": "canonical",
-"preferred_label": "Cattle"
+"preferred_label": "Donkey"
 },
 {
 "id": "fauna:Camel",
@@ -229,18 +229,18 @@
 "preferred_label": "Job"
 },
 {
-"id": "keyterm:Bless",
-"type": "keyterm",
-"confidence": 0.3286,
-"match_method": "canonical",
-"preferred_label": "Bless"
-},
-{
 "id": "keyterm:Fear",
 "type": "keyterm",
 "confidence": 0.3286,
 "match_method": "canonical",
 "preferred_label": "Fear"
+},
+{
+"id": "keyterm:Bless",
+"type": "keyterm",
+"confidence": 0.3286,
+"match_method": "canonical",
+"preferred_label": "Bless"
 }
 ]
 }
@@ -352,18 +352,18 @@
 "preferred_label": "House"
 },
 {
-"id": "realia:Wine",
-"type": "realia",
-"confidence": 0.23,
-"match_method": "canonical",
-"preferred_label": "Wine"
-},
-{
 "id": "realia:Sword",
 "type": "realia",
 "confidence": 0.23,
 "match_method": "canonical",
 "preferred_label": "Sword"
+},
+{
+"id": "realia:Wine",
+"type": "realia",
+"confidence": 0.23,
+"match_method": "canonical",
+"preferred_label": "Wine"
 },
 {
 "id": "flora:Vine",
@@ -380,25 +380,11 @@
 "preferred_label": "Sheba"
 },
 {
-"id": "keyterm:Bless",
-"type": "keyterm",
-"confidence": 0.195,
-"match_method": "canonical",
-"preferred_label": "Bless"
-},
-{
 "id": "group:Sabean",
 "type": "group",
 "confidence": 0.195,
 "match_method": "canonical",
 "preferred_label": "Sabeans"
-},
-{
-"id": "keyterm:Sin",
-"type": "keyterm",
-"confidence": 0.195,
-"match_method": "canonical",
-"preferred_label": "To Sin"
 },
 {
 "id": "place:Chaldea",
@@ -408,13 +394,6 @@
 "preferred_label": "Chaldea"
 },
 {
-"id": "group:Chaldea",
-"type": "group",
-"confidence": 0.195,
-"match_method": "canonical",
-"preferred_label": "Chaldeans"
-},
-{
 "id": "deity:Angel",
 "type": "deity",
 "confidence": 0.195,
@@ -422,11 +401,46 @@
 "preferred_label": "An Angel"
 },
 {
+"id": "group:Chaldea",
+"type": "group",
+"confidence": 0.195,
+"match_method": "canonical",
+"preferred_label": "Chaldeans"
+},
+{
+"id": "keyterm:Sin",
+"type": "keyterm",
+"confidence": 0.195,
+"match_method": "canonical",
+"preferred_label": "To Sin"
+},
+{
+"id": "keyterm:Bless",
+"type": "keyterm",
+"confidence": 0.195,
+"match_method": "canonical",
+"preferred_label": "Bless"
+},
+{
+"id": "realia:Mattock",
+"type": "realia",
+"confidence": 0.135,
+"match_method": "canonical",
+"preferred_label": "Mattock"
+},
+{
 "id": "fauna:Donkey",
 "type": "fauna",
 "confidence": 0.135,
 "match_method": "canonical",
 "preferred_label": "Donkey"
+},
+{
+"id": "fauna:Camel",
+"type": "fauna",
+"confidence": 0.135,
+"match_method": "canonical",
+"preferred_label": "Camel"
 },
 {
 "id": "realia:Robe",
@@ -443,13 +457,6 @@
 "preferred_label": "Cattle"
 },
 {
-"id": "fauna:Flock",
-"type": "fauna",
-"confidence": 0.135,
-"match_method": "canonical",
-"preferred_label": "Flock"
-},
-{
 "id": "fauna:Goat",
 "type": "fauna",
 "confidence": 0.135,
@@ -457,18 +464,11 @@
 "preferred_label": "Goat"
 },
 {
-"id": "realia:Mattock",
-"type": "realia",
-"confidence": 0.135,
-"match_method": "canonical",
-"preferred_label": "Mattock"
-},
-{
-"id": "fauna:Camel",
+"id": "fauna:Flock",
 "type": "fauna",
 "confidence": 0.135,
 "match_method": "canonical",
-"preferred_label": "Camel"
+"preferred_label": "Flock"
 }
 ]
 }
@@ -531,13 +531,6 @@
 ],
 "acai": [
 {
-"id": "deity:Satan",
-"type": "deity",
-"confidence": 0.725,
-"match_method": "canonical",
-"preferred_label": "Satan"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.725,
@@ -545,11 +538,11 @@
 "preferred_label": "LORD"
 },
 {
-"id": "keyterm:Bless",
-"type": "keyterm",
-"confidence": 0.225,
+"id": "deity:Satan",
+"type": "deity",
+"confidence": 0.725,
 "match_method": "canonical",
-"preferred_label": "Bless"
+"preferred_label": "Satan"
 },
 {
 "id": "keyterm:Fear",
@@ -557,6 +550,13 @@
 "confidence": 0.225,
 "match_method": "canonical",
 "preferred_label": "Fear"
+},
+{
+"id": "keyterm:Bless",
+"type": "keyterm",
+"confidence": 0.225,
+"match_method": "canonical",
+"preferred_label": "Bless"
 },
 {
 "id": "person:Job",
@@ -633,13 +633,6 @@
 ],
 "acai": [
 {
-"id": "person:Job",
-"type": "person",
-"confidence": 0.4429,
-"match_method": "canonical",
-"preferred_label": "Job"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.4429,
@@ -647,11 +640,11 @@
 "preferred_label": "LORD"
 },
 {
-"id": "person:Zophar",
+"id": "person:Job",
 "type": "person",
-"confidence": 0.2429,
+"confidence": 0.4429,
 "match_method": "canonical",
-"preferred_label": "Zophar"
+"preferred_label": "Job"
 },
 {
 "id": "person:Eliphaz.2",
@@ -675,18 +668,18 @@
 "preferred_label": "Job's Wife"
 },
 {
+"id": "person:Zophar",
+"type": "person",
+"confidence": 0.2429,
+"match_method": "canonical",
+"preferred_label": "Zophar"
+},
+{
 "id": "group:Naamathites",
 "type": "group",
 "confidence": 0.2429,
 "match_method": "canonical",
 "preferred_label": "Naamathites"
-},
-{
-"id": "person:Bildad",
-"type": "person",
-"confidence": 0.2429,
-"match_method": "canonical",
-"preferred_label": "Bildad"
 },
 {
 "id": "group:Teman",
@@ -696,18 +689,18 @@
 "preferred_label": "Temanites"
 },
 {
+"id": "person:Bildad",
+"type": "person",
+"confidence": 0.2429,
+"match_method": "canonical",
+"preferred_label": "Bildad"
+},
+{
 "id": "place:Teman",
 "type": "place",
 "confidence": 0.2143,
 "match_method": "canonical",
 "preferred_label": "Teman"
-},
-{
-"id": "keyterm:Bless",
-"type": "keyterm",
-"confidence": 0.2143,
-"match_method": "canonical",
-"preferred_label": "Bless"
 },
 {
 "id": "deity:Satan",
@@ -722,6 +715,13 @@
 "confidence": 0.2143,
 "match_method": "canonical",
 "preferred_label": "To Sin"
+},
+{
+"id": "keyterm:Bless",
+"type": "keyterm",
+"confidence": 0.2143,
+"match_method": "canonical",
+"preferred_label": "Bless"
 },
 {
 "id": "realia:Robe",
