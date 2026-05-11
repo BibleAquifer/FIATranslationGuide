@@ -64,20 +64,6 @@
 "preferred_label": "Jude"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.375,
-"match_method": "canonical",
-"preferred_label": "LORD"
-},
-{
-"id": "keyterm:Peace",
-"type": "keyterm",
-"confidence": 0.375,
-"match_method": "canonical",
-"preferred_label": "Make Peace"
-},
-{
 "id": "keyterm:Mercy",
 "type": "keyterm",
 "confidence": 0.375,
@@ -90,6 +76,20 @@
 "confidence": 0.375,
 "match_method": "canonical",
 "preferred_label": "Jesus"
+},
+{
+"id": "keyterm:Peace",
+"type": "keyterm",
+"confidence": 0.375,
+"match_method": "canonical",
+"preferred_label": "Make Peace"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.375,
+"match_method": "canonical",
+"preferred_label": "LORD"
 },
 {
 "id": "person:James.3",
@@ -201,11 +201,11 @@
 ],
 "acai": [
 {
-"id": "person:Jesus.2",
-"type": "person",
+"id": "keyterm:Believe",
+"type": "keyterm",
 "confidence": 0.38,
 "match_method": "canonical",
-"preferred_label": "Jesus"
+"preferred_label": "Believe"
 },
 {
 "id": "keyterm:Salvation",
@@ -215,18 +215,18 @@
 "preferred_label": "Salvation"
 },
 {
-"id": "keyterm:Believe",
-"type": "keyterm",
-"confidence": 0.38,
-"match_method": "canonical",
-"preferred_label": "Believe"
-},
-{
 "id": "keyterm:Always",
 "type": "keyterm",
 "confidence": 0.38,
 "match_method": "canonical",
 "preferred_label": "Always"
+},
+{
+"id": "person:Jesus.2",
+"type": "person",
+"confidence": 0.38,
+"match_method": "canonical",
+"preferred_label": "Jesus"
 },
 {
 "id": "keyterm:Judgment",
@@ -236,32 +236,18 @@
 "preferred_label": "Judgment"
 },
 {
-"id": "keyterm:InCommon",
+"id": "place:Sodom",
+"type": "place",
+"confidence": 0.24,
+"match_method": "canonical",
+"preferred_label": "Sodom"
+},
+{
+"id": "keyterm:AskFor",
 "type": "keyterm",
 "confidence": 0.24,
 "match_method": "canonical",
-"preferred_label": "In Common"
-},
-{
-"id": "keyterm:EternalFire",
-"type": "keyterm",
-"confidence": 0.24,
-"match_method": "canonical",
-"preferred_label": "Eternal Fire"
-},
-{
-"id": "keyterm:Eagerness",
-"type": "keyterm",
-"confidence": 0.24,
-"match_method": "canonical",
-"preferred_label": "Eagerness"
-},
-{
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.24,
-"match_method": "canonical",
-"preferred_label": "LORD"
+"preferred_label": "Ask for"
 },
 {
 "id": "keyterm:Holy",
@@ -271,39 +257,11 @@
 "preferred_label": "Holy"
 },
 {
-"id": "deity:Angel",
+"id": "deity:Lord",
 "type": "deity",
 "confidence": 0.24,
 "match_method": "canonical",
-"preferred_label": "An Angel"
-},
-{
-"id": "place:Gomorrah",
-"type": "place",
-"confidence": 0.24,
-"match_method": "canonical",
-"preferred_label": "Gomorrah"
-},
-{
-"id": "place:Egypt",
-"type": "place",
-"confidence": 0.24,
-"match_method": "canonical",
-"preferred_label": "Egypt"
-},
-{
-"id": "keyterm:Favor",
-"type": "keyterm",
-"confidence": 0.24,
-"match_method": "canonical",
-"preferred_label": "Favor"
-},
-{
-"id": "keyterm:Beloved",
-"type": "keyterm",
-"confidence": 0.24,
-"match_method": "canonical",
-"preferred_label": "Beloved"
+"preferred_label": "LORD"
 },
 {
 "id": "keyterm:Body.3",
@@ -320,18 +278,60 @@
 "preferred_label": "Court Case"
 },
 {
-"id": "place:Sodom",
+"id": "place:Egypt",
 "type": "place",
 "confidence": 0.24,
 "match_method": "canonical",
-"preferred_label": "Sodom"
+"preferred_label": "Egypt"
 },
 {
-"id": "keyterm:AskFor",
+"id": "keyterm:InCommon",
 "type": "keyterm",
 "confidence": 0.24,
 "match_method": "canonical",
-"preferred_label": "Ask for"
+"preferred_label": "In Common"
+},
+{
+"id": "keyterm:Beloved",
+"type": "keyterm",
+"confidence": 0.24,
+"match_method": "canonical",
+"preferred_label": "Beloved"
+},
+{
+"id": "keyterm:Eagerness",
+"type": "keyterm",
+"confidence": 0.24,
+"match_method": "canonical",
+"preferred_label": "Eagerness"
+},
+{
+"id": "keyterm:EternalFire",
+"type": "keyterm",
+"confidence": 0.24,
+"match_method": "canonical",
+"preferred_label": "Eternal Fire"
+},
+{
+"id": "keyterm:Favor",
+"type": "keyterm",
+"confidence": 0.24,
+"match_method": "canonical",
+"preferred_label": "Favor"
+},
+{
+"id": "place:Gomorrah",
+"type": "place",
+"confidence": 0.24,
+"match_method": "canonical",
+"preferred_label": "Gomorrah"
+},
+{
+"id": "deity:Angel",
+"type": "deity",
+"confidence": 0.24,
+"match_method": "canonical",
+"preferred_label": "An Angel"
 },
 {
 "id": "realia:Chain",
@@ -436,25 +436,32 @@
 "preferred_label": "Korah"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
+"id": "person:Cain",
+"type": "person",
 "confidence": 0.2625,
 "match_method": "canonical",
-"preferred_label": "LORD"
+"preferred_label": "Cain"
 },
 {
-"id": "keyterm:CourtCase",
+"id": "keyterm:Command",
 "type": "keyterm",
 "confidence": 0.2625,
 "match_method": "canonical",
-"preferred_label": "Court Case"
+"preferred_label": "To Command"
 },
 {
-"id": "keyterm:Discern",
+"id": "keyterm:Ability",
 "type": "keyterm",
 "confidence": 0.2625,
 "match_method": "canonical",
-"preferred_label": "Discern"
+"preferred_label": "Ability"
+},
+{
+"id": "keyterm:Disaster",
+"type": "keyterm",
+"confidence": 0.2625,
+"match_method": "canonical",
+"preferred_label": "Disaster"
 },
 {
 "id": "person:Moses",
@@ -471,11 +478,25 @@
 "preferred_label": "Michael"
 },
 {
-"id": "keyterm:Command",
+"id": "person:Balaam",
+"type": "person",
+"confidence": 0.2625,
+"match_method": "canonical",
+"preferred_label": "Balaam"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.2625,
+"match_method": "canonical",
+"preferred_label": "LORD"
+},
+{
+"id": "keyterm:Discern",
 "type": "keyterm",
 "confidence": 0.2625,
 "match_method": "canonical",
-"preferred_label": "To Command"
+"preferred_label": "Discern"
 },
 {
 "id": "keyterm:Defilement",
@@ -485,18 +506,11 @@
 "preferred_label": "Defilement"
 },
 {
-"id": "person:Cain",
-"type": "person",
+"id": "keyterm:CourtCase",
+"type": "keyterm",
 "confidence": 0.2625,
 "match_method": "canonical",
-"preferred_label": "Cain"
-},
-{
-"id": "person:Balaam",
-"type": "person",
-"confidence": 0.2625,
-"match_method": "canonical",
-"preferred_label": "Balaam"
+"preferred_label": "Court Case"
 },
 {
 "id": "keyterm:Judgment",
@@ -504,20 +518,6 @@
 "confidence": 0.2625,
 "match_method": "canonical",
 "preferred_label": "Judgment"
-},
-{
-"id": "keyterm:Disaster",
-"type": "keyterm",
-"confidence": 0.2625,
-"match_method": "canonical",
-"preferred_label": "Disaster"
-},
-{
-"id": "keyterm:Ability",
-"type": "keyterm",
-"confidence": 0.2625,
-"match_method": "canonical",
-"preferred_label": "Ability"
 }
 ]
 }
@@ -643,25 +643,11 @@
 ],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
+"id": "person:Adam",
+"type": "person",
 "confidence": 0.24,
 "match_method": "canonical",
-"preferred_label": "LORD"
-},
-{
-"id": "keyterm:CourtCase",
-"type": "keyterm",
-"confidence": 0.24,
-"match_method": "canonical",
-"preferred_label": "Court Case"
-},
-{
-"id": "keyterm:Always",
-"type": "keyterm",
-"confidence": 0.24,
-"match_method": "canonical",
-"preferred_label": "Always"
+"preferred_label": "Adam"
 },
 {
 "id": "person:Enoch.2",
@@ -678,11 +664,32 @@
 "preferred_label": "Speak as a Prophet"
 },
 {
-"id": "person:Adam",
-"type": "person",
+"id": "keyterm:Always",
+"type": "keyterm",
 "confidence": 0.24,
 "match_method": "canonical",
-"preferred_label": "Adam"
+"preferred_label": "Always"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.24,
+"match_method": "canonical",
+"preferred_label": "LORD"
+},
+{
+"id": "keyterm:Holy",
+"type": "keyterm",
+"confidence": 0.24,
+"match_method": "canonical",
+"preferred_label": "Holy"
+},
+{
+"id": "keyterm:CourtCase",
+"type": "keyterm",
+"confidence": 0.24,
+"match_method": "canonical",
+"preferred_label": "Court Case"
 },
 {
 "id": "keyterm:Judgment",
@@ -699,11 +706,11 @@
 "preferred_label": "Fellowship Meal"
 },
 {
-"id": "keyterm:Holy",
-"type": "keyterm",
-"confidence": 0.24,
+"id": "fauna:Flock",
+"type": "fauna",
+"confidence": 0.18,
 "match_method": "canonical",
-"preferred_label": "Holy"
+"preferred_label": "Flock"
 },
 {
 "id": "fauna:Goat",
@@ -711,13 +718,6 @@
 "confidence": 0.18,
 "match_method": "canonical",
 "preferred_label": "Goat"
-},
-{
-"id": "fauna:Flock",
-"type": "fauna",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "Flock"
 }
 ]
 }
@@ -808,13 +808,6 @@
 "preferred_label": "Mercy"
 },
 {
-"id": "person:Jesus.2",
-"type": "person",
-"confidence": 0.3286,
-"match_method": "canonical",
-"preferred_label": "Jesus"
-},
-{
 "id": "deity:HolySpirit",
 "type": "deity",
 "confidence": 0.3286,
@@ -829,25 +822,25 @@
 "preferred_label": "Beloved"
 },
 {
-"id": "keyterm:Life",
-"type": "keyterm",
-"confidence": 0.2143,
+"id": "person:Jesus.2",
+"type": "person",
+"confidence": 0.3286,
 "match_method": "canonical",
-"preferred_label": "Life"
+"preferred_label": "Jesus"
 },
 {
-"id": "keyterm:CreatingDivisions",
+"id": "keyterm:Believe",
 "type": "keyterm",
 "confidence": 0.2143,
 "match_method": "canonical",
-"preferred_label": "Creating Divisions"
+"preferred_label": "Believe"
 },
 {
-"id": "keyterm:Discern",
+"id": "keyterm:Holy",
 "type": "keyterm",
 "confidence": 0.2143,
 "match_method": "canonical",
-"preferred_label": "Discern"
+"preferred_label": "Holy"
 },
 {
 "id": "deity:Lord",
@@ -857,25 +850,11 @@
 "preferred_label": "LORD"
 },
 {
-"id": "keyterm:Love",
+"id": "keyterm:Body.3",
 "type": "keyterm",
 "confidence": 0.2143,
 "match_method": "canonical",
-"preferred_label": "Love"
-},
-{
-"id": "keyterm:Word",
-"type": "keyterm",
-"confidence": 0.2143,
-"match_method": "canonical",
-"preferred_label": "Word"
-},
-{
-"id": "keyterm:Natural",
-"type": "keyterm",
-"confidence": 0.2143,
-"match_method": "canonical",
-"preferred_label": "Natural"
+"preferred_label": "Body"
 },
 {
 "id": "keyterm:Salvation",
@@ -885,11 +864,32 @@
 "preferred_label": "Salvation"
 },
 {
-"id": "keyterm:Believe",
+"id": "keyterm:Love",
 "type": "keyterm",
 "confidence": 0.2143,
 "match_method": "canonical",
-"preferred_label": "Believe"
+"preferred_label": "Love"
+},
+{
+"id": "keyterm:Life",
+"type": "keyterm",
+"confidence": 0.2143,
+"match_method": "canonical",
+"preferred_label": "Life"
+},
+{
+"id": "keyterm:Discern",
+"type": "keyterm",
+"confidence": 0.2143,
+"match_method": "canonical",
+"preferred_label": "Discern"
+},
+{
+"id": "keyterm:Fear",
+"type": "keyterm",
+"confidence": 0.2143,
+"match_method": "canonical",
+"preferred_label": "Fear"
 },
 {
 "id": "keyterm:Pray",
@@ -906,25 +906,25 @@
 "preferred_label": "Always"
 },
 {
-"id": "keyterm:Body.3",
+"id": "keyterm:CreatingDivisions",
 "type": "keyterm",
 "confidence": 0.2143,
 "match_method": "canonical",
-"preferred_label": "Body"
+"preferred_label": "Creating Divisions"
 },
 {
-"id": "keyterm:Fear",
+"id": "keyterm:Natural",
 "type": "keyterm",
 "confidence": 0.2143,
 "match_method": "canonical",
-"preferred_label": "Fear"
+"preferred_label": "Natural"
 },
 {
-"id": "keyterm:Holy",
+"id": "keyterm:Word",
 "type": "keyterm",
 "confidence": 0.2143,
 "match_method": "canonical",
-"preferred_label": "Holy"
+"preferred_label": "Word"
 },
 {
 "id": "realia:Clothing",
@@ -1001,46 +1001,11 @@
 "preferred_label": "Glory"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.375,
-"match_method": "canonical",
-"preferred_label": "LORD"
-},
-{
-"id": "keyterm:Surely",
-"type": "keyterm",
-"confidence": 0.375,
-"match_method": "canonical",
-"preferred_label": "Surely!"
-},
-{
-"id": "keyterm:Always",
-"type": "keyterm",
-"confidence": 0.375,
-"match_method": "canonical",
-"preferred_label": "Always"
-},
-{
 "id": "keyterm:Authority.2",
 "type": "keyterm",
 "confidence": 0.375,
 "match_method": "canonical",
 "preferred_label": "Authority"
-},
-{
-"id": "keyterm:Unblemished",
-"type": "keyterm",
-"confidence": 0.375,
-"match_method": "canonical",
-"preferred_label": "Unblemished"
-},
-{
-"id": "keyterm:Savior",
-"type": "keyterm",
-"confidence": 0.375,
-"match_method": "canonical",
-"preferred_label": "Savior"
 },
 {
 "id": "person:Jesus.2",
@@ -1050,11 +1015,46 @@
 "preferred_label": "Jesus"
 },
 {
+"id": "keyterm:Always",
+"type": "keyterm",
+"confidence": 0.375,
+"match_method": "canonical",
+"preferred_label": "Always"
+},
+{
 "id": "keyterm:Ability",
 "type": "keyterm",
 "confidence": 0.375,
 "match_method": "canonical",
 "preferred_label": "Ability"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.375,
+"match_method": "canonical",
+"preferred_label": "LORD"
+},
+{
+"id": "keyterm:Unblemished",
+"type": "keyterm",
+"confidence": 0.375,
+"match_method": "canonical",
+"preferred_label": "Unblemished"
+},
+{
+"id": "keyterm:Surely",
+"type": "keyterm",
+"confidence": 0.375,
+"match_method": "canonical",
+"preferred_label": "Surely!"
+},
+{
+"id": "keyterm:Savior",
+"type": "keyterm",
+"confidence": 0.375,
+"match_method": "canonical",
+"preferred_label": "Savior"
 }
 ]
 }

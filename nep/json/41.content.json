@@ -169,6 +169,13 @@
 "preferred_label": "Jordan River"
 },
 {
+"id": "keyterm:Sin",
+"type": "keyterm",
+"confidence": 0.2692,
+"match_method": "canonical",
+"preferred_label": "To Sin"
+},
+{
 "id": "keyterm:Proclaim",
 "type": "keyterm",
 "confidence": 0.2692,
@@ -197,60 +204,11 @@
 "preferred_label": "An Angel"
 },
 {
-"id": "keyterm:Sin",
-"type": "keyterm",
-"confidence": 0.2692,
-"match_method": "canonical",
-"preferred_label": "To Sin"
-},
-{
 "id": "keyterm:Serve",
 "type": "keyterm",
 "confidence": 0.1846,
 "match_method": "canonical",
 "preferred_label": "Serve"
-},
-{
-"id": "keyterm:Straightness",
-"type": "keyterm",
-"confidence": 0.1846,
-"match_method": "canonical",
-"preferred_label": "Straightness"
-},
-{
-"id": "keyterm:Repent",
-"type": "keyterm",
-"confidence": 0.1846,
-"match_method": "canonical",
-"preferred_label": "Repent"
-},
-{
-"id": "place:Judea",
-"type": "place",
-"confidence": 0.1846,
-"match_method": "canonical",
-"preferred_label": "Judea"
-},
-{
-"id": "person:Isaiah",
-"type": "person",
-"confidence": 0.1846,
-"match_method": "canonical",
-"preferred_label": "Isaiah"
-},
-{
-"id": "keyterm:GoodNews",
-"type": "keyterm",
-"confidence": 0.1846,
-"match_method": "canonical",
-"preferred_label": "Good News"
-},
-{
-"id": "deity:Satan",
-"type": "deity",
-"confidence": 0.1846,
-"match_method": "canonical",
-"preferred_label": "Satan"
 },
 {
 "id": "deity:Lord",
@@ -267,6 +225,48 @@
 "preferred_label": "Galilee"
 },
 {
+"id": "keyterm:GoodNews",
+"type": "keyterm",
+"confidence": 0.1846,
+"match_method": "canonical",
+"preferred_label": "Good News"
+},
+{
+"id": "keyterm:Beloved",
+"type": "keyterm",
+"confidence": 0.1846,
+"match_method": "canonical",
+"preferred_label": "Beloved"
+},
+{
+"id": "person:Isaiah",
+"type": "person",
+"confidence": 0.1846,
+"match_method": "canonical",
+"preferred_label": "Isaiah"
+},
+{
+"id": "keyterm:Forgive",
+"type": "keyterm",
+"confidence": 0.1846,
+"match_method": "canonical",
+"preferred_label": "Forgive"
+},
+{
+"id": "place:Judea",
+"type": "place",
+"confidence": 0.1846,
+"match_method": "canonical",
+"preferred_label": "Judea"
+},
+{
+"id": "deity:Satan",
+"type": "deity",
+"confidence": 0.1846,
+"match_method": "canonical",
+"preferred_label": "Satan"
+},
+{
 "id": "place:Jerusalem",
 "type": "place",
 "confidence": 0.1846,
@@ -281,25 +281,25 @@
 "preferred_label": "Put to the Test"
 },
 {
-"id": "keyterm:Beloved",
-"type": "keyterm",
-"confidence": 0.1846,
-"match_method": "canonical",
-"preferred_label": "Beloved"
-},
-{
-"id": "keyterm:Forgive",
-"type": "keyterm",
-"confidence": 0.1846,
-"match_method": "canonical",
-"preferred_label": "Forgive"
-},
-{
 "id": "place:Nazareth",
 "type": "place",
 "confidence": 0.1846,
 "match_method": "canonical",
 "preferred_label": "Nazareth"
+},
+{
+"id": "keyterm:Repent",
+"type": "keyterm",
+"confidence": 0.1846,
+"match_method": "canonical",
+"preferred_label": "Repent"
+},
+{
+"id": "keyterm:Straightness",
+"type": "keyterm",
+"confidence": 0.1846,
+"match_method": "canonical",
+"preferred_label": "Straightness"
 },
 {
 "id": "realia:Strap",
@@ -309,11 +309,11 @@
 "preferred_label": "Strap"
 },
 {
-"id": "fauna:Camel",
-"type": "fauna",
+"id": "realia:Bag",
+"type": "realia",
 "confidence": 0.1246,
 "match_method": "canonical",
-"preferred_label": "Camel"
+"preferred_label": "Bag"
 },
 {
 "id": "realia:Leather",
@@ -323,18 +323,18 @@
 "preferred_label": "Leather"
 },
 {
-"id": "realia:Sandal",
-"type": "realia",
-"confidence": 0.1246,
-"match_method": "canonical",
-"preferred_label": "Sandal"
-},
-{
 "id": "fauna:Locust",
 "type": "fauna",
 "confidence": 0.1246,
 "match_method": "canonical",
 "preferred_label": "Locust"
+},
+{
+"id": "fauna:Dove",
+"type": "fauna",
+"confidence": 0.1246,
+"match_method": "canonical",
+"preferred_label": "Dove"
 },
 {
 "id": "fauna:Bee",
@@ -344,11 +344,18 @@
 "preferred_label": "Bee"
 },
 {
-"id": "realia:Bag",
+"id": "fauna:Camel",
+"type": "fauna",
+"confidence": 0.1246,
+"match_method": "canonical",
+"preferred_label": "Camel"
+},
+{
+"id": "realia:Sandal",
 "type": "realia",
 "confidence": 0.1246,
 "match_method": "canonical",
-"preferred_label": "Bag"
+"preferred_label": "Sandal"
 },
 {
 "id": "realia:Belt",
@@ -356,13 +363,6 @@
 "confidence": 0.1246,
 "match_method": "canonical",
 "preferred_label": "Belt"
-},
-{
-"id": "fauna:Dove",
-"type": "fauna",
-"confidence": 0.1246,
-"match_method": "canonical",
-"preferred_label": "Dove"
 }
 ]
 }
@@ -439,13 +439,6 @@
 ],
 "acai": [
 {
-"id": "person:Zebedee",
-"type": "person",
-"confidence": 0.3571,
-"match_method": "canonical",
-"preferred_label": "Zebedee"
-},
-{
 "id": "keyterm:GoodNews",
 "type": "keyterm",
 "confidence": 0.3571,
@@ -453,11 +446,11 @@
 "preferred_label": "Good News"
 },
 {
-"id": "person:Jesus.2",
+"id": "person:Zebedee",
 "type": "person",
-"confidence": 0.3286,
+"confidence": 0.3571,
 "match_method": "canonical",
-"preferred_label": "Jesus"
+"preferred_label": "Zebedee"
 },
 {
 "id": "deity:Lord",
@@ -465,6 +458,13 @@
 "confidence": 0.3286,
 "match_method": "canonical",
 "preferred_label": "LORD"
+},
+{
+"id": "person:Jesus.2",
+"type": "person",
+"confidence": 0.3286,
+"match_method": "canonical",
+"preferred_label": "Jesus"
 },
 {
 "id": "realia:Fishnet",
@@ -488,32 +488,11 @@
 "preferred_label": "Ship"
 },
 {
-"id": "person:James",
-"type": "person",
-"confidence": 0.2429,
-"match_method": "canonical",
-"preferred_label": "James"
-},
-{
 "id": "place:GalileeSea",
 "type": "place",
 "confidence": 0.2429,
 "match_method": "canonical",
 "preferred_label": "Sea of Galilee"
-},
-{
-"id": "keyterm:Proclaim",
-"type": "keyterm",
-"confidence": 0.2429,
-"match_method": "canonical",
-"preferred_label": "Proclaim"
-},
-{
-"id": "keyterm:HiredWorker",
-"type": "keyterm",
-"confidence": 0.2429,
-"match_method": "canonical",
-"preferred_label": "Hired Worker"
 },
 {
 "id": "place:Galilee",
@@ -523,25 +502,32 @@
 "preferred_label": "Galilee"
 },
 {
-"id": "person:John.2",
-"type": "person",
-"confidence": 0.2143,
+"id": "keyterm:HiredWorker",
+"type": "keyterm",
+"confidence": 0.2429,
 "match_method": "canonical",
-"preferred_label": "John"
+"preferred_label": "Hired Worker"
 },
 {
-"id": "keyterm:Repent",
+"id": "person:James",
+"type": "person",
+"confidence": 0.2429,
+"match_method": "canonical",
+"preferred_label": "James"
+},
+{
+"id": "keyterm:Proclaim",
+"type": "keyterm",
+"confidence": 0.2429,
+"match_method": "canonical",
+"preferred_label": "Proclaim"
+},
+{
+"id": "keyterm:Believe",
 "type": "keyterm",
 "confidence": 0.2143,
 "match_method": "canonical",
-"preferred_label": "Repent"
-},
-{
-"id": "person:John",
-"type": "person",
-"confidence": 0.2143,
-"match_method": "canonical",
-"preferred_label": "John"
+"preferred_label": "Believe"
 },
 {
 "id": "person:Andrew",
@@ -558,11 +544,11 @@
 "preferred_label": "Peter"
 },
 {
-"id": "keyterm:Believe",
-"type": "keyterm",
+"id": "person:John",
+"type": "person",
 "confidence": 0.2143,
 "match_method": "canonical",
-"preferred_label": "Believe"
+"preferred_label": "John"
 },
 {
 "id": "keyterm:Kingdom",
@@ -570,6 +556,20 @@
 "confidence": 0.2143,
 "match_method": "canonical",
 "preferred_label": "Kingdom"
+},
+{
+"id": "person:John.2",
+"type": "person",
+"confidence": 0.2143,
+"match_method": "canonical",
+"preferred_label": "John"
+},
+{
+"id": "keyterm:Repent",
+"type": "keyterm",
+"confidence": 0.2143,
+"match_method": "canonical",
+"preferred_label": "Repent"
 }
 ]
 }
@@ -674,18 +674,18 @@
 "preferred_label": "Authority"
 },
 {
-"id": "person:Jesus.2",
-"type": "person",
-"confidence": 0.3125,
-"match_method": "canonical",
-"preferred_label": "Jesus"
-},
-{
 "id": "keyterm:Ability",
 "type": "keyterm",
 "confidence": 0.3125,
 "match_method": "canonical",
 "preferred_label": "Ability"
+},
+{
+"id": "person:Jesus.2",
+"type": "person",
+"confidence": 0.3125,
+"match_method": "canonical",
+"preferred_label": "Jesus"
 },
 {
 "id": "realia:Synagogue",
@@ -702,18 +702,11 @@
 "preferred_label": "Capernaum"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.2063,
-"match_method": "canonical",
-"preferred_label": "LORD"
-},
-{
-"id": "keyterm:Sabbath",
+"id": "keyterm:Command",
 "type": "keyterm",
 "confidence": 0.2063,
 "match_method": "canonical",
-"preferred_label": "Sabbath"
+"preferred_label": "To Command"
 },
 {
 "id": "place:Galilee",
@@ -723,11 +716,18 @@
 "preferred_label": "Galilee"
 },
 {
-"id": "keyterm:Command",
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.2063,
+"match_method": "canonical",
+"preferred_label": "LORD"
+},
+{
+"id": "keyterm:Holy",
 "type": "keyterm",
 "confidence": 0.2063,
 "match_method": "canonical",
-"preferred_label": "To Command"
+"preferred_label": "Holy"
 },
 {
 "id": "place:Nazareth",
@@ -737,11 +737,11 @@
 "preferred_label": "Nazareth"
 },
 {
-"id": "keyterm:Holy",
+"id": "keyterm:Sabbath",
 "type": "keyterm",
 "confidence": 0.2063,
 "match_method": "canonical",
-"preferred_label": "Holy"
+"preferred_label": "Sabbath"
 }
 ]
 }
@@ -790,13 +790,6 @@
 ],
 "acai": [
 {
-"id": "person:Peter",
-"type": "person",
-"confidence": 0.35,
-"match_method": "canonical",
-"preferred_label": "Peter"
-},
-{
 "id": "keyterm:Serve",
 "type": "keyterm",
 "confidence": 0.35,
@@ -804,18 +797,11 @@
 "preferred_label": "Serve"
 },
 {
-"id": "person:James",
+"id": "person:Peter",
 "type": "person",
-"confidence": 0.225,
+"confidence": 0.35,
 "match_method": "canonical",
-"preferred_label": "James"
-},
-{
-"id": "person:John.2",
-"type": "person",
-"confidence": 0.225,
-"match_method": "canonical",
-"preferred_label": "John"
+"preferred_label": "Peter"
 },
 {
 "id": "keyterm:DemonPossessed",
@@ -832,6 +818,13 @@
 "preferred_label": "Andrew"
 },
 {
+"id": "person:John.2",
+"type": "person",
+"confidence": 0.225,
+"match_method": "canonical",
+"preferred_label": "John"
+},
+{
 "id": "deity:Demons",
 "type": "deity",
 "confidence": 0.225,
@@ -839,11 +832,11 @@
 "preferred_label": "Demons"
 },
 {
-"id": "realia:House",
-"type": "realia",
-"confidence": 0.165,
+"id": "person:James",
+"type": "person",
+"confidence": 0.225,
 "match_method": "canonical",
-"preferred_label": "House"
+"preferred_label": "James"
 },
 {
 "id": "realia:Synagogue",
@@ -851,6 +844,13 @@
 "confidence": 0.165,
 "match_method": "canonical",
 "preferred_label": "Synagogue"
+},
+{
+"id": "realia:House",
+"type": "realia",
+"confidence": 0.165,
+"match_method": "canonical",
+"preferred_label": "House"
 }
 ]
 }
@@ -934,18 +934,18 @@
 "preferred_label": "Galilee"
 },
 {
-"id": "person:Peter",
-"type": "person",
-"confidence": 0.24,
-"match_method": "canonical",
-"preferred_label": "Peter"
-},
-{
 "id": "keyterm:Pray",
 "type": "keyterm",
 "confidence": 0.24,
 "match_method": "canonical",
 "preferred_label": "Pray"
+},
+{
+"id": "person:Peter",
+"type": "person",
+"confidence": 0.24,
+"match_method": "canonical",
+"preferred_label": "Peter"
 },
 {
 "id": "deity:Demons",
@@ -1029,11 +1029,11 @@
 "preferred_label": "To Cleanse"
 },
 {
-"id": "person:Moses",
-"type": "person",
+"id": "keyterm:Offering",
+"type": "keyterm",
 "confidence": 0.225,
 "match_method": "canonical",
-"preferred_label": "Moses"
+"preferred_label": "Offering"
 },
 {
 "id": "keyterm:Proclaim",
@@ -1050,6 +1050,13 @@
 "preferred_label": "Ask for"
 },
 {
+"id": "person:Moses",
+"type": "person",
+"confidence": 0.225,
+"match_method": "canonical",
+"preferred_label": "Moses"
+},
+{
 "id": "keyterm:BearWitness",
 "type": "keyterm",
 "confidence": 0.225,
@@ -1062,13 +1069,6 @@
 "confidence": 0.225,
 "match_method": "canonical",
 "preferred_label": "Infectious Skin Disease"
-},
-{
-"id": "keyterm:Offering",
-"type": "keyterm",
-"confidence": 0.225,
-"match_method": "canonical",
-"preferred_label": "Offering"
 }
 ]
 }
@@ -1180,6 +1180,13 @@
 "preferred_label": "Bed"
 },
 {
+"id": "person:Jesus.2",
+"type": "person",
+"confidence": 0.275,
+"match_method": "canonical",
+"preferred_label": "Jesus"
+},
+{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.275,
@@ -1194,11 +1201,11 @@
 "preferred_label": "Heart"
 },
 {
-"id": "person:Jesus.2",
-"type": "person",
-"confidence": 0.275,
+"id": "realia:Temple",
+"type": "realia",
+"confidence": 0.215,
 "match_method": "canonical",
-"preferred_label": "Jesus"
+"preferred_label": "Temple"
 },
 {
 "id": "realia:House",
@@ -1206,13 +1213,6 @@
 "confidence": 0.215,
 "match_method": "canonical",
 "preferred_label": "House"
-},
-{
-"id": "realia:Temple",
-"type": "realia",
-"confidence": 0.215,
-"match_method": "canonical",
-"preferred_label": "Temple"
 },
 {
 "id": "place:Capernaum",
@@ -1236,11 +1236,11 @@
 "preferred_label": "Authority"
 },
 {
-"id": "keyterm:Glory",
+"id": "keyterm:Ability",
 "type": "keyterm",
 "confidence": 0.1875,
 "match_method": "canonical",
-"preferred_label": "Glory"
+"preferred_label": "Ability"
 },
 {
 "id": "keyterm:Spirit.2",
@@ -1250,11 +1250,11 @@
 "preferred_label": "Spirit"
 },
 {
-"id": "keyterm:Ability",
+"id": "keyterm:Glory",
 "type": "keyterm",
 "confidence": 0.1875,
 "match_method": "canonical",
-"preferred_label": "Ability"
+"preferred_label": "Glory"
 },
 {
 "id": "realia:Housetop",
@@ -1359,25 +1359,25 @@
 "preferred_label": "Matthew"
 },
 {
-"id": "keyterm:Healthy",
-"type": "keyterm",
-"confidence": 0.24,
-"match_method": "canonical",
-"preferred_label": "Be Healthy"
-},
-{
-"id": "keyterm:TaxOffice",
-"type": "keyterm",
-"confidence": 0.24,
-"match_method": "canonical",
-"preferred_label": "Tax Office"
-},
-{
 "id": "keyterm:Just",
 "type": "keyterm",
 "confidence": 0.24,
 "match_method": "canonical",
 "preferred_label": "Be (Or Show Oneself) Just"
+},
+{
+"id": "group:Pharisee",
+"type": "group",
+"confidence": 0.24,
+"match_method": "canonical",
+"preferred_label": "Pharisees"
+},
+{
+"id": "keyterm:Healthy",
+"type": "keyterm",
+"confidence": 0.24,
+"match_method": "canonical",
+"preferred_label": "Be Healthy"
 },
 {
 "id": "group:ReligiousOfficials",
@@ -1387,11 +1387,11 @@
 "preferred_label": "Religious Officials"
 },
 {
-"id": "group:Pharisee",
-"type": "group",
+"id": "keyterm:TaxOffice",
+"type": "keyterm",
 "confidence": 0.24,
 "match_method": "canonical",
-"preferred_label": "Pharisees"
+"preferred_label": "Tax Office"
 },
 {
 "id": "realia:House",
@@ -1454,6 +1454,13 @@
 "preferred_label": "Abstain from Food"
 },
 {
+"id": "person:John",
+"type": "person",
+"confidence": 0.24,
+"match_method": "canonical",
+"preferred_label": "John"
+},
+{
 "id": "keyterm:Disciple",
 "type": "keyterm",
 "confidence": 0.24,
@@ -1468,25 +1475,11 @@
 "preferred_label": "Jesus"
 },
 {
-"id": "person:John",
-"type": "person",
-"confidence": 0.24,
-"match_method": "canonical",
-"preferred_label": "John"
-},
-{
 "id": "group:Pharisee",
 "type": "group",
 "confidence": 0.24,
 "match_method": "canonical",
 "preferred_label": "Pharisees"
-},
-{
-"id": "realia:Patch",
-"type": "realia",
-"confidence": 0.22,
-"match_method": "canonical",
-"preferred_label": "Patch"
 },
 {
 "id": "realia:Skin-bottle",
@@ -1496,11 +1489,11 @@
 "preferred_label": "Skin-Bottle"
 },
 {
-"id": "realia:Wine",
+"id": "realia:Patch",
 "type": "realia",
-"confidence": 0.18,
+"confidence": 0.22,
 "match_method": "canonical",
-"preferred_label": "Wine"
+"preferred_label": "Patch"
 },
 {
 "id": "realia:Must",
@@ -1515,6 +1508,13 @@
 "confidence": 0.18,
 "match_method": "canonical",
 "preferred_label": "Clothing"
+},
+{
+"id": "realia:Wine",
+"type": "realia",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "Wine"
 }
 ]
 }
@@ -1647,13 +1647,6 @@
 "preferred_label": "Pharisees"
 },
 {
-"id": "person:Abiathar",
-"type": "person",
-"confidence": 0.2042,
-"match_method": "canonical",
-"preferred_label": "Abiathar"
-},
-{
 "id": "group:Herodian",
 "type": "group",
 "confidence": 0.2042,
@@ -1661,25 +1654,11 @@
 "preferred_label": "Herodians"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.1875,
-"match_method": "canonical",
-"preferred_label": "LORD"
-},
-{
-"id": "person:David",
+"id": "person:Abiathar",
 "type": "person",
-"confidence": 0.1875,
+"confidence": 0.2042,
 "match_method": "canonical",
-"preferred_label": "David"
-},
-{
-"id": "keyterm:Life",
-"type": "keyterm",
-"confidence": 0.1875,
-"match_method": "canonical",
-"preferred_label": "Life"
+"preferred_label": "Abiathar"
 },
 {
 "id": "keyterm:Serve",
@@ -1687,6 +1666,13 @@
 "confidence": 0.1875,
 "match_method": "canonical",
 "preferred_label": "Serve"
+},
+{
+"id": "keyterm:Disciple",
+"type": "keyterm",
+"confidence": 0.1875,
+"match_method": "canonical",
+"preferred_label": "Be a Disciple"
 },
 {
 "id": "keyterm:Salvation",
@@ -1703,18 +1689,25 @@
 "preferred_label": "Heart"
 },
 {
-"id": "keyterm:Disciple",
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.1875,
+"match_method": "canonical",
+"preferred_label": "LORD"
+},
+{
+"id": "keyterm:Life",
 "type": "keyterm",
 "confidence": 0.1875,
 "match_method": "canonical",
-"preferred_label": "Be a Disciple"
+"preferred_label": "Life"
 },
 {
-"id": "realia:House",
-"type": "realia",
-"confidence": 0.1275,
+"id": "person:David",
+"type": "person",
+"confidence": 0.1875,
 "match_method": "canonical",
-"preferred_label": "House"
+"preferred_label": "David"
 },
 {
 "id": "flora:Grain",
@@ -1731,18 +1724,25 @@
 "preferred_label": "Synagogue"
 },
 {
-"id": "flora:Wheat",
-"type": "flora",
-"confidence": 0.1275,
-"match_method": "canonical",
-"preferred_label": "Wheat"
-},
-{
 "id": "realia:Temple",
 "type": "realia",
 "confidence": 0.1275,
 "match_method": "canonical",
 "preferred_label": "Temple"
+},
+{
+"id": "realia:House",
+"type": "realia",
+"confidence": 0.1275,
+"match_method": "canonical",
+"preferred_label": "House"
+},
+{
+"id": "flora:Wheat",
+"type": "flora",
+"confidence": 0.1275,
+"match_method": "canonical",
+"preferred_label": "Wheat"
 }
 ]
 }
@@ -1819,6 +1819,20 @@
 "preferred_label": "Idumea"
 },
 {
+"id": "keyterm:Command",
+"type": "keyterm",
+"confidence": 0.225,
+"match_method": "canonical",
+"preferred_label": "To Command"
+},
+{
+"id": "place:Jordan",
+"type": "place",
+"confidence": 0.225,
+"match_method": "canonical",
+"preferred_label": "Jordan River"
+},
+{
 "id": "keyterm:Serve",
 "type": "keyterm",
 "confidence": 0.225,
@@ -1833,6 +1847,13 @@
 "preferred_label": "Sidon"
 },
 {
+"id": "person:Jesus.2",
+"type": "person",
+"confidence": 0.225,
+"match_method": "canonical",
+"preferred_label": "Jesus"
+},
+{
 "id": "place:Galilee",
 "type": "place",
 "confidence": 0.225,
@@ -1840,11 +1861,11 @@
 "preferred_label": "Galilee"
 },
 {
-"id": "keyterm:Command",
-"type": "keyterm",
+"id": "place:Judea",
+"type": "place",
 "confidence": 0.225,
 "match_method": "canonical",
-"preferred_label": "To Command"
+"preferred_label": "Judea"
 },
 {
 "id": "place:Jerusalem",
@@ -1854,32 +1875,11 @@
 "preferred_label": "Jerusalem"
 },
 {
-"id": "place:Jordan",
-"type": "place",
-"confidence": 0.225,
-"match_method": "canonical",
-"preferred_label": "Jordan River"
-},
-{
-"id": "person:Jesus.2",
-"type": "person",
-"confidence": 0.225,
-"match_method": "canonical",
-"preferred_label": "Jesus"
-},
-{
 "id": "place:Tyre",
 "type": "place",
 "confidence": 0.225,
 "match_method": "canonical",
 "preferred_label": "Tyre"
-},
-{
-"id": "place:Judea",
-"type": "place",
-"confidence": 0.225,
-"match_method": "canonical",
-"preferred_label": "Judea"
 },
 {
 "id": "realia:Ship",
@@ -1942,20 +1942,6 @@
 "preferred_label": "Bartholomew"
 },
 {
-"id": "person:James",
-"type": "person",
-"confidence": 0.2429,
-"match_method": "canonical",
-"preferred_label": "James"
-},
-{
-"id": "person:John.2",
-"type": "person",
-"confidence": 0.2429,
-"match_method": "canonical",
-"preferred_label": "John"
-},
-{
 "id": "person:James.2",
 "type": "person",
 "confidence": 0.2429,
@@ -1970,6 +1956,13 @@
 "preferred_label": "Alphaeus"
 },
 {
+"id": "person:James",
+"type": "person",
+"confidence": 0.2429,
+"match_method": "canonical",
+"preferred_label": "James"
+},
+{
 "id": "group:Zealot",
 "type": "group",
 "confidence": 0.2429,
@@ -1977,46 +1970,11 @@
 "preferred_label": "Zealots"
 },
 {
-"id": "person:Zebedee",
+"id": "person:John.2",
 "type": "person",
-"confidence": 0.2143,
+"confidence": 0.2429,
 "match_method": "canonical",
-"preferred_label": "Zebedee"
-},
-{
-"id": "person:Judas",
-"type": "person",
-"confidence": 0.2143,
-"match_method": "canonical",
-"preferred_label": "Judas"
-},
-{
-"id": "keyterm:Proclaim",
-"type": "keyterm",
-"confidence": 0.2143,
-"match_method": "canonical",
-"preferred_label": "Proclaim"
-},
-{
-"id": "person:Judas.2",
-"type": "person",
-"confidence": 0.2143,
-"match_method": "canonical",
-"preferred_label": "Judas"
-},
-{
-"id": "person:Thomas",
-"type": "person",
-"confidence": 0.2143,
-"match_method": "canonical",
-"preferred_label": "Thomas"
-},
-{
-"id": "person:Simon.2",
-"type": "person",
-"confidence": 0.2143,
-"match_method": "canonical",
-"preferred_label": "Simon"
+"preferred_label": "John"
 },
 {
 "id": "keyterm:Authority.2",
@@ -2026,18 +1984,18 @@
 "preferred_label": "Authority"
 },
 {
-"id": "person:Andrew",
-"type": "person",
-"confidence": 0.2143,
-"match_method": "canonical",
-"preferred_label": "Andrew"
-},
-{
 "id": "keyterm:Ability",
 "type": "keyterm",
 "confidence": 0.2143,
 "match_method": "canonical",
 "preferred_label": "Ability"
+},
+{
+"id": "person:Andrew",
+"type": "person",
+"confidence": 0.2143,
+"match_method": "canonical",
+"preferred_label": "Andrew"
 },
 {
 "id": "person:Peter",
@@ -2054,6 +2012,48 @@
 "preferred_label": "Philip"
 },
 {
+"id": "deity:Demons",
+"type": "deity",
+"confidence": 0.2143,
+"match_method": "canonical",
+"preferred_label": "Demons"
+},
+{
+"id": "person:Judas.2",
+"type": "person",
+"confidence": 0.2143,
+"match_method": "canonical",
+"preferred_label": "Judas"
+},
+{
+"id": "person:Zebedee",
+"type": "person",
+"confidence": 0.2143,
+"match_method": "canonical",
+"preferred_label": "Zebedee"
+},
+{
+"id": "keyterm:Proclaim",
+"type": "keyterm",
+"confidence": 0.2143,
+"match_method": "canonical",
+"preferred_label": "Proclaim"
+},
+{
+"id": "person:Thomas",
+"type": "person",
+"confidence": 0.2143,
+"match_method": "canonical",
+"preferred_label": "Thomas"
+},
+{
+"id": "person:Judas",
+"type": "person",
+"confidence": 0.2143,
+"match_method": "canonical",
+"preferred_label": "Judas"
+},
+{
 "id": "person:Matthew",
 "type": "person",
 "confidence": 0.2143,
@@ -2061,11 +2061,11 @@
 "preferred_label": "Matthew"
 },
 {
-"id": "deity:Demons",
-"type": "deity",
+"id": "person:Simon.2",
+"type": "person",
 "confidence": 0.2143,
 "match_method": "canonical",
-"preferred_label": "Demons"
+"preferred_label": "Simon"
 }
 ]
 }
@@ -2191,11 +2191,11 @@
 "preferred_label": "House"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
+"id": "keyterm:Kingdom",
+"type": "keyterm",
 "confidence": 0.1781,
 "match_method": "canonical",
-"preferred_label": "LORD"
+"preferred_label": "Kingdom"
 },
 {
 "id": "keyterm:Always",
@@ -2205,39 +2205,11 @@
 "preferred_label": "Always"
 },
 {
-"id": "keyterm:Surely",
-"type": "keyterm",
+"id": "deity:Lord",
+"type": "deity",
 "confidence": 0.1781,
 "match_method": "canonical",
-"preferred_label": "Surely!"
-},
-{
-"id": "keyterm:Kingdom",
-"type": "keyterm",
-"confidence": 0.1781,
-"match_method": "canonical",
-"preferred_label": "Kingdom"
-},
-{
-"id": "place:Jerusalem",
-"type": "place",
-"confidence": 0.1781,
-"match_method": "canonical",
-"preferred_label": "Jerusalem"
-},
-{
-"id": "group:ReligiousOfficials",
-"type": "group",
-"confidence": 0.1781,
-"match_method": "canonical",
-"preferred_label": "Religious Officials"
-},
-{
-"id": "keyterm:Parable",
-"type": "keyterm",
-"confidence": 0.1781,
-"match_method": "canonical",
-"preferred_label": "Parable"
+"preferred_label": "LORD"
 },
 {
 "id": "deity:HolySpirit",
@@ -2252,6 +2224,34 @@
 "confidence": 0.1781,
 "match_method": "canonical",
 "preferred_label": "Demons"
+},
+{
+"id": "keyterm:Parable",
+"type": "keyterm",
+"confidence": 0.1781,
+"match_method": "canonical",
+"preferred_label": "Parable"
+},
+{
+"id": "place:Jerusalem",
+"type": "place",
+"confidence": 0.1781,
+"match_method": "canonical",
+"preferred_label": "Jerusalem"
+},
+{
+"id": "keyterm:Surely",
+"type": "keyterm",
+"confidence": 0.1781,
+"match_method": "canonical",
+"preferred_label": "Surely!"
+},
+{
+"id": "group:ReligiousOfficials",
+"type": "group",
+"confidence": 0.1781,
+"match_method": "canonical",
+"preferred_label": "Religious Officials"
 },
 {
 "id": "realia:Temple",
@@ -2370,11 +2370,11 @@
 "preferred_label": "Boxthorn"
 },
 {
-"id": "flora:Thistle",
+"id": "flora:Acacia",
 "type": "flora",
 "confidence": 0.185,
 "match_method": "canonical",
-"preferred_label": "Thistle"
+"preferred_label": "Acacia"
 },
 {
 "id": "flora:Brier",
@@ -2384,32 +2384,11 @@
 "preferred_label": "Brier"
 },
 {
-"id": "flora:Acacia",
+"id": "flora:Thistle",
 "type": "flora",
 "confidence": 0.185,
 "match_method": "canonical",
-"preferred_label": "Acacia"
-},
-{
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.1725,
-"match_method": "canonical",
-"preferred_label": "LORD"
-},
-{
-"id": "deity:Satan",
-"type": "deity",
-"confidence": 0.1725,
-"match_method": "canonical",
-"preferred_label": "Satan"
-},
-{
-"id": "keyterm:Always",
-"type": "keyterm",
-"confidence": 0.1725,
-"match_method": "canonical",
-"preferred_label": "Always"
+"preferred_label": "Thistle"
 },
 {
 "id": "keyterm:Forgive",
@@ -2433,6 +2412,20 @@
 "preferred_label": "Cause of Joy"
 },
 {
+"id": "keyterm:Ability",
+"type": "keyterm",
+"confidence": 0.1725,
+"match_method": "canonical",
+"preferred_label": "Ability"
+},
+{
+"id": "keyterm:Always",
+"type": "keyterm",
+"confidence": 0.1725,
+"match_method": "canonical",
+"preferred_label": "Always"
+},
+{
 "id": "keyterm:AskFor",
 "type": "keyterm",
 "confidence": 0.1725,
@@ -2440,11 +2433,25 @@
 "preferred_label": "Ask for"
 },
 {
-"id": "keyterm:Ability",
-"type": "keyterm",
+"id": "deity:Lord",
+"type": "deity",
 "confidence": 0.1725,
 "match_method": "canonical",
-"preferred_label": "Ability"
+"preferred_label": "LORD"
+},
+{
+"id": "deity:Satan",
+"type": "deity",
+"confidence": 0.1725,
+"match_method": "canonical",
+"preferred_label": "Satan"
+},
+{
+"id": "fauna:Rooster",
+"type": "fauna",
+"confidence": 0.1125,
+"match_method": "canonical",
+"preferred_label": "Rooster"
 },
 {
 "id": "fauna:Bird",
@@ -2459,13 +2466,6 @@
 "confidence": 0.1125,
 "match_method": "canonical",
 "preferred_label": "Ship"
-},
-{
-"id": "fauna:Rooster",
-"type": "fauna",
-"confidence": 0.1125,
-"match_method": "canonical",
-"preferred_label": "Rooster"
 }
 ]
 }
@@ -2567,13 +2567,6 @@
 "preferred_label": "Parable"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.3,
-"match_method": "canonical",
-"preferred_label": "LORD"
-},
-{
 "id": "keyterm:Kingdom",
 "type": "keyterm",
 "confidence": 0.3,
@@ -2581,11 +2574,11 @@
 "preferred_label": "Kingdom"
 },
 {
-"id": "flora:Barley",
-"type": "flora",
-"confidence": 0.24,
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.3,
 "match_method": "canonical",
-"preferred_label": "Barley"
+"preferred_label": "LORD"
 },
 {
 "id": "flora:Grass",
@@ -2595,11 +2588,11 @@
 "preferred_label": "Grass"
 },
 {
-"id": "keyterm:Heaven",
-"type": "keyterm",
-"confidence": 0.2,
+"id": "flora:Barley",
+"type": "flora",
+"confidence": 0.24,
 "match_method": "canonical",
-"preferred_label": "Sky"
+"preferred_label": "Barley"
 },
 {
 "id": "keyterm:Disciple",
@@ -2609,11 +2602,11 @@
 "preferred_label": "Be a Disciple"
 },
 {
-"id": "flora:Wheat",
-"type": "flora",
-"confidence": 0.1622,
+"id": "keyterm:Heaven",
+"type": "keyterm",
+"confidence": 0.2,
 "match_method": "canonical",
-"preferred_label": "Wheat"
+"preferred_label": "Sky"
 },
 {
 "id": "flora:Mustard",
@@ -2621,6 +2614,13 @@
 "confidence": 0.1622,
 "match_method": "canonical",
 "preferred_label": "Mustard"
+},
+{
+"id": "flora:Wheat",
+"type": "flora",
+"confidence": 0.1622,
+"match_method": "canonical",
+"preferred_label": "Wheat"
 },
 {
 "id": "realia:Sickle",
@@ -2711,18 +2711,18 @@
 "preferred_label": "Believe"
 },
 {
-"id": "keyterm:BecomeStill",
-"type": "keyterm",
-"confidence": 0.2143,
-"match_method": "canonical",
-"preferred_label": "Become Still"
-},
-{
 "id": "keyterm:Fear",
 "type": "keyterm",
 "confidence": 0.2143,
 "match_method": "canonical",
 "preferred_label": "Fear"
+},
+{
+"id": "keyterm:BecomeStill",
+"type": "keyterm",
+"confidence": 0.2143,
+"match_method": "canonical",
+"preferred_label": "Become Still"
 },
 {
 "id": "realia:Cushion",
@@ -2834,13 +2834,6 @@
 ],
 "acai": [
 {
-"id": "person:Jesus.2",
-"type": "person",
-"confidence": 0.39,
-"match_method": "canonical",
-"preferred_label": "Jesus"
-},
-{
 "id": "keyterm:AskFor",
 "type": "keyterm",
 "confidence": 0.39,
@@ -2848,11 +2841,11 @@
 "preferred_label": "Ask for"
 },
 {
-"id": "fauna:Jackal",
-"type": "fauna",
-"confidence": 0.33,
+"id": "person:Jesus.2",
+"type": "person",
+"confidence": 0.39,
 "match_method": "canonical",
-"preferred_label": "Jackal"
+"preferred_label": "Jesus"
 },
 {
 "id": "fauna:Pig",
@@ -2860,6 +2853,13 @@
 "confidence": 0.33,
 "match_method": "canonical",
 "preferred_label": "Pig"
+},
+{
+"id": "fauna:Jackal",
+"type": "fauna",
+"confidence": 0.33,
+"match_method": "canonical",
+"preferred_label": "Jackal"
 },
 {
 "id": "keyterm:DemonPossessed",
@@ -2897,13 +2897,6 @@
 "preferred_label": "Ship"
 },
 {
-"id": "place:Decapolis",
-"type": "place",
-"confidence": 0.1825,
-"match_method": "canonical",
-"preferred_label": "Decapolis"
-},
-{
 "id": "place:Gerasa",
 "type": "place",
 "confidence": 0.1825,
@@ -2918,25 +2911,11 @@
 "preferred_label": "Legion"
 },
 {
-"id": "keyterm:Name",
-"type": "keyterm",
-"confidence": 0.1725,
+"id": "place:Decapolis",
+"type": "place",
+"confidence": 0.1825,
 "match_method": "canonical",
-"preferred_label": "Name"
-},
-{
-"id": "keyterm:Proclaim",
-"type": "keyterm",
-"confidence": 0.1725,
-"match_method": "canonical",
-"preferred_label": "Proclaim"
-},
-{
-"id": "keyterm:BowDown",
-"type": "keyterm",
-"confidence": 0.1725,
-"match_method": "canonical",
-"preferred_label": "Bow Down"
+"preferred_label": "Decapolis"
 },
 {
 "id": "keyterm:Authority.2",
@@ -2946,11 +2925,11 @@
 "preferred_label": "Authority"
 },
 {
-"id": "keyterm:Mercy",
+"id": "keyterm:Name",
 "type": "keyterm",
 "confidence": 0.1725,
 "match_method": "canonical",
-"preferred_label": "Mercy"
+"preferred_label": "Name"
 },
 {
 "id": "keyterm:Fear",
@@ -2960,6 +2939,27 @@
 "preferred_label": "Fear"
 },
 {
+"id": "keyterm:BowDown",
+"type": "keyterm",
+"confidence": 0.1725,
+"match_method": "canonical",
+"preferred_label": "Bow Down"
+},
+{
+"id": "keyterm:Mercy",
+"type": "keyterm",
+"confidence": 0.1725,
+"match_method": "canonical",
+"preferred_label": "Mercy"
+},
+{
+"id": "keyterm:Proclaim",
+"type": "keyterm",
+"confidence": 0.1725,
+"match_method": "canonical",
+"preferred_label": "Proclaim"
+},
+{
 "id": "realia:Fetter",
 "type": "realia",
 "confidence": 0.1225,
@@ -2967,18 +2967,18 @@
 "preferred_label": "Fetter"
 },
 {
-"id": "realia:House",
-"type": "realia",
-"confidence": 0.1125,
-"match_method": "canonical",
-"preferred_label": "House"
-},
-{
 "id": "realia:Temple",
 "type": "realia",
 "confidence": 0.1125,
 "match_method": "canonical",
 "preferred_label": "Temple"
+},
+{
+"id": "realia:House",
+"type": "realia",
+"confidence": 0.1125,
+"match_method": "canonical",
+"preferred_label": "House"
 }
 ]
 }
@@ -3083,60 +3083,11 @@
 "preferred_label": "Jairus"
 },
 {
-"id": "keyterm:Life",
-"type": "keyterm",
-"confidence": 0.1821,
-"match_method": "canonical",
-"preferred_label": "Life"
-},
-{
 "id": "keyterm:Believe",
 "type": "keyterm",
 "confidence": 0.1821,
 "match_method": "canonical",
 "preferred_label": "Believe"
-},
-{
-"id": "keyterm:Ability",
-"type": "keyterm",
-"confidence": 0.1821,
-"match_method": "canonical",
-"preferred_label": "Ability"
-},
-{
-"id": "keyterm:Body.3",
-"type": "keyterm",
-"confidence": 0.1821,
-"match_method": "canonical",
-"preferred_label": "Body"
-},
-{
-"id": "keyterm:Truth",
-"type": "keyterm",
-"confidence": 0.1821,
-"match_method": "canonical",
-"preferred_label": "Truth"
-},
-{
-"id": "keyterm:Peace",
-"type": "keyterm",
-"confidence": 0.1821,
-"match_method": "canonical",
-"preferred_label": "Make Peace"
-},
-{
-"id": "keyterm:Name",
-"type": "keyterm",
-"confidence": 0.1821,
-"match_method": "canonical",
-"preferred_label": "Name"
-},
-{
-"id": "keyterm:AskFor",
-"type": "keyterm",
-"confidence": 0.1821,
-"match_method": "canonical",
-"preferred_label": "Ask for"
 },
 {
 "id": "keyterm:Disciple",
@@ -3146,11 +3097,25 @@
 "preferred_label": "Be a Disciple"
 },
 {
-"id": "keyterm:Blood",
+"id": "keyterm:AskFor",
 "type": "keyterm",
 "confidence": 0.1821,
 "match_method": "canonical",
-"preferred_label": "Blood"
+"preferred_label": "Ask for"
+},
+{
+"id": "keyterm:Peace",
+"type": "keyterm",
+"confidence": 0.1821,
+"match_method": "canonical",
+"preferred_label": "Make Peace"
+},
+{
+"id": "keyterm:Ability",
+"type": "keyterm",
+"confidence": 0.1821,
+"match_method": "canonical",
+"preferred_label": "Ability"
 },
 {
 "id": "group:GenericDisciples",
@@ -3158,6 +3123,41 @@
 "confidence": 0.1821,
 "match_method": "canonical",
 "preferred_label": "A Group of Disciples"
+},
+{
+"id": "keyterm:Life",
+"type": "keyterm",
+"confidence": 0.1821,
+"match_method": "canonical",
+"preferred_label": "Life"
+},
+{
+"id": "keyterm:Truth",
+"type": "keyterm",
+"confidence": 0.1821,
+"match_method": "canonical",
+"preferred_label": "Truth"
+},
+{
+"id": "keyterm:Name",
+"type": "keyterm",
+"confidence": 0.1821,
+"match_method": "canonical",
+"preferred_label": "Name"
+},
+{
+"id": "keyterm:Blood",
+"type": "keyterm",
+"confidence": 0.1821,
+"match_method": "canonical",
+"preferred_label": "Blood"
+},
+{
+"id": "keyterm:Body.3",
+"type": "keyterm",
+"confidence": 0.1821,
+"match_method": "canonical",
+"preferred_label": "Body"
 },
 {
 "id": "keyterm:Fear",
@@ -3241,11 +3241,18 @@
 "preferred_label": "Synagogue"
 },
 {
-"id": "person:James",
+"id": "keyterm:Believe",
+"type": "keyterm",
+"confidence": 0.2,
+"match_method": "canonical",
+"preferred_label": "Believe"
+},
+{
+"id": "person:Jesus.2",
 "type": "person",
 "confidence": 0.2,
 "match_method": "canonical",
-"preferred_label": "James"
+"preferred_label": "Jesus"
 },
 {
 "id": "person:Peter",
@@ -3253,13 +3260,6 @@
 "confidence": 0.2,
 "match_method": "canonical",
 "preferred_label": "Peter"
-},
-{
-"id": "keyterm:Believe",
-"type": "keyterm",
-"confidence": 0.2,
-"match_method": "canonical",
-"preferred_label": "Believe"
 },
 {
 "id": "person:John.2",
@@ -3276,18 +3276,11 @@
 "preferred_label": "Fear"
 },
 {
-"id": "person:Jesus.2",
+"id": "person:James",
 "type": "person",
 "confidence": 0.2,
 "match_method": "canonical",
-"preferred_label": "Jesus"
-},
-{
-"id": "realia:House",
-"type": "realia",
-"confidence": 0.14,
-"match_method": "canonical",
-"preferred_label": "House"
+"preferred_label": "James"
 },
 {
 "id": "realia:Temple",
@@ -3295,6 +3288,13 @@
 "confidence": 0.14,
 "match_method": "canonical",
 "preferred_label": "Temple"
+},
+{
+"id": "realia:House",
+"type": "realia",
+"confidence": 0.14,
+"match_method": "canonical",
+"preferred_label": "House"
 }
 ]
 }
@@ -3378,25 +3378,11 @@
 "preferred_label": "Ability"
 },
 {
-"id": "person:Jude",
-"type": "person",
-"confidence": 0.2583,
-"match_method": "canonical",
-"preferred_label": "Jude"
-},
-{
 "id": "person:Joseph.3",
 "type": "person",
 "confidence": 0.2583,
 "match_method": "canonical",
 "preferred_label": "Joseph"
-},
-{
-"id": "person:Simon.3",
-"type": "person",
-"confidence": 0.2583,
-"match_method": "canonical",
-"preferred_label": "Simon"
 },
 {
 "id": "keyterm:Disbelieve",
@@ -3406,11 +3392,18 @@
 "preferred_label": "Disbelieve"
 },
 {
-"id": "keyterm:Sabbath",
-"type": "keyterm",
-"confidence": 0.225,
+"id": "person:Jude",
+"type": "person",
+"confidence": 0.2583,
 "match_method": "canonical",
-"preferred_label": "Sabbath"
+"preferred_label": "Jude"
+},
+{
+"id": "person:Simon.3",
+"type": "person",
+"confidence": 0.2583,
+"match_method": "canonical",
+"preferred_label": "Simon"
 },
 {
 "id": "keyterm:Serve",
@@ -3427,13 +3420,6 @@
 "preferred_label": "Be a Disciple"
 },
 {
-"id": "person:Mary",
-"type": "person",
-"confidence": 0.225,
-"match_method": "canonical",
-"preferred_label": "Mary"
-},
-{
 "id": "person:Jesus.2",
 "type": "person",
 "confidence": 0.225,
@@ -3441,11 +3427,25 @@
 "preferred_label": "Jesus"
 },
 {
+"id": "person:Mary",
+"type": "person",
+"confidence": 0.225,
+"match_method": "canonical",
+"preferred_label": "Mary"
+},
+{
 "id": "person:James.3",
 "type": "person",
 "confidence": 0.225,
 "match_method": "canonical",
 "preferred_label": "James"
+},
+{
+"id": "keyterm:Sabbath",
+"type": "keyterm",
+"confidence": 0.225,
+"match_method": "canonical",
+"preferred_label": "Sabbath"
 },
 {
 "id": "realia:Synagogue",
@@ -3508,20 +3508,6 @@
 "preferred_label": "Disbelieve"
 },
 {
-"id": "keyterm:Ability",
-"type": "keyterm",
-"confidence": 0.2063,
-"match_method": "canonical",
-"preferred_label": "Ability"
-},
-{
-"id": "keyterm:Serve",
-"type": "keyterm",
-"confidence": 0.2063,
-"match_method": "canonical",
-"preferred_label": "Serve"
-},
-{
 "id": "keyterm:Authority.2",
 "type": "keyterm",
 "confidence": 0.2063,
@@ -3529,11 +3515,11 @@
 "preferred_label": "Authority"
 },
 {
-"id": "keyterm:Repent",
+"id": "keyterm:Serve",
 "type": "keyterm",
 "confidence": 0.2063,
 "match_method": "canonical",
-"preferred_label": "Repent"
+"preferred_label": "Serve"
 },
 {
 "id": "keyterm:Anointed",
@@ -3550,6 +3536,13 @@
 "preferred_label": "Proclaim"
 },
 {
+"id": "keyterm:Ability",
+"type": "keyterm",
+"confidence": 0.2063,
+"match_method": "canonical",
+"preferred_label": "Ability"
+},
+{
 "id": "keyterm:BearWitness",
 "type": "keyterm",
 "confidence": 0.2063,
@@ -3557,32 +3550,18 @@
 "preferred_label": "Bear Witness"
 },
 {
+"id": "keyterm:Repent",
+"type": "keyterm",
+"confidence": 0.2063,
+"match_method": "canonical",
+"preferred_label": "Repent"
+},
+{
 "id": "deity:Demons",
 "type": "deity",
 "confidence": 0.2063,
 "match_method": "canonical",
 "preferred_label": "Demons"
-},
-{
-"id": "realia:House",
-"type": "realia",
-"confidence": 0.1463,
-"match_method": "canonical",
-"preferred_label": "House"
-},
-{
-"id": "realia:Staff",
-"type": "realia",
-"confidence": 0.1463,
-"match_method": "canonical",
-"preferred_label": "Staff"
-},
-{
-"id": "realia:Belt",
-"type": "realia",
-"confidence": 0.1463,
-"match_method": "canonical",
-"preferred_label": "Belt"
 },
 {
 "id": "realia:OliveOil",
@@ -3611,6 +3590,27 @@
 "confidence": 0.1463,
 "match_method": "canonical",
 "preferred_label": "Bag"
+},
+{
+"id": "realia:Belt",
+"type": "realia",
+"confidence": 0.1463,
+"match_method": "canonical",
+"preferred_label": "Belt"
+},
+{
+"id": "realia:Staff",
+"type": "realia",
+"confidence": 0.1463,
+"match_method": "canonical",
+"preferred_label": "Staff"
+},
+{
+"id": "realia:House",
+"type": "realia",
+"confidence": 0.1463,
+"match_method": "canonical",
+"preferred_label": "House"
 }
 ]
 }
@@ -3722,13 +3722,6 @@
 "preferred_label": "Prison"
 },
 {
-"id": "person:Philip.2",
-"type": "person",
-"confidence": 0.1906,
-"match_method": "canonical",
-"preferred_label": "Philip"
-},
-{
 "id": "person:DaughterOfHerodias",
 "type": "person",
 "confidence": 0.1906,
@@ -3736,46 +3729,11 @@
 "preferred_label": "Daughter of Herodias"
 },
 {
-"id": "keyterm:Name",
-"type": "keyterm",
-"confidence": 0.1781,
-"match_method": "canonical",
-"preferred_label": "Name"
-},
-{
-"id": "keyterm:Haste",
-"type": "keyterm",
-"confidence": 0.1781,
-"match_method": "canonical",
-"preferred_label": "Haste"
-},
-{
-"id": "place:Galilee",
-"type": "place",
-"confidence": 0.1781,
-"match_method": "canonical",
-"preferred_label": "Galilee"
-},
-{
-"id": "keyterm:Disciple",
-"type": "keyterm",
-"confidence": 0.1781,
-"match_method": "canonical",
-"preferred_label": "Be a Disciple"
-},
-{
-"id": "person:Elijah",
+"id": "person:Philip.2",
 "type": "person",
-"confidence": 0.1781,
+"confidence": 0.1906,
 "match_method": "canonical",
-"preferred_label": "Elijah"
-},
-{
-"id": "keyterm:Oath",
-"type": "keyterm",
-"confidence": 0.1781,
-"match_method": "canonical",
-"preferred_label": "Oath"
+"preferred_label": "Philip"
 },
 {
 "id": "keyterm:Ability",
@@ -3785,25 +3743,11 @@
 "preferred_label": "Ability"
 },
 {
-"id": "keyterm:Kingdom",
+"id": "keyterm:Oath",
 "type": "keyterm",
 "confidence": 0.1781,
 "match_method": "canonical",
-"preferred_label": "Kingdom"
-},
-{
-"id": "keyterm:Baptist",
-"type": "keyterm",
-"confidence": 0.1781,
-"match_method": "canonical",
-"preferred_label": "Baptist"
-},
-{
-"id": "group:GenericGroup",
-"type": "group",
-"confidence": 0.1781,
-"match_method": "canonical",
-"preferred_label": "A Group of People"
+"preferred_label": "Oath"
 },
 {
 "id": "keyterm:Just",
@@ -3813,11 +3757,46 @@
 "preferred_label": "Be (Or Show Oneself) Just"
 },
 {
-"id": "keyterm:Fear",
+"id": "keyterm:Holy",
 "type": "keyterm",
 "confidence": 0.1781,
 "match_method": "canonical",
-"preferred_label": "Fear"
+"preferred_label": "Holy"
+},
+{
+"id": "keyterm:Baptist",
+"type": "keyterm",
+"confidence": 0.1781,
+"match_method": "canonical",
+"preferred_label": "Baptist"
+},
+{
+"id": "keyterm:Haste",
+"type": "keyterm",
+"confidence": 0.1781,
+"match_method": "canonical",
+"preferred_label": "Haste"
+},
+{
+"id": "keyterm:Kingdom",
+"type": "keyterm",
+"confidence": 0.1781,
+"match_method": "canonical",
+"preferred_label": "Kingdom"
+},
+{
+"id": "keyterm:Disciple",
+"type": "keyterm",
+"confidence": 0.1781,
+"match_method": "canonical",
+"preferred_label": "Be a Disciple"
+},
+{
+"id": "place:Galilee",
+"type": "place",
+"confidence": 0.1781,
+"match_method": "canonical",
+"preferred_label": "Galilee"
 },
 {
 "id": "keyterm:Lawful",
@@ -3827,11 +3806,32 @@
 "preferred_label": "Be Lawful"
 },
 {
-"id": "keyterm:Holy",
+"id": "keyterm:Name",
 "type": "keyterm",
 "confidence": 0.1781,
 "match_method": "canonical",
-"preferred_label": "Holy"
+"preferred_label": "Name"
+},
+{
+"id": "person:Elijah",
+"type": "person",
+"confidence": 0.1781,
+"match_method": "canonical",
+"preferred_label": "Elijah"
+},
+{
+"id": "keyterm:Fear",
+"type": "keyterm",
+"confidence": 0.1781,
+"match_method": "canonical",
+"preferred_label": "Fear"
+},
+{
+"id": "group:GenericGroup",
+"type": "group",
+"confidence": 0.1781,
+"match_method": "canonical",
+"preferred_label": "A Group of People"
 },
 {
 "id": "realia:Grave",
@@ -3929,11 +3929,11 @@
 "preferred_label": "Affection"
 },
 {
-"id": "keyterm:Heaven",
+"id": "keyterm:Bless",
 "type": "keyterm",
 "confidence": 0.18,
 "match_method": "canonical",
-"preferred_label": "Sky"
+"preferred_label": "Bless"
 },
 {
 "id": "person:Jesus.2",
@@ -3943,18 +3943,18 @@
 "preferred_label": "Jesus"
 },
 {
+"id": "keyterm:Heaven",
+"type": "keyterm",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "Sky"
+},
+{
 "id": "group:GenericDisciples",
 "type": "group",
 "confidence": 0.18,
 "match_method": "canonical",
 "preferred_label": "A Group of Disciples"
-},
-{
-"id": "keyterm:Bless",
-"type": "keyterm",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "Bless"
 },
 {
 "id": "realia:Basket",
@@ -3964,25 +3964,11 @@
 "preferred_label": "Basket"
 },
 {
-"id": "fauna:Goat",
-"type": "fauna",
+"id": "flora:Grass",
+"type": "flora",
 "confidence": 0.12,
 "match_method": "canonical",
-"preferred_label": "Goat"
-},
-{
-"id": "fauna:Flock",
-"type": "fauna",
-"confidence": 0.12,
-"match_method": "canonical",
-"preferred_label": "Flock"
-},
-{
-"id": "fauna:Lamb",
-"type": "fauna",
-"confidence": 0.12,
-"match_method": "canonical",
-"preferred_label": "Sheep"
+"preferred_label": "Grass"
 },
 {
 "id": "realia:Denarius",
@@ -3992,11 +3978,25 @@
 "preferred_label": "Denarius"
 },
 {
-"id": "flora:Grass",
-"type": "flora",
+"id": "fauna:Flock",
+"type": "fauna",
 "confidence": 0.12,
 "match_method": "canonical",
-"preferred_label": "Grass"
+"preferred_label": "Flock"
+},
+{
+"id": "fauna:Goat",
+"type": "fauna",
+"confidence": 0.12,
+"match_method": "canonical",
+"preferred_label": "Goat"
+},
+{
+"id": "fauna:Lamb",
+"type": "fauna",
+"confidence": 0.12,
+"match_method": "canonical",
+"preferred_label": "Sheep"
 },
 {
 "id": "realia:Ship",
@@ -4045,13 +4045,6 @@
 "preferred_label": "Ship"
 },
 {
-"id": "place:Bethsaida",
-"type": "place",
-"confidence": 0.2042,
-"match_method": "canonical",
-"preferred_label": "Bethsaida"
-},
-{
 "id": "place:Gennesaret",
 "type": "place",
 "confidence": 0.2042,
@@ -4059,11 +4052,11 @@
 "preferred_label": "Gennesaret"
 },
 {
-"id": "keyterm:Pray",
-"type": "keyterm",
-"confidence": 0.1875,
+"id": "place:Bethsaida",
+"type": "place",
+"confidence": 0.2042,
 "match_method": "canonical",
-"preferred_label": "Pray"
+"preferred_label": "Bethsaida"
 },
 {
 "id": "keyterm:CheerUp",
@@ -4073,18 +4066,11 @@
 "preferred_label": "Cheer Up"
 },
 {
-"id": "keyterm:AskFor",
+"id": "keyterm:Pray",
 "type": "keyterm",
 "confidence": 0.1875,
 "match_method": "canonical",
-"preferred_label": "Ask for"
-},
-{
-"id": "keyterm:Heart",
-"type": "keyterm",
-"confidence": 0.1875,
-"match_method": "canonical",
-"preferred_label": "Heart"
+"preferred_label": "Pray"
 },
 {
 "id": "keyterm:Disciple",
@@ -4094,11 +4080,11 @@
 "preferred_label": "Be a Disciple"
 },
 {
-"id": "keyterm:Fear",
+"id": "keyterm:AskFor",
 "type": "keyterm",
 "confidence": 0.1875,
 "match_method": "canonical",
-"preferred_label": "Fear"
+"preferred_label": "Ask for"
 },
 {
 "id": "keyterm:Salvation",
@@ -4108,11 +4094,25 @@
 "preferred_label": "Salvation"
 },
 {
-"id": "realia:Tassel",
+"id": "keyterm:Heart",
+"type": "keyterm",
+"confidence": 0.1875,
+"match_method": "canonical",
+"preferred_label": "Heart"
+},
+{
+"id": "keyterm:Fear",
+"type": "keyterm",
+"confidence": 0.1875,
+"match_method": "canonical",
+"preferred_label": "Fear"
+},
+{
+"id": "realia:Cloak",
 "type": "realia",
 "confidence": 0.1275,
 "match_method": "canonical",
-"preferred_label": "Tassel"
+"preferred_label": "Cloak"
 },
 {
 "id": "realia:Bed",
@@ -4122,11 +4122,11 @@
 "preferred_label": "Bed"
 },
 {
-"id": "realia:Cloak",
+"id": "realia:Tassel",
 "type": "realia",
 "confidence": 0.1275,
 "match_method": "canonical",
-"preferred_label": "Cloak"
+"preferred_label": "Tassel"
 }
 ]
 }
@@ -4210,6 +4210,13 @@
 "preferred_label": "Teaching"
 },
 {
+"id": "keyterm:Disciple",
+"type": "keyterm",
+"confidence": 0.3125,
+"match_method": "canonical",
+"preferred_label": "Be a Disciple"
+},
+{
 "id": "keyterm:Defilement",
 "type": "keyterm",
 "confidence": 0.3125,
@@ -4217,11 +4224,25 @@
 "preferred_label": "Defilement"
 },
 {
-"id": "keyterm:Disciple",
+"id": "keyterm:Commandment",
 "type": "keyterm",
-"confidence": 0.3125,
+"confidence": 0.2063,
 "match_method": "canonical",
-"preferred_label": "Be a Disciple"
+"preferred_label": "Commandment"
+},
+{
+"id": "keyterm:Speak",
+"type": "keyterm",
+"confidence": 0.2063,
+"match_method": "canonical",
+"preferred_label": "Speak as a Prophet"
+},
+{
+"id": "keyterm:Live.3",
+"type": "keyterm",
+"confidence": 0.2063,
+"match_method": "canonical",
+"preferred_label": "Live"
 },
 {
 "id": "deity:Lord",
@@ -4238,25 +4259,18 @@
 "preferred_label": "Worship"
 },
 {
+"id": "keyterm:Heart",
+"type": "keyterm",
+"confidence": 0.2063,
+"match_method": "canonical",
+"preferred_label": "Heart"
+},
+{
 "id": "keyterm:Baptism",
 "type": "keyterm",
 "confidence": 0.2063,
 "match_method": "canonical",
 "preferred_label": "Baptism"
-},
-{
-"id": "group:Jews",
-"type": "group",
-"confidence": 0.2063,
-"match_method": "canonical",
-"preferred_label": "Jews"
-},
-{
-"id": "person:Isaiah",
-"type": "person",
-"confidence": 0.2063,
-"match_method": "canonical",
-"preferred_label": "Isaiah"
 },
 {
 "id": "place:Jerusalem",
@@ -4266,25 +4280,11 @@
 "preferred_label": "Jerusalem"
 },
 {
-"id": "keyterm:Commandment",
-"type": "keyterm",
+"id": "person:Isaiah",
+"type": "person",
 "confidence": 0.2063,
 "match_method": "canonical",
-"preferred_label": "Commandment"
-},
-{
-"id": "keyterm:Live.3",
-"type": "keyterm",
-"confidence": 0.2063,
-"match_method": "canonical",
-"preferred_label": "Live"
-},
-{
-"id": "keyterm:Heart",
-"type": "keyterm",
-"confidence": 0.2063,
-"match_method": "canonical",
-"preferred_label": "Heart"
+"preferred_label": "Isaiah"
 },
 {
 "id": "group:ReligiousOfficials",
@@ -4294,18 +4294,11 @@
 "preferred_label": "Religious Officials"
 },
 {
-"id": "keyterm:Speak",
-"type": "keyterm",
+"id": "group:Jews",
+"type": "group",
 "confidence": 0.2063,
 "match_method": "canonical",
-"preferred_label": "Speak as a Prophet"
-},
-{
-"id": "realia:Bed",
-"type": "realia",
-"confidence": 0.1463,
-"match_method": "canonical",
-"preferred_label": "Bed"
+"preferred_label": "Jews"
 },
 {
 "id": "realia:CookingPot",
@@ -4313,6 +4306,13 @@
 "confidence": 0.1463,
 "match_method": "canonical",
 "preferred_label": "Cooking Pot"
+},
+{
+"id": "realia:Bed",
+"type": "realia",
+"confidence": 0.1463,
+"match_method": "canonical",
+"preferred_label": "Bed"
 }
 ]
 }
@@ -4339,13 +4339,6 @@
 "resource": [],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.38,
-"match_method": "canonical",
-"preferred_label": "LORD"
-},
-{
 "id": "keyterm:Teaching",
 "type": "keyterm",
 "confidence": 0.38,
@@ -4353,18 +4346,18 @@
 "preferred_label": "Teaching"
 },
 {
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.38,
+"match_method": "canonical",
+"preferred_label": "LORD"
+},
+{
 "id": "place:Corban",
 "type": "place",
 "confidence": 0.28,
 "match_method": "canonical",
 "preferred_label": "Temple Treasury"
-},
-{
-"id": "person:Moses",
-"type": "person",
-"confidence": 0.24,
-"match_method": "canonical",
-"preferred_label": "Moses"
 },
 {
 "id": "keyterm:Commandment",
@@ -4379,6 +4372,13 @@
 "confidence": 0.24,
 "match_method": "canonical",
 "preferred_label": "Offering"
+},
+{
+"id": "person:Moses",
+"type": "person",
+"confidence": 0.24,
+"match_method": "canonical",
+"preferred_label": "Moses"
 }
 ]
 }
@@ -4448,11 +4448,11 @@
 "preferred_label": "Heart"
 },
 {
-"id": "keyterm:Cleanse.2",
+"id": "keyterm:Blaspheme",
 "type": "keyterm",
 "confidence": 0.195,
 "match_method": "canonical",
-"preferred_label": "To Cleanse"
+"preferred_label": "Blaspheme"
 },
 {
 "id": "keyterm:Disciple",
@@ -4462,20 +4462,6 @@
 "preferred_label": "Be a Disciple"
 },
 {
-"id": "keyterm:Parable",
-"type": "keyterm",
-"confidence": 0.195,
-"match_method": "canonical",
-"preferred_label": "Parable"
-},
-{
-"id": "keyterm:Blaspheme",
-"type": "keyterm",
-"confidence": 0.195,
-"match_method": "canonical",
-"preferred_label": "Blaspheme"
-},
-{
 "id": "keyterm:Fornication",
 "type": "keyterm",
 "confidence": 0.195,
@@ -4483,11 +4469,18 @@
 "preferred_label": "Fornication"
 },
 {
-"id": "realia:House",
-"type": "realia",
-"confidence": 0.135,
+"id": "keyterm:Parable",
+"type": "keyterm",
+"confidence": 0.195,
 "match_method": "canonical",
-"preferred_label": "House"
+"preferred_label": "Parable"
+},
+{
+"id": "keyterm:Cleanse.2",
+"type": "keyterm",
+"confidence": 0.195,
+"match_method": "canonical",
+"preferred_label": "To Cleanse"
 },
 {
 "id": "realia:Temple",
@@ -4495,6 +4488,13 @@
 "confidence": 0.135,
 "match_method": "canonical",
 "preferred_label": "Temple"
+},
+{
+"id": "realia:House",
+"type": "realia",
+"confidence": 0.135,
+"match_method": "canonical",
+"preferred_label": "House"
 }
 ]
 }
@@ -4599,13 +4599,6 @@
 "preferred_label": "Phoenicia"
 },
 {
-"id": "group:Phoenicia",
-"type": "group",
-"confidence": 0.2429,
-"match_method": "canonical",
-"preferred_label": "Syrophoenicians"
-},
-{
 "id": "group:Greek",
 "type": "group",
 "confidence": 0.2429,
@@ -4613,18 +4606,18 @@
 "preferred_label": "Greeks"
 },
 {
+"id": "group:Phoenicia",
+"type": "group",
+"confidence": 0.2429,
+"match_method": "canonical",
+"preferred_label": "Syrophoenicians"
+},
+{
 "id": "place:Tyre",
 "type": "place",
 "confidence": 0.2429,
 "match_method": "canonical",
 "preferred_label": "Tyre"
-},
-{
-"id": "person:Javan",
-"type": "person",
-"confidence": 0.2143,
-"match_method": "canonical",
-"preferred_label": "Javan"
 },
 {
 "id": "keyterm:AskFor",
@@ -4639,6 +4632,13 @@
 "confidence": 0.2143,
 "match_method": "canonical",
 "preferred_label": "Honest"
+},
+{
+"id": "person:Javan",
+"type": "person",
+"confidence": 0.2143,
+"match_method": "canonical",
+"preferred_label": "Javan"
 },
 {
 "id": "realia:Bed",
@@ -4824,6 +4824,13 @@
 "preferred_label": "Magadan"
 },
 {
+"id": "keyterm:Bless",
+"type": "keyterm",
+"confidence": 0.195,
+"match_method": "canonical",
+"preferred_label": "Bless"
+},
+{
 "id": "keyterm:AskFor",
 "type": "keyterm",
 "confidence": 0.195,
@@ -4838,18 +4845,11 @@
 "preferred_label": "Affection"
 },
 {
-"id": "keyterm:Bless",
-"type": "keyterm",
-"confidence": 0.195,
-"match_method": "canonical",
-"preferred_label": "Bless"
-},
-{
-"id": "realia:House",
+"id": "realia:Basket",
 "type": "realia",
 "confidence": 0.135,
 "match_method": "canonical",
-"preferred_label": "House"
+"preferred_label": "Basket"
 },
 {
 "id": "fauna:Fish",
@@ -4859,18 +4859,18 @@
 "preferred_label": "Fish"
 },
 {
-"id": "realia:Basket",
-"type": "realia",
-"confidence": 0.135,
-"match_method": "canonical",
-"preferred_label": "Basket"
-},
-{
 "id": "realia:Temple",
 "type": "realia",
 "confidence": 0.135,
 "match_method": "canonical",
 "preferred_label": "Temple"
+},
+{
+"id": "realia:House",
+"type": "realia",
+"confidence": 0.135,
+"match_method": "canonical",
+"preferred_label": "House"
 },
 {
 "id": "realia:Ship",
@@ -4919,18 +4919,18 @@
 ],
 "acai": [
 {
-"id": "keyterm:Example",
-"type": "keyterm",
-"confidence": 0.2818,
-"match_method": "canonical",
-"preferred_label": "Symbol"
-},
-{
 "id": "group:Pharisee",
 "type": "group",
 "confidence": 0.2818,
 "match_method": "canonical",
 "preferred_label": "Pharisees"
+},
+{
+"id": "keyterm:Example",
+"type": "keyterm",
+"confidence": 0.2818,
+"match_method": "canonical",
+"preferred_label": "Symbol"
 },
 {
 "id": "realia:Basket",
@@ -4940,25 +4940,11 @@
 "preferred_label": "Basket"
 },
 {
-"id": "keyterm:Surely",
+"id": "keyterm:Heaven",
 "type": "keyterm",
 "confidence": 0.1909,
 "match_method": "canonical",
-"preferred_label": "Surely!"
-},
-{
-"id": "person:Herod.2",
-"type": "person",
-"confidence": 0.1909,
-"match_method": "canonical",
-"preferred_label": "Herod Antipas"
-},
-{
-"id": "keyterm:Spirit.2",
-"type": "keyterm",
-"confidence": 0.1909,
-"match_method": "canonical",
-"preferred_label": "Spirit"
+"preferred_label": "Sky"
 },
 {
 "id": "keyterm:Heart",
@@ -4968,11 +4954,25 @@
 "preferred_label": "Heart"
 },
 {
-"id": "keyterm:Heaven",
+"id": "keyterm:Spirit.2",
 "type": "keyterm",
 "confidence": 0.1909,
 "match_method": "canonical",
-"preferred_label": "Sky"
+"preferred_label": "Spirit"
+},
+{
+"id": "person:Herod.2",
+"type": "person",
+"confidence": 0.1909,
+"match_method": "canonical",
+"preferred_label": "Herod Antipas"
+},
+{
+"id": "keyterm:Surely",
+"type": "keyterm",
+"confidence": 0.1909,
+"match_method": "canonical",
+"preferred_label": "Surely!"
 },
 {
 "id": "realia:Ship",
@@ -5035,18 +5035,18 @@
 "preferred_label": "Ask for"
 },
 {
-"id": "realia:House",
-"type": "realia",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "House"
-},
-{
 "id": "realia:Temple",
 "type": "realia",
 "confidence": 0.18,
 "match_method": "canonical",
 "preferred_label": "Temple"
+},
+{
+"id": "realia:House",
+"type": "realia",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "House"
 }
 ]
 }
@@ -5137,18 +5137,18 @@
 "preferred_label": "Baptist"
 },
 {
-"id": "person:Peter",
-"type": "person",
-"confidence": 0.2625,
-"match_method": "canonical",
-"preferred_label": "Peter"
-},
-{
 "id": "keyterm:Command",
 "type": "keyterm",
 "confidence": 0.2625,
 "match_method": "canonical",
 "preferred_label": "To Command"
+},
+{
+"id": "person:John",
+"type": "person",
+"confidence": 0.2625,
+"match_method": "canonical",
+"preferred_label": "John"
 },
 {
 "id": "keyterm:Disciple",
@@ -5158,18 +5158,18 @@
 "preferred_label": "Be a Disciple"
 },
 {
+"id": "person:Peter",
+"type": "person",
+"confidence": 0.2625,
+"match_method": "canonical",
+"preferred_label": "Peter"
+},
+{
 "id": "person:Elijah",
 "type": "person",
 "confidence": 0.2625,
 "match_method": "canonical",
 "preferred_label": "Elijah"
-},
-{
-"id": "person:John",
-"type": "person",
-"confidence": 0.2625,
-"match_method": "canonical",
-"preferred_label": "John"
 }
 ]
 }
@@ -5260,13 +5260,6 @@
 ],
 "acai": [
 {
-"id": "keyterm:Life",
-"type": "keyterm",
-"confidence": 0.4,
-"match_method": "canonical",
-"preferred_label": "Life"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.4,
@@ -5274,11 +5267,11 @@
 "preferred_label": "LORD"
 },
 {
-"id": "person:Peter",
-"type": "person",
-"confidence": 0.3,
+"id": "keyterm:Life",
+"type": "keyterm",
+"confidence": 0.4,
 "match_method": "canonical",
-"preferred_label": "Peter"
+"preferred_label": "Life"
 },
 {
 "id": "keyterm:Command",
@@ -5302,32 +5295,11 @@
 "preferred_label": "Ability"
 },
 {
-"id": "deity:Satan",
-"type": "deity",
-"confidence": 0.2,
+"id": "person:Peter",
+"type": "person",
+"confidence": 0.3,
 "match_method": "canonical",
-"preferred_label": "Satan"
-},
-{
-"id": "keyterm:Surely",
-"type": "keyterm",
-"confidence": 0.2,
-"match_method": "canonical",
-"preferred_label": "Surely!"
-},
-{
-"id": "keyterm:Think",
-"type": "keyterm",
-"confidence": 0.2,
-"match_method": "canonical",
-"preferred_label": "Think"
-},
-{
-"id": "deity:Angel",
-"type": "deity",
-"confidence": 0.2,
-"match_method": "canonical",
-"preferred_label": "An Angel"
+"preferred_label": "Peter"
 },
 {
 "id": "keyterm:Kingdom",
@@ -5335,27 +5307,6 @@
 "confidence": 0.2,
 "match_method": "canonical",
 "preferred_label": "Kingdom"
-},
-{
-"id": "keyterm:Glory",
-"type": "keyterm",
-"confidence": 0.2,
-"match_method": "canonical",
-"preferred_label": "Glory"
-},
-{
-"id": "keyterm:Salvation",
-"type": "keyterm",
-"confidence": 0.2,
-"match_method": "canonical",
-"preferred_label": "Salvation"
-},
-{
-"id": "keyterm:Unfaithful",
-"type": "keyterm",
-"confidence": 0.2,
-"match_method": "canonical",
-"preferred_label": "Be Unfaithful"
 },
 {
 "id": "keyterm:Reject",
@@ -5372,11 +5323,60 @@
 "preferred_label": "Good News"
 },
 {
+"id": "keyterm:Salvation",
+"type": "keyterm",
+"confidence": 0.2,
+"match_method": "canonical",
+"preferred_label": "Salvation"
+},
+{
 "id": "keyterm:Holy",
 "type": "keyterm",
 "confidence": 0.2,
 "match_method": "canonical",
 "preferred_label": "Holy"
+},
+{
+"id": "deity:Angel",
+"type": "deity",
+"confidence": 0.2,
+"match_method": "canonical",
+"preferred_label": "An Angel"
+},
+{
+"id": "keyterm:Glory",
+"type": "keyterm",
+"confidence": 0.2,
+"match_method": "canonical",
+"preferred_label": "Glory"
+},
+{
+"id": "deity:Satan",
+"type": "deity",
+"confidence": 0.2,
+"match_method": "canonical",
+"preferred_label": "Satan"
+},
+{
+"id": "keyterm:Unfaithful",
+"type": "keyterm",
+"confidence": 0.2,
+"match_method": "canonical",
+"preferred_label": "Be Unfaithful"
+},
+{
+"id": "keyterm:Surely",
+"type": "keyterm",
+"confidence": 0.2,
+"match_method": "canonical",
+"preferred_label": "Surely!"
+},
+{
+"id": "keyterm:Think",
+"type": "keyterm",
+"confidence": 0.2,
+"match_method": "canonical",
+"preferred_label": "Think"
 },
 {
 "id": "realia:Cross",
@@ -5488,13 +5488,6 @@
 "preferred_label": "Moses"
 },
 {
-"id": "person:James",
-"type": "person",
-"confidence": 0.1875,
-"match_method": "canonical",
-"preferred_label": "James"
-},
-{
 "id": "person:John.2",
 "type": "person",
 "confidence": 0.1875,
@@ -5507,6 +5500,13 @@
 "confidence": 0.1875,
 "match_method": "canonical",
 "preferred_label": "Beloved"
+},
+{
+"id": "person:James",
+"type": "person",
+"confidence": 0.1875,
+"match_method": "canonical",
+"preferred_label": "James"
 },
 {
 "id": "realia:Tent",
@@ -5590,13 +5590,6 @@
 ],
 "acai": [
 {
-"id": "person:GenericFather",
-"type": "person",
-"confidence": 0.3344,
-"match_method": "canonical",
-"preferred_label": "A Father"
-},
-{
 "id": "keyterm:Disciple",
 "type": "keyterm",
 "confidence": 0.3344,
@@ -5611,25 +5604,18 @@
 "preferred_label": "Jesus"
 },
 {
+"id": "person:GenericFather",
+"type": "person",
+"confidence": 0.3344,
+"match_method": "canonical",
+"preferred_label": "A Father"
+},
+{
 "id": "keyterm:Believe",
 "type": "keyterm",
 "confidence": 0.2562,
 "match_method": "canonical",
 "preferred_label": "Believe"
-},
-{
-"id": "keyterm:Pray",
-"type": "keyterm",
-"confidence": 0.1781,
-"match_method": "canonical",
-"preferred_label": "Pray"
-},
-{
-"id": "group:GenericGroup",
-"type": "group",
-"confidence": 0.1781,
-"match_method": "canonical",
-"preferred_label": "A Group of People"
 },
 {
 "id": "keyterm:Command",
@@ -5639,25 +5625,11 @@
 "preferred_label": "To Command"
 },
 {
-"id": "keyterm:Unfaithful",
+"id": "keyterm:Pray",
 "type": "keyterm",
 "confidence": 0.1781,
 "match_method": "canonical",
-"preferred_label": "Be Unfaithful"
-},
-{
-"id": "keyterm:Affection",
-"type": "keyterm",
-"confidence": 0.1781,
-"match_method": "canonical",
-"preferred_label": "Affection"
-},
-{
-"id": "group:GenericDisciples",
-"type": "group",
-"confidence": 0.1781,
-"match_method": "canonical",
-"preferred_label": "A Group of Disciples"
+"preferred_label": "Pray"
 },
 {
 "id": "keyterm:Disbelieve",
@@ -5667,11 +5639,32 @@
 "preferred_label": "Disbelieve"
 },
 {
-"id": "realia:House",
-"type": "realia",
-"confidence": 0.1181,
+"id": "group:GenericDisciples",
+"type": "group",
+"confidence": 0.1781,
 "match_method": "canonical",
-"preferred_label": "House"
+"preferred_label": "A Group of Disciples"
+},
+{
+"id": "keyterm:Affection",
+"type": "keyterm",
+"confidence": 0.1781,
+"match_method": "canonical",
+"preferred_label": "Affection"
+},
+{
+"id": "keyterm:Unfaithful",
+"type": "keyterm",
+"confidence": 0.1781,
+"match_method": "canonical",
+"preferred_label": "Be Unfaithful"
+},
+{
+"id": "group:GenericGroup",
+"type": "group",
+"confidence": 0.1781,
+"match_method": "canonical",
+"preferred_label": "A Group of People"
 },
 {
 "id": "realia:Temple",
@@ -5679,6 +5672,13 @@
 "confidence": 0.1181,
 "match_method": "canonical",
 "preferred_label": "Temple"
+},
+{
+"id": "realia:House",
+"type": "realia",
+"confidence": 0.1181,
+"match_method": "canonical",
+"preferred_label": "House"
 }
 ]
 }
@@ -5825,46 +5825,11 @@
 "preferred_label": "Jesus"
 },
 {
-"id": "person:John.2",
-"type": "person",
-"confidence": 0.1714,
-"match_method": "canonical",
-"preferred_label": "John"
-},
-{
-"id": "keyterm:AtPeace",
+"id": "keyterm:Believe",
 "type": "keyterm",
 "confidence": 0.1714,
 "match_method": "canonical",
-"preferred_label": "Be at Peace"
-},
-{
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.1714,
-"match_method": "canonical",
-"preferred_label": "LORD"
-},
-{
-"id": "place:Galilee",
-"type": "place",
-"confidence": 0.1714,
-"match_method": "canonical",
-"preferred_label": "Galilee"
-},
-{
-"id": "keyterm:Word",
-"type": "keyterm",
-"confidence": 0.1714,
-"match_method": "canonical",
-"preferred_label": "Word"
-},
-{
-"id": "keyterm:Disciple",
-"type": "keyterm",
-"confidence": 0.1714,
-"match_method": "canonical",
-"preferred_label": "Be a Disciple"
+"preferred_label": "Believe"
 },
 {
 "id": "keyterm:Ability",
@@ -5874,25 +5839,11 @@
 "preferred_label": "Ability"
 },
 {
-"id": "keyterm:Surely",
-"type": "keyterm",
+"id": "deity:Lord",
+"type": "deity",
 "confidence": 0.1714,
 "match_method": "canonical",
-"preferred_label": "Surely!"
-},
-{
-"id": "keyterm:Believe",
-"type": "keyterm",
-"confidence": 0.1714,
-"match_method": "canonical",
-"preferred_label": "Believe"
-},
-{
-"id": "place:Capernaum",
-"type": "place",
-"confidence": 0.1714,
-"match_method": "canonical",
-"preferred_label": "Capernaum"
+"preferred_label": "LORD"
 },
 {
 "id": "keyterm:Kingdom",
@@ -5900,6 +5851,27 @@
 "confidence": 0.1714,
 "match_method": "canonical",
 "preferred_label": "Kingdom"
+},
+{
+"id": "keyterm:Disciple",
+"type": "keyterm",
+"confidence": 0.1714,
+"match_method": "canonical",
+"preferred_label": "Be a Disciple"
+},
+{
+"id": "place:Galilee",
+"type": "place",
+"confidence": 0.1714,
+"match_method": "canonical",
+"preferred_label": "Galilee"
+},
+{
+"id": "place:Capernaum",
+"type": "place",
+"confidence": 0.1714,
+"match_method": "canonical",
+"preferred_label": "Capernaum"
 },
 {
 "id": "keyterm:Fear",
@@ -5916,6 +5888,34 @@
 "preferred_label": "Demons"
 },
 {
+"id": "keyterm:Surely",
+"type": "keyterm",
+"confidence": 0.1714,
+"match_method": "canonical",
+"preferred_label": "Surely!"
+},
+{
+"id": "keyterm:AtPeace",
+"type": "keyterm",
+"confidence": 0.1714,
+"match_method": "canonical",
+"preferred_label": "Be at Peace"
+},
+{
+"id": "keyterm:Word",
+"type": "keyterm",
+"confidence": 0.1714,
+"match_method": "canonical",
+"preferred_label": "Word"
+},
+{
+"id": "person:John.2",
+"type": "person",
+"confidence": 0.1714,
+"match_method": "canonical",
+"preferred_label": "John"
+},
+{
 "id": "fauna:Maggot",
 "type": "fauna",
 "confidence": 0.121,
@@ -5923,18 +5923,18 @@
 "preferred_label": "Worm"
 },
 {
-"id": "realia:House",
-"type": "realia",
-"confidence": 0.1114,
-"match_method": "canonical",
-"preferred_label": "House"
-},
-{
 "id": "realia:Hand-mill",
 "type": "realia",
 "confidence": 0.1114,
 "match_method": "canonical",
 "preferred_label": "Hand-Mill"
+},
+{
+"id": "realia:House",
+"type": "realia",
+"confidence": 0.1114,
+"match_method": "canonical",
+"preferred_label": "House"
 }
 ]
 }
@@ -6025,20 +6025,6 @@
 "preferred_label": "Judea"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.1875,
-"match_method": "canonical",
-"preferred_label": "LORD"
-},
-{
-"id": "keyterm:Body.3",
-"type": "keyterm",
-"confidence": 0.1875,
-"match_method": "canonical",
-"preferred_label": "Body"
-},
-{
 "id": "keyterm:Hardheartedness",
 "type": "keyterm",
 "confidence": 0.1875,
@@ -6046,11 +6032,11 @@
 "preferred_label": "Hardheartedness"
 },
 {
-"id": "keyterm:Commandment",
-"type": "keyterm",
+"id": "place:Jordan",
+"type": "place",
 "confidence": 0.1875,
 "match_method": "canonical",
-"preferred_label": "Commandment"
+"preferred_label": "Jordan River"
 },
 {
 "id": "keyterm:Command",
@@ -6060,11 +6046,11 @@
 "preferred_label": "To Command"
 },
 {
-"id": "place:Jordan",
-"type": "place",
+"id": "keyterm:Commandment",
+"type": "keyterm",
 "confidence": 0.1875,
 "match_method": "canonical",
-"preferred_label": "Jordan River"
+"preferred_label": "Commandment"
 },
 {
 "id": "keyterm:Disciple",
@@ -6086,6 +6072,20 @@
 "confidence": 0.1875,
 "match_method": "canonical",
 "preferred_label": "Be Lawful"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.1875,
+"match_method": "canonical",
+"preferred_label": "LORD"
+},
+{
+"id": "keyterm:Body.3",
+"type": "keyterm",
+"confidence": 0.1875,
+"match_method": "canonical",
+"preferred_label": "Body"
 },
 {
 "id": "realia:House",
@@ -6183,18 +6183,18 @@
 ],
 "acai": [
 {
-"id": "person:Jesus.2",
-"type": "person",
-"confidence": 0.5158,
-"match_method": "canonical",
-"preferred_label": "Jesus"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.5158,
 "match_method": "canonical",
 "preferred_label": "LORD"
+},
+{
+"id": "person:Jesus.2",
+"type": "person",
+"confidence": 0.5158,
+"match_method": "canonical",
+"preferred_label": "Jesus"
 },
 {
 "id": "keyterm:Kingdom",
@@ -6211,6 +6211,13 @@
 "preferred_label": "Be a Disciple"
 },
 {
+"id": "keyterm:Good",
+"type": "keyterm",
+"confidence": 0.2474,
+"match_method": "canonical",
+"preferred_label": "Good"
+},
+{
 "id": "keyterm:Life",
 "type": "keyterm",
 "confidence": 0.2474,
@@ -6225,11 +6232,11 @@
 "preferred_label": "Rich Young Ruler"
 },
 {
-"id": "keyterm:Good",
+"id": "keyterm:Always",
 "type": "keyterm",
 "confidence": 0.2474,
 "match_method": "canonical",
-"preferred_label": "Good"
+"preferred_label": "Always"
 },
 {
 "id": "keyterm:Surely",
@@ -6239,74 +6246,11 @@
 "preferred_label": "Surely!"
 },
 {
-"id": "keyterm:Always",
-"type": "keyterm",
-"confidence": 0.2474,
-"match_method": "canonical",
-"preferred_label": "Always"
-},
-{
 "id": "realia:House",
 "type": "realia",
 "confidence": 0.1874,
 "match_method": "canonical",
 "preferred_label": "House"
-},
-{
-"id": "keyterm:Command",
-"type": "keyterm",
-"confidence": 0.1737,
-"match_method": "canonical",
-"preferred_label": "To Command"
-},
-{
-"id": "keyterm:Fornication",
-"type": "keyterm",
-"confidence": 0.1737,
-"match_method": "canonical",
-"preferred_label": "Fornication"
-},
-{
-"id": "keyterm:Heaven",
-"type": "keyterm",
-"confidence": 0.1737,
-"match_method": "canonical",
-"preferred_label": "Sky"
-},
-{
-"id": "keyterm:GoodNews",
-"type": "keyterm",
-"confidence": 0.1737,
-"match_method": "canonical",
-"preferred_label": "Good News"
-},
-{
-"id": "keyterm:Love",
-"type": "keyterm",
-"confidence": 0.1737,
-"match_method": "canonical",
-"preferred_label": "Love"
-},
-{
-"id": "keyterm:Commandment",
-"type": "keyterm",
-"confidence": 0.1737,
-"match_method": "canonical",
-"preferred_label": "Commandment"
-},
-{
-"id": "keyterm:Salvation",
-"type": "keyterm",
-"confidence": 0.1737,
-"match_method": "canonical",
-"preferred_label": "Salvation"
-},
-{
-"id": "person:Peter",
-"type": "person",
-"confidence": 0.1737,
-"match_method": "canonical",
-"preferred_label": "Peter"
 },
 {
 "id": "keyterm:Ability",
@@ -6316,11 +6260,67 @@
 "preferred_label": "Ability"
 },
 {
+"id": "person:Peter",
+"type": "person",
+"confidence": 0.1737,
+"match_method": "canonical",
+"preferred_label": "Peter"
+},
+{
+"id": "keyterm:Fornication",
+"type": "keyterm",
+"confidence": 0.1737,
+"match_method": "canonical",
+"preferred_label": "Fornication"
+},
+{
+"id": "keyterm:GoodNews",
+"type": "keyterm",
+"confidence": 0.1737,
+"match_method": "canonical",
+"preferred_label": "Good News"
+},
+{
+"id": "keyterm:Salvation",
+"type": "keyterm",
+"confidence": 0.1737,
+"match_method": "canonical",
+"preferred_label": "Salvation"
+},
+{
+"id": "keyterm:Love",
+"type": "keyterm",
+"confidence": 0.1737,
+"match_method": "canonical",
+"preferred_label": "Love"
+},
+{
+"id": "keyterm:Command",
+"type": "keyterm",
+"confidence": 0.1737,
+"match_method": "canonical",
+"preferred_label": "To Command"
+},
+{
 "id": "keyterm:Bless",
 "type": "keyterm",
 "confidence": 0.1737,
 "match_method": "canonical",
 "preferred_label": "Bless"
+},
+{
+"id": "keyterm:Commandment",
+"type": "keyterm",
+"confidence": 0.1737,
+"match_method": "canonical",
+"preferred_label": "Commandment"
+},
+{
+"id": "keyterm:Heaven",
+"type": "keyterm",
+"confidence": 0.1737,
+"match_method": "canonical",
+"preferred_label": "Sky"
 },
 {
 "id": "realia:Needle",
@@ -6439,13 +6439,6 @@
 "preferred_label": "James"
 },
 {
-"id": "keyterm:Baptism",
-"type": "keyterm",
-"confidence": 0.2643,
-"match_method": "canonical",
-"preferred_label": "Baptism"
-},
-{
 "id": "group:Gentile",
 "type": "group",
 "confidence": 0.2643,
@@ -6460,6 +6453,13 @@
 "preferred_label": "John"
 },
 {
+"id": "keyterm:Baptism",
+"type": "keyterm",
+"confidence": 0.2643,
+"match_method": "canonical",
+"preferred_label": "Baptism"
+},
+{
 "id": "place:Jerusalem",
 "type": "place",
 "confidence": 0.2643,
@@ -6467,25 +6467,11 @@
 "preferred_label": "Jerusalem"
 },
 {
-"id": "keyterm:Life",
+"id": "keyterm:Ransom",
 "type": "keyterm",
 "confidence": 0.1821,
 "match_method": "canonical",
-"preferred_label": "Life"
-},
-{
-"id": "person:Zebedee",
-"type": "person",
-"confidence": 0.1821,
-"match_method": "canonical",
-"preferred_label": "Zebedee"
-},
-{
-"id": "keyterm:Serve",
-"type": "keyterm",
-"confidence": 0.1821,
-"match_method": "canonical",
-"preferred_label": "Serve"
+"preferred_label": "Ransom"
 },
 {
 "id": "keyterm:Authority.2",
@@ -6495,11 +6481,18 @@
 "preferred_label": "Authority"
 },
 {
-"id": "keyterm:Condemn",
+"id": "keyterm:Serve",
 "type": "keyterm",
 "confidence": 0.1821,
 "match_method": "canonical",
-"preferred_label": "Condemn"
+"preferred_label": "Serve"
+},
+{
+"id": "person:Zebedee",
+"type": "person",
+"confidence": 0.1821,
+"match_method": "canonical",
+"preferred_label": "Zebedee"
 },
 {
 "id": "keyterm:Glory",
@@ -6509,11 +6502,18 @@
 "preferred_label": "Glory"
 },
 {
-"id": "keyterm:Ransom",
+"id": "keyterm:Life",
 "type": "keyterm",
 "confidence": 0.1821,
 "match_method": "canonical",
-"preferred_label": "Ransom"
+"preferred_label": "Life"
+},
+{
+"id": "keyterm:Condemn",
+"type": "keyterm",
+"confidence": 0.1821,
+"match_method": "canonical",
+"preferred_label": "Condemn"
 },
 {
 "id": "keyterm:Fear",
@@ -6604,6 +6604,13 @@
 "preferred_label": "Jesus"
 },
 {
+"id": "keyterm:Mercy",
+"type": "keyterm",
+"confidence": 0.3286,
+"match_method": "canonical",
+"preferred_label": "Mercy"
+},
+{
 "id": "person:David",
 "type": "person",
 "confidence": 0.3286,
@@ -6618,11 +6625,11 @@
 "preferred_label": "A Group of People"
 },
 {
-"id": "keyterm:Mercy",
-"type": "keyterm",
-"confidence": 0.3286,
+"id": "person:Timaeus",
+"type": "person",
+"confidence": 0.2429,
 "match_method": "canonical",
-"preferred_label": "Mercy"
+"preferred_label": "Timaeus"
 },
 {
 "id": "person:Bartimaeus",
@@ -6632,25 +6639,11 @@
 "preferred_label": "Bartimaeus"
 },
 {
-"id": "person:Timaeus",
-"type": "person",
-"confidence": 0.2429,
-"match_method": "canonical",
-"preferred_label": "Timaeus"
-},
-{
 "id": "keyterm:Believe",
 "type": "keyterm",
 "confidence": 0.2143,
 "match_method": "canonical",
 "preferred_label": "Believe"
-},
-{
-"id": "keyterm:CheerUp",
-"type": "keyterm",
-"confidence": 0.2143,
-"match_method": "canonical",
-"preferred_label": "Cheer Up"
 },
 {
 "id": "keyterm:Command",
@@ -6660,18 +6653,25 @@
 "preferred_label": "To Command"
 },
 {
-"id": "keyterm:Disciple",
-"type": "keyterm",
-"confidence": 0.2143,
-"match_method": "canonical",
-"preferred_label": "Be a Disciple"
-},
-{
 "id": "place:Jericho",
 "type": "place",
 "confidence": 0.2143,
 "match_method": "canonical",
 "preferred_label": "Jericho"
+},
+{
+"id": "keyterm:CheerUp",
+"type": "keyterm",
+"confidence": 0.2143,
+"match_method": "canonical",
+"preferred_label": "Cheer Up"
+},
+{
+"id": "keyterm:Disciple",
+"type": "keyterm",
+"confidence": 0.2143,
+"match_method": "canonical",
+"preferred_label": "Be a Disciple"
 },
 {
 "id": "keyterm:Salvation",
@@ -6776,13 +6776,6 @@
 "preferred_label": "Jesus"
 },
 {
-"id": "keyterm:Hosanna",
-"type": "keyterm",
-"confidence": 0.3,
-"match_method": "canonical",
-"preferred_label": "Hosanna"
-},
-{
 "id": "place:Bethany",
 "type": "place",
 "confidence": 0.3,
@@ -6797,11 +6790,11 @@
 "preferred_label": "Jerusalem"
 },
 {
-"id": "group:GenericGroup",
-"type": "group",
-"confidence": 0.2818,
+"id": "keyterm:Hosanna",
+"type": "keyterm",
+"confidence": 0.3,
 "match_method": "canonical",
-"preferred_label": "A Group of People"
+"preferred_label": "Hosanna"
 },
 {
 "id": "keyterm:Bless",
@@ -6809,6 +6802,13 @@
 "confidence": 0.2818,
 "match_method": "canonical",
 "preferred_label": "Bless"
+},
+{
+"id": "group:GenericGroup",
+"type": "group",
+"confidence": 0.2818,
+"match_method": "canonical",
+"preferred_label": "A Group of People"
 },
 {
 "id": "realia:Cloak",
@@ -6825,34 +6825,6 @@
 "preferred_label": "Bethphage"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.1909,
-"match_method": "canonical",
-"preferred_label": "LORD"
-},
-{
-"id": "person:David",
-"type": "person",
-"confidence": 0.1909,
-"match_method": "canonical",
-"preferred_label": "David"
-},
-{
-"id": "keyterm:Height",
-"type": "keyterm",
-"confidence": 0.1909,
-"match_method": "canonical",
-"preferred_label": "Height"
-},
-{
-"id": "keyterm:Name",
-"type": "keyterm",
-"confidence": 0.1909,
-"match_method": "canonical",
-"preferred_label": "Name"
-},
-{
 "id": "keyterm:Kingdom",
 "type": "keyterm",
 "confidence": 0.1909,
@@ -6865,6 +6837,34 @@
 "confidence": 0.1909,
 "match_method": "canonical",
 "preferred_label": "Be a Disciple"
+},
+{
+"id": "keyterm:Name",
+"type": "keyterm",
+"confidence": 0.1909,
+"match_method": "canonical",
+"preferred_label": "Name"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.1909,
+"match_method": "canonical",
+"preferred_label": "LORD"
+},
+{
+"id": "keyterm:Height",
+"type": "keyterm",
+"confidence": 0.1909,
+"match_method": "canonical",
+"preferred_label": "Height"
+},
+{
+"id": "person:David",
+"type": "person",
+"confidence": 0.1909,
+"match_method": "canonical",
+"preferred_label": "David"
 },
 {
 "id": "flora:Rush",
@@ -7011,18 +7011,18 @@
 ],
 "acai": [
 {
-"id": "keyterm:Pray",
-"type": "keyterm",
-"confidence": 0.34,
-"match_method": "canonical",
-"preferred_label": "Pray"
-},
-{
 "id": "keyterm:Believe",
 "type": "keyterm",
 "confidence": 0.34,
 "match_method": "canonical",
 "preferred_label": "Believe"
+},
+{
+"id": "keyterm:Pray",
+"type": "keyterm",
+"confidence": 0.34,
+"match_method": "canonical",
+"preferred_label": "Pray"
 },
 {
 "id": "realia:Temple",
@@ -7046,32 +7046,18 @@
 "preferred_label": "LORD"
 },
 {
-"id": "person:Jesus.2",
+"id": "person:Peter",
 "type": "person",
 "confidence": 0.18,
 "match_method": "canonical",
-"preferred_label": "Jesus"
+"preferred_label": "Peter"
 },
 {
-"id": "keyterm:Discern",
-"type": "keyterm",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "Discern"
-},
-{
-"id": "keyterm:Heaven",
-"type": "keyterm",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "Sky"
-},
-{
-"id": "place:Jerusalem",
+"id": "place:Bethany",
 "type": "place",
 "confidence": 0.18,
 "match_method": "canonical",
-"preferred_label": "Jerusalem"
+"preferred_label": "Bethany"
 },
 {
 "id": "keyterm:Disciple",
@@ -7081,18 +7067,25 @@
 "preferred_label": "Be a Disciple"
 },
 {
-"id": "keyterm:Surely",
+"id": "keyterm:Heart",
 "type": "keyterm",
 "confidence": 0.18,
 "match_method": "canonical",
-"preferred_label": "Surely!"
+"preferred_label": "Heart"
 },
 {
-"id": "person:Peter",
-"type": "person",
+"id": "keyterm:Discern",
+"type": "keyterm",
 "confidence": 0.18,
 "match_method": "canonical",
-"preferred_label": "Peter"
+"preferred_label": "Discern"
+},
+{
+"id": "keyterm:Fear",
+"type": "keyterm",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "Fear"
 },
 {
 "id": "keyterm:Forgive",
@@ -7109,25 +7102,32 @@
 "preferred_label": "Always"
 },
 {
-"id": "place:Bethany",
+"id": "place:Jerusalem",
 "type": "place",
 "confidence": 0.18,
 "match_method": "canonical",
-"preferred_label": "Bethany"
+"preferred_label": "Jerusalem"
 },
 {
-"id": "keyterm:Heart",
+"id": "keyterm:Surely",
 "type": "keyterm",
 "confidence": 0.18,
 "match_method": "canonical",
-"preferred_label": "Heart"
+"preferred_label": "Surely!"
 },
 {
-"id": "keyterm:Fear",
+"id": "person:Jesus.2",
+"type": "person",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "Jesus"
+},
+{
+"id": "keyterm:Heaven",
 "type": "keyterm",
 "confidence": 0.18,
 "match_method": "canonical",
-"preferred_label": "Fear"
+"preferred_label": "Sky"
 },
 {
 "id": "realia:Seat",
@@ -7137,18 +7137,18 @@
 "preferred_label": "Seat"
 },
 {
-"id": "realia:House",
-"type": "realia",
-"confidence": 0.12,
-"match_method": "canonical",
-"preferred_label": "House"
-},
-{
 "id": "fauna:Dove",
 "type": "fauna",
 "confidence": 0.12,
 "match_method": "canonical",
 "preferred_label": "Dove"
+},
+{
+"id": "realia:House",
+"type": "realia",
+"confidence": 0.12,
+"match_method": "canonical",
+"preferred_label": "House"
 }
 ]
 }
@@ -7239,6 +7239,13 @@
 "preferred_label": "Ability"
 },
 {
+"id": "person:John",
+"type": "person",
+"confidence": 0.3286,
+"match_method": "canonical",
+"preferred_label": "John"
+},
+{
 "id": "person:Jesus.2",
 "type": "person",
 "confidence": 0.3286,
@@ -7251,13 +7258,6 @@
 "confidence": 0.3286,
 "match_method": "canonical",
 "preferred_label": "Sky"
-},
-{
-"id": "person:John",
-"type": "person",
-"confidence": 0.3286,
-"match_method": "canonical",
-"preferred_label": "John"
 },
 {
 "id": "keyterm:Believe",
@@ -7274,6 +7274,13 @@
 "preferred_label": "Elders"
 },
 {
+"id": "group:GenericPriests",
+"type": "group",
+"confidence": 0.2143,
+"match_method": "canonical",
+"preferred_label": "Priests"
+},
+{
 "id": "keyterm:Baptism",
 "type": "keyterm",
 "confidence": 0.2143,
@@ -7288,11 +7295,11 @@
 "preferred_label": "Jerusalem"
 },
 {
-"id": "group:GenericPriests",
+"id": "group:ReligiousOfficials",
 "type": "group",
 "confidence": 0.2143,
 "match_method": "canonical",
-"preferred_label": "Priests"
+"preferred_label": "Religious Officials"
 },
 {
 "id": "keyterm:Fear",
@@ -7300,13 +7307,6 @@
 "confidence": 0.2143,
 "match_method": "canonical",
 "preferred_label": "Fear"
-},
-{
-"id": "group:ReligiousOfficials",
-"type": "group",
-"confidence": 0.2143,
-"match_method": "canonical",
-"preferred_label": "Religious Officials"
 },
 {
 "id": "realia:Temple",
@@ -7453,18 +7453,11 @@
 "preferred_label": "LORD"
 },
 {
-"id": "keyterm:Fear",
+"id": "keyterm:Beloved",
 "type": "keyterm",
 "confidence": 0.1875,
 "match_method": "canonical",
-"preferred_label": "Fear"
-},
-{
-"id": "keyterm:Empty",
-"type": "keyterm",
-"confidence": 0.1875,
-"match_method": "canonical",
-"preferred_label": "Empty"
+"preferred_label": "Beloved"
 },
 {
 "id": "keyterm:Scripture",
@@ -7474,11 +7467,18 @@
 "preferred_label": "Written"
 },
 {
-"id": "keyterm:Beloved",
+"id": "keyterm:Empty",
 "type": "keyterm",
 "confidence": 0.1875,
 "match_method": "canonical",
-"preferred_label": "Beloved"
+"preferred_label": "Empty"
+},
+{
+"id": "keyterm:Fear",
+"type": "keyterm",
+"confidence": 0.1875,
+"match_method": "canonical",
+"preferred_label": "Fear"
 },
 {
 "id": "realia:ThornHedge",
@@ -7486,6 +7486,13 @@
 "confidence": 0.1275,
 "match_method": "canonical",
 "preferred_label": "Thorn Hedge"
+},
+{
+"id": "realia:Watch-tower",
+"type": "realia",
+"confidence": 0.1275,
+"match_method": "canonical",
+"preferred_label": "Watch-Tower"
 },
 {
 "id": "realia:Winepress",
@@ -7500,13 +7507,6 @@
 "confidence": 0.1275,
 "match_method": "canonical",
 "preferred_label": "Cornerstone"
-},
-{
-"id": "realia:Watch-tower",
-"type": "realia",
-"confidence": 0.1275,
-"match_method": "canonical",
-"preferred_label": "Watch-Tower"
 },
 {
 "id": "realia:Tower",
@@ -7590,25 +7590,11 @@
 "preferred_label": "Herodians"
 },
 {
-"id": "keyterm:Hypocrisy",
+"id": "keyterm:True",
 "type": "keyterm",
 "confidence": 0.24,
 "match_method": "canonical",
-"preferred_label": "Hypocrisy"
-},
-{
-"id": "keyterm:PollTax",
-"type": "keyterm",
-"confidence": 0.24,
-"match_method": "canonical",
-"preferred_label": "Poll Tax"
-},
-{
-"id": "keyterm:TheWay",
-"type": "keyterm",
-"confidence": 0.24,
-"match_method": "canonical",
-"preferred_label": "The Way"
+"preferred_label": "True"
 },
 {
 "id": "person:Jesus.2",
@@ -7618,20 +7604,6 @@
 "preferred_label": "Jesus"
 },
 {
-"id": "keyterm:Truth",
-"type": "keyterm",
-"confidence": 0.24,
-"match_method": "canonical",
-"preferred_label": "Truth"
-},
-{
-"id": "keyterm:True",
-"type": "keyterm",
-"confidence": 0.24,
-"match_method": "canonical",
-"preferred_label": "True"
-},
-{
 "id": "keyterm:Lawful",
 "type": "keyterm",
 "confidence": 0.24,
@@ -7639,11 +7611,39 @@
 "preferred_label": "Be Lawful"
 },
 {
+"id": "keyterm:TheWay",
+"type": "keyterm",
+"confidence": 0.24,
+"match_method": "canonical",
+"preferred_label": "The Way"
+},
+{
 "id": "group:Pharisee",
 "type": "group",
 "confidence": 0.24,
 "match_method": "canonical",
 "preferred_label": "Pharisees"
+},
+{
+"id": "keyterm:Truth",
+"type": "keyterm",
+"confidence": 0.24,
+"match_method": "canonical",
+"preferred_label": "Truth"
+},
+{
+"id": "keyterm:PollTax",
+"type": "keyterm",
+"confidence": 0.24,
+"match_method": "canonical",
+"preferred_label": "Poll Tax"
+},
+{
+"id": "keyterm:Hypocrisy",
+"type": "keyterm",
+"confidence": 0.24,
+"match_method": "canonical",
+"preferred_label": "Hypocrisy"
 },
 {
 "id": "realia:Denarius",
@@ -7720,18 +7720,18 @@
 ],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.385,
-"match_method": "canonical",
-"preferred_label": "LORD"
-},
-{
 "id": "keyterm:Resurrection",
 "type": "keyterm",
 "confidence": 0.385,
 "match_method": "canonical",
 "preferred_label": "Resurrection"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.385,
+"match_method": "canonical",
+"preferred_label": "LORD"
 },
 {
 "id": "person:Moses",
@@ -7741,39 +7741,11 @@
 "preferred_label": "Moses"
 },
 {
-"id": "keyterm:Life",
-"type": "keyterm",
+"id": "group:Sadducee",
+"type": "group",
 "confidence": 0.195,
 "match_method": "canonical",
-"preferred_label": "Life"
-},
-{
-"id": "person:Israel",
-"type": "person",
-"confidence": 0.195,
-"match_method": "canonical",
-"preferred_label": "Israel"
-},
-{
-"id": "person:Abraham",
-"type": "person",
-"confidence": 0.195,
-"match_method": "canonical",
-"preferred_label": "Abraham"
-},
-{
-"id": "deity:Angel",
-"type": "deity",
-"confidence": 0.195,
-"match_method": "canonical",
-"preferred_label": "An Angel"
-},
-{
-"id": "person:Isaac",
-"type": "person",
-"confidence": 0.195,
-"match_method": "canonical",
-"preferred_label": "Isaac"
+"preferred_label": "Sadducees"
 },
 {
 "id": "person:Jesus.2",
@@ -7783,11 +7755,18 @@
 "preferred_label": "Jesus"
 },
 {
-"id": "group:Sadducee",
-"type": "group",
+"id": "keyterm:Ability",
+"type": "keyterm",
 "confidence": 0.195,
 "match_method": "canonical",
-"preferred_label": "Sadducees"
+"preferred_label": "Ability"
+},
+{
+"id": "person:Israel",
+"type": "person",
+"confidence": 0.195,
+"match_method": "canonical",
+"preferred_label": "Israel"
 },
 {
 "id": "keyterm:Heaven",
@@ -7797,18 +7776,39 @@
 "preferred_label": "Sky"
 },
 {
+"id": "deity:Angel",
+"type": "deity",
+"confidence": 0.195,
+"match_method": "canonical",
+"preferred_label": "An Angel"
+},
+{
+"id": "keyterm:Life",
+"type": "keyterm",
+"confidence": 0.195,
+"match_method": "canonical",
+"preferred_label": "Life"
+},
+{
+"id": "person:Isaac",
+"type": "person",
+"confidence": 0.195,
+"match_method": "canonical",
+"preferred_label": "Isaac"
+},
+{
+"id": "person:Abraham",
+"type": "person",
+"confidence": 0.195,
+"match_method": "canonical",
+"preferred_label": "Abraham"
+},
+{
 "id": "keyterm:Scripture",
 "type": "keyterm",
 "confidence": 0.195,
 "match_method": "canonical",
 "preferred_label": "Written"
-},
-{
-"id": "keyterm:Ability",
-"type": "keyterm",
-"confidence": 0.195,
-"match_method": "canonical",
-"preferred_label": "Ability"
 },
 {
 "id": "flora:Boxthorn",
@@ -7934,13 +7934,6 @@
 "preferred_label": "Love"
 },
 {
-"id": "person:GenericPriest",
-"type": "person",
-"confidence": 0.3286,
-"match_method": "canonical",
-"preferred_label": "A Priest"
-},
-{
 "id": "keyterm:Commandment",
 "type": "keyterm",
 "confidence": 0.3286,
@@ -7955,13 +7948,6 @@
 "preferred_label": "A Scribe"
 },
 {
-"id": "keyterm:Heart",
-"type": "keyterm",
-"confidence": 0.3286,
-"match_method": "canonical",
-"preferred_label": "Heart"
-},
-{
 "id": "person:Jesus.2",
 "type": "person",
 "confidence": 0.3286,
@@ -7969,18 +7955,18 @@
 "preferred_label": "Jesus"
 },
 {
-"id": "keyterm:Mind.2",
+"id": "keyterm:Heart",
 "type": "keyterm",
-"confidence": 0.2143,
+"confidence": 0.3286,
 "match_method": "canonical",
-"preferred_label": "Mind"
+"preferred_label": "Heart"
 },
 {
-"id": "person:Israel",
+"id": "person:GenericPriest",
 "type": "person",
-"confidence": 0.2143,
+"confidence": 0.3286,
 "match_method": "canonical",
-"preferred_label": "Israel"
+"preferred_label": "A Priest"
 },
 {
 "id": "keyterm:Kingdom",
@@ -7990,18 +7976,32 @@
 "preferred_label": "Kingdom"
 },
 {
-"id": "keyterm:Truth",
-"type": "keyterm",
-"confidence": 0.2143,
-"match_method": "canonical",
-"preferred_label": "Truth"
-},
-{
 "id": "keyterm:Offering",
 "type": "keyterm",
 "confidence": 0.2143,
 "match_method": "canonical",
 "preferred_label": "Offering"
+},
+{
+"id": "person:Israel",
+"type": "person",
+"confidence": 0.2143,
+"match_method": "canonical",
+"preferred_label": "Israel"
+},
+{
+"id": "keyterm:Mind.2",
+"type": "keyterm",
+"confidence": 0.2143,
+"match_method": "canonical",
+"preferred_label": "Mind"
+},
+{
+"id": "keyterm:Truth",
+"type": "keyterm",
+"confidence": 0.2143,
+"match_method": "canonical",
+"preferred_label": "Truth"
 }
 ]
 }
@@ -8113,18 +8113,18 @@
 "preferred_label": "David"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.3,
-"match_method": "canonical",
-"preferred_label": "LORD"
-},
-{
 "id": "person:Jesus.2",
 "type": "person",
 "confidence": 0.3,
 "match_method": "canonical",
 "preferred_label": "Jesus"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.3,
+"match_method": "canonical",
+"preferred_label": "LORD"
 },
 {
 "id": "deity:HolySpirit",
@@ -8194,11 +8194,11 @@
 "preferred_label": "Treasury"
 },
 {
-"id": "keyterm:Surely",
+"id": "keyterm:DailyLife",
 "type": "keyterm",
 "confidence": 0.2143,
 "match_method": "canonical",
-"preferred_label": "Surely!"
+"preferred_label": "Daily Life"
 },
 {
 "id": "keyterm:Pray",
@@ -8215,11 +8215,11 @@
 "preferred_label": "Be a Disciple"
 },
 {
-"id": "keyterm:DailyLife",
+"id": "keyterm:Surely",
 "type": "keyterm",
 "confidence": 0.2143,
 "match_method": "canonical",
-"preferred_label": "Daily Life"
+"preferred_label": "Surely!"
 },
 {
 "id": "keyterm:Judgment",
@@ -8243,18 +8243,18 @@
 "preferred_label": "Lepton"
 },
 {
-"id": "realia:Synagogue",
-"type": "realia",
-"confidence": 0.1543,
-"match_method": "canonical",
-"preferred_label": "Synagogue"
-},
-{
 "id": "realia:Cloak",
 "type": "realia",
 "confidence": 0.1543,
 "match_method": "canonical",
 "preferred_label": "Cloak"
+},
+{
+"id": "realia:Synagogue",
+"type": "realia",
+"confidence": 0.1543,
+"match_method": "canonical",
+"preferred_label": "Synagogue"
 }
 ]
 }
@@ -8338,46 +8338,11 @@
 "preferred_label": "Temple"
 },
 {
-"id": "person:James",
-"type": "person",
-"confidence": 0.2063,
-"match_method": "canonical",
-"preferred_label": "James"
-},
-{
-"id": "person:Peter",
-"type": "person",
-"confidence": 0.2063,
-"match_method": "canonical",
-"preferred_label": "Peter"
-},
-{
-"id": "person:John.2",
-"type": "person",
-"confidence": 0.2063,
-"match_method": "canonical",
-"preferred_label": "John"
-},
-{
-"id": "keyterm:Example",
-"type": "keyterm",
-"confidence": 0.2063,
-"match_method": "canonical",
-"preferred_label": "Symbol"
-},
-{
 "id": "keyterm:Kingdom",
 "type": "keyterm",
 "confidence": 0.2063,
 "match_method": "canonical",
 "preferred_label": "Kingdom"
-},
-{
-"id": "keyterm:Name",
-"type": "keyterm",
-"confidence": 0.2063,
-"match_method": "canonical",
-"preferred_label": "Name"
 },
 {
 "id": "keyterm:Disciple",
@@ -8394,11 +8359,46 @@
 "preferred_label": "Andrew"
 },
 {
+"id": "keyterm:Name",
+"type": "keyterm",
+"confidence": 0.2063,
+"match_method": "canonical",
+"preferred_label": "Name"
+},
+{
+"id": "person:Peter",
+"type": "person",
+"confidence": 0.2063,
+"match_method": "canonical",
+"preferred_label": "Peter"
+},
+{
+"id": "person:John.2",
+"type": "person",
+"confidence": 0.2063,
+"match_method": "canonical",
+"preferred_label": "John"
+},
+{
 "id": "group:GenericDisciples",
 "type": "group",
 "confidence": 0.2063,
 "match_method": "canonical",
 "preferred_label": "A Group of Disciples"
+},
+{
+"id": "keyterm:Example",
+"type": "keyterm",
+"confidence": 0.2063,
+"match_method": "canonical",
+"preferred_label": "Symbol"
+},
+{
+"id": "person:James",
+"type": "person",
+"confidence": 0.2063,
+"match_method": "canonical",
+"preferred_label": "James"
 },
 {
 "id": "flora:OliveTree",
@@ -8517,13 +8517,6 @@
 ],
 "acai": [
 {
-"id": "keyterm:Chosen",
-"type": "keyterm",
-"confidence": 0.26,
-"match_method": "canonical",
-"preferred_label": "Chosen"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.26,
@@ -8538,18 +8531,18 @@
 "preferred_label": "Salvation"
 },
 {
-"id": "keyterm:Name",
+"id": "keyterm:Chosen",
 "type": "keyterm",
-"confidence": 0.18,
+"confidence": 0.26,
 "match_method": "canonical",
-"preferred_label": "Name"
+"preferred_label": "Chosen"
 },
 {
-"id": "keyterm:Proclaim",
+"id": "keyterm:Believe",
 "type": "keyterm",
 "confidence": 0.18,
 "match_method": "canonical",
-"preferred_label": "Proclaim"
+"preferred_label": "Believe"
 },
 {
 "id": "keyterm:BearWitness",
@@ -8557,6 +8550,76 @@
 "confidence": 0.18,
 "match_method": "canonical",
 "preferred_label": "Bear Witness"
+},
+{
+"id": "keyterm:Body.3",
+"type": "keyterm",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "Body"
+},
+{
+"id": "keyterm:AbominationOfDesolation",
+"type": "keyterm",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "Abomination of Desolation"
+},
+{
+"id": "keyterm:GoodNews",
+"type": "keyterm",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "Good News"
+},
+{
+"id": "keyterm:Name",
+"type": "keyterm",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "Name"
+},
+{
+"id": "deity:HolySpirit",
+"type": "deity",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "Holy Spirit"
+},
+{
+"id": "keyterm:Portent",
+"type": "keyterm",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "Portent"
+},
+{
+"id": "keyterm:Pray",
+"type": "keyterm",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "Pray"
+},
+{
+"id": "place:Judea",
+"type": "place",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "Judea"
+},
+{
+"id": "keyterm:Example",
+"type": "keyterm",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "Symbol"
+},
+{
+"id": "keyterm:Proclaim",
+"type": "keyterm",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "Proclaim"
 },
 {
 "id": "person:Jesus.2",
@@ -8571,76 +8634,6 @@
 "confidence": 0.18,
 "match_method": "canonical",
 "preferred_label": "Disaster"
-},
-{
-"id": "place:Judea",
-"type": "place",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "Judea"
-},
-{
-"id": "deity:HolySpirit",
-"type": "deity",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "Holy Spirit"
-},
-{
-"id": "keyterm:GoodNews",
-"type": "keyterm",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "Good News"
-},
-{
-"id": "keyterm:Example",
-"type": "keyterm",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "Symbol"
-},
-{
-"id": "keyterm:AbominationOfDesolation",
-"type": "keyterm",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "Abomination of Desolation"
-},
-{
-"id": "keyterm:Believe",
-"type": "keyterm",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "Believe"
-},
-{
-"id": "keyterm:Pray",
-"type": "keyterm",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "Pray"
-},
-{
-"id": "keyterm:Body.3",
-"type": "keyterm",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "Body"
-},
-{
-"id": "keyterm:Portent",
-"type": "keyterm",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "Portent"
-},
-{
-"id": "realia:Housetop",
-"type": "realia",
-"confidence": 0.12,
-"match_method": "canonical",
-"preferred_label": "Housetop"
 },
 {
 "id": "realia:Cloak",
@@ -8662,6 +8655,13 @@
 "confidence": 0.12,
 "match_method": "canonical",
 "preferred_label": "Synagogue"
+},
+{
+"id": "realia:Housetop",
+"type": "realia",
+"confidence": 0.12,
+"match_method": "canonical",
+"preferred_label": "Housetop"
 }
 ]
 }
@@ -8710,11 +8710,11 @@
 "preferred_label": "Sky"
 },
 {
-"id": "keyterm:Surely",
+"id": "keyterm:Ability",
 "type": "keyterm",
 "confidence": 0.2063,
 "match_method": "canonical",
-"preferred_label": "Surely!"
+"preferred_label": "Ability"
 },
 {
 "id": "deity:Angel",
@@ -8738,18 +8738,18 @@
 "preferred_label": "Parable"
 },
 {
+"id": "keyterm:Surely",
+"type": "keyterm",
+"confidence": 0.2063,
+"match_method": "canonical",
+"preferred_label": "Surely!"
+},
+{
 "id": "keyterm:Chosen",
 "type": "keyterm",
 "confidence": 0.2063,
 "match_method": "canonical",
 "preferred_label": "Chosen"
-},
-{
-"id": "keyterm:Ability",
-"type": "keyterm",
-"confidence": 0.2063,
-"match_method": "canonical",
-"preferred_label": "Ability"
 },
 {
 "id": "realia:Door",
@@ -8819,11 +8819,11 @@
 "preferred_label": "House"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
+"id": "keyterm:Command",
+"type": "keyterm",
 "confidence": 0.225,
 "match_method": "canonical",
-"preferred_label": "LORD"
+"preferred_label": "To Command"
 },
 {
 "id": "keyterm:Authority.2",
@@ -8833,18 +8833,11 @@
 "preferred_label": "Authority"
 },
 {
-"id": "deity:Angel",
-"type": "deity",
-"confidence": 0.225,
-"match_method": "canonical",
-"preferred_label": "An Angel"
-},
-{
-"id": "keyterm:Command",
+"id": "keyterm:Ability",
 "type": "keyterm",
 "confidence": 0.225,
 "match_method": "canonical",
-"preferred_label": "To Command"
+"preferred_label": "Ability"
 },
 {
 "id": "keyterm:Heaven",
@@ -8854,11 +8847,18 @@
 "preferred_label": "Sky"
 },
 {
-"id": "keyterm:Ability",
-"type": "keyterm",
+"id": "deity:Lord",
+"type": "deity",
 "confidence": 0.225,
 "match_method": "canonical",
-"preferred_label": "Ability"
+"preferred_label": "LORD"
+},
+{
+"id": "deity:Angel",
+"type": "deity",
+"confidence": 0.225,
+"match_method": "canonical",
+"preferred_label": "An Angel"
 }
 ]
 }
@@ -8956,13 +8956,6 @@
 "preferred_label": "Myrrh"
 },
 {
-"id": "person:Simon.4",
-"type": "person",
-"confidence": 0.2091,
-"match_method": "canonical",
-"preferred_label": "Simon"
-},
-{
 "id": "place:Bethany",
 "type": "place",
 "confidence": 0.2091,
@@ -8970,11 +8963,74 @@
 "preferred_label": "Bethany"
 },
 {
+"id": "person:Simon.4",
+"type": "person",
+"confidence": 0.2091,
+"match_method": "canonical",
+"preferred_label": "Simon"
+},
+{
+"id": "keyterm:Ability",
+"type": "keyterm",
+"confidence": 0.1909,
+"match_method": "canonical",
+"preferred_label": "Ability"
+},
+{
+"id": "keyterm:Body.3",
+"type": "keyterm",
+"confidence": 0.1909,
+"match_method": "canonical",
+"preferred_label": "Body"
+},
+{
+"id": "keyterm:GoodNews",
+"type": "keyterm",
+"confidence": 0.1909,
+"match_method": "canonical",
+"preferred_label": "Good News"
+},
+{
 "id": "keyterm:Passover",
 "type": "keyterm",
 "confidence": 0.1909,
 "match_method": "canonical",
 "preferred_label": "Passover"
+},
+{
+"id": "keyterm:Pure",
+"type": "keyterm",
+"confidence": 0.1909,
+"match_method": "canonical",
+"preferred_label": "Pure"
+},
+{
+"id": "group:GenericDisciples",
+"type": "group",
+"confidence": 0.1909,
+"match_method": "canonical",
+"preferred_label": "A Group of Disciples"
+},
+{
+"id": "person:Judas.2",
+"type": "person",
+"confidence": 0.1909,
+"match_method": "canonical",
+"preferred_label": "Judas"
+},
+{
+"id": "keyterm:Surely",
+"type": "keyterm",
+"confidence": 0.1909,
+"match_method": "canonical",
+"preferred_label": "Surely!"
+},
+{
+"id": "keyterm:Promise",
+"type": "keyterm",
+"confidence": 0.1909,
+"match_method": "canonical",
+"preferred_label": "Promise"
 },
 {
 "id": "keyterm:Proclaim",
@@ -8991,74 +9047,11 @@
 "preferred_label": "Jesus"
 },
 {
-"id": "person:Judas.2",
-"type": "person",
-"confidence": 0.1909,
-"match_method": "canonical",
-"preferred_label": "Judas"
-},
-{
-"id": "keyterm:Promise",
-"type": "keyterm",
-"confidence": 0.1909,
-"match_method": "canonical",
-"preferred_label": "Promise"
-},
-{
-"id": "group:GenericDisciples",
-"type": "group",
-"confidence": 0.1909,
-"match_method": "canonical",
-"preferred_label": "A Group of Disciples"
-},
-{
-"id": "keyterm:GoodNews",
-"type": "keyterm",
-"confidence": 0.1909,
-"match_method": "canonical",
-"preferred_label": "Good News"
-},
-{
-"id": "keyterm:Pure",
-"type": "keyterm",
-"confidence": 0.1909,
-"match_method": "canonical",
-"preferred_label": "Pure"
-},
-{
-"id": "keyterm:Ability",
-"type": "keyterm",
-"confidence": 0.1909,
-"match_method": "canonical",
-"preferred_label": "Ability"
-},
-{
-"id": "keyterm:Surely",
-"type": "keyterm",
-"confidence": 0.1909,
-"match_method": "canonical",
-"preferred_label": "Surely!"
-},
-{
-"id": "keyterm:Body.3",
-"type": "keyterm",
-"confidence": 0.1909,
-"match_method": "canonical",
-"preferred_label": "Body"
-},
-{
 "id": "realia:AlabasterJar",
 "type": "realia",
 "confidence": 0.1491,
 "match_method": "canonical",
 "preferred_label": "Alabaster Jar"
-},
-{
-"id": "realia:OilOfNard",
-"type": "realia",
-"confidence": 0.1491,
-"match_method": "canonical",
-"preferred_label": "Oil of Nard"
 },
 {
 "id": "flora:Nard",
@@ -9068,11 +9061,11 @@
 "preferred_label": "Nard"
 },
 {
-"id": "realia:Denarius",
+"id": "realia:OilOfNard",
 "type": "realia",
-"confidence": 0.1309,
+"confidence": 0.1491,
 "match_method": "canonical",
-"preferred_label": "Denarius"
+"preferred_label": "Oil of Nard"
 },
 {
 "id": "realia:House",
@@ -9080,6 +9073,13 @@
 "confidence": 0.1309,
 "match_method": "canonical",
 "preferred_label": "House"
+},
+{
+"id": "realia:Denarius",
+"type": "realia",
+"confidence": 0.1309,
+"match_method": "canonical",
+"preferred_label": "Denarius"
 }
 ]
 }
@@ -9198,25 +9198,11 @@
 "preferred_label": "Blood"
 },
 {
-"id": "keyterm:Covenant",
+"id": "keyterm:Offering",
 "type": "keyterm",
 "confidence": 0.18,
 "match_method": "canonical",
-"preferred_label": "Covenant"
-},
-{
-"id": "person:Jesus.2",
-"type": "person",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "Jesus"
-},
-{
-"id": "keyterm:Disaster",
-"type": "keyterm",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "Disaster"
+"preferred_label": "Offering"
 },
 {
 "id": "deity:Lord",
@@ -9226,18 +9212,18 @@
 "preferred_label": "LORD"
 },
 {
-"id": "keyterm:Offering",
-"type": "keyterm",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "Offering"
-},
-{
 "id": "keyterm:Body.3",
 "type": "keyterm",
 "confidence": 0.18,
 "match_method": "canonical",
 "preferred_label": "Body"
+},
+{
+"id": "keyterm:Covenant",
+"type": "keyterm",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "Covenant"
 },
 {
 "id": "keyterm:Kingdom",
@@ -9254,6 +9240,20 @@
 "preferred_label": "Bless"
 },
 {
+"id": "person:Jesus.2",
+"type": "person",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "Jesus"
+},
+{
+"id": "keyterm:Disaster",
+"type": "keyterm",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "Disaster"
+},
+{
 "id": "realia:UpstairsRoom",
 "type": "realia",
 "confidence": 0.1333,
@@ -9268,25 +9268,18 @@
 "preferred_label": "Guest Room"
 },
 {
+"id": "flora:Vine",
+"type": "flora",
+"confidence": 0.12,
+"match_method": "canonical",
+"preferred_label": "Vine"
+},
+{
 "id": "flora:OliveTree",
 "type": "flora",
 "confidence": 0.12,
 "match_method": "canonical",
 "preferred_label": "Olive Tree"
-},
-{
-"id": "realia:ClayJar",
-"type": "realia",
-"confidence": 0.12,
-"match_method": "canonical",
-"preferred_label": "Clay Jar"
-},
-{
-"id": "realia:Bowl.2",
-"type": "realia",
-"confidence": 0.12,
-"match_method": "canonical",
-"preferred_label": "Bowl"
 },
 {
 "id": "fauna:Lamb",
@@ -9296,11 +9289,18 @@
 "preferred_label": "Sheep"
 },
 {
-"id": "flora:Vine",
-"type": "flora",
+"id": "realia:Bowl.2",
+"type": "realia",
 "confidence": 0.12,
 "match_method": "canonical",
-"preferred_label": "Vine"
+"preferred_label": "Bowl"
+},
+{
+"id": "realia:ClayJar",
+"type": "realia",
+"confidence": 0.12,
+"match_method": "canonical",
+"preferred_label": "Clay Jar"
 }
 ]
 }
@@ -9356,18 +9356,11 @@
 "preferred_label": "Jesus"
 },
 {
-"id": "keyterm:Surely",
+"id": "keyterm:Resurrection",
 "type": "keyterm",
 "confidence": 0.24,
 "match_method": "canonical",
-"preferred_label": "Surely!"
-},
-{
-"id": "person:Peter",
-"type": "person",
-"confidence": 0.24,
-"match_method": "canonical",
-"preferred_label": "Peter"
+"preferred_label": "Resurrection"
 },
 {
 "id": "place:Galilee",
@@ -9377,11 +9370,18 @@
 "preferred_label": "Galilee"
 },
 {
-"id": "keyterm:Resurrection",
+"id": "person:Peter",
+"type": "person",
+"confidence": 0.24,
+"match_method": "canonical",
+"preferred_label": "Peter"
+},
+{
+"id": "keyterm:Surely",
 "type": "keyterm",
 "confidence": 0.24,
 "match_method": "canonical",
-"preferred_label": "Resurrection"
+"preferred_label": "Surely!"
 },
 {
 "id": "fauna:Goat",
@@ -9398,18 +9398,18 @@
 "preferred_label": "Flock"
 },
 {
-"id": "fauna:Lamb",
-"type": "fauna",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "Sheep"
-},
-{
 "id": "fauna:Rooster",
 "type": "fauna",
 "confidence": 0.18,
 "match_method": "canonical",
 "preferred_label": "Rooster"
+},
+{
+"id": "fauna:Lamb",
+"type": "fauna",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "Sheep"
 }
 ]
 }
@@ -9493,32 +9493,11 @@
 "preferred_label": "Gethsemane"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.1909,
-"match_method": "canonical",
-"preferred_label": "LORD"
-},
-{
-"id": "person:James",
-"type": "person",
-"confidence": 0.1909,
-"match_method": "canonical",
-"preferred_label": "James"
-},
-{
-"id": "keyterm:Body.3",
+"id": "keyterm:Disciple",
 "type": "keyterm",
 "confidence": 0.1909,
 "match_method": "canonical",
-"preferred_label": "Body"
-},
-{
-"id": "person:John.2",
-"type": "person",
-"confidence": 0.1909,
-"match_method": "canonical",
-"preferred_label": "John"
+"preferred_label": "Be a Disciple"
 },
 {
 "id": "keyterm:Name",
@@ -9528,6 +9507,27 @@
 "preferred_label": "Name"
 },
 {
+"id": "keyterm:PutToTheTest",
+"type": "keyterm",
+"confidence": 0.1909,
+"match_method": "canonical",
+"preferred_label": "Put to the Test"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.1909,
+"match_method": "canonical",
+"preferred_label": "LORD"
+},
+{
+"id": "person:John.2",
+"type": "person",
+"confidence": 0.1909,
+"match_method": "canonical",
+"preferred_label": "John"
+},
+{
 "id": "keyterm:Spirit.2",
 "type": "keyterm",
 "confidence": 0.1909,
@@ -9535,18 +9535,18 @@
 "preferred_label": "Spirit"
 },
 {
-"id": "keyterm:Disciple",
+"id": "keyterm:Body.3",
 "type": "keyterm",
 "confidence": 0.1909,
 "match_method": "canonical",
-"preferred_label": "Be a Disciple"
+"preferred_label": "Body"
 },
 {
-"id": "keyterm:PutToTheTest",
-"type": "keyterm",
+"id": "person:James",
+"type": "person",
 "confidence": 0.1909,
 "match_method": "canonical",
-"preferred_label": "Put to the Test"
+"preferred_label": "James"
 },
 {
 "id": "flora:OliveTree",
@@ -9616,11 +9616,11 @@
 "preferred_label": "Linen"
 },
 {
-"id": "person:Judas.2",
+"id": "person:Jesus.2",
 "type": "person",
 "confidence": 0.195,
 "match_method": "canonical",
-"preferred_label": "Judas"
+"preferred_label": "Jesus"
 },
 {
 "id": "keyterm:Happen",
@@ -9630,11 +9630,11 @@
 "preferred_label": "To Cause to Happen"
 },
 {
-"id": "person:Jesus.2",
+"id": "person:Judas.2",
 "type": "person",
 "confidence": 0.195,
 "match_method": "canonical",
-"preferred_label": "Jesus"
+"preferred_label": "Judas"
 },
 {
 "id": "keyterm:Scripture",
@@ -9753,18 +9753,11 @@
 "preferred_label": "Bear Witness"
 },
 {
-"id": "person:Peter",
-"type": "person",
-"confidence": 0.1846,
-"match_method": "canonical",
-"preferred_label": "Peter"
-},
-{
-"id": "keyterm:Condemn",
+"id": "keyterm:Blaspheme",
 "type": "keyterm",
 "confidence": 0.1846,
 "match_method": "canonical",
-"preferred_label": "Condemn"
+"preferred_label": "Blaspheme"
 },
 {
 "id": "keyterm:Speak",
@@ -9774,11 +9767,18 @@
 "preferred_label": "Speak as a Prophet"
 },
 {
-"id": "keyterm:Blaspheme",
+"id": "keyterm:Ability",
 "type": "keyterm",
 "confidence": 0.1846,
 "match_method": "canonical",
-"preferred_label": "Blaspheme"
+"preferred_label": "Ability"
+},
+{
+"id": "person:Peter",
+"type": "person",
+"confidence": 0.1846,
+"match_method": "canonical",
+"preferred_label": "Peter"
 },
 {
 "id": "keyterm:Heaven",
@@ -9788,6 +9788,13 @@
 "preferred_label": "Sky"
 },
 {
+"id": "keyterm:Condemn",
+"type": "keyterm",
+"confidence": 0.1846,
+"match_method": "canonical",
+"preferred_label": "Condemn"
+},
+{
 "id": "keyterm:Witness",
 "type": "keyterm",
 "confidence": 0.1846,
@@ -9795,18 +9802,11 @@
 "preferred_label": "Witness"
 },
 {
-"id": "keyterm:Ability",
-"type": "keyterm",
-"confidence": 0.1846,
-"match_method": "canonical",
-"preferred_label": "Ability"
-},
-{
-"id": "realia:Temple",
+"id": "realia:Courtyard",
 "type": "realia",
 "confidence": 0.1246,
 "match_method": "canonical",
-"preferred_label": "Temple"
+"preferred_label": "Courtyard"
 },
 {
 "id": "realia:Clothing",
@@ -9816,11 +9816,11 @@
 "preferred_label": "Clothing"
 },
 {
-"id": "realia:Courtyard",
+"id": "realia:Temple",
 "type": "realia",
 "confidence": 0.1246,
 "match_method": "canonical",
-"preferred_label": "Courtyard"
+"preferred_label": "Temple"
 }
 ]
 }
@@ -9890,11 +9890,11 @@
 "preferred_label": "Rooster"
 },
 {
-"id": "place:Galilee",
-"type": "place",
+"id": "keyterm:True",
+"type": "keyterm",
 "confidence": 0.2143,
 "match_method": "canonical",
-"preferred_label": "Galilee"
+"preferred_label": "True"
 },
 {
 "id": "keyterm:Word",
@@ -9904,18 +9904,11 @@
 "preferred_label": "Word"
 },
 {
-"id": "group:Galilee",
-"type": "group",
+"id": "place:Galilee",
+"type": "place",
 "confidence": 0.2143,
 "match_method": "canonical",
-"preferred_label": "Galileans"
-},
-{
-"id": "keyterm:True",
-"type": "keyterm",
-"confidence": 0.2143,
-"match_method": "canonical",
-"preferred_label": "True"
+"preferred_label": "Galilee"
 },
 {
 "id": "place:Nazareth",
@@ -9925,11 +9918,11 @@
 "preferred_label": "Nazareth"
 },
 {
-"id": "realia:Entrance",
-"type": "realia",
-"confidence": 0.1543,
+"id": "group:Galilee",
+"type": "group",
+"confidence": 0.2143,
 "match_method": "canonical",
-"preferred_label": "Entrance"
+"preferred_label": "Galileans"
 },
 {
 "id": "realia:Courtyard",
@@ -9937,6 +9930,13 @@
 "confidence": 0.1543,
 "match_method": "canonical",
 "preferred_label": "Courtyard"
+},
+{
+"id": "realia:Entrance",
+"type": "realia",
+"confidence": 0.1543,
+"match_method": "canonical",
+"preferred_label": "Entrance"
 }
 ]
 }
@@ -9999,18 +9999,18 @@
 "preferred_label": "Barabbas"
 },
 {
-"id": "group:Jews",
-"type": "group",
-"confidence": 0.34,
-"match_method": "canonical",
-"preferred_label": "Jews"
-},
-{
 "id": "person:Jesus.2",
 "type": "person",
 "confidence": 0.34,
 "match_method": "canonical",
 "preferred_label": "Jesus"
+},
+{
+"id": "group:Jews",
+"type": "group",
+"confidence": 0.34,
+"match_method": "canonical",
+"preferred_label": "Jews"
 },
 {
 "id": "realia:Cross",
@@ -10094,18 +10094,18 @@
 "preferred_label": "Cross"
 },
 {
-"id": "group:Jews",
-"type": "group",
-"confidence": 0.2529,
-"match_method": "canonical",
-"preferred_label": "Jews"
-},
-{
 "id": "keyterm:Salvation",
 "type": "keyterm",
 "confidence": 0.2529,
 "match_method": "canonical",
 "preferred_label": "Salvation"
+},
+{
+"id": "group:Jews",
+"type": "group",
+"confidence": 0.2529,
+"match_method": "canonical",
+"preferred_label": "Jews"
 },
 {
 "id": "realia:PurpleCloth",
@@ -10122,6 +10122,20 @@
 "preferred_label": "Clothing"
 },
 {
+"id": "place:Golgotha",
+"type": "place",
+"confidence": 0.1882,
+"match_method": "canonical",
+"preferred_label": "Golgotha"
+},
+{
+"id": "person:Simon.5",
+"type": "person",
+"confidence": 0.1882,
+"match_method": "canonical",
+"preferred_label": "Simon"
+},
+{
 "id": "person:Alexander",
 "type": "person",
 "confidence": 0.1882,
@@ -10136,25 +10150,18 @@
 "preferred_label": "Cyrene"
 },
 {
-"id": "person:Simon.5",
-"type": "person",
-"confidence": 0.1882,
-"match_method": "canonical",
-"preferred_label": "Simon"
-},
-{
-"id": "place:Golgotha",
-"type": "place",
-"confidence": 0.1882,
-"match_method": "canonical",
-"preferred_label": "Golgotha"
-},
-{
 "id": "person:Rufus",
 "type": "person",
 "confidence": 0.1882,
 "match_method": "canonical",
 "preferred_label": "Rufus"
+},
+{
+"id": "keyterm:Believe",
+"type": "keyterm",
+"confidence": 0.1765,
+"match_method": "canonical",
+"preferred_label": "Believe"
 },
 {
 "id": "group:GenericElders",
@@ -10178,6 +10185,20 @@
 "preferred_label": "Priests"
 },
 {
+"id": "keyterm:Blaspheme",
+"type": "keyterm",
+"confidence": 0.1765,
+"match_method": "canonical",
+"preferred_label": "Blaspheme"
+},
+{
+"id": "keyterm:BowDown",
+"type": "keyterm",
+"confidence": 0.1765,
+"match_method": "canonical",
+"preferred_label": "Bow Down"
+},
+{
 "id": "person:Jesus.2",
 "type": "person",
 "confidence": 0.1765,
@@ -10190,34 +10211,6 @@
 "confidence": 0.1765,
 "match_method": "canonical",
 "preferred_label": "Religious Officials"
-},
-{
-"id": "keyterm:BowDown",
-"type": "keyterm",
-"confidence": 0.1765,
-"match_method": "canonical",
-"preferred_label": "Bow Down"
-},
-{
-"id": "keyterm:Blaspheme",
-"type": "keyterm",
-"confidence": 0.1765,
-"match_method": "canonical",
-"preferred_label": "Blaspheme"
-},
-{
-"id": "keyterm:Believe",
-"type": "keyterm",
-"confidence": 0.1765,
-"match_method": "canonical",
-"preferred_label": "Believe"
-},
-{
-"id": "flora:Myrrh",
-"type": "flora",
-"confidence": 0.1282,
-"match_method": "canonical",
-"preferred_label": "Myrrh"
 },
 {
 "id": "realia:Palace",
@@ -10234,6 +10227,20 @@
 "preferred_label": "Myrrhed Wine"
 },
 {
+"id": "flora:Myrrh",
+"type": "flora",
+"confidence": 0.1282,
+"match_method": "canonical",
+"preferred_label": "Myrrh"
+},
+{
+"id": "realia:Temple",
+"type": "realia",
+"confidence": 0.1165,
+"match_method": "canonical",
+"preferred_label": "Temple"
+},
+{
 "id": "realia:Crown.2",
 "type": "realia",
 "confidence": 0.1165,
@@ -10248,32 +10255,11 @@
 "preferred_label": "Boxthorn"
 },
 {
-"id": "realia:Crown",
-"type": "realia",
-"confidence": 0.1165,
-"match_method": "canonical",
-"preferred_label": "Crown"
-},
-{
-"id": "realia:Lot",
-"type": "realia",
-"confidence": 0.1165,
-"match_method": "canonical",
-"preferred_label": "Lot"
-},
-{
 "id": "realia:Courtyard",
 "type": "realia",
 "confidence": 0.1165,
 "match_method": "canonical",
 "preferred_label": "Courtyard"
-},
-{
-"id": "flora:Brier",
-"type": "flora",
-"confidence": 0.1165,
-"match_method": "canonical",
-"preferred_label": "Brier"
 },
 {
 "id": "flora:Reed",
@@ -10283,6 +10269,13 @@
 "preferred_label": "Reed"
 },
 {
+"id": "realia:Crown",
+"type": "realia",
+"confidence": 0.1165,
+"match_method": "canonical",
+"preferred_label": "Crown"
+},
+{
 "id": "flora:Acacia",
 "type": "flora",
 "confidence": 0.1165,
@@ -10290,11 +10283,18 @@
 "preferred_label": "Acacia"
 },
 {
-"id": "realia:Temple",
+"id": "realia:Lot",
 "type": "realia",
 "confidence": 0.1165,
 "match_method": "canonical",
-"preferred_label": "Temple"
+"preferred_label": "Lot"
+},
+{
+"id": "flora:Brier",
+"type": "flora",
+"confidence": 0.1165,
+"match_method": "canonical",
+"preferred_label": "Brier"
 }
 ]
 }
@@ -10399,13 +10399,6 @@
 "preferred_label": "A Group of People"
 },
 {
-"id": "flora:Reed",
-"type": "flora",
-"confidence": 0.1543,
-"match_method": "canonical",
-"preferred_label": "Reed"
-},
-{
 "id": "realia:SourWine",
 "type": "realia",
 "confidence": 0.1543,
@@ -10413,18 +10406,25 @@
 "preferred_label": "Sour Wine"
 },
 {
-"id": "realia:Curtain",
-"type": "realia",
-"confidence": 0.1543,
-"match_method": "canonical",
-"preferred_label": "Curtain"
-},
-{
 "id": "realia:Temple",
 "type": "realia",
 "confidence": 0.1543,
 "match_method": "canonical",
 "preferred_label": "Temple"
+},
+{
+"id": "flora:Reed",
+"type": "flora",
+"confidence": 0.1543,
+"match_method": "canonical",
+"preferred_label": "Reed"
+},
+{
+"id": "realia:Curtain",
+"type": "realia",
+"confidence": 0.1543,
+"match_method": "canonical",
+"preferred_label": "Curtain"
 }
 ]
 }
@@ -10494,13 +10494,6 @@
 ],
 "acai": [
 {
-"id": "person:Mary.2",
-"type": "person",
-"confidence": 0.3375,
-"match_method": "canonical",
-"preferred_label": "Mary"
-},
-{
 "id": "person:Joseph.6",
 "type": "person",
 "confidence": 0.3375,
@@ -10508,11 +10501,11 @@
 "preferred_label": "Joseph"
 },
 {
-"id": "person:Pilate",
+"id": "person:Mary.2",
 "type": "person",
-"confidence": 0.3125,
+"confidence": 0.3375,
 "match_method": "canonical",
-"preferred_label": "Pilate"
+"preferred_label": "Mary"
 },
 {
 "id": "person:Marymagdalene",
@@ -10522,11 +10515,32 @@
 "preferred_label": "Mary Magdalene"
 },
 {
+"id": "person:Pilate",
+"type": "person",
+"confidence": 0.3125,
+"match_method": "canonical",
+"preferred_label": "Pilate"
+},
+{
 "id": "person:James.4",
 "type": "person",
 "confidence": 0.2562,
 "match_method": "canonical",
 "preferred_label": "James"
+},
+{
+"id": "place:Arimathea",
+"type": "place",
+"confidence": 0.2313,
+"match_method": "canonical",
+"preferred_label": "Arimathea"
+},
+{
+"id": "person:Joseph.3",
+"type": "person",
+"confidence": 0.2313,
+"match_method": "canonical",
+"preferred_label": "Joseph"
 },
 {
 "id": "person:Joseph.5",
@@ -10543,20 +10557,6 @@
 "preferred_label": "Salome"
 },
 {
-"id": "person:Joseph.3",
-"type": "person",
-"confidence": 0.2313,
-"match_method": "canonical",
-"preferred_label": "Joseph"
-},
-{
-"id": "place:Arimathea",
-"type": "place",
-"confidence": 0.2313,
-"match_method": "canonical",
-"preferred_label": "Arimathea"
-},
-{
 "id": "keyterm:Serve",
 "type": "keyterm",
 "confidence": 0.2063,
@@ -10564,39 +10564,11 @@
 "preferred_label": "Serve"
 },
 {
-"id": "person:Jesus.2",
-"type": "person",
-"confidence": 0.2063,
-"match_method": "canonical",
-"preferred_label": "Jesus"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.2063,
 "match_method": "canonical",
 "preferred_label": "LORD"
-},
-{
-"id": "keyterm:DayBeforeTheSabbath",
-"type": "keyterm",
-"confidence": 0.2063,
-"match_method": "canonical",
-"preferred_label": "Day Before the Sabbath"
-},
-{
-"id": "place:Galilee",
-"type": "place",
-"confidence": 0.2063,
-"match_method": "canonical",
-"preferred_label": "Galilee"
-},
-{
-"id": "place:Jerusalem",
-"type": "place",
-"confidence": 0.2063,
-"match_method": "canonical",
-"preferred_label": "Jerusalem"
 },
 {
 "id": "keyterm:Body.3",
@@ -10613,11 +10585,32 @@
 "preferred_label": "Kingdom"
 },
 {
-"id": "realia:Grave",
-"type": "realia",
-"confidence": 0.1463,
+"id": "place:Galilee",
+"type": "place",
+"confidence": 0.2063,
 "match_method": "canonical",
-"preferred_label": "Grave"
+"preferred_label": "Galilee"
+},
+{
+"id": "keyterm:DayBeforeTheSabbath",
+"type": "keyterm",
+"confidence": 0.2063,
+"match_method": "canonical",
+"preferred_label": "Day Before the Sabbath"
+},
+{
+"id": "place:Jerusalem",
+"type": "place",
+"confidence": 0.2063,
+"match_method": "canonical",
+"preferred_label": "Jerusalem"
+},
+{
+"id": "person:Jesus.2",
+"type": "person",
+"confidence": 0.2063,
+"match_method": "canonical",
+"preferred_label": "Jesus"
 },
 {
 "id": "realia:Linen",
@@ -10625,6 +10618,13 @@
 "confidence": 0.1463,
 "match_method": "canonical",
 "preferred_label": "Linen"
+},
+{
+"id": "realia:Grave",
+"type": "realia",
+"confidence": 0.1463,
+"match_method": "canonical",
+"preferred_label": "Grave"
 }
 ]
 }
@@ -10722,13 +10722,6 @@
 "preferred_label": "Grave"
 },
 {
-"id": "person:Mary.2",
-"type": "person",
-"confidence": 0.2313,
-"match_method": "canonical",
-"preferred_label": "Mary"
-},
-{
 "id": "person:Salome",
 "type": "person",
 "confidence": 0.2313,
@@ -10743,74 +10736,11 @@
 "preferred_label": "Angels"
 },
 {
-"id": "keyterm:Command",
-"type": "keyterm",
-"confidence": 0.2063,
-"match_method": "canonical",
-"preferred_label": "To Command"
-},
-{
-"id": "person:Jesus.2",
+"id": "person:Mary.2",
 "type": "person",
-"confidence": 0.2063,
+"confidence": 0.2313,
 "match_method": "canonical",
-"preferred_label": "Jesus"
-},
-{
-"id": "person:Marymagdalene",
-"type": "person",
-"confidence": 0.2063,
-"match_method": "canonical",
-"preferred_label": "Mary Magdalene"
-},
-{
-"id": "place:Galilee",
-"type": "place",
-"confidence": 0.2063,
-"match_method": "canonical",
-"preferred_label": "Galilee"
-},
-{
-"id": "keyterm:Resurrection",
-"type": "keyterm",
-"confidence": 0.2063,
-"match_method": "canonical",
-"preferred_label": "Resurrection"
-},
-{
-"id": "keyterm:Disciple",
-"type": "keyterm",
-"confidence": 0.2063,
-"match_method": "canonical",
-"preferred_label": "Be a Disciple"
-},
-{
-"id": "keyterm:Salvation",
-"type": "keyterm",
-"confidence": 0.2063,
-"match_method": "canonical",
-"preferred_label": "Salvation"
-},
-{
-"id": "keyterm:Surely",
-"type": "keyterm",
-"confidence": 0.2063,
-"match_method": "canonical",
-"preferred_label": "Surely!"
-},
-{
-"id": "person:Peter",
-"type": "person",
-"confidence": 0.2063,
-"match_method": "canonical",
-"preferred_label": "Peter"
-},
-{
-"id": "keyterm:Sabbath",
-"type": "keyterm",
-"confidence": 0.2063,
-"match_method": "canonical",
-"preferred_label": "Sabbath"
+"preferred_label": "Mary"
 },
 {
 "id": "keyterm:Imperishable",
@@ -10820,6 +10750,20 @@
 "preferred_label": "Imperishable"
 },
 {
+"id": "person:Peter",
+"type": "person",
+"confidence": 0.2063,
+"match_method": "canonical",
+"preferred_label": "Peter"
+},
+{
+"id": "person:James.3",
+"type": "person",
+"confidence": 0.2063,
+"match_method": "canonical",
+"preferred_label": "James"
+},
+{
 "id": "keyterm:Week",
 "type": "keyterm",
 "confidence": 0.2063,
@@ -10827,11 +10771,25 @@
 "preferred_label": "Week"
 },
 {
-"id": "keyterm:Anointed",
+"id": "keyterm:Disciple",
 "type": "keyterm",
 "confidence": 0.2063,
 "match_method": "canonical",
-"preferred_label": "Anointed"
+"preferred_label": "Be a Disciple"
+},
+{
+"id": "place:Galilee",
+"type": "place",
+"confidence": 0.2063,
+"match_method": "canonical",
+"preferred_label": "Galilee"
+},
+{
+"id": "keyterm:Salvation",
+"type": "keyterm",
+"confidence": 0.2063,
+"match_method": "canonical",
+"preferred_label": "Salvation"
 },
 {
 "id": "keyterm:Fear",
@@ -10841,6 +10799,55 @@
 "preferred_label": "Fear"
 },
 {
+"id": "keyterm:Command",
+"type": "keyterm",
+"confidence": 0.2063,
+"match_method": "canonical",
+"preferred_label": "To Command"
+},
+{
+"id": "keyterm:Resurrection",
+"type": "keyterm",
+"confidence": 0.2063,
+"match_method": "canonical",
+"preferred_label": "Resurrection"
+},
+{
+"id": "person:Marymagdalene",
+"type": "person",
+"confidence": 0.2063,
+"match_method": "canonical",
+"preferred_label": "Mary Magdalene"
+},
+{
+"id": "keyterm:Surely",
+"type": "keyterm",
+"confidence": 0.2063,
+"match_method": "canonical",
+"preferred_label": "Surely!"
+},
+{
+"id": "keyterm:Sabbath",
+"type": "keyterm",
+"confidence": 0.2063,
+"match_method": "canonical",
+"preferred_label": "Sabbath"
+},
+{
+"id": "keyterm:Anointed",
+"type": "keyterm",
+"confidence": 0.2063,
+"match_method": "canonical",
+"preferred_label": "Anointed"
+},
+{
+"id": "person:Jesus.2",
+"type": "person",
+"confidence": 0.2063,
+"match_method": "canonical",
+"preferred_label": "Jesus"
+},
+{
 "id": "place:Nazareth",
 "type": "place",
 "confidence": 0.2063,
@@ -10848,11 +10855,11 @@
 "preferred_label": "Nazareth"
 },
 {
-"id": "person:James.3",
-"type": "person",
-"confidence": 0.2063,
+"id": "realia:Cross",
+"type": "realia",
+"confidence": 0.1463,
 "match_method": "canonical",
-"preferred_label": "James"
+"preferred_label": "Cross"
 },
 {
 "id": "realia:Cloak",
@@ -10867,13 +10874,6 @@
 "confidence": 0.1463,
 "match_method": "canonical",
 "preferred_label": "Aloes"
-},
-{
-"id": "realia:Cross",
-"type": "realia",
-"confidence": 0.1463,
-"match_method": "canonical",
-"preferred_label": "Cross"
 }
 ]
 }
@@ -10985,6 +10985,20 @@
 "preferred_label": "Disbelieve"
 },
 {
+"id": "deity:Demons",
+"type": "deity",
+"confidence": 0.275,
+"match_method": "canonical",
+"preferred_label": "Demons"
+},
+{
+"id": "keyterm:Example",
+"type": "keyterm",
+"confidence": 0.275,
+"match_method": "canonical",
+"preferred_label": "Symbol"
+},
+{
 "id": "keyterm:Proclaim",
 "type": "keyterm",
 "confidence": 0.275,
@@ -10999,60 +11013,11 @@
 "preferred_label": "Jesus"
 },
 {
-"id": "keyterm:Example",
-"type": "keyterm",
-"confidence": 0.275,
-"match_method": "canonical",
-"preferred_label": "Symbol"
-},
-{
-"id": "deity:Demons",
-"type": "deity",
-"confidence": 0.275,
-"match_method": "canonical",
-"preferred_label": "Demons"
-},
-{
-"id": "keyterm:Life",
+"id": "keyterm:Ability",
 "type": "keyterm",
 "confidence": 0.1875,
 "match_method": "canonical",
-"preferred_label": "Life"
-},
-{
-"id": "keyterm:Baptism",
-"type": "keyterm",
-"confidence": 0.1875,
-"match_method": "canonical",
-"preferred_label": "Baptism"
-},
-{
-"id": "keyterm:Name",
-"type": "keyterm",
-"confidence": 0.1875,
-"match_method": "canonical",
-"preferred_label": "Name"
-},
-{
-"id": "person:Marymagdalene",
-"type": "person",
-"confidence": 0.1875,
-"match_method": "canonical",
-"preferred_label": "Mary Magdalene"
-},
-{
-"id": "keyterm:Heaven",
-"type": "keyterm",
-"confidence": 0.1875,
-"match_method": "canonical",
-"preferred_label": "Sky"
-},
-{
-"id": "keyterm:GoodNews",
-"type": "keyterm",
-"confidence": 0.1875,
-"match_method": "canonical",
-"preferred_label": "Good News"
+"preferred_label": "Ability"
 },
 {
 "id": "deity:Lord",
@@ -11062,25 +11027,11 @@
 "preferred_label": "LORD"
 },
 {
-"id": "keyterm:Resurrection",
+"id": "keyterm:Condemn",
 "type": "keyterm",
 "confidence": 0.1875,
 "match_method": "canonical",
-"preferred_label": "Resurrection"
-},
-{
-"id": "keyterm:Ability",
-"type": "keyterm",
-"confidence": 0.1875,
-"match_method": "canonical",
-"preferred_label": "Ability"
-},
-{
-"id": "keyterm:Salvation",
-"type": "keyterm",
-"confidence": 0.1875,
-"match_method": "canonical",
-"preferred_label": "Salvation"
+"preferred_label": "Condemn"
 },
 {
 "id": "keyterm:Week",
@@ -11097,11 +11048,60 @@
 "preferred_label": "Hardheartedness"
 },
 {
-"id": "keyterm:Condemn",
+"id": "keyterm:GoodNews",
 "type": "keyterm",
 "confidence": 0.1875,
 "match_method": "canonical",
-"preferred_label": "Condemn"
+"preferred_label": "Good News"
+},
+{
+"id": "keyterm:Salvation",
+"type": "keyterm",
+"confidence": 0.1875,
+"match_method": "canonical",
+"preferred_label": "Salvation"
+},
+{
+"id": "keyterm:Name",
+"type": "keyterm",
+"confidence": 0.1875,
+"match_method": "canonical",
+"preferred_label": "Name"
+},
+{
+"id": "keyterm:Life",
+"type": "keyterm",
+"confidence": 0.1875,
+"match_method": "canonical",
+"preferred_label": "Life"
+},
+{
+"id": "keyterm:Baptism",
+"type": "keyterm",
+"confidence": 0.1875,
+"match_method": "canonical",
+"preferred_label": "Baptism"
+},
+{
+"id": "keyterm:Resurrection",
+"type": "keyterm",
+"confidence": 0.1875,
+"match_method": "canonical",
+"preferred_label": "Resurrection"
+},
+{
+"id": "person:Marymagdalene",
+"type": "person",
+"confidence": 0.1875,
+"match_method": "canonical",
+"preferred_label": "Mary Magdalene"
+},
+{
+"id": "keyterm:Heaven",
+"type": "keyterm",
+"confidence": 0.1875,
+"match_method": "canonical",
+"preferred_label": "Sky"
 },
 {
 "id": "fauna:Snake",
