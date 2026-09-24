@@ -18,15 +18,7 @@
 "end_ref_usfm": "MRK 6:13"
 }
 ],
-"resource": [
-{
-"reference_id": 0,
-"content_id": "zht-t212-v1",
-"resource_code": "FIAKeyTerms",
-"label": "anoint",
-"language": "zht"
-}
-],
+"resource": [],
 "acai": [
 {
 "id": "keyterm:Disbelieve",
@@ -34,20 +26,6 @@
 "confidence": 0.2313,
 "match_method": "canonical",
 "preferred_label": "Disbelieve"
-},
-{
-"id": "keyterm:Repent",
-"type": "keyterm",
-"confidence": 0.2063,
-"match_method": "canonical",
-"preferred_label": "Repent"
-},
-{
-"id": "deity:Demons",
-"type": "deity",
-"confidence": 0.2063,
-"match_method": "canonical",
-"preferred_label": "Demons"
 },
 {
 "id": "keyterm:BearWitness",
@@ -85,6 +63,13 @@
 "preferred_label": "Ability"
 },
 {
+"id": "deity:Demons",
+"type": "deity",
+"confidence": 0.2063,
+"match_method": "canonical",
+"preferred_label": "Demons"
+},
+{
 "id": "keyterm:Serve",
 "type": "keyterm",
 "confidence": 0.2063,
@@ -92,25 +77,11 @@
 "preferred_label": "Serve"
 },
 {
-"id": "realia:Bag",
-"type": "realia",
-"confidence": 0.1463,
+"id": "keyterm:Repent",
+"type": "keyterm",
+"confidence": 0.2063,
 "match_method": "canonical",
-"preferred_label": "Bag"
-},
-{
-"id": "realia:Belt",
-"type": "realia",
-"confidence": 0.1463,
-"match_method": "canonical",
-"preferred_label": "Belt"
-},
-{
-"id": "realia:Tunic.2",
-"type": "realia",
-"confidence": 0.1463,
-"match_method": "canonical",
-"preferred_label": "Tunic"
+"preferred_label": "Repent"
 },
 {
 "id": "realia:Staff",
@@ -120,11 +91,32 @@
 "preferred_label": "Staff"
 },
 {
+"id": "realia:Belt",
+"type": "realia",
+"confidence": 0.1463,
+"match_method": "canonical",
+"preferred_label": "Belt"
+},
+{
+"id": "realia:Bag",
+"type": "realia",
+"confidence": 0.1463,
+"match_method": "canonical",
+"preferred_label": "Bag"
+},
+{
 "id": "realia:OliveOil",
 "type": "realia",
 "confidence": 0.1463,
 "match_method": "canonical",
 "preferred_label": "Olive Oil"
+},
+{
+"id": "realia:Sandal",
+"type": "realia",
+"confidence": 0.1463,
+"match_method": "canonical",
+"preferred_label": "Sandal"
 },
 {
 "id": "realia:House",
@@ -134,11 +126,11 @@
 "preferred_label": "House"
 },
 {
-"id": "realia:Sandal",
+"id": "realia:Tunic.2",
 "type": "realia",
 "confidence": 0.1463,
 "match_method": "canonical",
-"preferred_label": "Sandal"
+"preferred_label": "Tunic"
 }
 ]
 }
@@ -214,13 +206,6 @@
 "preferred_label": "Prison"
 },
 {
-"id": "person:DaughterOfHerodias",
-"type": "person",
-"confidence": 0.1906,
-"match_method": "canonical",
-"preferred_label": "Daughter of Herodias"
-},
-{
 "id": "person:Philip.2",
 "type": "person",
 "confidence": 0.1906,
@@ -228,18 +213,11 @@
 "preferred_label": "Philip"
 },
 {
-"id": "keyterm:Haste",
-"type": "keyterm",
-"confidence": 0.1781,
+"id": "person:DaughterOfHerodias",
+"type": "person",
+"confidence": 0.1906,
 "match_method": "canonical",
-"preferred_label": "Haste"
-},
-{
-"id": "keyterm:Oath",
-"type": "keyterm",
-"confidence": 0.1781,
-"match_method": "canonical",
-"preferred_label": "Oath"
+"preferred_label": "Daughter of Herodias"
 },
 {
 "id": "keyterm:Holy",
@@ -249,46 +227,11 @@
 "preferred_label": "Holy"
 },
 {
-"id": "keyterm:Lawful",
+"id": "keyterm:Oath",
 "type": "keyterm",
 "confidence": 0.1781,
 "match_method": "canonical",
-"preferred_label": "Be Lawful"
-},
-{
-"id": "keyterm:Ability",
-"type": "keyterm",
-"confidence": 0.1781,
-"match_method": "canonical",
-"preferred_label": "Ability"
-},
-{
-"id": "person:Elijah",
-"type": "person",
-"confidence": 0.1781,
-"match_method": "canonical",
-"preferred_label": "Elijah"
-},
-{
-"id": "place:Galilee",
-"type": "place",
-"confidence": 0.1781,
-"match_method": "canonical",
-"preferred_label": "Galilee"
-},
-{
-"id": "keyterm:Fear",
-"type": "keyterm",
-"confidence": 0.1781,
-"match_method": "canonical",
-"preferred_label": "Fear"
-},
-{
-"id": "group:GenericGroup",
-"type": "group",
-"confidence": 0.1781,
-"match_method": "canonical",
-"preferred_label": "A Group of People"
+"preferred_label": "Oath"
 },
 {
 "id": "keyterm:Baptist",
@@ -298,18 +241,39 @@
 "preferred_label": "Baptist"
 },
 {
-"id": "keyterm:Disciple",
-"type": "keyterm",
+"id": "group:GenericGroup",
+"type": "group",
 "confidence": 0.1781,
 "match_method": "canonical",
-"preferred_label": "Be a Disciple"
+"preferred_label": "A Group of People"
 },
 {
-"id": "keyterm:Name",
+"id": "keyterm:Haste",
 "type": "keyterm",
 "confidence": 0.1781,
 "match_method": "canonical",
-"preferred_label": "Name"
+"preferred_label": "Haste"
+},
+{
+"id": "keyterm:Kingdom",
+"type": "keyterm",
+"confidence": 0.1781,
+"match_method": "canonical",
+"preferred_label": "Kingdom"
+},
+{
+"id": "keyterm:Lawful",
+"type": "keyterm",
+"confidence": 0.1781,
+"match_method": "canonical",
+"preferred_label": "Be Lawful"
+},
+{
+"id": "keyterm:Fear",
+"type": "keyterm",
+"confidence": 0.1781,
+"match_method": "canonical",
+"preferred_label": "Fear"
 },
 {
 "id": "keyterm:Just",
@@ -319,11 +283,39 @@
 "preferred_label": "Be (Or Show Oneself) Just"
 },
 {
-"id": "keyterm:Kingdom",
+"id": "keyterm:Name",
 "type": "keyterm",
 "confidence": 0.1781,
 "match_method": "canonical",
-"preferred_label": "Kingdom"
+"preferred_label": "Name"
+},
+{
+"id": "person:Elijah",
+"type": "person",
+"confidence": 0.1781,
+"match_method": "canonical",
+"preferred_label": "Elijah"
+},
+{
+"id": "keyterm:Disciple",
+"type": "keyterm",
+"confidence": 0.1781,
+"match_method": "canonical",
+"preferred_label": "Be a Disciple"
+},
+{
+"id": "place:Galilee",
+"type": "place",
+"confidence": 0.1781,
+"match_method": "canonical",
+"preferred_label": "Galilee"
+},
+{
+"id": "keyterm:Ability",
+"type": "keyterm",
+"confidence": 0.1781,
+"match_method": "canonical",
+"preferred_label": "Ability"
 },
 {
 "id": "realia:Grave",
@@ -385,11 +377,11 @@
 "preferred_label": "Sky"
 },
 {
-"id": "person:Jesus.2",
-"type": "person",
+"id": "group:GenericDisciples",
+"type": "group",
 "confidence": 0.18,
 "match_method": "canonical",
-"preferred_label": "Jesus"
+"preferred_label": "A Group of Disciples"
 },
 {
 "id": "keyterm:Bless",
@@ -399,11 +391,11 @@
 "preferred_label": "Bless"
 },
 {
-"id": "group:GenericDisciples",
-"type": "group",
+"id": "person:Jesus.2",
+"type": "person",
 "confidence": 0.18,
 "match_method": "canonical",
-"preferred_label": "A Group of Disciples"
+"preferred_label": "Jesus"
 },
 {
 "id": "realia:Basket",
@@ -420,13 +412,6 @@
 "preferred_label": "Denarius"
 },
 {
-"id": "flora:Grass",
-"type": "flora",
-"confidence": 0.12,
-"match_method": "canonical",
-"preferred_label": "Grass"
-},
-{
 "id": "realia:Ship",
 "type": "realia",
 "confidence": 0.12,
@@ -441,6 +426,13 @@
 "preferred_label": "Flock"
 },
 {
+"id": "fauna:Lamb",
+"type": "fauna",
+"confidence": 0.12,
+"match_method": "canonical",
+"preferred_label": "Sheep"
+},
+{
 "id": "fauna:Goat",
 "type": "fauna",
 "confidence": 0.12,
@@ -448,11 +440,11 @@
 "preferred_label": "Goat"
 },
 {
-"id": "fauna:Lamb",
-"type": "fauna",
+"id": "flora:Grass",
+"type": "flora",
 "confidence": 0.12,
 "match_method": "canonical",
-"preferred_label": "Sheep"
+"preferred_label": "Grass"
 }
 ]
 }
@@ -486,13 +478,6 @@
 "preferred_label": "Ship"
 },
 {
-"id": "place:Bethsaida",
-"type": "place",
-"confidence": 0.2042,
-"match_method": "canonical",
-"preferred_label": "Bethsaida"
-},
-{
 "id": "place:Gennesaret",
 "type": "place",
 "confidence": 0.2042,
@@ -500,11 +485,11 @@
 "preferred_label": "Gennesaret"
 },
 {
-"id": "keyterm:Salvation",
-"type": "keyterm",
-"confidence": 0.1875,
+"id": "place:Bethsaida",
+"type": "place",
+"confidence": 0.2042,
 "match_method": "canonical",
-"preferred_label": "Salvation"
+"preferred_label": "Bethsaida"
 },
 {
 "id": "keyterm:AskFor",
@@ -512,6 +497,13 @@
 "confidence": 0.1875,
 "match_method": "canonical",
 "preferred_label": "Ask for"
+},
+{
+"id": "keyterm:Heart",
+"type": "keyterm",
+"confidence": 0.1875,
+"match_method": "canonical",
+"preferred_label": "Heart"
 },
 {
 "id": "keyterm:Disciple",
@@ -528,18 +520,18 @@
 "preferred_label": "Cheer Up"
 },
 {
-"id": "keyterm:Heart",
-"type": "keyterm",
-"confidence": 0.1875,
-"match_method": "canonical",
-"preferred_label": "Heart"
-},
-{
 "id": "keyterm:Pray",
 "type": "keyterm",
 "confidence": 0.1875,
 "match_method": "canonical",
 "preferred_label": "Pray"
+},
+{
+"id": "keyterm:Salvation",
+"type": "keyterm",
+"confidence": 0.1875,
+"match_method": "canonical",
+"preferred_label": "Salvation"
 },
 {
 "id": "keyterm:Fear",
@@ -556,18 +548,18 @@
 "preferred_label": "Tassel"
 },
 {
-"id": "realia:Bed",
-"type": "realia",
-"confidence": 0.1275,
-"match_method": "canonical",
-"preferred_label": "Bed"
-},
-{
 "id": "realia:Cloak",
 "type": "realia",
 "confidence": 0.1275,
 "match_method": "canonical",
 "preferred_label": "Cloak"
+},
+{
+"id": "realia:Bed",
+"type": "realia",
+"confidence": 0.1275,
+"match_method": "canonical",
+"preferred_label": "Bed"
 }
 ]
 }
@@ -608,13 +600,6 @@
 "preferred_label": "Teaching"
 },
 {
-"id": "keyterm:Defilement",
-"type": "keyterm",
-"confidence": 0.3125,
-"match_method": "canonical",
-"preferred_label": "Defilement"
-},
-{
 "id": "keyterm:Disciple",
 "type": "keyterm",
 "confidence": 0.3125,
@@ -622,60 +607,11 @@
 "preferred_label": "Be a Disciple"
 },
 {
-"id": "keyterm:Speak",
+"id": "keyterm:Defilement",
 "type": "keyterm",
-"confidence": 0.2063,
+"confidence": 0.3125,
 "match_method": "canonical",
-"preferred_label": "Speak as a Prophet"
-},
-{
-"id": "group:Jews",
-"type": "group",
-"confidence": 0.2063,
-"match_method": "canonical",
-"preferred_label": "Jews"
-},
-{
-"id": "keyterm:Live.3",
-"type": "keyterm",
-"confidence": 0.2063,
-"match_method": "canonical",
-"preferred_label": "Live"
-},
-{
-"id": "person:Isaiah",
-"type": "person",
-"confidence": 0.2063,
-"match_method": "canonical",
-"preferred_label": "Isaiah"
-},
-{
-"id": "keyterm:Commandment",
-"type": "keyterm",
-"confidence": 0.2063,
-"match_method": "canonical",
-"preferred_label": "Commandment"
-},
-{
-"id": "group:ReligiousOfficials",
-"type": "group",
-"confidence": 0.2063,
-"match_method": "canonical",
-"preferred_label": "Religious Officials"
-},
-{
-"id": "place:Jerusalem",
-"type": "place",
-"confidence": 0.2063,
-"match_method": "canonical",
-"preferred_label": "Jerusalem"
-},
-{
-"id": "keyterm:Heart",
-"type": "keyterm",
-"confidence": 0.2063,
-"match_method": "canonical",
-"preferred_label": "Heart"
+"preferred_label": "Defilement"
 },
 {
 "id": "keyterm:Baptism",
@@ -685,11 +621,67 @@
 "preferred_label": "Baptism"
 },
 {
+"id": "keyterm:Heart",
+"type": "keyterm",
+"confidence": 0.2063,
+"match_method": "canonical",
+"preferred_label": "Heart"
+},
+{
+"id": "keyterm:Speak",
+"type": "keyterm",
+"confidence": 0.2063,
+"match_method": "canonical",
+"preferred_label": "Speak as a Prophet"
+},
+{
+"id": "person:Isaiah",
+"type": "person",
+"confidence": 0.2063,
+"match_method": "canonical",
+"preferred_label": "Isaiah"
+},
+{
+"id": "place:Jerusalem",
+"type": "place",
+"confidence": 0.2063,
+"match_method": "canonical",
+"preferred_label": "Jerusalem"
+},
+{
 "id": "keyterm:Worship",
 "type": "keyterm",
 "confidence": 0.2063,
 "match_method": "canonical",
 "preferred_label": "Worship"
+},
+{
+"id": "keyterm:Live.3",
+"type": "keyterm",
+"confidence": 0.2063,
+"match_method": "canonical",
+"preferred_label": "Live"
+},
+{
+"id": "keyterm:Commandment",
+"type": "keyterm",
+"confidence": 0.2063,
+"match_method": "canonical",
+"preferred_label": "Commandment"
+},
+{
+"id": "group:Jews",
+"type": "group",
+"confidence": 0.2063,
+"match_method": "canonical",
+"preferred_label": "Jews"
+},
+{
+"id": "group:ReligiousOfficials",
+"type": "group",
+"confidence": 0.2063,
+"match_method": "canonical",
+"preferred_label": "Religious Officials"
 },
 {
 "id": "deity:Lord",
@@ -699,18 +691,18 @@
 "preferred_label": "LORD"
 },
 {
-"id": "realia:CookingPot",
-"type": "realia",
-"confidence": 0.1463,
-"match_method": "canonical",
-"preferred_label": "Cooking Pot"
-},
-{
 "id": "realia:Bed",
 "type": "realia",
 "confidence": 0.1463,
 "match_method": "canonical",
 "preferred_label": "Bed"
+},
+{
+"id": "realia:CookingPot",
+"type": "realia",
+"confidence": 0.1463,
+"match_method": "canonical",
+"preferred_label": "Cooking Pot"
 }
 ]
 }
@@ -817,13 +809,6 @@
 "preferred_label": "Heart"
 },
 {
-"id": "keyterm:Parable",
-"type": "keyterm",
-"confidence": 0.195,
-"match_method": "canonical",
-"preferred_label": "Parable"
-},
-{
 "id": "keyterm:Disciple",
 "type": "keyterm",
 "confidence": 0.195,
@@ -850,6 +835,13 @@
 "confidence": 0.195,
 "match_method": "canonical",
 "preferred_label": "Fornication"
+},
+{
+"id": "keyterm:Parable",
+"type": "keyterm",
+"confidence": 0.195,
+"match_method": "canonical",
+"preferred_label": "Parable"
 },
 {
 "id": "realia:Temple",
@@ -911,13 +903,6 @@
 "preferred_label": "House"
 },
 {
-"id": "place:Phoenicia",
-"type": "place",
-"confidence": 0.2429,
-"match_method": "canonical",
-"preferred_label": "Phoenicia"
-},
-{
 "id": "place:Tyre",
 "type": "place",
 "confidence": 0.2429,
@@ -925,11 +910,11 @@
 "preferred_label": "Tyre"
 },
 {
-"id": "group:Phoenicia",
-"type": "group",
+"id": "place:Phoenicia",
+"type": "place",
 "confidence": 0.2429,
 "match_method": "canonical",
-"preferred_label": "Syrophoenicians"
+"preferred_label": "Phoenicia"
 },
 {
 "id": "group:Greek",
@@ -939,11 +924,11 @@
 "preferred_label": "Greeks"
 },
 {
-"id": "keyterm:Honest",
-"type": "keyterm",
-"confidence": 0.2143,
+"id": "group:Phoenicia",
+"type": "group",
+"confidence": 0.2429,
 "match_method": "canonical",
-"preferred_label": "Honest"
+"preferred_label": "Syrophoenicians"
 },
 {
 "id": "keyterm:AskFor",
@@ -958,6 +943,13 @@
 "confidence": 0.2143,
 "match_method": "canonical",
 "preferred_label": "Javan"
+},
+{
+"id": "keyterm:Honest",
+"type": "keyterm",
+"confidence": 0.2143,
+"match_method": "canonical",
+"preferred_label": "Honest"
 },
 {
 "id": "realia:Temple",
@@ -1012,6 +1004,27 @@
 "preferred_label": "Decapolis"
 },
 {
+"id": "keyterm:AskFor",
+"type": "keyterm",
+"confidence": 0.2143,
+"match_method": "canonical",
+"preferred_label": "Ask for"
+},
+{
+"id": "place:GalileeSea",
+"type": "place",
+"confidence": 0.2143,
+"match_method": "canonical",
+"preferred_label": "Sea of Galilee"
+},
+{
+"id": "keyterm:Proclaim",
+"type": "keyterm",
+"confidence": 0.2143,
+"match_method": "canonical",
+"preferred_label": "Proclaim"
+},
+{
 "id": "keyterm:Heaven",
 "type": "keyterm",
 "confidence": 0.2143,
@@ -1024,27 +1037,6 @@
 "confidence": 0.2143,
 "match_method": "canonical",
 "preferred_label": "Tyre"
-},
-{
-"id": "keyterm:AskFor",
-"type": "keyterm",
-"confidence": 0.2143,
-"match_method": "canonical",
-"preferred_label": "Ask for"
-},
-{
-"id": "keyterm:Proclaim",
-"type": "keyterm",
-"confidence": 0.2143,
-"match_method": "canonical",
-"preferred_label": "Proclaim"
-},
-{
-"id": "place:GalileeSea",
-"type": "place",
-"confidence": 0.2143,
-"match_method": "canonical",
-"preferred_label": "Sea of Galilee"
 }
 ]
 }
@@ -1085,18 +1077,18 @@
 "preferred_label": "A Group of Disciples"
 },
 {
-"id": "place:Magadan",
-"type": "place",
-"confidence": 0.195,
-"match_method": "canonical",
-"preferred_label": "Magadan"
-},
-{
 "id": "keyterm:AskFor",
 "type": "keyterm",
 "confidence": 0.195,
 "match_method": "canonical",
 "preferred_label": "Ask for"
+},
+{
+"id": "place:Magadan",
+"type": "place",
+"confidence": 0.195,
+"match_method": "canonical",
+"preferred_label": "Magadan"
 },
 {
 "id": "keyterm:Affection",
@@ -1113,11 +1105,25 @@
 "preferred_label": "Bless"
 },
 {
+"id": "realia:Ship",
+"type": "realia",
+"confidence": 0.135,
+"match_method": "canonical",
+"preferred_label": "Ship"
+},
+{
 "id": "realia:Temple",
 "type": "realia",
 "confidence": 0.135,
 "match_method": "canonical",
 "preferred_label": "Temple"
+},
+{
+"id": "realia:House",
+"type": "realia",
+"confidence": 0.135,
+"match_method": "canonical",
+"preferred_label": "House"
 },
 {
 "id": "fauna:Fish",
@@ -1127,25 +1133,11 @@
 "preferred_label": "Fish"
 },
 {
-"id": "realia:Ship",
-"type": "realia",
-"confidence": 0.135,
-"match_method": "canonical",
-"preferred_label": "Ship"
-},
-{
 "id": "realia:Basket",
 "type": "realia",
 "confidence": 0.135,
 "match_method": "canonical",
 "preferred_label": "Basket"
-},
-{
-"id": "realia:House",
-"type": "realia",
-"confidence": 0.135,
-"match_method": "canonical",
-"preferred_label": "House"
 }
 ]
 }
@@ -1193,18 +1185,11 @@
 "preferred_label": "Basket"
 },
 {
-"id": "keyterm:Surely",
+"id": "keyterm:Heart",
 "type": "keyterm",
 "confidence": 0.1909,
 "match_method": "canonical",
-"preferred_label": "Surely!"
-},
-{
-"id": "person:Herod.2",
-"type": "person",
-"confidence": 0.1909,
-"match_method": "canonical",
-"preferred_label": "Herod Antipas"
+"preferred_label": "Heart"
 },
 {
 "id": "keyterm:Heaven",
@@ -1214,18 +1199,25 @@
 "preferred_label": "Sky"
 },
 {
-"id": "keyterm:Heart",
-"type": "keyterm",
-"confidence": 0.1909,
-"match_method": "canonical",
-"preferred_label": "Heart"
-},
-{
 "id": "keyterm:Spirit.2",
 "type": "keyterm",
 "confidence": 0.1909,
 "match_method": "canonical",
 "preferred_label": "Spirit"
+},
+{
+"id": "person:Herod.2",
+"type": "person",
+"confidence": 0.1909,
+"match_method": "canonical",
+"preferred_label": "Herod Antipas"
+},
+{
+"id": "keyterm:Surely",
+"type": "keyterm",
+"confidence": 0.1909,
+"match_method": "canonical",
+"preferred_label": "Surely!"
 },
 {
 "id": "realia:Ship",
@@ -1273,18 +1265,18 @@
 "preferred_label": "Ask for"
 },
 {
-"id": "realia:House",
-"type": "realia",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "House"
-},
-{
 "id": "realia:Temple",
 "type": "realia",
 "confidence": 0.18,
 "match_method": "canonical",
 "preferred_label": "Temple"
+},
+{
+"id": "realia:House",
+"type": "realia",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "House"
 }
 ]
 }
@@ -1318,18 +1310,18 @@
 "preferred_label": "Jesus"
 },
 {
-"id": "keyterm:Baptist",
-"type": "keyterm",
-"confidence": 0.3125,
-"match_method": "canonical",
-"preferred_label": "Baptist"
-},
-{
 "id": "place:CaesareaPhilippi",
 "type": "place",
 "confidence": 0.3125,
 "match_method": "canonical",
 "preferred_label": "Caesarea Philippi"
+},
+{
+"id": "keyterm:Baptist",
+"type": "keyterm",
+"confidence": 0.3125,
+"match_method": "canonical",
+"preferred_label": "Baptist"
 },
 {
 "id": "person:Elijah",
@@ -1339,11 +1331,11 @@
 "preferred_label": "Elijah"
 },
 {
-"id": "person:John",
+"id": "person:Peter",
 "type": "person",
 "confidence": 0.2625,
 "match_method": "canonical",
-"preferred_label": "John"
+"preferred_label": "Peter"
 },
 {
 "id": "keyterm:Disciple",
@@ -1360,11 +1352,11 @@
 "preferred_label": "To Command"
 },
 {
-"id": "person:Peter",
+"id": "person:John",
 "type": "person",
 "confidence": 0.2625,
 "match_method": "canonical",
-"preferred_label": "Peter"
+"preferred_label": "John"
 }
 ]
 }
@@ -1405,6 +1397,13 @@
 "preferred_label": "LORD"
 },
 {
+"id": "person:Peter",
+"type": "person",
+"confidence": 0.3,
+"match_method": "canonical",
+"preferred_label": "Peter"
+},
+{
 "id": "keyterm:Disciple",
 "type": "keyterm",
 "confidence": 0.3,
@@ -1419,32 +1418,11 @@
 "preferred_label": "To Command"
 },
 {
-"id": "person:Peter",
-"type": "person",
-"confidence": 0.3,
-"match_method": "canonical",
-"preferred_label": "Peter"
-},
-{
 "id": "keyterm:Ability",
 "type": "keyterm",
 "confidence": 0.3,
 "match_method": "canonical",
 "preferred_label": "Ability"
-},
-{
-"id": "keyterm:Surely",
-"type": "keyterm",
-"confidence": 0.2,
-"match_method": "canonical",
-"preferred_label": "Surely!"
-},
-{
-"id": "deity:Satan",
-"type": "deity",
-"confidence": 0.2,
-"match_method": "canonical",
-"preferred_label": "Satan"
 },
 {
 "id": "keyterm:Unfaithful",
@@ -1454,11 +1432,25 @@
 "preferred_label": "Be Unfaithful"
 },
 {
-"id": "keyterm:Holy",
+"id": "keyterm:GoodNews",
 "type": "keyterm",
 "confidence": 0.2,
 "match_method": "canonical",
-"preferred_label": "Holy"
+"preferred_label": "Good News"
+},
+{
+"id": "deity:Satan",
+"type": "deity",
+"confidence": 0.2,
+"match_method": "canonical",
+"preferred_label": "Satan"
+},
+{
+"id": "keyterm:Think",
+"type": "keyterm",
+"confidence": 0.2,
+"match_method": "canonical",
+"preferred_label": "Think"
 },
 {
 "id": "deity:Angel",
@@ -1468,11 +1460,18 @@
 "preferred_label": "An Angel"
 },
 {
-"id": "keyterm:Salvation",
+"id": "keyterm:Glory",
 "type": "keyterm",
 "confidence": 0.2,
 "match_method": "canonical",
-"preferred_label": "Salvation"
+"preferred_label": "Glory"
+},
+{
+"id": "keyterm:Holy",
+"type": "keyterm",
+"confidence": 0.2,
+"match_method": "canonical",
+"preferred_label": "Holy"
 },
 {
 "id": "keyterm:Reject",
@@ -1482,18 +1481,11 @@
 "preferred_label": "Reject"
 },
 {
-"id": "keyterm:Glory",
+"id": "keyterm:Salvation",
 "type": "keyterm",
 "confidence": 0.2,
 "match_method": "canonical",
-"preferred_label": "Glory"
-},
-{
-"id": "keyterm:GoodNews",
-"type": "keyterm",
-"confidence": 0.2,
-"match_method": "canonical",
-"preferred_label": "Good News"
+"preferred_label": "Salvation"
 },
 {
 "id": "keyterm:Kingdom",
@@ -1503,11 +1495,11 @@
 "preferred_label": "Kingdom"
 },
 {
-"id": "keyterm:Think",
+"id": "keyterm:Surely",
 "type": "keyterm",
 "confidence": 0.2,
 "match_method": "canonical",
-"preferred_label": "Think"
+"preferred_label": "Surely!"
 },
 {
 "id": "realia:Cross",
@@ -1555,18 +1547,18 @@
 "preferred_label": "Jesus"
 },
 {
-"id": "person:Moses",
-"type": "person",
-"confidence": 0.275,
-"match_method": "canonical",
-"preferred_label": "Moses"
-},
-{
 "id": "person:Peter",
 "type": "person",
 "confidence": 0.275,
 "match_method": "canonical",
 "preferred_label": "Peter"
+},
+{
+"id": "person:Moses",
+"type": "person",
+"confidence": 0.275,
+"match_method": "canonical",
+"preferred_label": "Moses"
 },
 {
 "id": "person:John.2",
@@ -1628,18 +1620,18 @@
 "resource": [],
 "acai": [
 {
-"id": "person:GenericFather",
-"type": "person",
-"confidence": 0.3344,
-"match_method": "canonical",
-"preferred_label": "A Father"
-},
-{
 "id": "keyterm:Disciple",
 "type": "keyterm",
 "confidence": 0.3344,
 "match_method": "canonical",
 "preferred_label": "Be a Disciple"
+},
+{
+"id": "person:GenericFather",
+"type": "person",
+"confidence": 0.3344,
+"match_method": "canonical",
+"preferred_label": "A Father"
 },
 {
 "id": "person:Jesus.2",
@@ -1663,39 +1655,11 @@
 "preferred_label": "Be Unfaithful"
 },
 {
-"id": "group:GenericGroup",
-"type": "group",
-"confidence": 0.1781,
-"match_method": "canonical",
-"preferred_label": "A Group of People"
-},
-{
-"id": "keyterm:Disbelieve",
-"type": "keyterm",
-"confidence": 0.1781,
-"match_method": "canonical",
-"preferred_label": "Disbelieve"
-},
-{
 "id": "keyterm:Command",
 "type": "keyterm",
 "confidence": 0.1781,
 "match_method": "canonical",
 "preferred_label": "To Command"
-},
-{
-"id": "keyterm:Affection",
-"type": "keyterm",
-"confidence": 0.1781,
-"match_method": "canonical",
-"preferred_label": "Affection"
-},
-{
-"id": "keyterm:Pray",
-"type": "keyterm",
-"confidence": 0.1781,
-"match_method": "canonical",
-"preferred_label": "Pray"
 },
 {
 "id": "group:GenericDisciples",
@@ -1705,11 +1669,32 @@
 "preferred_label": "A Group of Disciples"
 },
 {
-"id": "realia:House",
-"type": "realia",
-"confidence": 0.1181,
+"id": "keyterm:Pray",
+"type": "keyterm",
+"confidence": 0.1781,
 "match_method": "canonical",
-"preferred_label": "House"
+"preferred_label": "Pray"
+},
+{
+"id": "group:GenericGroup",
+"type": "group",
+"confidence": 0.1781,
+"match_method": "canonical",
+"preferred_label": "A Group of People"
+},
+{
+"id": "keyterm:Affection",
+"type": "keyterm",
+"confidence": 0.1781,
+"match_method": "canonical",
+"preferred_label": "Affection"
+},
+{
+"id": "keyterm:Disbelieve",
+"type": "keyterm",
+"confidence": 0.1781,
+"match_method": "canonical",
+"preferred_label": "Disbelieve"
 },
 {
 "id": "realia:Temple",
@@ -1717,6 +1702,13 @@
 "confidence": 0.1181,
 "match_method": "canonical",
 "preferred_label": "Temple"
+},
+{
+"id": "realia:House",
+"type": "realia",
+"confidence": 0.1181,
+"match_method": "canonical",
+"preferred_label": "House"
 }
 ]
 }
@@ -1771,13 +1763,6 @@
 "preferred_label": "Gehenna"
 },
 {
-"id": "keyterm:Life",
-"type": "keyterm",
-"confidence": 0.2429,
-"match_method": "canonical",
-"preferred_label": "Life"
-},
-{
 "id": "person:Jesus.2",
 "type": "person",
 "confidence": 0.2429,
@@ -1785,60 +1770,11 @@
 "preferred_label": "Jesus"
 },
 {
-"id": "keyterm:AtPeace",
+"id": "keyterm:Life",
 "type": "keyterm",
-"confidence": 0.1714,
+"confidence": 0.2429,
 "match_method": "canonical",
-"preferred_label": "Be at Peace"
-},
-{
-"id": "person:John.2",
-"type": "person",
-"confidence": 0.1714,
-"match_method": "canonical",
-"preferred_label": "John"
-},
-{
-"id": "keyterm:Surely",
-"type": "keyterm",
-"confidence": 0.1714,
-"match_method": "canonical",
-"preferred_label": "Surely!"
-},
-{
-"id": "place:Capernaum",
-"type": "place",
-"confidence": 0.1714,
-"match_method": "canonical",
-"preferred_label": "Capernaum"
-},
-{
-"id": "keyterm:Word",
-"type": "keyterm",
-"confidence": 0.1714,
-"match_method": "canonical",
-"preferred_label": "Word"
-},
-{
-"id": "keyterm:Ability",
-"type": "keyterm",
-"confidence": 0.1714,
-"match_method": "canonical",
-"preferred_label": "Ability"
-},
-{
-"id": "place:Galilee",
-"type": "place",
-"confidence": 0.1714,
-"match_method": "canonical",
-"preferred_label": "Galilee"
-},
-{
-"id": "keyterm:Fear",
-"type": "keyterm",
-"confidence": 0.1714,
-"match_method": "canonical",
-"preferred_label": "Fear"
+"preferred_label": "Life"
 },
 {
 "id": "deity:Demons",
@@ -1848,11 +1784,25 @@
 "preferred_label": "Demons"
 },
 {
-"id": "keyterm:Disciple",
+"id": "person:John.2",
+"type": "person",
+"confidence": 0.1714,
+"match_method": "canonical",
+"preferred_label": "John"
+},
+{
+"id": "keyterm:AtPeace",
 "type": "keyterm",
 "confidence": 0.1714,
 "match_method": "canonical",
-"preferred_label": "Be a Disciple"
+"preferred_label": "Be at Peace"
+},
+{
+"id": "keyterm:Surely",
+"type": "keyterm",
+"confidence": 0.1714,
+"match_method": "canonical",
+"preferred_label": "Surely!"
 },
 {
 "id": "keyterm:Believe",
@@ -1860,6 +1810,13 @@
 "confidence": 0.1714,
 "match_method": "canonical",
 "preferred_label": "Believe"
+},
+{
+"id": "place:Capernaum",
+"type": "place",
+"confidence": 0.1714,
+"match_method": "canonical",
+"preferred_label": "Capernaum"
 },
 {
 "id": "keyterm:Kingdom",
@@ -1874,6 +1831,41 @@
 "confidence": 0.1714,
 "match_method": "canonical",
 "preferred_label": "LORD"
+},
+{
+"id": "keyterm:Word",
+"type": "keyterm",
+"confidence": 0.1714,
+"match_method": "canonical",
+"preferred_label": "Word"
+},
+{
+"id": "keyterm:Fear",
+"type": "keyterm",
+"confidence": 0.1714,
+"match_method": "canonical",
+"preferred_label": "Fear"
+},
+{
+"id": "place:Galilee",
+"type": "place",
+"confidence": 0.1714,
+"match_method": "canonical",
+"preferred_label": "Galilee"
+},
+{
+"id": "keyterm:Disciple",
+"type": "keyterm",
+"confidence": 0.1714,
+"match_method": "canonical",
+"preferred_label": "Be a Disciple"
+},
+{
+"id": "keyterm:Ability",
+"type": "keyterm",
+"confidence": 0.1714,
+"match_method": "canonical",
+"preferred_label": "Ability"
 },
 {
 "id": "fauna:Maggot",
@@ -1942,11 +1934,18 @@
 "preferred_label": "Judea"
 },
 {
-"id": "keyterm:Body.3",
+"id": "place:Jordan",
+"type": "place",
+"confidence": 0.1875,
+"match_method": "canonical",
+"preferred_label": "Jordan River"
+},
+{
+"id": "keyterm:Commandment",
 "type": "keyterm",
 "confidence": 0.1875,
 "match_method": "canonical",
-"preferred_label": "Body"
+"preferred_label": "Commandment"
 },
 {
 "id": "keyterm:Disciple",
@@ -1963,13 +1962,6 @@
 "preferred_label": "To Command"
 },
 {
-"id": "keyterm:Commandment",
-"type": "keyterm",
-"confidence": 0.1875,
-"match_method": "canonical",
-"preferred_label": "Commandment"
-},
-{
 "id": "keyterm:Hardheartedness",
 "type": "keyterm",
 "confidence": 0.1875,
@@ -1977,11 +1969,11 @@
 "preferred_label": "Hardheartedness"
 },
 {
-"id": "person:Jesus.2",
-"type": "person",
+"id": "keyterm:Body.3",
+"type": "keyterm",
 "confidence": 0.1875,
 "match_method": "canonical",
-"preferred_label": "Jesus"
+"preferred_label": "Body"
 },
 {
 "id": "keyterm:Lawful",
@@ -1991,18 +1983,18 @@
 "preferred_label": "Be Lawful"
 },
 {
+"id": "person:Jesus.2",
+"type": "person",
+"confidence": 0.1875,
+"match_method": "canonical",
+"preferred_label": "Jesus"
+},
+{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.1875,
 "match_method": "canonical",
 "preferred_label": "LORD"
-},
-{
-"id": "place:Jordan",
-"type": "place",
-"confidence": 0.1875,
-"match_method": "canonical",
-"preferred_label": "Jordan River"
 },
 {
 "id": "realia:House",
@@ -2064,20 +2056,6 @@
 "preferred_label": "Be a Disciple"
 },
 {
-"id": "keyterm:Life",
-"type": "keyterm",
-"confidence": 0.2474,
-"match_method": "canonical",
-"preferred_label": "Life"
-},
-{
-"id": "keyterm:Good",
-"type": "keyterm",
-"confidence": 0.2474,
-"match_method": "canonical",
-"preferred_label": "Good"
-},
-{
 "id": "keyterm:Surely",
 "type": "keyterm",
 "confidence": 0.2474,
@@ -2099,11 +2077,67 @@
 "preferred_label": "Rich Young Ruler"
 },
 {
+"id": "keyterm:Life",
+"type": "keyterm",
+"confidence": 0.2474,
+"match_method": "canonical",
+"preferred_label": "Life"
+},
+{
+"id": "keyterm:Good",
+"type": "keyterm",
+"confidence": 0.2474,
+"match_method": "canonical",
+"preferred_label": "Good"
+},
+{
 "id": "realia:House",
 "type": "realia",
 "confidence": 0.1874,
 "match_method": "canonical",
 "preferred_label": "House"
+},
+{
+"id": "keyterm:Bless",
+"type": "keyterm",
+"confidence": 0.1737,
+"match_method": "canonical",
+"preferred_label": "Bless"
+},
+{
+"id": "person:Peter",
+"type": "person",
+"confidence": 0.1737,
+"match_method": "canonical",
+"preferred_label": "Peter"
+},
+{
+"id": "keyterm:Commandment",
+"type": "keyterm",
+"confidence": 0.1737,
+"match_method": "canonical",
+"preferred_label": "Commandment"
+},
+{
+"id": "keyterm:GoodNews",
+"type": "keyterm",
+"confidence": 0.1737,
+"match_method": "canonical",
+"preferred_label": "Good News"
+},
+{
+"id": "keyterm:Command",
+"type": "keyterm",
+"confidence": 0.1737,
+"match_method": "canonical",
+"preferred_label": "To Command"
+},
+{
+"id": "keyterm:Love",
+"type": "keyterm",
+"confidence": 0.1737,
+"match_method": "canonical",
+"preferred_label": "Love"
 },
 {
 "id": "keyterm:Salvation",
@@ -2120,20 +2154,6 @@
 "preferred_label": "Sky"
 },
 {
-"id": "person:Peter",
-"type": "person",
-"confidence": 0.1737,
-"match_method": "canonical",
-"preferred_label": "Peter"
-},
-{
-"id": "keyterm:Command",
-"type": "keyterm",
-"confidence": 0.1737,
-"match_method": "canonical",
-"preferred_label": "To Command"
-},
-{
 "id": "keyterm:Ability",
 "type": "keyterm",
 "confidence": 0.1737,
@@ -2141,39 +2161,11 @@
 "preferred_label": "Ability"
 },
 {
-"id": "keyterm:GoodNews",
-"type": "keyterm",
-"confidence": 0.1737,
-"match_method": "canonical",
-"preferred_label": "Good News"
-},
-{
 "id": "keyterm:Fornication",
 "type": "keyterm",
 "confidence": 0.1737,
 "match_method": "canonical",
 "preferred_label": "Fornication"
-},
-{
-"id": "keyterm:Bless",
-"type": "keyterm",
-"confidence": 0.1737,
-"match_method": "canonical",
-"preferred_label": "Bless"
-},
-{
-"id": "keyterm:Love",
-"type": "keyterm",
-"confidence": 0.1737,
-"match_method": "canonical",
-"preferred_label": "Love"
-},
-{
-"id": "keyterm:Commandment",
-"type": "keyterm",
-"confidence": 0.1737,
-"match_method": "canonical",
-"preferred_label": "Commandment"
 },
 {
 "id": "realia:Needle",
@@ -2228,18 +2220,18 @@
 "preferred_label": "James"
 },
 {
-"id": "person:John.2",
-"type": "person",
-"confidence": 0.2643,
-"match_method": "canonical",
-"preferred_label": "John"
-},
-{
 "id": "place:Jerusalem",
 "type": "place",
 "confidence": 0.2643,
 "match_method": "canonical",
 "preferred_label": "Jerusalem"
+},
+{
+"id": "person:John.2",
+"type": "person",
+"confidence": 0.2643,
+"match_method": "canonical",
+"preferred_label": "John"
 },
 {
 "id": "group:Gentile",
@@ -2254,20 +2246,6 @@
 "confidence": 0.2643,
 "match_method": "canonical",
 "preferred_label": "Baptism"
-},
-{
-"id": "person:Zebedee",
-"type": "person",
-"confidence": 0.1821,
-"match_method": "canonical",
-"preferred_label": "Zebedee"
-},
-{
-"id": "keyterm:Condemn",
-"type": "keyterm",
-"confidence": 0.1821,
-"match_method": "canonical",
-"preferred_label": "Condemn"
 },
 {
 "id": "keyterm:Authority.2",
@@ -2298,11 +2276,18 @@
 "preferred_label": "Serve"
 },
 {
-"id": "keyterm:Ransom",
+"id": "keyterm:Condemn",
 "type": "keyterm",
 "confidence": 0.1821,
 "match_method": "canonical",
-"preferred_label": "Ransom"
+"preferred_label": "Condemn"
+},
+{
+"id": "person:Zebedee",
+"type": "person",
+"confidence": 0.1821,
+"match_method": "canonical",
+"preferred_label": "Zebedee"
 },
 {
 "id": "keyterm:Fear",
@@ -2310,6 +2295,13 @@
 "confidence": 0.1821,
 "match_method": "canonical",
 "preferred_label": "Fear"
+},
+{
+"id": "keyterm:Ransom",
+"type": "keyterm",
+"confidence": 0.1821,
+"match_method": "canonical",
+"preferred_label": "Ransom"
 }
 ]
 }
@@ -2343,6 +2335,13 @@
 "preferred_label": "Jesus"
 },
 {
+"id": "person:David",
+"type": "person",
+"confidence": 0.3286,
+"match_method": "canonical",
+"preferred_label": "David"
+},
+{
 "id": "group:GenericGroup",
 "type": "group",
 "confidence": 0.3286,
@@ -2357,20 +2356,6 @@
 "preferred_label": "Mercy"
 },
 {
-"id": "person:David",
-"type": "person",
-"confidence": 0.3286,
-"match_method": "canonical",
-"preferred_label": "David"
-},
-{
-"id": "person:Bartimaeus",
-"type": "person",
-"confidence": 0.2429,
-"match_method": "canonical",
-"preferred_label": "Bartimaeus"
-},
-{
 "id": "person:Timaeus",
 "type": "person",
 "confidence": 0.2429,
@@ -2378,18 +2363,11 @@
 "preferred_label": "Timaeus"
 },
 {
-"id": "place:Jericho",
-"type": "place",
-"confidence": 0.2143,
+"id": "person:Bartimaeus",
+"type": "person",
+"confidence": 0.2429,
 "match_method": "canonical",
-"preferred_label": "Jericho"
-},
-{
-"id": "keyterm:Salvation",
-"type": "keyterm",
-"confidence": 0.2143,
-"match_method": "canonical",
-"preferred_label": "Salvation"
+"preferred_label": "Bartimaeus"
 },
 {
 "id": "keyterm:Disciple",
@@ -2406,18 +2384,32 @@
 "preferred_label": "To Command"
 },
 {
-"id": "keyterm:Believe",
-"type": "keyterm",
-"confidence": 0.2143,
-"match_method": "canonical",
-"preferred_label": "Believe"
-},
-{
 "id": "keyterm:CheerUp",
 "type": "keyterm",
 "confidence": 0.2143,
 "match_method": "canonical",
 "preferred_label": "Cheer Up"
+},
+{
+"id": "place:Jericho",
+"type": "place",
+"confidence": 0.2143,
+"match_method": "canonical",
+"preferred_label": "Jericho"
+},
+{
+"id": "keyterm:Salvation",
+"type": "keyterm",
+"confidence": 0.2143,
+"match_method": "canonical",
+"preferred_label": "Salvation"
+},
+{
+"id": "keyterm:Believe",
+"type": "keyterm",
+"confidence": 0.2143,
+"match_method": "canonical",
+"preferred_label": "Believe"
 },
 {
 "id": "realia:Cloak",
@@ -2465,11 +2457,11 @@
 "preferred_label": "Jesus"
 },
 {
-"id": "keyterm:Hosanna",
-"type": "keyterm",
+"id": "place:Bethany",
+"type": "place",
 "confidence": 0.3,
 "match_method": "canonical",
-"preferred_label": "Hosanna"
+"preferred_label": "Bethany"
 },
 {
 "id": "place:Jerusalem",
@@ -2479,11 +2471,11 @@
 "preferred_label": "Jerusalem"
 },
 {
-"id": "place:Bethany",
-"type": "place",
+"id": "keyterm:Hosanna",
+"type": "keyterm",
 "confidence": 0.3,
 "match_method": "canonical",
-"preferred_label": "Bethany"
+"preferred_label": "Hosanna"
 },
 {
 "id": "group:GenericGroup",
@@ -2514,11 +2506,18 @@
 "preferred_label": "Bethphage"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
+"id": "keyterm:Name",
+"type": "keyterm",
 "confidence": 0.1909,
 "match_method": "canonical",
-"preferred_label": "LORD"
+"preferred_label": "Name"
+},
+{
+"id": "person:David",
+"type": "person",
+"confidence": 0.1909,
+"match_method": "canonical",
+"preferred_label": "David"
 },
 {
 "id": "keyterm:Disciple",
@@ -2526,13 +2525,6 @@
 "confidence": 0.1909,
 "match_method": "canonical",
 "preferred_label": "Be a Disciple"
-},
-{
-"id": "keyterm:Name",
-"type": "keyterm",
-"confidence": 0.1909,
-"match_method": "canonical",
-"preferred_label": "Name"
 },
 {
 "id": "keyterm:Height",
@@ -2549,11 +2541,11 @@
 "preferred_label": "Kingdom"
 },
 {
-"id": "person:David",
-"type": "person",
+"id": "deity:Lord",
+"type": "deity",
 "confidence": 0.1909,
 "match_method": "canonical",
-"preferred_label": "David"
+"preferred_label": "LORD"
 },
 {
 "id": "flora:Rush",
@@ -2563,18 +2555,18 @@
 "preferred_label": "Rush"
 },
 {
-"id": "flora:OliveTree",
-"type": "flora",
-"confidence": 0.1309,
-"match_method": "canonical",
-"preferred_label": "Olive Tree"
-},
-{
 "id": "realia:Temple",
 "type": "realia",
 "confidence": 0.1309,
 "match_method": "canonical",
 "preferred_label": "Temple"
+},
+{
+"id": "flora:OliveTree",
+"type": "flora",
+"confidence": 0.1309,
+"match_method": "canonical",
+"preferred_label": "Olive Tree"
 }
 ]
 }
@@ -2601,18 +2593,18 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:Pray",
-"type": "keyterm",
-"confidence": 0.34,
-"match_method": "canonical",
-"preferred_label": "Pray"
-},
-{
 "id": "keyterm:Believe",
 "type": "keyterm",
 "confidence": 0.34,
 "match_method": "canonical",
 "preferred_label": "Believe"
+},
+{
+"id": "keyterm:Pray",
+"type": "keyterm",
+"confidence": 0.34,
+"match_method": "canonical",
+"preferred_label": "Pray"
 },
 {
 "id": "realia:Temple",
@@ -2636,11 +2628,11 @@
 "preferred_label": "LORD"
 },
 {
-"id": "keyterm:Heaven",
+"id": "keyterm:Discern",
 "type": "keyterm",
 "confidence": 0.18,
 "match_method": "canonical",
-"preferred_label": "Sky"
+"preferred_label": "Discern"
 },
 {
 "id": "person:Jesus.2",
@@ -2650,53 +2642,11 @@
 "preferred_label": "Jesus"
 },
 {
-"id": "person:Peter",
-"type": "person",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "Peter"
-},
-{
 "id": "keyterm:Surely",
 "type": "keyterm",
 "confidence": 0.18,
 "match_method": "canonical",
 "preferred_label": "Surely!"
-},
-{
-"id": "place:Jerusalem",
-"type": "place",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "Jerusalem"
-},
-{
-"id": "place:Bethany",
-"type": "place",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "Bethany"
-},
-{
-"id": "keyterm:Forgive",
-"type": "keyterm",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "Forgive"
-},
-{
-"id": "keyterm:Heart",
-"type": "keyterm",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "Heart"
-},
-{
-"id": "keyterm:Fear",
-"type": "keyterm",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "Fear"
 },
 {
 "id": "keyterm:Always",
@@ -2706,11 +2656,46 @@
 "preferred_label": "Always"
 },
 {
-"id": "keyterm:Discern",
+"id": "keyterm:Forgive",
 "type": "keyterm",
 "confidence": 0.18,
 "match_method": "canonical",
-"preferred_label": "Discern"
+"preferred_label": "Forgive"
+},
+{
+"id": "person:Peter",
+"type": "person",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "Peter"
+},
+{
+"id": "place:Bethany",
+"type": "place",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "Bethany"
+},
+{
+"id": "place:Jerusalem",
+"type": "place",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "Jerusalem"
+},
+{
+"id": "keyterm:Fear",
+"type": "keyterm",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "Fear"
+},
+{
+"id": "keyterm:Heart",
+"type": "keyterm",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "Heart"
 },
 {
 "id": "keyterm:Disciple",
@@ -2718,6 +2703,13 @@
 "confidence": 0.18,
 "match_method": "canonical",
 "preferred_label": "Be a Disciple"
+},
+{
+"id": "keyterm:Heaven",
+"type": "keyterm",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "Sky"
 },
 {
 "id": "realia:Seat",
@@ -2779,18 +2771,18 @@
 "preferred_label": "Ability"
 },
 {
-"id": "person:John",
-"type": "person",
-"confidence": 0.3286,
-"match_method": "canonical",
-"preferred_label": "John"
-},
-{
 "id": "keyterm:Heaven",
 "type": "keyterm",
 "confidence": 0.3286,
 "match_method": "canonical",
 "preferred_label": "Sky"
+},
+{
+"id": "person:John",
+"type": "person",
+"confidence": 0.3286,
+"match_method": "canonical",
+"preferred_label": "John"
 },
 {
 "id": "person:Jesus.2",
@@ -2807,18 +2799,11 @@
 "preferred_label": "Elders"
 },
 {
-"id": "group:ReligiousOfficials",
+"id": "group:GenericPriests",
 "type": "group",
 "confidence": 0.2143,
 "match_method": "canonical",
-"preferred_label": "Religious Officials"
-},
-{
-"id": "keyterm:Believe",
-"type": "keyterm",
-"confidence": 0.2143,
-"match_method": "canonical",
-"preferred_label": "Believe"
+"preferred_label": "Priests"
 },
 {
 "id": "place:Jerusalem",
@@ -2835,18 +2820,25 @@
 "preferred_label": "Baptism"
 },
 {
-"id": "group:GenericPriests",
-"type": "group",
-"confidence": 0.2143,
-"match_method": "canonical",
-"preferred_label": "Priests"
-},
-{
 "id": "keyterm:Fear",
 "type": "keyterm",
 "confidence": 0.2143,
 "match_method": "canonical",
 "preferred_label": "Fear"
+},
+{
+"id": "group:ReligiousOfficials",
+"type": "group",
+"confidence": 0.2143,
+"match_method": "canonical",
+"preferred_label": "Religious Officials"
+},
+{
+"id": "keyterm:Believe",
+"type": "keyterm",
+"confidence": 0.2143,
+"match_method": "canonical",
+"preferred_label": "Believe"
 },
 {
 "id": "realia:Temple",
@@ -2901,20 +2893,6 @@
 "preferred_label": "Reject"
 },
 {
-"id": "keyterm:Beloved",
-"type": "keyterm",
-"confidence": 0.1875,
-"match_method": "canonical",
-"preferred_label": "Beloved"
-},
-{
-"id": "keyterm:Scripture",
-"type": "keyterm",
-"confidence": 0.1875,
-"match_method": "canonical",
-"preferred_label": "Written"
-},
-{
 "id": "keyterm:Empty",
 "type": "keyterm",
 "confidence": 0.1875,
@@ -2922,11 +2900,11 @@
 "preferred_label": "Empty"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
+"id": "keyterm:Beloved",
+"type": "keyterm",
 "confidence": 0.1875,
 "match_method": "canonical",
-"preferred_label": "LORD"
+"preferred_label": "Beloved"
 },
 {
 "id": "keyterm:Fear",
@@ -2936,11 +2914,25 @@
 "preferred_label": "Fear"
 },
 {
-"id": "realia:Cornerstone",
+"id": "keyterm:Scripture",
+"type": "keyterm",
+"confidence": 0.1875,
+"match_method": "canonical",
+"preferred_label": "Written"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.1875,
+"match_method": "canonical",
+"preferred_label": "LORD"
+},
+{
+"id": "realia:Tower",
 "type": "realia",
 "confidence": 0.1275,
 "match_method": "canonical",
-"preferred_label": "Cornerstone"
+"preferred_label": "Tower"
 },
 {
 "id": "realia:ThornHedge",
@@ -2950,13 +2942,6 @@
 "preferred_label": "Thorn Hedge"
 },
 {
-"id": "realia:Winepress",
-"type": "realia",
-"confidence": 0.1275,
-"match_method": "canonical",
-"preferred_label": "Winepress"
-},
-{
 "id": "realia:Watch-tower",
 "type": "realia",
 "confidence": 0.1275,
@@ -2964,11 +2949,18 @@
 "preferred_label": "Watch-Tower"
 },
 {
-"id": "realia:Tower",
+"id": "realia:Winepress",
 "type": "realia",
 "confidence": 0.1275,
 "match_method": "canonical",
-"preferred_label": "Tower"
+"preferred_label": "Winepress"
+},
+{
+"id": "realia:Cornerstone",
+"type": "realia",
+"confidence": 0.1275,
+"match_method": "canonical",
+"preferred_label": "Cornerstone"
 }
 ]
 }
@@ -3016,6 +3008,27 @@
 "preferred_label": "Herodians"
 },
 {
+"id": "keyterm:TheWay",
+"type": "keyterm",
+"confidence": 0.24,
+"match_method": "canonical",
+"preferred_label": "The Way"
+},
+{
+"id": "keyterm:Hypocrisy",
+"type": "keyterm",
+"confidence": 0.24,
+"match_method": "canonical",
+"preferred_label": "Hypocrisy"
+},
+{
+"id": "keyterm:Lawful",
+"type": "keyterm",
+"confidence": 0.24,
+"match_method": "canonical",
+"preferred_label": "Be Lawful"
+},
+{
 "id": "keyterm:True",
 "type": "keyterm",
 "confidence": 0.24,
@@ -3030,25 +3043,11 @@
 "preferred_label": "Poll Tax"
 },
 {
-"id": "group:Pharisee",
-"type": "group",
-"confidence": 0.24,
-"match_method": "canonical",
-"preferred_label": "Pharisees"
-},
-{
-"id": "keyterm:Hypocrisy",
+"id": "keyterm:Truth",
 "type": "keyterm",
 "confidence": 0.24,
 "match_method": "canonical",
-"preferred_label": "Hypocrisy"
-},
-{
-"id": "keyterm:TheWay",
-"type": "keyterm",
-"confidence": 0.24,
-"match_method": "canonical",
-"preferred_label": "The Way"
+"preferred_label": "Truth"
 },
 {
 "id": "person:Jesus.2",
@@ -3058,18 +3057,11 @@
 "preferred_label": "Jesus"
 },
 {
-"id": "keyterm:Lawful",
-"type": "keyterm",
+"id": "group:Pharisee",
+"type": "group",
 "confidence": 0.24,
 "match_method": "canonical",
-"preferred_label": "Be Lawful"
-},
-{
-"id": "keyterm:Truth",
-"type": "keyterm",
-"confidence": 0.24,
-"match_method": "canonical",
-"preferred_label": "Truth"
+"preferred_label": "Pharisees"
 },
 {
 "id": "realia:Denarius",
@@ -3124,18 +3116,18 @@
 "preferred_label": "Moses"
 },
 {
+"id": "group:Sadducee",
+"type": "group",
+"confidence": 0.195,
+"match_method": "canonical",
+"preferred_label": "Sadducees"
+},
+{
 "id": "person:Abraham",
 "type": "person",
 "confidence": 0.195,
 "match_method": "canonical",
 "preferred_label": "Abraham"
-},
-{
-"id": "deity:Angel",
-"type": "deity",
-"confidence": 0.195,
-"match_method": "canonical",
-"preferred_label": "An Angel"
 },
 {
 "id": "keyterm:Heaven",
@@ -3145,11 +3137,32 @@
 "preferred_label": "Sky"
 },
 {
+"id": "keyterm:Ability",
+"type": "keyterm",
+"confidence": 0.195,
+"match_method": "canonical",
+"preferred_label": "Ability"
+},
+{
 "id": "keyterm:Life",
 "type": "keyterm",
 "confidence": 0.195,
 "match_method": "canonical",
 "preferred_label": "Life"
+},
+{
+"id": "deity:Angel",
+"type": "deity",
+"confidence": 0.195,
+"match_method": "canonical",
+"preferred_label": "An Angel"
+},
+{
+"id": "person:Isaac",
+"type": "person",
+"confidence": 0.195,
+"match_method": "canonical",
+"preferred_label": "Isaac"
 },
 {
 "id": "person:Israel",
@@ -3166,32 +3179,11 @@
 "preferred_label": "Jesus"
 },
 {
-"id": "person:Isaac",
-"type": "person",
-"confidence": 0.195,
-"match_method": "canonical",
-"preferred_label": "Isaac"
-},
-{
 "id": "keyterm:Scripture",
 "type": "keyterm",
 "confidence": 0.195,
 "match_method": "canonical",
 "preferred_label": "Written"
-},
-{
-"id": "keyterm:Ability",
-"type": "keyterm",
-"confidence": 0.195,
-"match_method": "canonical",
-"preferred_label": "Ability"
-},
-{
-"id": "group:Sadducee",
-"type": "group",
-"confidence": 0.195,
-"match_method": "canonical",
-"preferred_label": "Sadducees"
 },
 {
 "id": "flora:Brier",
@@ -3246,13 +3238,6 @@
 "preferred_label": "LORD"
 },
 {
-"id": "keyterm:Commandment",
-"type": "keyterm",
-"confidence": 0.3286,
-"match_method": "canonical",
-"preferred_label": "Commandment"
-},
-{
 "id": "keyterm:Heart",
 "type": "keyterm",
 "confidence": 0.3286,
@@ -3260,18 +3245,11 @@
 "preferred_label": "Heart"
 },
 {
-"id": "person:Jesus.2",
-"type": "person",
+"id": "keyterm:Commandment",
+"type": "keyterm",
 "confidence": 0.3286,
 "match_method": "canonical",
-"preferred_label": "Jesus"
-},
-{
-"id": "person:Scribe",
-"type": "person",
-"confidence": 0.3286,
-"match_method": "canonical",
-"preferred_label": "A Scribe"
+"preferred_label": "Commandment"
 },
 {
 "id": "person:GenericPriest",
@@ -3281,18 +3259,25 @@
 "preferred_label": "A Priest"
 },
 {
+"id": "person:Scribe",
+"type": "person",
+"confidence": 0.3286,
+"match_method": "canonical",
+"preferred_label": "A Scribe"
+},
+{
+"id": "person:Jesus.2",
+"type": "person",
+"confidence": 0.3286,
+"match_method": "canonical",
+"preferred_label": "Jesus"
+},
+{
 "id": "keyterm:Mind.2",
 "type": "keyterm",
 "confidence": 0.2143,
 "match_method": "canonical",
 "preferred_label": "Mind"
-},
-{
-"id": "keyterm:Offering",
-"type": "keyterm",
-"confidence": 0.2143,
-"match_method": "canonical",
-"preferred_label": "Offering"
 },
 {
 "id": "person:Israel",
@@ -3314,6 +3299,13 @@
 "confidence": 0.2143,
 "match_method": "canonical",
 "preferred_label": "Truth"
+},
+{
+"id": "keyterm:Offering",
+"type": "keyterm",
+"confidence": 0.2143,
+"match_method": "canonical",
+"preferred_label": "Offering"
 }
 ]
 }
@@ -3337,15 +3329,7 @@
 "end_ref_usfm": "MRK 12:37"
 }
 ],
-"resource": [
-{
-"reference_id": 0,
-"content_id": "zht-t90-v1",
-"resource_code": "FIAKeyTerms",
-"label": "master",
-"language": "zht"
-}
-],
+"resource": [],
 "acai": [
 {
 "id": "person:David",
@@ -3414,27 +3398,6 @@
 "preferred_label": "Treasury"
 },
 {
-"id": "keyterm:Surely",
-"type": "keyterm",
-"confidence": 0.2143,
-"match_method": "canonical",
-"preferred_label": "Surely!"
-},
-{
-"id": "keyterm:DailyLife",
-"type": "keyterm",
-"confidence": 0.2143,
-"match_method": "canonical",
-"preferred_label": "Daily Life"
-},
-{
-"id": "keyterm:Judgment",
-"type": "keyterm",
-"confidence": 0.2143,
-"match_method": "canonical",
-"preferred_label": "Judgment"
-},
-{
 "id": "keyterm:Disciple",
 "type": "keyterm",
 "confidence": 0.2143,
@@ -3447,6 +3410,27 @@
 "confidence": 0.2143,
 "match_method": "canonical",
 "preferred_label": "Pray"
+},
+{
+"id": "keyterm:Judgment",
+"type": "keyterm",
+"confidence": 0.2143,
+"match_method": "canonical",
+"preferred_label": "Judgment"
+},
+{
+"id": "keyterm:DailyLife",
+"type": "keyterm",
+"confidence": 0.2143,
+"match_method": "canonical",
+"preferred_label": "Daily Life"
+},
+{
+"id": "keyterm:Surely",
+"type": "keyterm",
+"confidence": 0.2143,
+"match_method": "canonical",
+"preferred_label": "Surely!"
 },
 {
 "id": "realia:Quadrans",
@@ -3515,18 +3499,18 @@
 "preferred_label": "Temple"
 },
 {
-"id": "person:Andrew",
-"type": "person",
+"id": "keyterm:Name",
+"type": "keyterm",
 "confidence": 0.2063,
 "match_method": "canonical",
-"preferred_label": "Andrew"
+"preferred_label": "Name"
 },
 {
-"id": "person:John.2",
+"id": "person:Peter",
 "type": "person",
 "confidence": 0.2063,
 "match_method": "canonical",
-"preferred_label": "John"
+"preferred_label": "Peter"
 },
 {
 "id": "keyterm:Disciple",
@@ -3536,18 +3520,25 @@
 "preferred_label": "Be a Disciple"
 },
 {
-"id": "keyterm:Name",
-"type": "keyterm",
+"id": "group:GenericDisciples",
+"type": "group",
 "confidence": 0.2063,
 "match_method": "canonical",
-"preferred_label": "Name"
+"preferred_label": "A Group of Disciples"
 },
 {
-"id": "person:James",
+"id": "person:John.2",
 "type": "person",
 "confidence": 0.2063,
 "match_method": "canonical",
-"preferred_label": "James"
+"preferred_label": "John"
+},
+{
+"id": "person:Andrew",
+"type": "person",
+"confidence": 0.2063,
+"match_method": "canonical",
+"preferred_label": "Andrew"
 },
 {
 "id": "keyterm:Kingdom",
@@ -3557,18 +3548,11 @@
 "preferred_label": "Kingdom"
 },
 {
-"id": "group:GenericDisciples",
-"type": "group",
-"confidence": 0.2063,
-"match_method": "canonical",
-"preferred_label": "A Group of Disciples"
-},
-{
-"id": "person:Peter",
+"id": "person:James",
 "type": "person",
 "confidence": 0.2063,
 "match_method": "canonical",
-"preferred_label": "Peter"
+"preferred_label": "James"
 },
 {
 "id": "keyterm:Example",
@@ -3609,6 +3593,13 @@
 "resource": [],
 "acai": [
 {
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.26,
+"match_method": "canonical",
+"preferred_label": "LORD"
+},
+{
 "id": "keyterm:Salvation",
 "type": "keyterm",
 "confidence": 0.26,
@@ -3621,55 +3612,6 @@
 "confidence": 0.26,
 "match_method": "canonical",
 "preferred_label": "Chosen"
-},
-{
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.26,
-"match_method": "canonical",
-"preferred_label": "LORD"
-},
-{
-"id": "keyterm:Body.3",
-"type": "keyterm",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "Body"
-},
-{
-"id": "keyterm:AbominationOfDesolation",
-"type": "keyterm",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "Abomination of Desolation"
-},
-{
-"id": "keyterm:Portent",
-"type": "keyterm",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "Portent"
-},
-{
-"id": "person:Jesus.2",
-"type": "person",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "Jesus"
-},
-{
-"id": "keyterm:Pray",
-"type": "keyterm",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "Pray"
-},
-{
-"id": "place:Judea",
-"type": "place",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "Judea"
 },
 {
 "id": "keyterm:Proclaim",
@@ -3686,39 +3628,18 @@
 "preferred_label": "Holy Spirit"
 },
 {
+"id": "person:Jesus.2",
+"type": "person",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "Jesus"
+},
+{
 "id": "keyterm:Example",
 "type": "keyterm",
 "confidence": 0.18,
 "match_method": "canonical",
 "preferred_label": "Symbol"
-},
-{
-"id": "keyterm:GoodNews",
-"type": "keyterm",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "Good News"
-},
-{
-"id": "keyterm:Disaster",
-"type": "keyterm",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "Disaster"
-},
-{
-"id": "keyterm:BearWitness",
-"type": "keyterm",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "Bear Witness"
-},
-{
-"id": "keyterm:Name",
-"type": "keyterm",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "Name"
 },
 {
 "id": "keyterm:Believe",
@@ -3728,18 +3649,74 @@
 "preferred_label": "Believe"
 },
 {
+"id": "keyterm:AbominationOfDesolation",
+"type": "keyterm",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "Abomination of Desolation"
+},
+{
+"id": "keyterm:GoodNews",
+"type": "keyterm",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "Good News"
+},
+{
+"id": "place:Judea",
+"type": "place",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "Judea"
+},
+{
+"id": "keyterm:BearWitness",
+"type": "keyterm",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "Bear Witness"
+},
+{
+"id": "keyterm:Body.3",
+"type": "keyterm",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "Body"
+},
+{
+"id": "keyterm:Pray",
+"type": "keyterm",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "Pray"
+},
+{
+"id": "keyterm:Portent",
+"type": "keyterm",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "Portent"
+},
+{
+"id": "keyterm:Name",
+"type": "keyterm",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "Name"
+},
+{
+"id": "keyterm:Disaster",
+"type": "keyterm",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "Disaster"
+},
+{
 "id": "realia:Housetop",
 "type": "realia",
 "confidence": 0.12,
 "match_method": "canonical",
 "preferred_label": "Housetop"
-},
-{
-"id": "realia:Cloak",
-"type": "realia",
-"confidence": 0.12,
-"match_method": "canonical",
-"preferred_label": "Cloak"
 },
 {
 "id": "realia:Synagogue",
@@ -3754,6 +3731,13 @@
 "confidence": 0.12,
 "match_method": "canonical",
 "preferred_label": "House"
+},
+{
+"id": "realia:Cloak",
+"type": "realia",
+"confidence": 0.12,
+"match_method": "canonical",
+"preferred_label": "Cloak"
 }
 ]
 }
@@ -3794,18 +3778,18 @@
 "preferred_label": "Surely!"
 },
 {
-"id": "keyterm:Parable",
-"type": "keyterm",
-"confidence": 0.2063,
-"match_method": "canonical",
-"preferred_label": "Parable"
-},
-{
 "id": "deity:Angel",
 "type": "deity",
 "confidence": 0.2063,
 "match_method": "canonical",
 "preferred_label": "An Angel"
+},
+{
+"id": "keyterm:Ability",
+"type": "keyterm",
+"confidence": 0.2063,
+"match_method": "canonical",
+"preferred_label": "Ability"
 },
 {
 "id": "keyterm:Chosen",
@@ -3822,18 +3806,11 @@
 "preferred_label": "Glory"
 },
 {
-"id": "keyterm:Ability",
+"id": "keyterm:Parable",
 "type": "keyterm",
 "confidence": 0.2063,
 "match_method": "canonical",
-"preferred_label": "Ability"
-},
-{
-"id": "flora:Fig",
-"type": "flora",
-"confidence": 0.1463,
-"match_method": "canonical",
-"preferred_label": "Fig"
+"preferred_label": "Parable"
 },
 {
 "id": "realia:Door",
@@ -3841,6 +3818,13 @@
 "confidence": 0.1463,
 "match_method": "canonical",
 "preferred_label": "Door"
+},
+{
+"id": "flora:Fig",
+"type": "flora",
+"confidence": 0.1463,
+"match_method": "canonical",
+"preferred_label": "Fig"
 }
 ]
 }
@@ -3874,20 +3858,6 @@
 "preferred_label": "House"
 },
 {
-"id": "deity:Angel",
-"type": "deity",
-"confidence": 0.225,
-"match_method": "canonical",
-"preferred_label": "An Angel"
-},
-{
-"id": "keyterm:Heaven",
-"type": "keyterm",
-"confidence": 0.225,
-"match_method": "canonical",
-"preferred_label": "Sky"
-},
-{
 "id": "keyterm:Command",
 "type": "keyterm",
 "confidence": 0.225,
@@ -3902,11 +3872,25 @@
 "preferred_label": "Authority"
 },
 {
+"id": "keyterm:Heaven",
+"type": "keyterm",
+"confidence": 0.225,
+"match_method": "canonical",
+"preferred_label": "Sky"
+},
+{
 "id": "keyterm:Ability",
 "type": "keyterm",
 "confidence": 0.225,
 "match_method": "canonical",
 "preferred_label": "Ability"
+},
+{
+"id": "deity:Angel",
+"type": "deity",
+"confidence": 0.225,
+"match_method": "canonical",
+"preferred_label": "An Angel"
 },
 {
 "id": "deity:Lord",
@@ -3937,15 +3921,7 @@
 "end_ref_usfm": "MRK 14:11"
 }
 ],
-"resource": [
-{
-"reference_id": 0,
-"content_id": "zht-t212-v1",
-"resource_code": "FIAKeyTerms",
-"label": "anoint",
-"language": "zht"
-}
-],
+"resource": [],
 "acai": [
 {
 "id": "flora:Myrrh",
@@ -3976,18 +3952,18 @@
 "preferred_label": "Bethany"
 },
 {
-"id": "keyterm:Body.3",
+"id": "keyterm:Proclaim",
 "type": "keyterm",
 "confidence": 0.1909,
 "match_method": "canonical",
-"preferred_label": "Body"
+"preferred_label": "Proclaim"
 },
 {
-"id": "person:Judas.2",
-"type": "person",
+"id": "keyterm:Promise",
+"type": "keyterm",
 "confidence": 0.1909,
 "match_method": "canonical",
-"preferred_label": "Judas"
+"preferred_label": "Promise"
 },
 {
 "id": "person:Jesus.2",
@@ -4004,11 +3980,11 @@
 "preferred_label": "Surely!"
 },
 {
-"id": "keyterm:Proclaim",
+"id": "keyterm:GoodNews",
 "type": "keyterm",
 "confidence": 0.1909,
 "match_method": "canonical",
-"preferred_label": "Proclaim"
+"preferred_label": "Good News"
 },
 {
 "id": "group:GenericDisciples",
@@ -4018,6 +3994,20 @@
 "preferred_label": "A Group of Disciples"
 },
 {
+"id": "person:Judas.2",
+"type": "person",
+"confidence": 0.1909,
+"match_method": "canonical",
+"preferred_label": "Judas"
+},
+{
+"id": "keyterm:Body.3",
+"type": "keyterm",
+"confidence": 0.1909,
+"match_method": "canonical",
+"preferred_label": "Body"
+},
+{
 "id": "keyterm:Ability",
 "type": "keyterm",
 "confidence": 0.1909,
@@ -4025,11 +4015,11 @@
 "preferred_label": "Ability"
 },
 {
-"id": "keyterm:GoodNews",
+"id": "keyterm:Pure",
 "type": "keyterm",
 "confidence": 0.1909,
 "match_method": "canonical",
-"preferred_label": "Good News"
+"preferred_label": "Pure"
 },
 {
 "id": "keyterm:Passover",
@@ -4037,20 +4027,6 @@
 "confidence": 0.1909,
 "match_method": "canonical",
 "preferred_label": "Passover"
-},
-{
-"id": "keyterm:Promise",
-"type": "keyterm",
-"confidence": 0.1909,
-"match_method": "canonical",
-"preferred_label": "Promise"
-},
-{
-"id": "keyterm:Pure",
-"type": "keyterm",
-"confidence": 0.1909,
-"match_method": "canonical",
-"preferred_label": "Pure"
 },
 {
 "id": "realia:AlabasterJar",
@@ -4074,18 +4050,18 @@
 "preferred_label": "Oil of Nard"
 },
 {
-"id": "realia:Denarius",
-"type": "realia",
-"confidence": 0.1309,
-"match_method": "canonical",
-"preferred_label": "Denarius"
-},
-{
 "id": "realia:House",
 "type": "realia",
 "confidence": 0.1309,
 "match_method": "canonical",
 "preferred_label": "House"
+},
+{
+"id": "realia:Denarius",
+"type": "realia",
+"confidence": 0.1309,
+"match_method": "canonical",
+"preferred_label": "Denarius"
 }
 ]
 }
@@ -4140,18 +4116,11 @@
 "preferred_label": "Blood"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "LORD"
-},
-{
-"id": "keyterm:Body.3",
+"id": "keyterm:Bless",
 "type": "keyterm",
 "confidence": 0.18,
 "match_method": "canonical",
-"preferred_label": "Body"
+"preferred_label": "Bless"
 },
 {
 "id": "person:Jesus.2",
@@ -4168,25 +4137,32 @@
 "preferred_label": "Covenant"
 },
 {
-"id": "keyterm:Offering",
-"type": "keyterm",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "Offering"
-},
-{
-"id": "keyterm:Bless",
-"type": "keyterm",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "Bless"
-},
-{
 "id": "keyterm:Kingdom",
 "type": "keyterm",
 "confidence": 0.18,
 "match_method": "canonical",
 "preferred_label": "Kingdom"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "LORD"
+},
+{
+"id": "keyterm:Body.3",
+"type": "keyterm",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "Body"
+},
+{
+"id": "keyterm:Offering",
+"type": "keyterm",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "Offering"
 },
 {
 "id": "keyterm:Disaster",
@@ -4196,18 +4172,18 @@
 "preferred_label": "Disaster"
 },
 {
-"id": "realia:UpstairsRoom",
-"type": "realia",
-"confidence": 0.1333,
-"match_method": "canonical",
-"preferred_label": "Upstairs Room"
-},
-{
 "id": "realia:GuestRoom",
 "type": "realia",
 "confidence": 0.1333,
 "match_method": "canonical",
 "preferred_label": "Guest Room"
+},
+{
+"id": "realia:UpstairsRoom",
+"type": "realia",
+"confidence": 0.1333,
+"match_method": "canonical",
+"preferred_label": "Upstairs Room"
 },
 {
 "id": "flora:Vine",
@@ -4224,13 +4200,6 @@
 "preferred_label": "Sheep"
 },
 {
-"id": "flora:OliveTree",
-"type": "flora",
-"confidence": 0.12,
-"match_method": "canonical",
-"preferred_label": "Olive Tree"
-},
-{
 "id": "realia:Bowl.2",
 "type": "realia",
 "confidence": 0.12,
@@ -4243,6 +4212,13 @@
 "confidence": 0.12,
 "match_method": "canonical",
 "preferred_label": "Clay Jar"
+},
+{
+"id": "flora:OliveTree",
+"type": "flora",
+"confidence": 0.12,
+"match_method": "canonical",
+"preferred_label": "Olive Tree"
 }
 ]
 }
@@ -4276,11 +4252,11 @@
 "preferred_label": "Jesus"
 },
 {
-"id": "keyterm:Surely",
-"type": "keyterm",
+"id": "person:Peter",
+"type": "person",
 "confidence": 0.24,
 "match_method": "canonical",
-"preferred_label": "Surely!"
+"preferred_label": "Peter"
 },
 {
 "id": "place:Galilee",
@@ -4297,18 +4273,11 @@
 "preferred_label": "Resurrection"
 },
 {
-"id": "person:Peter",
-"type": "person",
+"id": "keyterm:Surely",
+"type": "keyterm",
 "confidence": 0.24,
 "match_method": "canonical",
-"preferred_label": "Peter"
-},
-{
-"id": "fauna:Rooster",
-"type": "fauna",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "Rooster"
+"preferred_label": "Surely!"
 },
 {
 "id": "fauna:Flock",
@@ -4318,11 +4287,11 @@
 "preferred_label": "Flock"
 },
 {
-"id": "fauna:Goat",
+"id": "fauna:Rooster",
 "type": "fauna",
 "confidence": 0.18,
 "match_method": "canonical",
-"preferred_label": "Goat"
+"preferred_label": "Rooster"
 },
 {
 "id": "fauna:Lamb",
@@ -4330,6 +4299,13 @@
 "confidence": 0.18,
 "match_method": "canonical",
 "preferred_label": "Sheep"
+},
+{
+"id": "fauna:Goat",
+"type": "fauna",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "Goat"
 }
 ]
 }
@@ -4343,7 +4319,7 @@
 "index_reference": "41014032-41014042",
 "language": "zht",
 "review_level": "None",
-"content": "<h2>Step 1</h2><p>在這一步驟中，請聆聽馬可福音十四章32至42節，並把它記在你們心裡。</p><p>如果可能的話，請聽三遍馬可福音十四章32至42節的音頻，並使用三種不同的譯本。然後，小組一起討論以下的問題：</p><ul><li>你喜歡這段經文中的哪個部分？</li><li>這段經文有哪些部分是你不喜歡或不明白的地方？</li><li>這段經文告訴我們關於神或耶穌的哪些信息？</li><li>這段經文告訴了我們關於人的什麼事?</li><li>這段經文對我們的日常生活有什麼影響？</li><li>你認識哪些人需要聽一聽這段經文呢？</li></ul>\n<h2>Step 2</h2><p>請使用最容易理解的譯本，聆聽馬可福音十四章32至42節的音頻。</p><p>耶穌和祂的門徒從山谷繼續往橄欖山上走。他們來到橄欖山上的一個橄欖園，名叫客西馬尼。 橄欖園是人們種植橄欖樹，並製作橄欖油的地方。 客西馬尼在希伯來語中是榨油機的意思，所以人們很可能也在這裡壓橄欖來製作橄欖油。</p><p>在這裡暫停一下，小組一同觀看一張客西馬尼園的照片，以及一張橄欖樹的照片。 請在這裡暫停音頻。</p><p>當耶穌和門徒到那裡後，耶穌對門徒說，祂要去禱告，要他們坐在那裡等候。 對耶穌來說，去禱告應該是很平常的事。 就像從前一樣，耶穌把彼得、雅各和約翰分出來，帶著這三位門徒一起進到橄欖園裡。 為什麼是這三個人？ 這三位門徒都曾說過，他們願意和耶穌一同受苦。</p><p>耶穌經歷了極其痛苦的情緒。 祂心裡非常憂傷和痛苦。 祂說：「我心裏甚是憂傷，幾乎要死。」 耶穌是在說，祂感到非常難過，就像有一個巨大的重擔壓在祂身上一樣。 靈魂是一個人性格的核心。 這是耶穌生命中最重要的時刻之一，祂真的即將經歷那祂已預備好迎接的痛苦和死亡。 耶穌清楚知道這苦難要祂付上的全部代價。</p><p>在這裡暫停一下，小組討論以下問題：耶穌內心極度的憂傷和痛苦是用最強烈的語言被描述出來。 彼此互相分享一些人們曾經歷巨大心靈痛苦的故事。 當你們在聽彼此分享的故事時，留意你們用來描述內心痛苦時所使用的詞語。 請在這裡暫停音頻。</p><p>耶穌要那三位門徒警醒，也就是要他們在靈裡保持警覺和剛強，好去抵擋他們很快就要面對的試探。 祂往前走了幾米，開始禱告。 祂跪著或伏在地上禱告，這表示著這個禱告非常迫切或極其重要。 猶太人平常是站著、舉手禱告的。 耶穌禱告說，求那「時候」，也就是受苦的時刻過去。 祂用猶太人對父親親暱的稱呼「阿爸」來呼求神為祂的父。 猶太人不會用「阿爸」來稱呼神，所以耶穌在這裡表明祂與神之間特別的關係。 祂祈求神把這「杯」撤去。 在舊約中，杯象徵神的忿怒和苦難。 雖然耶穌知道神即將讓祂承受所有的忿怒和審判，祂仍然順服並信靠祂的父。 我們知道這一點，是因為耶穌使用家人的語氣和祂對神謙卑的請求——祂說：「若是可能」以及「不要照我的意思，只要照你的意思。」 耶穌是在求神「不要照我的意思行，要照你的旨意行。」</p><p>耶穌回到三位門徒身邊，是因為祂擔心他們會陷入試探。 祂看到他們正在睡覺！ 耶穌先和彼得說話，因為彼得剛剛起誓說他願意為耶穌捨命。 耶穌叫彼得以前的名字「西門」，可能是要提醒彼得，他的行為好像過去還沒有完全跟隨耶穌的樣子！ 耶穌問西門彼得：「你睡覺嗎？ 不能警醒片時嗎？」 耶穌對門徒睡覺感到驚訝和失望。 祂的問話是在責備他們。 然後耶穌對三位門徒說：「要警醒禱告。」 「警醒」的意思是在靈裡保持清醒，這樣他們才能在被試探否認耶穌時，仍然忠於祂。 耶穌說：「你們心靈固然願意，肉體卻軟弱了。」 這表示你的心，或你的情感，渴望跟隨神。 但你們自己並不剛強。 耶穌知道，神的靈在他們裡面，又或許是他們自己的心意，幫助他們有忠心跟隨祂的心願。 但是，人是軟弱的。 我們自己無法抵擋邪惡。</p><p>耶穌又走到幾米遠的地方，再次作同樣的禱告。 祂第二次回到門徒身邊。 他們眼睛沉重，就是說他們的眼皮一直閉上。 門徒沒有好理由來解釋為何睡著，所以他們也不知道該怎麼回答。 耶穌第三次去禱告，然後第三次回到那三位門徒身邊。</p><p>在這裡暫停一下，小組討論以下問題：在你的文化中，當你犯罪時，你是嘗試為自己辯護，還是保持沉默？ 你怎麼知道一個人有罪呢？ 請在這裡暫停音頻。</p><p>耶穌第三次回來時，祂問：「你們仍然睡覺安歇嗎？」 祂責備他們睡著而沒有禱告。 然後祂說：「夠了」或「時候到了。」 祂可能是說，祂所禱告的事已經定了。 也可能是祂在提醒門徒，現在該停止睡覺了。 「時候到了」，就是神所安排的一切要發生的時候到了。 耶穌說：「人子被賣在罪人手裡了。」 這表示那些不認識耶穌是誰的罪人，會把耶穌逮捕，祂將受苦並且死去。 耶穌再次稱自己為人子，這是在強調一個事實，那些殺害祂的人犯下的罪，是殺害了神所差來拯救他們的那一位。</p><p>耶穌接著說：「我們走吧！」意思是「我們去見猶大和跟他一夥的人。」 「那賣我的人近了」意思是猶大已經來到客西馬尼的橄欖園這裡。</p>\n<h2>Step 3</h2><p>請使用最容易理解的譯本，聆聽馬可福音十四章32至42節的音頻。</p><p>在這一步驟中，小組要一起找出這段故事裡的場景、人物和設定。然後小組會把這段經文形象化。</p><p>這段經文有八個場景。</p><p><b>第一個場景：</b>耶穌和祂的門徒來到一個叫客西馬尼的橄欖園。</p><p><b>第二個場景：</b>耶穌帶著彼得、雅各和約翰一起走進橄欖園。 祂心裡極其憂傷，請他們和祂一同警醒。</p><p><b>第三個場景：</b>耶穌走進橄欖園，伏在地上禱告。 祂求祂的父神將祂的苦杯撤去。</p><p><b>第四個場景：</b>耶穌回到那三位門徒那裡，看見他們睡著了。 耶穌對西門彼得說話，並且吩咐三位門徒要警醒禱告。</p><p><b>第五個場景：</b>耶穌再次回去向神禱告，禱告的內容和先前一樣。</p><p><b>第六個場景：</b>耶穌第二次回到門徒那裡，又看見他們睡著了。</p><p><b>第七個場景：</b>耶穌第三次去向神禱告。</p><p><b>第八個場景：</b>耶穌第三次回到門徒那裡。 這次祂對他們說：「我們走吧，賣我的人來了。」</p><p>這段故事中的角色有：</p><ul><li>耶穌</li><li>門徒們</li><li>祂帶著門徒中的彼得、雅各和約翰一起走進園子。</li><li>父神</li></ul><p>小組注意這段經文的設定：重點是要記住，這個故事開始於耶穌和祂的門徒來到一個名叫客西馬尼的橄欖園，客西馬尼的意思是「壓橄欖油處」。 這是一個種滿橄欖樹的小地方。 人們種植這些橄欖樹，採收橄欖，然後將橄欖製作成油。</p><p>重點是要記住，耶穌帶著彼得、雅各和約翰進入園中，其他門徒則留在園子的入口等祂。 耶穌變得非常憂傷。 耶穌說祂心裡<b>極其憂傷和痛苦</b>。 這些詞語所形容的情緒非常生動且強烈。 這些情緒可能包括困惑、極度恐懼、焦慮和不確定感等。 耶穌這樣的感受持續了一段時間，而不只是短暫的一瞬間。</p><p>在這裡暫停一下，回想你們在第二步「設定場景」時，討論過的那些描述深刻情感的詞語。 你會怎麼翻譯「憂傷痛苦」這個片語？ 請在這裡暫停音頻。</p><p>耶穌告訴祂的三位門徒要和祂一同警醒，在靈裡保持警覺，這樣他們才能剛強，抵擋背叛祂的試探。 耶穌離開三位門徒，往園子的深處走去。 祂大概走了差不多一顆石頭能扔到最遠的距離。</p><p>耶穌「伏在地上」，也就是跪下或趴在地上，與祂的父神說話。 這個故事說，祂祈求那個可怕的情況不要發生。 然後祂又直接說：「阿爸，父啊，在你凡事都能。 求你將這苦杯撤去。 然而，我希望你照你的意思行，而不是我的意思。」 耶穌和神說話時，態度很有禮。</p><p>耶穌起來，回到三位門徒那裡。 他們睡著了。 耶穌對彼得說：「西門，你睡覺嗎？ 不能警醒片時嗎？」 然後耶穌對三位門徒說：「你們要警醒禱告，免得受試探。 你們的心靈固然願意，肉體卻軟弱了。做對事情很難。」</p><p>耶穌又離開回去禱告，內容和之前一樣。 你可以記住這句話：「阿爸，父啊，在你凡事都能。求你將這苦杯撤去。 然而，我希望你照你的意思行，而不是我的意思。」 請記住，耶穌雖然心裡痛苦，但祂對父神的態度始終有禮。 祂與父神的關係非常親密，就像孩子信任自己的父親，用親暱的稱呼來稱呼祂。</p><p>祂第二次回到門徒身邊。他們又睡著了。 他們無法維持睜開眼睛。 門徒們已經不知道該說什麼了。 他們不能保持清醒。</p><p>耶穌第三次去禱告，我們認為祂還是禱告同樣的內容。 「阿爸，父啊，在你凡事都能。求你將這苦杯撤去。 然而，我希望你照你的意思行，而不是我的意思。」</p><p>耶穌第三次回到那三位門徒身邊。彼得、雅各和約翰還在睡。 這次祂說：「你們還在睡覺嗎？」或「那你們繼續睡吧。」 祂可能對他們又睡著了感到驚訝。 然後祂說：「夠了！」 時候到了！ 人們要把我——人子——出賣給罪人。」 讓我們去見他們吧——那賣我的人來了。」</p><p>重點是要記住耶穌和祂的三位門徒之間來回走動的情形。 耶穌去禱告三次。 耶穌回來三次，都看見門徒睡著了。</p><p>現在小組應該用故事板、繪畫或使用物品，將這段經文和其中的動作形象化。</p>\n<h2>Step 4</h2><p>請使用最容易理解的譯本，聆聽馬可福音十四章32至42節的音頻。</p><p>在這一個步驟中，小組將把這段經文戲劇化。</p><p>這段經文有八個場景。</p><p>這段故事中的角色有：</p><ul><li>耶穌</li><li>門徒們</li><li>祂帶著門徒中的彼得、雅各和約翰一起走進園子。</li><li>父神</li></ul><p>小組一起把這段經文演出兩次。請以你自己的語言來演出這段經文。</p><p>首先，完整演出這段經文，中途不要停下來。 留意這段經文中的對話、情節發展、故事主線和時間順序。 確保你在演出這段經文時，不會跳過其中困難或重要的部分。幫助彼此記住經文中的每一個部分。</p><p>在此暫停這個音頻並表演這段經文。</p><p>這個小組應該把這段經文再演一次。 在戲劇中的某些時刻暫停，然後問扮演角色的人：「你有什麼感受或想法？」 扮演這個角色的人應該回答，如果他們是那個角色，他們會有什麼感受或想法。 然後繼續演出。</p><p>在此暫停這個音頻，然後再表演一次這段經文。</p><p>以下是這部戲劇的演出以及可能的回應。</p><p>在這段故事中，有一位扮演父神的角色來聆聽耶穌的禱告，應該是一個有效的呈現方式。</p><p>重點是要記住，耶穌帶著彼得、雅各和約翰進入園中，其他門徒則留在園子的入口等祂。耶穌非常憂傷，祂説祂的憂愁幾乎要把祂壓垮了。 耶穌告訴祂的三位門徒要和祂一同警醒，在靈裡保持警覺，這樣他們才能剛強，抵擋背叛祂的試探。 耶穌離開三位門徒，往園子的深處走去。 祂大概走了差不多一顆石頭能扔到最遠的距離。</p><p>暫停演出。 問扮演門徒的人：「你們有什麼想法或感受？」 你可能會聽到這樣的話：「耶穌情緒這麼激動，真讓人困惑。我們從沒見過祂這樣，」「真的很疲倦，也不明白到底發生了什麼事。」 問扮演耶穌的人：「你有什麼感受或想法？」 你可能會聽到這樣的話：「這太難以承受了，甚至很難走路或説話」或「很孤獨」。 繼續演出。</p><p>耶穌「伏在地上」，也就是跪下或趴在地上，與祂的父神說話。 這個故事說，祂祈求那個可怕的情況不要發生。 然後祂又直接說：「阿爸，父啊，在你凡事都能。」 求你將這苦杯撤去。 然而，我希望你照你的意思行，而不是我的意思。」 耶穌和神說話的態度很有禮。</p><p>暫停演出。 問扮演耶穌的人：「你有什麼感受或想法？」 你可能會聽到這樣的話：「絕望」、「決心做我父所吩咐的一切」、「信靠我的父。」 問扮演父神的人：「你有什麼感受或想法？」 你可能會聽到這樣的話：「真希望我能改變這一切」、「看見我的兒子經歷這些，心裡感到憂傷」、「渴望向祂表達我的愛。」 繼續演出。</p><p>耶穌起來，回到三位門徒那裡。 他們睡著了。 耶穌對彼得說：「西門，你睡覺嗎？」 不能警醒片時嗎？」 然後耶穌對三位門徒說：「你們要警醒禱告，免得受試探。」 你們的心靈固然願意，肉體卻軟弱了。做對事情很難。」</p><p>暫停演出。 問扮演門徒的人：「你們有什麼想法或感受？」 你可能會聽到這樣的話：「對我睡著了感到羞愧」、「很沮喪」、「我太累了，無法正確思考。」 問扮演耶穌的人：「你有什麼感受或想法？」 你可能會聽到這樣的話：「我為我的門徒感到擔憂，」「我好孤單。」繼續演出。</p><p>耶穌又離開回去禱告，內容和之前一樣。 你可以記住這句話：「阿爸，父啊，在你凡事都能。」 求你將這苦杯撤去。 然而，我希望你照你的意思行，而不是我的意思。」 請記住，耶穌雖然心裡痛苦，但祂對祂的父神始終有禮。 祂與父神的關係非常親密，就像孩子信任自己的父親，用親暱的稱呼來稱呼祂。</p><p>祂第二次回到門徒身邊。 他們又睡著了。 他們無法維持睜開眼睛。 門徒們已經不知道該說什麼了。 他們不能保持清醒。</p><p>暫停演出。 問扮演門徒的人：「你們有什麼想法或感受？」 你可能會聽到這樣的話：「我不明白我為什麼會如此軟弱」、「很尷尬。」 問扮演耶穌的人：「你有什麼感受或想法？」 你可能會聽到這樣的話：「我好孤單」、「我希望有人站在我旁邊。」 繼續演出。</p><p>耶穌第三次去禱告，我們認為祂還是禱告同樣的內容。 「阿爸，父啊，在你凡事都能。」 求你將這苦杯撤去。 然而，我希望你照你的意思行，而不是我的意思。」</p><p>耶穌第三次回到那三位門徒身邊。這次祂說：「你們還在睡覺嗎？」或「那你們繼續睡吧。」 然後祂說：「夠了！」 時候到了！ 人們要把我——人子——出賣給罪人。」 讓我們去見他們吧——那賣我的人來了。」</p><p>暫停演出。 問扮演耶穌的人：「你有什麼感受或想法？」 你可能會聽到這樣的話：「我要為屬於我的人走這條路，」「我對門徒和屬於我的人感到失望，但我深愛他們，」「極其痛苦——求神繼續幫助我保持剛強。」</p><p>重點是要記住耶穌和祂的三位門徒之間來回走動的情形。 耶穌去禱告三次。 耶穌回來三次，都看見門徒睡著了。</p>\n<h2>Step 5</h2><p>請使用最容易理解的譯本，聆聽馬可福音十四章32至42節的音頻。</p><p>在這一步驟中，小組將討論這段經文中的主詞彙和詞語。</p><p>耶穌對門徒說「你們坐在這裡，我要到那邊去禱告。」 <b>禱告</b>的意思是和神説話。 這類特別的禱告，是向神祈求為你成就一件事。 請使用在之前經文中所用相同的詞語或片語來表示禱告。更多關於<b>禱告</b>的信息，請參閱主詞彙表。</p><p><b>我心裡憂傷欲絕</b>，或<b>我心裡甚是憂傷，幾乎要死</b>的意思是，耶穌整個人，祂的心與魂，都被憂傷壓得喘不過氣來。 祂甚至覺得這憂傷快要把祂殺死了。 靈魂是一個人性格的核心。 請使用在之前經文中所用相同的詞語或片語來表示<b>靈魂</b>，並記住，<b>靈魂</b>已經在主詞彙表中。</p><p>當耶穌祈求神讓<b>那時候離開祂</b>時，祂是在求神讓神的忿怒或苦難的時刻不要臨到祂。</p><p>當耶穌祈求神<b>將這杯撤去</b>時，祂是在求神除去祂的苦難和忿怒。 <b>這杯</b>和<b>那時候</b>指的都是同一件事。</p><p>在這裡暫停，小組討論一下，你們會使用什麼詞語或片語來描述將這杯撤去。請在這裡暫停音頻。</p><p>耶穌問西門彼得說：「你不能警醒片時嗎？」 <b>一小時</b>是六十分鐘，但如果你的語言沒有一小時的時間概念，也可以説「短時間」。</p><p>耶穌與神有特別親密的關係，所以祂用親暱的稱呼<b>阿爸</b>，就像家中的孩子對父親的稱呼一樣。 沒有記錄顯示猶太人用這個詞語來稱呼神。 在翻譯時，你可以使用外來詞「阿爸」，保持原本的發音；或者，如果你的語言裡有親暱的稱呼父親的詞，也可以用那個詞。 更多關於<b>阿爸</b>的信息，請參閱主詞彙表。</p><p>耶穌回去，發現<b>門徒</b>睡著了。 請使用你一直使用於門徒的這個詞，並記住，<b>門徒</b>已經在主詞彙表中。</p><p>然後耶穌説：「<b>夠了</b>。」 耶穌可能是在説，門徒現在該停止睡覺了。 或者耶穌是在説：「一切都已定了。 猶大已經領了賣我的錢。」 或者，『一切都已定了。 我<b>將</b>經歷這苦難。」 可以翻譯為「這事已經發生了。」</p><p>「人子被賣在罪人手裡。」 請使用你之前所使用相同的詞語或片語來表示<b>人子</b>，並記住，<b>人子</b>和<b>罪</b>都已經在主詞彙表中。 「落在罪人手裏」的意思是，罪人已經掌控了耶穌，現在擁有了權柄。</p>\n<h2>Step 6</h2><p>使用最容易理解的翻譯語音版本，來聆聽這段經文。</p><p>在這個環節中，以小組的形式，用自己的語言複述這段經文。</p><p>首先，整個小組應該練習用自己的語言講述這段經文。 記得要包含你在前面的步驟中所確定的內容，比如時間順序、單詞、短語、情緒或任何你們討論過的其它內容。</p><p>一位小組成員應該講幾句經文內容，然後暫停一下。 另一位小組成員應該講下一部分的經文內容，然後暫停一下。 一直這樣做，直到小組成員講述完整段落。 小組成員可以在這個步驟中互相糾正。 請在這裡暫停音頻。</p><p>接下來，小組中的每個成員都應該能不間斷地將整個段落至少講述一遍。 小組成員可以使用隨機的物品、動作或他們的故事板來幫助記住經文。請在這裡暫停音頻。</p><p>接下來，小組成員可以決定你最喜歡哪個人講述的版本。 你可能會覺得某位小組成員講述某一場景的方式不錯，而另一位小組成員講述另一場景的方式也不錯。請在這裡暫停音頻。</p><p>最後，小組可以整理出一個大家都同意的經文最終版本。 每個小組成員都應該練習把這個段落的最終版本講述出來。</p>",
+"content": "<h2>Step 1</h2><p>在這一步驟中，請聆聽馬可福音十四章32至42節，並把它記在你們心裡。</p><p>如果可能的話，請聽三遍馬可福音十四章32至42節的音頻，並使用三種不同的譯本。然後，小組一起討論以下的問題：</p><ul><li>你喜歡這段經文中的哪個部分？</li><li>這段經文有哪些部分是你不喜歡或不明白的地方？</li><li>這段經文告訴我們關於神或耶穌的哪些信息？</li><li>這段經文告訴了我們關於人的什麼事?</li><li>這段經文對我們的日常生活有什麼影響？</li><li>你認識哪些人需要聽一聽這段經文呢？</li></ul>\n<h2>Step 2</h2><p>請使用最容易理解的譯本，聆聽馬可福音十四章32至42節的音頻。</p><p>耶穌和祂的門徒從山谷繼續往橄欖山上走。他們來到橄欖山上的一個橄欖園，名叫客西馬尼。 橄欖園是人們種植橄欖樹，並製作橄欖油的地方。 客西馬尼在希伯來語中是榨油機的意思，所以人們很可能也在這裡壓橄欖來製作橄欖油。</p><p>在這裡暫停一下，小組一同觀看一張客西馬尼園的照片，以及一張橄欖樹的照片。 請在這裡暫停音頻。</p><p>當耶穌和門徒到那裡後，耶穌對門徒說，祂要去禱告，要他們坐在那裡等候。 對耶穌來說，去禱告應該是很平常的事。 就像從前一樣，耶穌把彼得、雅各和約翰分出來，帶著這三位門徒一起進到橄欖園裡。 為什麼是這三個人？ 這三位門徒都曾說過，他們願意和耶穌一同受苦。</p><p>耶穌經歷了極其痛苦的情緒。 祂心裡非常憂傷和痛苦。 祂說：「我心裏甚是憂傷，幾乎要死。」 耶穌是在說，祂感到非常難過，就像有一個巨大的重擔壓在祂身上一樣。 靈魂是一個人性格的核心。 這是耶穌生命中最重要的時刻之一，祂真的即將經歷那祂已預備好迎接的痛苦和死亡。 耶穌清楚知道這苦難要祂付上的全部代價。</p><p>在這裡暫停一下，小組討論以下問題：耶穌內心極度的憂傷和痛苦是用最強烈的語言被描述出來。 彼此互相分享一些人們曾經歷巨大心靈痛苦的故事。 當你們在聽彼此分享的故事時，留意你們用來描述內心痛苦時所使用的詞語。 請在這裡暫停音頻。</p><p>耶穌要那三位門徒警醒，也就是要他們在靈裡保持警覺和剛強，好去抵擋他們很快就要面對的試探。 祂往前走了幾米，開始禱告。 祂跪著或伏在地上禱告，這表示著這個禱告非常迫切或極其重要。 猶太人平常是站著、舉手禱告的。 耶穌禱告說，求那「時候」，也就是受苦的時刻過去。 祂用猶太人對父親親暱的稱呼「阿爸」來呼求神為祂的父。 猶太人不會用「阿爸」來稱呼神，所以耶穌在這裡表明祂與神之間特別的關係。 祂祈求神把這「杯」撤去。 在舊約中，杯象徵神的忿怒和苦難。 雖然耶穌知道神即將讓祂承受所有的忿怒和審判，祂仍然順服並信靠祂的父。 我們知道這一點，是因為耶穌使用家人的語氣和祂對神謙卑的請求——祂說：「若是可能」以及「不要照我的意思，只要照你的意思。」 耶穌是在求神「不要照我的意思行，要照你的旨意行。」</p><p>耶穌回到三位門徒身邊，是因為祂擔心他們會陷入試探。 祂看到他們正在睡覺！ 耶穌先和彼得說話，因為彼得剛剛起誓說他願意為耶穌捨命。 耶穌叫彼得以前的名字「西門」，可能是要提醒彼得，他的行為好像過去還沒有完全跟隨耶穌的樣子！ 耶穌問西門彼得：「你睡覺嗎？ 不能警醒片時嗎？」 耶穌對門徒睡覺感到驚訝和失望。 祂的問話是在責備他們。 然後耶穌對三位門徒說：「要警醒禱告。」 「警醒」的意思是在靈裡保持清醒，這樣他們才能在被試探否認耶穌時，仍然忠於祂。 耶穌說：「你們心靈固然願意，肉體卻軟弱了。」 這表示你的心，或你的情感，渴望跟隨神。 但你們自己並不剛強。 耶穌知道，神的靈在他們裡面，又或許是他們自己的心意，幫助他們有忠心跟隨祂的心願。 但是，人是軟弱的。 我們自己無法抵擋邪惡。</p><p>耶穌又走到幾米遠的地方，再次作同樣的禱告。 祂第二次回到門徒身邊。 他們眼睛沉重，就是說他們的眼皮一直閉上。 門徒沒有好理由來解釋為何睡著，所以他們也不知道該怎麼回答。 耶穌第三次去禱告，然後第三次回到那三位門徒身邊。</p><p>在這裡暫停一下，小組討論以下問題：在你的文化中，當你犯罪時，你是嘗試為自己辯護，還是保持沉默？ 你怎麼知道一個人有罪呢？ 請在這裡暫停音頻。</p><p>耶穌第三次回來時，祂問：「你們仍然睡覺安歇嗎？」 祂責備他們睡著而沒有禱告。 然後祂說：「夠了」或「時候到了。」 祂可能是說，祂所禱告的事已經定了。 也可能是祂在提醒門徒，現在該停止睡覺了。 「時候到了」，就是神所安排的一切要發生的時候到了。 耶穌說：「人子被賣在罪人手裡了。」 這表示那些不認識耶穌是誰的罪人，會把耶穌逮捕，祂將受苦並且死去。 耶穌再次稱自己為人子，這是在強調一個事實，那些殺害祂的人犯下的罪，是殺害了神所差來拯救他們的那一位。</p><p>耶穌接著說：「我們走吧！」意思是「我們去見猶大和跟他一夥的人。」 「那賣我的人近了」意思是猶大已經來到客西馬尼的橄欖園這裡。</p>\n<h2>Step 3</h2><p>請使用最容易理解的譯本，聆聽馬可福音十四章32至42節的音頻。</p><p>在這一步驟中，小組要一起找出這段故事裡的場景、人物和設定。然後小組會把這段經文形象化。</p><p>這段經文有八個場景。</p><p><b>第一個場景：</b>耶穌和祂的門徒來到一個叫客西馬尼的橄欖園。</p><p><b>第二個場景：</b>耶穌帶著彼得、雅各和約翰一起走進橄欖園。 祂心裡極其憂傷，請他們和祂一同警醒。</p><p><b>第三個場景：</b>耶穌走進橄欖園，伏在地上禱告。 祂求祂的父神將祂的苦杯撤去。</p><p><b>第四個場景：</b>耶穌回到那三位門徒那裡，看見他們睡著了。 耶穌對西門彼得說話，並且吩咐三位門徒要警醒禱告。</p><p><b>第五個場景：</b>耶穌再次回去向神禱告，禱告的內容和先前一樣。</p><p><b>第六個場景：</b>耶穌第二次回到門徒那裡，又看見他們睡著了。</p><p><b>第七個場景：</b>耶穌第三次去向神禱告。</p><p><b>第八個場景：</b>耶穌第三次回到門徒那裡。 這次祂對他們說：「我們走吧，賣我的人來了。」</p><p>這段故事中的角色有：</p><ul><li>耶穌</li><li>門徒們</li><li>祂帶著門徒中的彼得、雅各和約翰一起走進園子。</li><li>父神</li></ul><p>小組注意這段經文的設定：重點是要記住，這個故事開始於耶穌和祂的門徒來到一個名叫客西馬尼的橄欖園，客西馬尼的意思是「壓橄欖油處」。 這是一個種滿橄欖樹的小地方。 人們種植這些橄欖樹，採收橄欖，然後將橄欖製作成油。</p><p>重點是要記住，耶穌帶著彼得、雅各和約翰進入園中，其他門徒則留在園子的入口等祂。 耶穌變得非常憂傷。 耶穌說祂心裡<b>極其憂傷和痛苦</b>。 這些詞語所形容的情緒非常生動且強烈。 這些情緒可能包括困惑、極度恐懼、焦慮和不確定感等。 耶穌這樣的感受持續了一段時間，而不只是短暫的一瞬間。</p><p>在這裡暫停一下，回想你們在第二步「設定場景」時，討論過的那些描述深刻情感的詞語。 你會怎麼翻譯「憂傷痛苦」這個片語？ 請在這裡暫停音頻。</p><p>耶穌告訴祂的三位門徒要和祂一同警醒，在靈裡保持警覺，這樣他們才能剛強，抵擋背叛祂的試探。 耶穌離開三位門徒，往園子的深處走去。 祂大概走了差不多一顆石頭能扔到最遠的距離。</p><p>耶穌「伏在地上」，也就是跪下或趴在地上，與祂的父神說話。 這個故事說，祂祈求那個可怕的情況不要發生。 然後祂又直接說：「阿爸，父啊，在你凡事都能。 求你將這苦杯撤去。 然而，我希望你照你的意思行，而不是我的意思。」 耶穌和神說話時，態度很有禮。</p><p>耶穌起來，回到三位門徒那裡。 他們睡著了。 耶穌對彼得說：「西門，你睡覺嗎？ 不能警醒片時嗎？」 然後耶穌對三位門徒說：「你們要警醒禱告，免得受試探。 你們的心靈固然願意，肉體卻軟弱了。做對事情很難。」</p><p>耶穌又離開回去禱告，內容和之前一樣。 你可以記住這句話：「阿爸，父啊，在你凡事都能。求你將這苦杯撤去。 然而，我希望你照你的意思行，而不是我的意思。」 請記住，耶穌雖然心裡痛苦，但祂對父神的態度始終有禮。 祂與父神的關係非常親密，就像孩子信任自己的父親，用親暱的稱呼來稱呼祂。</p><p>祂第二次回到門徒身邊。他們又睡著了。 他們無法維持睜開眼睛。 門徒們已經不知道該說什麼了。 他們不能保持清醒。</p><p>耶穌第三次去禱告，我們認為祂還是禱告同樣的內容。 「阿爸，父啊，在你凡事都能。求你將這苦杯撤去。 然而，我希望你照你的意思行，而不是我的意思。」</p><p>耶穌第三次回到那三位門徒身邊。彼得、雅各和約翰還在睡。 這次祂說：「你們還在睡覺嗎？」或「那你們繼續睡吧。」 祂可能對他們又睡著了感到驚訝。 然後祂說：「夠了！」 時候到了！ 人們要把我——人子——出賣給罪人。」 讓我們去見他們吧——那賣我的人來了。」</p><p>重點是要記住耶穌和祂的三位門徒之間來回走動的情形。 耶穌去禱告三次。 耶穌回來三次，都看見門徒睡著了。</p><p>現在小組應該用故事板、繪畫或使用物品，將這段經文和其中的動作形象化。</p>\n<h2>Step 4</h2><p>請使用最容易理解的譯本，聆聽馬可福音十四章32至42節的音頻。</p><p>在這一個步驟中，小組將把這段經文戲劇化。</p><p>這段經文有八個場景。</p><p>這段故事中的角色有：</p><ul><li>耶穌</li><li>門徒們</li><li>祂帶著門徒中的彼得、雅各和約翰一起走進園子。</li><li>父神</li></ul><p>小組一起把這段經文演出兩次。請以你自己的語言來演出這段經文。</p><p>首先，完整演出這段經文，中途不要停下來。 留意這段經文中的對話、情節發展、故事主線和時間順序。 確保你在演出這段經文時，不會跳過其中困難或重要的部分。幫助彼此記住經文中的每一個部分。</p><p>在此暫停這個音頻並表演這段經文。</p><p>這個小組應該把這段經文再演一次。 在戲劇中的某些時刻暫停，然後問扮演角色的人：「你有什麼感受或想法？」 扮演這個角色的人應該回答，如果他們是那個角色，他們會有什麼感受或想法。 然後繼續演出。</p><p>在此暫停這個音頻，然後再表演一次這段經文。</p><p>以下是這部戲劇的演出以及可能的回應。</p><p>在這段故事中，有一位扮演父神的角色來聆聽耶穌的禱告，應該是一個有效的呈現方式。</p><p>重點是要記住，耶穌帶著彼得、雅各和約翰進入園中，其他門徒則留在園子的入口等祂。耶穌非常憂傷，祂説祂的憂愁幾乎要把祂壓垮了。 耶穌告訴祂的三位門徒要和祂一同警醒，在靈裡保持警覺，這樣他們才能剛強，抵擋背叛祂的試探。 耶穌離開三位門徒，往園子的深處走去。 祂大概走了差不多一顆石頭能扔到最遠的距離。</p><p>暫停演出。 問扮演門徒的人：「你們有什麼想法或感受？」 你可能會聽到這樣的話：「耶穌情緒這麼激動，真讓人困惑。我們從沒見過祂這樣，」「真的很疲倦，也不明白到底發生了什麼事。」 問扮演耶穌的人：「你有什麼感受或想法？」 你可能會聽到這樣的話：「這太難以承受了，甚至很難走路或説話」或「很孤獨」。 繼續演出。</p><p>耶穌「伏在地上」，也就是跪下或趴在地上，與祂的父神說話。 這個故事說，祂祈求那個可怕的情況不要發生。 然後祂又直接說：「阿爸，父啊，在你凡事都能。」 求你將這苦杯撤去。 然而，我希望你照你的意思行，而不是我的意思。」 耶穌和神說話的態度很有禮。</p><p>暫停演出。 問扮演耶穌的人：「你有什麼感受或想法？」 你可能會聽到這樣的話：「絕望」、「決心做我父所吩咐的一切」、「信靠我的父。」 問扮演父神的人：「你有什麼感受或想法？」 你可能會聽到這樣的話：「真希望我能改變這一切」、「看見我的兒子經歷這些，心裡感到憂傷」、「渴望向祂表達我的愛。」 繼續演出。</p><p>耶穌起來，回到三位門徒那裡。 他們睡著了。 耶穌對彼得說：「西門，你睡覺嗎？」 不能警醒片時嗎？」 然後耶穌對三位門徒說：「你們要警醒禱告，免得受試探。」 你們的心靈固然願意，肉體卻軟弱了。做對事情很難。」</p><p>暫停演出。 問扮演門徒的人：「你們有什麼想法或感受？」 你可能會聽到這樣的話：「對我睡著了感到羞愧」、「很沮喪」、「我太累了，無法正確思考。」 問扮演耶穌的人：「你有什麼感受或想法？」 你可能會聽到這樣的話：「我為我的門徒感到擔憂，」「我好孤單。」繼續演出。</p><p>耶穌又離開回去禱告，內容和之前一樣。 你可以記住這句話：「阿爸，父啊，在你凡事都能。」 求你將這苦杯撤去。 然而，我希望你照你的意思行，而不是我的意思。」 請記住，耶穌雖然心裡痛苦，但祂對祂的父神始終有禮。 祂與父神的關係非常親密，就像孩子信任自己的父親，用親暱的稱呼來稱呼祂。</p><p>祂第二次回到門徒身邊。 他們又睡著了。 他們無法維持睜開眼睛。 門徒們已經不知道該說什麼了。 他們不能保持清醒。</p><p>暫停演出。 問扮演門徒的人：「你們有什麼想法或感受？」 你可能會聽到這樣的話：「我不明白我為什麼會如此軟弱」、「很尷尬。」 問扮演耶穌的人：「你有什麼感受或想法？」 你可能會聽到這樣的話：「我好孤單」、「我希望有人站在我旁邊。」 繼續演出。</p><p>耶穌第三次去禱告，我們認為祂還是禱告同樣的內容。 「阿爸，父啊，在你凡事都能。」 求你將這苦杯撤去。 然而，我希望你照你的意思行，而不是我的意思。」</p><p>耶穌第三次回到那三位門徒身邊。這次祂說：「你們還在睡覺嗎？」或「那你們繼續睡吧。」 然後祂說：「夠了！」 時候到了！ 人們要把我——人子——出賣給罪人。」 讓我們去見他們吧——那賣我的人來了。」</p><p>暫停演出。 問扮演耶穌的人：「你有什麼感受或想法？」 你可能會聽到這樣的話：「我要為屬於我的人走這條路，」「我對門徒和屬於我的人感到失望，但我深愛他們，」「極其痛苦——求神繼續幫助我保持剛強。」</p><p>重點是要記住耶穌和祂的三位門徒之間來回走動的情形。 耶穌去禱告三次。 耶穌回來三次，都看見門徒睡著了。</p>\n<h2>Step 5</h2><p>請使用最容易理解的譯本，聆聽馬可福音十四章32至42節的音頻。</p><p>在這一步驟中，小組將討論這段經文中的主詞彙和詞語。</p><p>耶穌對門徒說「你們坐在這裡，我要到那邊去禱告。」 <b>禱告</b>的意思是和神説話。 這類特別的禱告，是向神祈求為你成就一件事。 請使用在之前經文中所用相同的詞語或片語來表示禱告。更多關於<b>禱告</b>的信息，請參閱主詞彙表。</p><p><b>我心裡憂傷欲絕</b>，或<b>我心裡甚是憂傷，幾乎要死</b>的意思是，耶穌整個人，祂的心與魂，都被憂傷壓得喘不過氣來。 祂甚至覺得這憂傷快要把祂殺死了。 靈魂是一個人性格的核心。 請使用在之前經文中所用相同的詞語或片語來表示<b>靈魂</b>，並記住，<b>靈魂</b>已經在主詞彙表中。</p><p>當耶穌祈求神讓<b>那時候離開祂</b>時，祂是在求神讓神的忿怒或苦難的時刻不要臨到祂。</p><p>當耶穌祈求神<b>將這杯撤去</b>時，祂是在求神除去祂的苦難和忿怒。 <b>這杯</b>和<b>那時候</b>指的都是同一件事。</p><p>在這裡暫停，小組討論一下，你們會使用什麼詞語或片語來描述將這杯撤去。請在這裡暫停音頻。</p><p>耶穌問西門彼得說：「你不能警醒片時嗎？」 <b>一小時</b>是六十分鐘，但如果你的語言沒有一小時的時間概念，也可以説「短時間」。</p><p>耶穌與神有特別親密的關係，所以祂用親暱的稱呼<b>阿爸</b>，就像家中的孩子對父親的稱呼一樣。 沒有記錄顯示猶太人用這個詞語來稱呼神。 在翻譯時，你可以使用外來詞「阿爸」，保持原本的發音；或者，如果你的語言裡有親暱的稱呼父親的詞，也可以用那個詞。 更多關於<b>阿爸</b>的信息，請參閱主詞彙表。</p><p>耶穌回去，發現<b>門徒</b>睡著了。 請使用你一直使用於門徒的這個詞，並記住，<b>門徒</b>已經在主詞彙表中。</p><p>然後耶穌説：「<b>夠了</b>。」 耶穌可能是在説，門徒現在該停止睡覺了。 或者耶穌是在説：「一切都已定了。 猶大已經領了賣我的錢。」 或者，『一切都已定了。 我<b>將</b>經歷這苦難。」 可以翻譯為「這事已經發生了。」</p><p>「人子被賣在罪人手裡。」 請使用你之前所使用相同的詞語或片語來表示<b>人子</b>，並記住，<b>人子</b>和<data class=\"resource-ref\" data-content-id=\"zht-t193-v1\" data-resource-code=\"FIAKeyTerms\">罪</data>都已經在主詞彙表中。 「落在罪人手裏」的意思是，罪人已經掌控了耶穌，現在擁有了權柄。</p>\n<h2>Step 6</h2><p>使用最容易理解的翻譯語音版本，來聆聽這段經文。</p><p>在這個環節中，以小組的形式，用自己的語言複述這段經文。</p><p>首先，整個小組應該練習用自己的語言講述這段經文。 記得要包含你在前面的步驟中所確定的內容，比如時間順序、單詞、短語、情緒或任何你們討論過的其它內容。</p><p>一位小組成員應該講幾句經文內容，然後暫停一下。 另一位小組成員應該講下一部分的經文內容，然後暫停一下。 一直這樣做，直到小組成員講述完整段落。 小組成員可以在這個步驟中互相糾正。 請在這裡暫停音頻。</p><p>接下來，小組中的每個成員都應該能不間斷地將整個段落至少講述一遍。 小組成員可以使用隨機的物品、動作或他們的故事板來幫助記住經文。請在這裡暫停音頻。</p><p>接下來，小組成員可以決定你最喜歡哪個人講述的版本。 你可能會覺得某位小組成員講述某一場景的方式不錯，而另一位小組成員講述另一場景的方式也不錯。請在這裡暫停音頻。</p><p>最後，小組可以整理出一個大家都同意的經文最終版本。 每個小組成員都應該練習把這個段落的最終版本講述出來。</p>",
 "associations": {
 "passage": [
 {
@@ -4353,7 +4329,15 @@
 "end_ref_usfm": "MRK 14:42"
 }
 ],
-"resource": [],
+"resource": [
+{
+"reference_id": 0,
+"content_id": "zht-t193-v1",
+"resource_code": "FIAKeyTerms",
+"label": "罪",
+"language": "zht"
+}
+],
 "acai": [
 {
 "id": "keyterm:Pray",
@@ -4377,25 +4361,11 @@
 "preferred_label": "Gethsemane"
 },
 {
-"id": "keyterm:Body.3",
+"id": "keyterm:Name",
 "type": "keyterm",
 "confidence": 0.1909,
 "match_method": "canonical",
-"preferred_label": "Body"
-},
-{
-"id": "keyterm:PutToTheTest",
-"type": "keyterm",
-"confidence": 0.1909,
-"match_method": "canonical",
-"preferred_label": "Put to the Test"
-},
-{
-"id": "person:John.2",
-"type": "person",
-"confidence": 0.1909,
-"match_method": "canonical",
-"preferred_label": "John"
+"preferred_label": "Name"
 },
 {
 "id": "keyterm:Disciple",
@@ -4405,18 +4375,11 @@
 "preferred_label": "Be a Disciple"
 },
 {
-"id": "keyterm:Name",
+"id": "keyterm:Body.3",
 "type": "keyterm",
 "confidence": 0.1909,
 "match_method": "canonical",
-"preferred_label": "Name"
-},
-{
-"id": "person:James",
-"type": "person",
-"confidence": 0.1909,
-"match_method": "canonical",
-"preferred_label": "James"
+"preferred_label": "Body"
 },
 {
 "id": "keyterm:Spirit.2",
@@ -4424,6 +4387,27 @@
 "confidence": 0.1909,
 "match_method": "canonical",
 "preferred_label": "Spirit"
+},
+{
+"id": "person:John.2",
+"type": "person",
+"confidence": 0.1909,
+"match_method": "canonical",
+"preferred_label": "John"
+},
+{
+"id": "keyterm:PutToTheTest",
+"type": "keyterm",
+"confidence": 0.1909,
+"match_method": "canonical",
+"preferred_label": "Put to the Test"
+},
+{
+"id": "person:James",
+"type": "person",
+"confidence": 0.1909,
+"match_method": "canonical",
+"preferred_label": "James"
 },
 {
 "id": "deity:Lord",
@@ -4471,18 +4455,18 @@
 "preferred_label": "Linen"
 },
 {
-"id": "keyterm:Happen",
-"type": "keyterm",
-"confidence": 0.195,
-"match_method": "canonical",
-"preferred_label": "To Cause to Happen"
-},
-{
 "id": "person:Judas.2",
 "type": "person",
 "confidence": 0.195,
 "match_method": "canonical",
 "preferred_label": "Judas"
+},
+{
+"id": "keyterm:Happen",
+"type": "keyterm",
+"confidence": 0.195,
+"match_method": "canonical",
+"preferred_label": "To Cause to Happen"
 },
 {
 "id": "person:Jesus.2",
@@ -4527,15 +4511,7 @@
 "end_ref_usfm": "MRK 14:65"
 }
 ],
-"resource": [
-{
-"reference_id": 0,
-"content_id": "zht-t246-v1",
-"resource_code": "FIAKeyTerms",
-"label": "high-priest",
-"language": "zht"
-}
-],
+"resource": [],
 "acai": [
 {
 "id": "person:Jesus.2",
@@ -4552,11 +4528,11 @@
 "preferred_label": "Bear Witness"
 },
 {
-"id": "keyterm:Witness",
-"type": "keyterm",
+"id": "person:Peter",
+"type": "person",
 "confidence": 0.1846,
 "match_method": "canonical",
-"preferred_label": "Witness"
+"preferred_label": "Peter"
 },
 {
 "id": "keyterm:Speak",
@@ -4566,11 +4542,25 @@
 "preferred_label": "Speak as a Prophet"
 },
 {
+"id": "keyterm:Blaspheme",
+"type": "keyterm",
+"confidence": 0.1846,
+"match_method": "canonical",
+"preferred_label": "Blaspheme"
+},
+{
 "id": "keyterm:Heaven",
 "type": "keyterm",
 "confidence": 0.1846,
 "match_method": "canonical",
 "preferred_label": "Sky"
+},
+{
+"id": "keyterm:Ability",
+"type": "keyterm",
+"confidence": 0.1846,
+"match_method": "canonical",
+"preferred_label": "Ability"
 },
 {
 "id": "keyterm:Condemn",
@@ -4580,25 +4570,11 @@
 "preferred_label": "Condemn"
 },
 {
-"id": "keyterm:Blaspheme",
+"id": "keyterm:Witness",
 "type": "keyterm",
 "confidence": 0.1846,
 "match_method": "canonical",
-"preferred_label": "Blaspheme"
-},
-{
-"id": "person:Peter",
-"type": "person",
-"confidence": 0.1846,
-"match_method": "canonical",
-"preferred_label": "Peter"
-},
-{
-"id": "keyterm:Ability",
-"type": "keyterm",
-"confidence": 0.1846,
-"match_method": "canonical",
-"preferred_label": "Ability"
+"preferred_label": "Witness"
 },
 {
 "id": "realia:Temple",
@@ -4674,11 +4650,11 @@
 "preferred_label": "Word"
 },
 {
-"id": "keyterm:True",
-"type": "keyterm",
+"id": "group:Galilee",
+"type": "group",
 "confidence": 0.2143,
 "match_method": "canonical",
-"preferred_label": "True"
+"preferred_label": "Galileans"
 },
 {
 "id": "place:Galilee",
@@ -4695,11 +4671,11 @@
 "preferred_label": "Nazareth"
 },
 {
-"id": "group:Galilee",
-"type": "group",
+"id": "keyterm:True",
+"type": "keyterm",
 "confidence": 0.2143,
 "match_method": "canonical",
-"preferred_label": "Galileans"
+"preferred_label": "True"
 },
 {
 "id": "realia:Entrance",
@@ -4803,15 +4779,7 @@
 "end_ref_usfm": "MRK 15:32"
 }
 ],
-"resource": [
-{
-"reference_id": 0,
-"content_id": "zht-t243-v1",
-"resource_code": "FIAKeyTerms",
-"label": "wine",
-"language": "zht"
-}
-],
+"resource": [],
 "acai": [
 {
 "id": "realia:Cross",
@@ -4821,18 +4789,18 @@
 "preferred_label": "Cross"
 },
 {
-"id": "keyterm:Salvation",
-"type": "keyterm",
-"confidence": 0.2529,
-"match_method": "canonical",
-"preferred_label": "Salvation"
-},
-{
 "id": "group:Jews",
 "type": "group",
 "confidence": 0.2529,
 "match_method": "canonical",
 "preferred_label": "Jews"
+},
+{
+"id": "keyterm:Salvation",
+"type": "keyterm",
+"confidence": 0.2529,
+"match_method": "canonical",
+"preferred_label": "Salvation"
 },
 {
 "id": "realia:PurpleCloth",
@@ -4870,13 +4838,6 @@
 "preferred_label": "Golgotha"
 },
 {
-"id": "person:Alexander",
-"type": "person",
-"confidence": 0.1882,
-"match_method": "canonical",
-"preferred_label": "Alexander"
-},
-{
 "id": "person:Rufus",
 "type": "person",
 "confidence": 0.1882,
@@ -4884,25 +4845,11 @@
 "preferred_label": "Rufus"
 },
 {
-"id": "person:Jesus.2",
+"id": "person:Alexander",
 "type": "person",
-"confidence": 0.1765,
+"confidence": 0.1882,
 "match_method": "canonical",
-"preferred_label": "Jesus"
-},
-{
-"id": "group:ReligiousOfficials",
-"type": "group",
-"confidence": 0.1765,
-"match_method": "canonical",
-"preferred_label": "Religious Officials"
-},
-{
-"id": "keyterm:BowDown",
-"type": "keyterm",
-"confidence": 0.1765,
-"match_method": "canonical",
-"preferred_label": "Bow Down"
+"preferred_label": "Alexander"
 },
 {
 "id": "group:GenericElders",
@@ -4912,11 +4859,11 @@
 "preferred_label": "Elders"
 },
 {
-"id": "keyterm:Blaspheme",
-"type": "keyterm",
+"id": "group:GenericPriests",
+"type": "group",
 "confidence": 0.1765,
 "match_method": "canonical",
-"preferred_label": "Blaspheme"
+"preferred_label": "Priests"
 },
 {
 "id": "person:Israel",
@@ -4926,6 +4873,27 @@
 "preferred_label": "Israel"
 },
 {
+"id": "group:ReligiousOfficials",
+"type": "group",
+"confidence": 0.1765,
+"match_method": "canonical",
+"preferred_label": "Religious Officials"
+},
+{
+"id": "person:Jesus.2",
+"type": "person",
+"confidence": 0.1765,
+"match_method": "canonical",
+"preferred_label": "Jesus"
+},
+{
+"id": "keyterm:BowDown",
+"type": "keyterm",
+"confidence": 0.1765,
+"match_method": "canonical",
+"preferred_label": "Bow Down"
+},
+{
 "id": "keyterm:Believe",
 "type": "keyterm",
 "confidence": 0.1765,
@@ -4933,11 +4901,18 @@
 "preferred_label": "Believe"
 },
 {
-"id": "group:GenericPriests",
-"type": "group",
+"id": "keyterm:Blaspheme",
+"type": "keyterm",
 "confidence": 0.1765,
 "match_method": "canonical",
-"preferred_label": "Priests"
+"preferred_label": "Blaspheme"
+},
+{
+"id": "realia:Palace",
+"type": "realia",
+"confidence": 0.1282,
+"match_method": "canonical",
+"preferred_label": "Palace"
 },
 {
 "id": "flora:Myrrh",
@@ -4954,11 +4929,18 @@
 "preferred_label": "Myrrhed Wine"
 },
 {
-"id": "realia:Palace",
-"type": "realia",
-"confidence": 0.1282,
+"id": "flora:Reed",
+"type": "flora",
+"confidence": 0.1165,
 "match_method": "canonical",
-"preferred_label": "Palace"
+"preferred_label": "Reed"
+},
+{
+"id": "flora:Acacia",
+"type": "flora",
+"confidence": 0.1165,
+"match_method": "canonical",
+"preferred_label": "Acacia"
 },
 {
 "id": "realia:Lot",
@@ -4968,11 +4950,11 @@
 "preferred_label": "Lot"
 },
 {
-"id": "flora:Boxthorn",
-"type": "flora",
+"id": "realia:Crown.2",
+"type": "realia",
 "confidence": 0.1165,
 "match_method": "canonical",
-"preferred_label": "Boxthorn"
+"preferred_label": "Crown"
 },
 {
 "id": "realia:Crown",
@@ -4989,6 +4971,13 @@
 "preferred_label": "Courtyard"
 },
 {
+"id": "flora:Brier",
+"type": "flora",
+"confidence": 0.1165,
+"match_method": "canonical",
+"preferred_label": "Brier"
+},
+{
 "id": "realia:Temple",
 "type": "realia",
 "confidence": 0.1165,
@@ -4996,32 +4985,11 @@
 "preferred_label": "Temple"
 },
 {
-"id": "flora:Reed",
+"id": "flora:Boxthorn",
 "type": "flora",
 "confidence": 0.1165,
 "match_method": "canonical",
-"preferred_label": "Reed"
-},
-{
-"id": "flora:Acacia",
-"type": "flora",
-"confidence": 0.1165,
-"match_method": "canonical",
-"preferred_label": "Acacia"
-},
-{
-"id": "realia:Crown.2",
-"type": "realia",
-"confidence": 0.1165,
-"match_method": "canonical",
-"preferred_label": "Crown"
-},
-{
-"id": "flora:Brier",
-"type": "flora",
-"confidence": 0.1165,
-"match_method": "canonical",
-"preferred_label": "Brier"
+"preferred_label": "Boxthorn"
 }
 ]
 }
@@ -5035,7 +5003,7 @@
 "index_reference": "41015033-41015039",
 "language": "zht",
 "review_level": "None",
-"content": "<h2>Step 1</h2><p>在這一步驟中，請聆聽馬可福音十五章33至39節，並把它記在你們的心裡。</p><p>請聆聽三遍馬可福音十五章33至39節的音頻，如果可能的話，請使用三種不同的譯本。 然後，以小組為單位討論以下問題：</p><ul><li>你喜歡這個經文段落的哪些部分？</li><li>在這段經文中，你有什麼不喜歡或不明白的地方？</li><li>這段經文告訴我們關於神或耶穌的哪些信息？</li><li>這段經文告訴我們關於人的什麼事?</li><li>這段經文對我們的日常生活有什麼影響？</li><li>你認識哪些人需要聽一聽這段經文呢？</li></ul>\n<h2>Step 2</h2><p>請聆聽馬可福音十五章33至39節最容易理解的譯本的音頻。</p><p>在前一段經文中，馬可提到士兵們在早上九點鐘把耶穌釘在十字架上。 耶穌在十字架上承受了數小時的痛苦。 正午時分，太陽變黑了，儘管太陽在每年的這個時候從未變黑。 然而，耶穌那個時代的人相信黑暗是某種不好的象徵。 猶太先知阿摩司說，當神來審判世界時，太陽會變黑。 另一些人則認為，黑暗是君王或城市死亡的象徵。 在第一個逾越節之前，當神把以色列人從埃及拯救出來前，有一場黑暗之災，象徵著神對埃及的咒詛。 摩西律法說，神已經懲罰或咒詛了那些掛在樹上的人。 也許這就是太陽變黑的原因。</p><p>下午三點鐘，黑暗開始三小時後，耶穌大聲喊著說：「我的神，我的神，你為什麼離棄我？」 耶穌覺得自己與神完全隔絕了，所以耶穌說了詩篇或哀歌的第一部分。 在這首哀歌中，歌者求神幫助那些不公正地受苦之人。 哀歌的詩篇通常以應許結束，神會與他們同在，並在困境中幫助他們。</p><p>耶穌可能用希伯來文說出了神的名字——以羅伊，問題的其餘部分則用了亞蘭文。 希伯來文是猶太經文的語言，但亞蘭文是羅馬時代猶太人所使用的語言。 祂周圍的一些人可能不明白祂一開始說的話。 耶穌向神呼喊，但祂所用的字詞（神的名字）聽起來很像偉大的猶太先知以利亞的希伯來名字。 猶太人相信，當義人處於危險之中時，以利亞的靈會來拯救他們。 人們相信耶穌在呼喚以利亞，而不是神，這是可以理解的。</p><p>猶太人認為酒醋，也就是廉價的酸酒，能使口渴的人精神清醒，並有所幫助。 有人聽到了耶穌的呼喚，想要幫助祂。 這個人把海綿浸泡在酒醋中，然後把海綿放在棍子的末端，把它舉到耶穌面前。</p><p>耶穌直到生命的最後一刻，仍然堅強的大聲說話。 這很不尋常——大多數人在釘十字架這個刑罰即將結束時會變得更加虛弱，失去知覺，並且無法正常呼吸。</p><p>馬可福音又講述了發生在另一個地方的事件，但與釘十字架同時發生。 耶路撒冷的聖殿有兩塊幔子掛在門口。 裡面的幔子是懸掛在聖所和至聖所之間的幔子。 至聖所是聖殿中，只有大祭司才能在特殊的贖罪日為所有以色列人獻祭的地方，以赦免他們的罪。 外面的幔子將祭司專用的特殊區域與非祭司專用的庭院分開。 公眾可以看到外面的幔子，但只有少數祭司可以看到裡面的幔子。</p><p>在這裡停下來，看看聖殿的示意圖，包括至聖所、聖所和庭院。 請在這裡暫停音頻。</p><p>我們不確定哪一個幔子從上到下裂為了兩半。 有些學者認為，是外面的幔子從上到下裂為了兩半，因為公眾可以從庭院看到它，並告訴其他人這件事情的發生。 許多人認為，這件事是一個預言，預言聖殿有一天會被拆毀。 聖殿確實在公元七十年被拆毀了，距離這件事發生只有大約四十年。 無論如何，幔子裂開，象徵著耶穌正在改變原來的猶太傳統，即需要聖殿和祭司在聖所獻祭。 耶穌是最終極的祭物。</p><p>一位百夫長或羅馬軍官，從耶穌被釘十字架開始，直到祂死去，就一直與祂在一起。 他知道耶穌與其他受害者有所不同。 耶穌並沒有正常的死亡，也沒有像正常的罪犯一樣行事。 羅馬軍官驚呼：「這人真是神的兒子！」 這位羅馬軍官可能明白，耶穌是神聖的，或者說是一位神聖的英雄，祂從神接受了自己的命運。 然而，羅馬軍官不會明白這句宣告的全部含義。</p><p>這位軍官的宣告是整本馬可福音的頂點。 馬可想向聽眾顯明：「耶穌是誰？」 馬可想向聽眾顯明，耶穌就是應許的那位彌賽亞，君王，也是神的兒子。 馬可一開始就說，這是對「神的兒子，彌賽亞」耶穌生活的記述。 那時耶穌問門徒，祂是誰，彼得說：「你就是彌賽亞。」 然後，祭司長在審判中問耶穌，祂是否就是彌賽亞，即神的兒子。 而現在，就連對耶穌之死負有責任的羅馬軍官，似乎也明白了耶穌是誰。 馬可福音的讀者羅馬人會很高興知道，甚至連羅馬官員都明白了耶穌是誰。</p>\n<h2>Step 3</h2><p>請聆聽馬可福音十五章33至39節最容易理解的譯本的音頻。</p><p>在這個步驟中，小組將定義這段話的場景、角色和設定。然後小組會把這段經文形象化。</p><p>這段經文有四個場景。</p><p><b>第一個場景：</b>從中午開始。 太陽變黑了三個小時。</p><p><b>在第二個場景中：</b>耶穌大聲呼喊：「我的神，我的神，你為什麼離棄我？」 有人試圖把酸醋給耶穌。</p><p><b>在第三個場景中：</b>耶穌大聲喊叫，然後死了。 與此同時，在耶路撒冷另一邊的聖殿中，一道幔子從上到下裂開了。</p><p><b>在第四個場景中：</b>羅馬百夫長或軍官說：「這人真是神的兒子！」</p><p>這段故事中的角色有：</p><ul><li>耶穌</li><li>站在十字架旁邊的人</li><li>把酸酒倒在海綿上的人</li><li>這位被稱為百夫長的羅馬軍官</li></ul><p>以小組為單位，注意這段經文的背景：這個故事從中午開始，黑暗籠罩了整個地區，可能只有以色列地區，甚至只是耶路撒冷周圍的區域。 三個小時過去了。 大約在下午三點鐘，耶穌大聲呼喊。 重要的是要記住，馬可給了我們耶穌的原文：「以羅伊，以羅伊，拉馬撒巴各大尼？」 意思是：「我的神，我的神，為什麼離棄我？」</p><p>在這裡停下來，以小組為單位討論這個問題：你們如何表達在故事中是用另一種語言說話的呢？ 請在這裡暫停音頻。</p><p>先知以利亞的名字聽起來與「以羅伊」相似，所以附近的一些人認為耶穌在呼喚先知以利亞。 有人——我們不知道是誰——跑來把海綿浸在酸酒中。 他把海綿放在棍子上，然後把它舉到耶穌面前。 這個人說：「等等，讓我們看看以利亞是否會來把祂從十字架上帶下來！」 耶穌大聲呼喊，然後呼出了最後一口氣。 耶穌死了。</p><p>在耶穌死去的同時，聖殿的幔子裂成了兩半，從頂部開始，直到底部。 聖殿位於耶路撒冷，耶穌死亡地點的另一邊。 耶穌受難的十字架旁的人並不知道聖殿中的幔子已經裂為兩半。</p><p>在這裡停下來，以小組為單位討論這個問題：在一個故事中，你們如何講述信息，雖然它們發生在同一時間，但卻在不同的地方？ 請在這裡暫停音頻。</p><p>一位羅馬軍官或百夫長站在十字架附近，因為他負責釘耶穌十字架。 他看到了十字架上發生的一切。 他看到耶穌的死與其他人的死不同。 耶穌在祂仍然強健的時候就死了。 百夫長說：「誠然，或者我確信，這個人就是神的兒子！」 這是馬可福音中的第二個高潮，或者是最重要的部分。</p><p>在這裡停下來，以小組為單位討論：當你講故事時，你如何用你的聲音和言語表明你正在講述故事的重要部分？ 練習彼此講一個真實的、特殊的故事，並記下故事中最重要的部分在哪裏。 你們如何講論它？ 當你講論故事中的重要部分時，你的聲音和言語會發生什麼變化？ 請在這裡暫停音頻。</p><p>現在小組應該用故事板、繪畫或使用物品，將這段經文和其中的動作形象化。</p>\n<h2>Step 4</h2><p>請聆聽馬可福音十五章33至39節最容易理解的譯本的音頻。</p><p>在這一個步驟中，小組將戲劇化地演示這段經文。</p><p>這段經文有四個場景。</p><p>這段故事中的角色有：</p><ul><li>耶穌</li><li>站在十字架旁邊的人</li><li>把酸酒倒在海綿上的人</li><li>這位被稱為百夫長的羅馬軍官</li></ul><p>以小組為單位，把這段經文演出兩次。以你自己的語言來演出這段經文。</p><p>首先，完整演繹這段經文，不要中途停下來。 留意這段經文中的對話、情節發展、故事脈絡和時間順序。 請確保你在演繹這段經文時，不會跳過其中困難或重要的部分。幫助彼此記住經文中的每一個部分。</p><p>在此暫停這個音頻並表演這段經文。</p><p>這個小組應該把這段經文再演一次。 在戲中的某些時刻暫停，然後問扮演角色的人：「你有什麼感受或想法？」 扮演這個角色的人應該回答如果他們是那個角色，他們會有什麼感受或想法。 然後繼續演出。</p><p>在此暫停這個音頻，然後再表演一次這段經文。</p><p>以下是戲劇以及可能回應的範例。</p><p>這個故事從中午開始，黑暗籠罩了整個地區，可能只有以色列地區，甚至只是耶路撒冷周圍的區域。 三個小時過去了。 大約在下午三點鐘，耶穌大聲呼喊。 「以羅伊，以羅伊，拉馬撒巴各大尼？」 意思是：「我的神，我的神，為什麼離棄我？」</p><p>暫停演出。 問扮演耶穌的人：「你有什麼感受或想法？」 你可能會聽到這樣的話：「我從來沒有如此孤獨」、「感覺完全被拋棄了。」 問扮演站在旁邊之人的演員：「你們有什麼想法或感受？」 你可能會聽到這樣的話：「想知道祂在和誰說話」、「為祂感到悲傷。」 繼續演出。</p><p>有人——我們不知道是誰——跑來把海綿浸在酸酒中。 他把海綿放在棍子上，然後把它舉到耶穌面前。 這個人說：「等等，讓我們看看以利亞是否會來把祂從十字架上帶下來！」 耶穌大聲呼喊，然後呼出了最後一口氣。 耶穌死了。在耶穌死去的同時，聖殿的幔子裂成了兩半，從頂部開始，直到底部。 聖殿位於耶路撒冷，耶穌死亡地點的另一邊。</p><p>暫停演出。 詢問扮演這個人的演員：「你有什麼感受或想法？」你可能會聽到這樣的話：「感到失望。」 問扮演站在旁邊之人的演員：「你們有什麼想法或感受？」 你可能會聽到這樣的話：「覺得可悲」、「很高興一切都結束了」、「可悲的是，耶穌無緣無故的死了。」 繼續演出。</p><p>一位羅馬軍官或百夫長站在十字架附近，因為他負責釘耶穌十字架。 百夫長說：「我確信這個人就是神的兒子！」</p><p>暫停演出。 問扮演百夫長的人：「你有什麼感受或想法？」 你可能會聽到這樣的話：「耶穌比其他死的人更有尊嚴」、「耶穌不像其他人那樣憤怒」、「耶穌的死與其他人不同」、「我可以感覺到神與這個人同在。」</p>\n<h2>Step 5</h2><p>請聆聽馬可福音十五章33至39節最容易理解的譯本的音頻。</p><p>在這一步驟中，小組將討論這段經文中的關鍵詞語。</p><p>從中午開始，<b>黑暗籠罩</b>了<b>全地</b>，直到<b>三點鐘</b>。 「全地」可能只是指耶路撒冷周圍的地區，或以色列國。 這可能不是指整個世界。 「黑暗降臨」的意思是太陽不再光明。 這發生在<b>中午</b>，耶穌是在<b>下午三點鐘</b>大喊的。 有些語言可能沒有詞語來描述明確切的時間。 如果是這樣的話，你可以說「中午」和「下午的中間」，或者任何表達你們文化中時間的方式。</p><p>耶穌呼喊：「以羅伊，以羅伊，拉馬撒巴各大尼？」 這是希伯來文和亞蘭文，意思是：「我的神，我的神，為什麼離棄我？」 或「你為什麼離棄我？」 耶穌可能用希伯來文說出了神的名字，即<b>以羅伊</b>，然後用亞蘭文說出了問題的其餘部分。 希伯來文是猶太經文的語言，但亞蘭文是羅馬時代猶太人所使用的語言。 馬可福音給了我們希伯來文和亞蘭文，然後翻譯成我們語言的譯文。 你可能也需要這樣做。 如果是這樣，請嘗試以與希伯來文和亞蘭文原文相似的方式來表達希伯來文句，然後把它翻譯成你的語言，就像馬可對聽眾所做的那樣。</p><p>有些人認為耶穌在呼喚先知<b>以利亞</b>。 請用你在之前經文中所用的相同方式翻譯以利亞的名字，請記得<b>以利亞</b>在主詞匯表中。</p><p>有人給耶穌<b>酸酒</b>或<b>酒醋</b>，試圖幫助祂止渴。 酒醋是一種廉價的發酵飲料。 因為<b>酒</b>吸附在海綿上，你可以說他們把酒獻給耶穌吸。</p><p>在這裡停下來，討論一下你們會用什麼詞語或片語來表示酸酒或酒醋。 請在這裡暫停音頻。</p><p>耶穌<b>呼出最後一口氣</b>，這意味着祂死了。</p><p>在這裡停下來，以小組為單位討論：你們的聽眾會明白耶穌在這時候死了嗎，或者你們是否需要明確說明這一點？ 你需要說「耶穌死了」嗎？ 請在這裡暫停音頻。</p><p>當耶穌死時，<b>聖殿</b>中的<b>幔子</b>從上到下裂開。 聖殿中有兩塊幔子，我們不確定哪一塊裂開了。 然而，聖殿裏面的幔子長二十米，寬十米，厚度與人的手掌一樣。 幔子是用布製成的，用於遮蓋門口。 你可以說：「幔子分成了兩部分。」 請使用你在之前經文中所用的相同詞語來表示聖殿，並記住，<b>聖殿</b>在主詞匯表中。</p><p>當耶穌死時，負責處決祂的百夫長說：「祂真是<b>神的兒子</b>！」 <b>百夫長</b>是軍隊中的一名羅馬軍官，負責指揮一百名士兵。 請用你在之前經文中所用的相同方式翻譯神的兒子，並記住，<b>神的兒子</b>在主詞彙列表中。</p><p>在這裡停下來，以小組為單位討論一下，你會用什麼詞語或片語來表示<b>百夫長</b>。有關<b>百夫長</b>的更多信息，請參閱主詞彙列表。</p>\n<h2>Step 6</h2><p>使用最容易理解的翻譯語音版本，來聆聽這段經文。</p><p>在這個環節中，以小組的形式，用自己的語言複述這段經文。</p><p>首先，整個小組應該練習用自己的語言講述這段經文。 記得要包含你在前面的步驟中所確定的內容，比如時間順序、單詞、短語、情緒或任何你們討論過的其它內容。</p><p>一位小組成員應該講幾句經文內容，然後暫停一下。 另一位小組成員應該講下一部分的經文內容，然後暫停一下。 一直這樣做，直到小組成員講述完整段落。 小組成員可以在這個步驟中互相糾正。 請在這裡暫停音頻。</p><p>接下來，小組中的每個成員都應該能不間斷地將整個段落至少講述一遍。 小組成員可以使用隨機的物品、動作或他們的故事板來幫助記住經文。請在這裡暫停音頻。</p><p>接下來，小組成員可以決定你最喜歡哪個人講述的版本。 你可能會覺得某位小組成員講述某一場景的方式不錯，而另一位小組成員講述另一場景的方式也不錯。請在這裡暫停音頻。</p><p>最後，小組可以整理出一個大家都同意的經文最終版本。 每個小組成員都應該練習把這個段落的最終版本講述出來。</p>",
+"content": "<h2>Step 1</h2><p>在這一步驟中，請聆聽馬可福音十五章33至39節，並把它記在你們的心裡。</p><p>請聆聽三遍馬可福音十五章33至39節的音頻，如果可能的話，請使用三種不同的譯本。 然後，以小組為單位討論以下問題：</p><ul><li>你喜歡這個經文段落的哪些部分？</li><li>在這段經文中，你有什麼不喜歡或不明白的地方？</li><li>這段經文告訴我們關於神或耶穌的哪些信息？</li><li>這段經文告訴我們關於人的什麼事?</li><li>這段經文對我們的日常生活有什麼影響？</li><li>你認識哪些人需要聽一聽這段經文呢？</li></ul>\n<h2>Step 2</h2><p>請聆聽馬可福音十五章33至39節最容易理解的譯本的音頻。</p><p>在前一段經文中，馬可提到士兵們在早上九點鐘把耶穌釘在十字架上。 耶穌在十字架上承受了數小時的痛苦。 正午時分，太陽變黑了，儘管太陽在每年的這個時候從未變黑。 然而，耶穌那個時代的人相信黑暗是某種不好的象徵。 猶太先知阿摩司說，當神來審判世界時，太陽會變黑。 另一些人則認為，黑暗是君王或城市死亡的象徵。 在第一個逾越節之前，當神把以色列人從埃及拯救出來前，有一場黑暗之災，象徵著神對埃及的咒詛。 摩西律法說，神已經懲罰或咒詛了那些掛在樹上的人。 也許這就是太陽變黑的原因。</p><p>下午三點鐘，黑暗開始三小時後，耶穌大聲喊著說：「我的神，我的神，你為什麼離棄我？」 耶穌覺得自己與神完全隔絕了，所以耶穌說了詩篇或哀歌的第一部分。 在這首哀歌中，歌者求神幫助那些不公正地受苦之人。 哀歌的詩篇通常以應許結束，神會與他們同在，並在困境中幫助他們。</p><p>耶穌可能用希伯來文說出了神的名字——以羅伊，問題的其餘部分則用了亞蘭文。 希伯來文是猶太經文的語言，但亞蘭文是羅馬時代猶太人所使用的語言。 祂周圍的一些人可能不明白祂一開始說的話。 耶穌向神呼喊，但祂所用的字詞（神的名字）聽起來很像偉大的猶太先知以利亞的希伯來名字。 猶太人相信，當義人處於危險之中時，以利亞的靈會來拯救他們。 人們相信耶穌在呼喚以利亞，而不是神，這是可以理解的。</p><p>猶太人認為酒醋，也就是廉價的酸酒，能使口渴的人精神清醒，並有所幫助。 有人聽到了耶穌的呼喚，想要幫助祂。 這個人把海綿浸泡在酒醋中，然後把海綿放在棍子的末端，把它舉到耶穌面前。</p><p>耶穌直到生命的最後一刻，仍然堅強的大聲說話。 這很不尋常——大多數人在釘十字架這個刑罰即將結束時會變得更加虛弱，失去知覺，並且無法正常呼吸。</p><p>馬可福音又講述了發生在另一個地方的事件，但與釘十字架同時發生。 耶路撒冷的聖殿有兩塊幔子掛在門口。 裡面的幔子是懸掛在聖所和至聖所之間的幔子。 至聖所是聖殿中，只有大祭司才能在特殊的贖罪日為所有以色列人獻祭的地方，以赦免他們的罪。 外面的幔子將祭司專用的特殊區域與非祭司專用的庭院分開。 公眾可以看到外面的幔子，但只有少數祭司可以看到裡面的幔子。</p><p>在這裡停下來，看看聖殿的示意圖，包括至聖所、聖所和庭院。 請在這裡暫停音頻。</p><p>我們不確定哪一個幔子從上到下裂為了兩半。 有些學者認為，是外面的幔子從上到下裂為了兩半，因為公眾可以從庭院看到它，並告訴其他人這件事情的發生。 許多人認為，這件事是一個預言，預言聖殿有一天會被拆毀。 聖殿確實在公元七十年被拆毀了，距離這件事發生只有大約四十年。 無論如何，幔子裂開，象徵著耶穌正在改變原來的猶太傳統，即需要聖殿和祭司在聖所獻祭。 耶穌是最終極的祭物。</p><p>一位百夫長或羅馬軍官，從耶穌被釘十字架開始，直到祂死去，就一直與祂在一起。 他知道耶穌與其他受害者有所不同。 耶穌並沒有正常的死亡，也沒有像正常的罪犯一樣行事。 羅馬軍官驚呼：「這人真是神的兒子！」 這位羅馬軍官可能明白，耶穌是神聖的，或者說是一位神聖的英雄，祂從神接受了自己的命運。 然而，羅馬軍官不會明白這句宣告的全部含義。</p><p>這位軍官的宣告是整本馬可福音的頂點。 馬可想向聽眾顯明：「耶穌是誰？」 馬可想向聽眾顯明，耶穌就是應許的那位彌賽亞，君王，也是神的兒子。 馬可一開始就說，這是對「神的兒子，彌賽亞」耶穌生活的記述。 那時耶穌問門徒，祂是誰，彼得說：「你就是彌賽亞。」 然後，祭司長在審判中問耶穌，祂是否就是彌賽亞，即神的兒子。 而現在，就連對耶穌之死負有責任的羅馬軍官，似乎也明白了耶穌是誰。 馬可福音的讀者羅馬人會很高興知道，甚至連羅馬官員都明白了耶穌是誰。</p>\n<h2>Step 3</h2><p>請聆聽馬可福音十五章33至39節最容易理解的譯本的音頻。</p><p>在這個步驟中，小組將定義這段話的場景、角色和設定。然後小組會把這段經文形象化。</p><p>這段經文有四個場景。</p><p><b>第一個場景：</b>從中午開始。 太陽變黑了三個小時。</p><p><b>在第二個場景中：</b>耶穌大聲呼喊：「我的神，我的神，你為什麼離棄我？」 有人試圖把酸醋給耶穌。</p><p><b>在第三個場景中：</b>耶穌大聲喊叫，然後死了。 與此同時，在耶路撒冷另一邊的聖殿中，一道幔子從上到下裂開了。</p><p><b>在第四個場景中：</b>羅馬百夫長或軍官說：「這人真是神的兒子！」</p><p>這段故事中的角色有：</p><ul><li>耶穌</li><li>站在十字架旁邊的人</li><li>把酸酒倒在海綿上的人</li><li>這位被稱為百夫長的羅馬軍官</li></ul><p>以小組為單位，注意這段經文的背景：這個故事從中午開始，黑暗籠罩了整個地區，可能只有以色列地區，甚至只是耶路撒冷周圍的區域。 三個小時過去了。 大約在下午三點鐘，耶穌大聲呼喊。 重要的是要記住，馬可給了我們耶穌的原文：「以羅伊，以羅伊，拉馬撒巴各大尼？」 意思是：「我的神，我的神，為什麼離棄我？」</p><p>在這裡停下來，以小組為單位討論這個問題：你們如何表達在故事中是用另一種語言說話的呢？ 請在這裡暫停音頻。</p><p>先知以利亞的名字聽起來與「以羅伊」相似，所以附近的一些人認為耶穌在呼喚先知以利亞。 有人——我們不知道是誰——跑來把海綿浸在酸酒中。 他把海綿放在棍子上，然後把它舉到耶穌面前。 這個人說：「等等，讓我們看看以利亞是否會來把祂從十字架上帶下來！」 耶穌大聲呼喊，然後呼出了最後一口氣。 耶穌死了。</p><p>在耶穌死去的同時，聖殿的幔子裂成了兩半，從頂部開始，直到底部。 聖殿位於耶路撒冷，耶穌死亡地點的另一邊。 耶穌受難的十字架旁的人並不知道聖殿中的幔子已經裂為兩半。</p><p>在這裡停下來，以小組為單位討論這個問題：在一個故事中，你們如何講述信息，雖然它們發生在同一時間，但卻在不同的地方？ 請在這裡暫停音頻。</p><p>一位羅馬軍官或百夫長站在十字架附近，因為他負責釘耶穌十字架。 他看到了十字架上發生的一切。 他看到耶穌的死與其他人的死不同。 耶穌在祂仍然強健的時候就死了。 百夫長說：「誠然，或者我確信，這個人就是神的兒子！」 這是馬可福音中的第二個高潮，或者是最重要的部分。</p><p>在這裡停下來，以小組為單位討論：當你講故事時，你如何用你的聲音和言語表明你正在講述故事的重要部分？ 練習彼此講一個真實的、特殊的故事，並記下故事中最重要的部分在哪裏。 你們如何講論它？ 當你講論故事中的重要部分時，你的聲音和言語會發生什麼變化？ 請在這裡暫停音頻。</p><p>現在小組應該用故事板、繪畫或使用物品，將這段經文和其中的動作形象化。</p>\n<h2>Step 4</h2><p>請聆聽馬可福音十五章33至39節最容易理解的譯本的音頻。</p><p>在這一個步驟中，小組將戲劇化地演示這段經文。</p><p>這段經文有四個場景。</p><p>這段故事中的角色有：</p><ul><li>耶穌</li><li>站在十字架旁邊的人</li><li>把酸酒倒在海綿上的人</li><li>這位被稱為百夫長的羅馬軍官</li></ul><p>以小組為單位，把這段經文演出兩次。以你自己的語言來演出這段經文。</p><p>首先，完整演繹這段經文，不要中途停下來。 留意這段經文中的對話、情節發展、故事脈絡和時間順序。 請確保你在演繹這段經文時，不會跳過其中困難或重要的部分。幫助彼此記住經文中的每一個部分。</p><p>在此暫停這個音頻並表演這段經文。</p><p>這個小組應該把這段經文再演一次。 在戲中的某些時刻暫停，然後問扮演角色的人：「你有什麼感受或想法？」 扮演這個角色的人應該回答如果他們是那個角色，他們會有什麼感受或想法。 然後繼續演出。</p><p>在此暫停這個音頻，然後再表演一次這段經文。</p><p>以下是戲劇以及可能回應的範例。</p><p>這個故事從中午開始，黑暗籠罩了整個地區，可能只有以色列地區，甚至只是耶路撒冷周圍的區域。 三個小時過去了。 大約在下午三點鐘，耶穌大聲呼喊。 「以羅伊，以羅伊，拉馬撒巴各大尼？」 意思是：「我的神，我的神，為什麼離棄我？」</p><p>暫停演出。 問扮演耶穌的人：「你有什麼感受或想法？」 你可能會聽到這樣的話：「我從來沒有如此孤獨」、「感覺完全被拋棄了。」 問扮演站在旁邊之人的演員：「你們有什麼想法或感受？」 你可能會聽到這樣的話：「想知道祂在和誰說話」、「為祂感到悲傷。」 繼續演出。</p><p>有人——我們不知道是誰——跑來把海綿浸在酸酒中。 他把海綿放在棍子上，然後把它舉到耶穌面前。 這個人說：「等等，讓我們看看以利亞是否會來把祂從十字架上帶下來！」 耶穌大聲呼喊，然後呼出了最後一口氣。 耶穌死了。在耶穌死去的同時，聖殿的幔子裂成了兩半，從頂部開始，直到底部。 聖殿位於耶路撒冷，耶穌死亡地點的另一邊。</p><p>暫停演出。 詢問扮演這個人的演員：「你有什麼感受或想法？」你可能會聽到這樣的話：「感到失望。」 問扮演站在旁邊之人的演員：「你們有什麼想法或感受？」 你可能會聽到這樣的話：「覺得可悲」、「很高興一切都結束了」、「可悲的是，耶穌無緣無故的死了。」 繼續演出。</p><p>一位羅馬軍官或百夫長站在十字架附近，因為他負責釘耶穌十字架。 百夫長說：「我確信這個人就是神的兒子！」</p><p>暫停演出。 問扮演百夫長的人：「你有什麼感受或想法？」 你可能會聽到這樣的話：「耶穌比其他死的人更有尊嚴」、「耶穌不像其他人那樣憤怒」、「耶穌的死與其他人不同」、「我可以感覺到神與這個人同在。」</p>\n<h2>Step 5</h2><p>請聆聽馬可福音十五章33至39節最容易理解的譯本的音頻。</p><p>在這一步驟中，小組將討論這段經文中的關鍵詞語。</p><p>從中午開始，<b>黑暗籠罩</b>了<b>全地</b>，直到<b>三點鐘</b>。 「全地」可能只是指耶路撒冷周圍的地區，或以色列國。 這可能不是指整個世界。 「黑暗降臨」的意思是太陽不再光明。 這發生在<b>中午</b>，耶穌是在<b>下午三點鐘</b>大喊的。 有些語言可能沒有詞語來描述明確切的時間。 如果是這樣的話，你可以說「中午」和「下午的中間」，或者任何表達你們文化中時間的方式。</p><p>耶穌呼喊：「以羅伊，以羅伊，拉馬撒巴各大尼？」 這是希伯來文和亞蘭文，意思是：「我的神，我的神，為什麼離棄我？」 或「你為什麼離棄我？」 耶穌可能用希伯來文說出了神的名字，即<b>以羅伊</b>，然後用亞蘭文說出了問題的其餘部分。 希伯來文是猶太經文的語言，但亞蘭文是羅馬時代猶太人所使用的語言。 馬可福音給了我們希伯來文和亞蘭文，然後翻譯成我們語言的譯文。 你可能也需要這樣做。 如果是這樣，請嘗試以與希伯來文和亞蘭文原文相似的方式來表達希伯來文句，然後把它翻譯成你的語言，就像馬可對聽眾所做的那樣。</p><p>有些人認為耶穌在呼喚先知<b>以利亞</b>。 請用你在之前經文中所用的相同方式翻譯以利亞的名字，請記得<b>以利亞</b>在主詞匯表中。</p><p>有人給耶穌<b>酸酒</b>或<b>酒醋</b>，試圖幫助祂止渴。 酒醋是一種廉價的發酵飲料。 因為<data class=\"resource-ref\" data-content-id=\"zht-t243-v1\" data-resource-code=\"FIAKeyTerms\">酒</data>吸附在海綿上，你可以說他們把酒獻給耶穌吸。</p><p>在這裡停下來，討論一下你們會用什麼詞語或片語來表示酸酒或酒醋。 請在這裡暫停音頻。</p><p>耶穌<b>呼出最後一口氣</b>，這意味着祂死了。</p><p>在這裡停下來，以小組為單位討論：你們的聽眾會明白耶穌在這時候死了嗎，或者你們是否需要明確說明這一點？ 你需要說「耶穌死了」嗎？ 請在這裡暫停音頻。</p><p>當耶穌死時，<b>聖殿</b>中的<b>幔子</b>從上到下裂開。 聖殿中有兩塊幔子，我們不確定哪一塊裂開了。 然而，聖殿裏面的幔子長二十米，寬十米，厚度與人的手掌一樣。 幔子是用布製成的，用於遮蓋門口。 你可以說：「幔子分成了兩部分。」 請使用你在之前經文中所用的相同詞語來表示聖殿，並記住，<b>聖殿</b>在主詞匯表中。</p><p>當耶穌死時，負責處決祂的百夫長說：「祂真是<b>神的兒子</b>！」 <b>百夫長</b>是軍隊中的一名羅馬軍官，負責指揮一百名士兵。 請用你在之前經文中所用的相同方式翻譯神的兒子，並記住，<b>神的兒子</b>在主詞彙列表中。</p><p>在這裡停下來，以小組為單位討論一下，你會用什麼詞語或片語來表示<b>百夫長</b>。有關<b>百夫長</b>的更多信息，請參閱主詞彙列表。</p>\n<h2>Step 6</h2><p>使用最容易理解的翻譯語音版本，來聆聽這段經文。</p><p>在這個環節中，以小組的形式，用自己的語言複述這段經文。</p><p>首先，整個小組應該練習用自己的語言講述這段經文。 記得要包含你在前面的步驟中所確定的內容，比如時間順序、單詞、短語、情緒或任何你們討論過的其它內容。</p><p>一位小組成員應該講幾句經文內容，然後暫停一下。 另一位小組成員應該講下一部分的經文內容，然後暫停一下。 一直這樣做，直到小組成員講述完整段落。 小組成員可以在這個步驟中互相糾正。 請在這裡暫停音頻。</p><p>接下來，小組中的每個成員都應該能不間斷地將整個段落至少講述一遍。 小組成員可以使用隨機的物品、動作或他們的故事板來幫助記住經文。請在這裡暫停音頻。</p><p>接下來，小組成員可以決定你最喜歡哪個人講述的版本。 你可能會覺得某位小組成員講述某一場景的方式不錯，而另一位小組成員講述另一場景的方式也不錯。請在這裡暫停音頻。</p><p>最後，小組可以整理出一個大家都同意的經文最終版本。 每個小組成員都應該練習把這個段落的最終版本講述出來。</p>",
 "associations": {
 "passage": [
 {
@@ -5050,7 +5018,7 @@
 "reference_id": 0,
 "content_id": "zht-t243-v1",
 "resource_code": "FIAKeyTerms",
-"label": "wine",
+"label": "酒",
 "language": "zht"
 }
 ],
@@ -5084,13 +5052,6 @@
 "preferred_label": "A Group of People"
 },
 {
-"id": "keyterm:True",
-"type": "keyterm",
-"confidence": 0.2143,
-"match_method": "canonical",
-"preferred_label": "True"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.2143,
@@ -5098,11 +5059,18 @@
 "preferred_label": "LORD"
 },
 {
-"id": "realia:SourWine",
-"type": "realia",
+"id": "keyterm:True",
+"type": "keyterm",
+"confidence": 0.2143,
+"match_method": "canonical",
+"preferred_label": "True"
+},
+{
+"id": "flora:Reed",
+"type": "flora",
 "confidence": 0.1543,
 "match_method": "canonical",
-"preferred_label": "Sour Wine"
+"preferred_label": "Reed"
 },
 {
 "id": "realia:Temple",
@@ -5112,18 +5080,18 @@
 "preferred_label": "Temple"
 },
 {
+"id": "realia:SourWine",
+"type": "realia",
+"confidence": 0.1543,
+"match_method": "canonical",
+"preferred_label": "Sour Wine"
+},
+{
 "id": "realia:Curtain",
 "type": "realia",
 "confidence": 0.1543,
 "match_method": "canonical",
 "preferred_label": "Curtain"
-},
-{
-"id": "flora:Reed",
-"type": "flora",
-"confidence": 0.1543,
-"match_method": "canonical",
-"preferred_label": "Reed"
 }
 ]
 }
@@ -5150,18 +5118,18 @@
 "resource": [],
 "acai": [
 {
-"id": "person:Joseph.6",
-"type": "person",
-"confidence": 0.3375,
-"match_method": "canonical",
-"preferred_label": "Joseph"
-},
-{
 "id": "person:Mary.2",
 "type": "person",
 "confidence": 0.3375,
 "match_method": "canonical",
 "preferred_label": "Mary"
+},
+{
+"id": "person:Joseph.6",
+"type": "person",
+"confidence": 0.3375,
+"match_method": "canonical",
+"preferred_label": "Joseph"
 },
 {
 "id": "person:Pilate",
@@ -5185,20 +5153,6 @@
 "preferred_label": "James"
 },
 {
-"id": "person:Joseph.3",
-"type": "person",
-"confidence": 0.2313,
-"match_method": "canonical",
-"preferred_label": "Joseph"
-},
-{
-"id": "place:Arimathea",
-"type": "place",
-"confidence": 0.2313,
-"match_method": "canonical",
-"preferred_label": "Arimathea"
-},
-{
 "id": "person:Joseph.5",
 "type": "person",
 "confidence": 0.2313,
@@ -5213,11 +5167,18 @@
 "preferred_label": "Salome"
 },
 {
-"id": "keyterm:Body.3",
-"type": "keyterm",
-"confidence": 0.2063,
+"id": "place:Arimathea",
+"type": "place",
+"confidence": 0.2313,
 "match_method": "canonical",
-"preferred_label": "Body"
+"preferred_label": "Arimathea"
+},
+{
+"id": "person:Joseph.3",
+"type": "person",
+"confidence": 0.2313,
+"match_method": "canonical",
+"preferred_label": "Joseph"
 },
 {
 "id": "person:Jesus.2",
@@ -5227,25 +5188,11 @@
 "preferred_label": "Jesus"
 },
 {
-"id": "place:Jerusalem",
-"type": "place",
-"confidence": 0.2063,
-"match_method": "canonical",
-"preferred_label": "Jerusalem"
-},
-{
-"id": "place:Galilee",
-"type": "place",
-"confidence": 0.2063,
-"match_method": "canonical",
-"preferred_label": "Galilee"
-},
-{
-"id": "keyterm:Serve",
+"id": "keyterm:Kingdom",
 "type": "keyterm",
 "confidence": 0.2063,
 "match_method": "canonical",
-"preferred_label": "Serve"
+"preferred_label": "Kingdom"
 },
 {
 "id": "keyterm:DayBeforeTheSabbath",
@@ -5255,13 +5202,6 @@
 "preferred_label": "Day Before the Sabbath"
 },
 {
-"id": "keyterm:Kingdom",
-"type": "keyterm",
-"confidence": 0.2063,
-"match_method": "canonical",
-"preferred_label": "Kingdom"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.2063,
@@ -5269,11 +5209,32 @@
 "preferred_label": "LORD"
 },
 {
-"id": "realia:Grave",
-"type": "realia",
-"confidence": 0.1463,
+"id": "place:Jerusalem",
+"type": "place",
+"confidence": 0.2063,
 "match_method": "canonical",
-"preferred_label": "Grave"
+"preferred_label": "Jerusalem"
+},
+{
+"id": "keyterm:Body.3",
+"type": "keyterm",
+"confidence": 0.2063,
+"match_method": "canonical",
+"preferred_label": "Body"
+},
+{
+"id": "keyterm:Serve",
+"type": "keyterm",
+"confidence": 0.2063,
+"match_method": "canonical",
+"preferred_label": "Serve"
+},
+{
+"id": "place:Galilee",
+"type": "place",
+"confidence": 0.2063,
+"match_method": "canonical",
+"preferred_label": "Galilee"
 },
 {
 "id": "realia:Linen",
@@ -5281,6 +5242,13 @@
 "confidence": 0.1463,
 "match_method": "canonical",
 "preferred_label": "Linen"
+},
+{
+"id": "realia:Grave",
+"type": "realia",
+"confidence": 0.1463,
+"match_method": "canonical",
+"preferred_label": "Grave"
 }
 ]
 }
@@ -5304,15 +5272,7 @@
 "end_ref_usfm": "MRK 16:8"
 }
 ],
-"resource": [
-{
-"reference_id": 0,
-"content_id": "zht-t212-v1",
-"resource_code": "FIAKeyTerms",
-"label": "anoint",
-"language": "zht"
-}
-],
+"resource": [],
 "acai": [
 {
 "id": "realia:Grave",
@@ -5320,13 +5280,6 @@
 "confidence": 0.49,
 "match_method": "canonical",
 "preferred_label": "Grave"
-},
-{
-"id": "group:Angels",
-"type": "group",
-"confidence": 0.2313,
-"match_method": "canonical",
-"preferred_label": "Angels"
 },
 {
 "id": "person:Salome",
@@ -5343,46 +5296,11 @@
 "preferred_label": "Mary"
 },
 {
-"id": "keyterm:Salvation",
-"type": "keyterm",
-"confidence": 0.2063,
+"id": "group:Angels",
+"type": "group",
+"confidence": 0.2313,
 "match_method": "canonical",
-"preferred_label": "Salvation"
-},
-{
-"id": "keyterm:Anointed",
-"type": "keyterm",
-"confidence": 0.2063,
-"match_method": "canonical",
-"preferred_label": "Anointed"
-},
-{
-"id": "keyterm:Week",
-"type": "keyterm",
-"confidence": 0.2063,
-"match_method": "canonical",
-"preferred_label": "Week"
-},
-{
-"id": "person:Jesus.2",
-"type": "person",
-"confidence": 0.2063,
-"match_method": "canonical",
-"preferred_label": "Jesus"
-},
-{
-"id": "person:Peter",
-"type": "person",
-"confidence": 0.2063,
-"match_method": "canonical",
-"preferred_label": "Peter"
-},
-{
-"id": "keyterm:Surely",
-"type": "keyterm",
-"confidence": 0.2063,
-"match_method": "canonical",
-"preferred_label": "Surely!"
+"preferred_label": "Angels"
 },
 {
 "id": "person:James.3",
@@ -5392,39 +5310,32 @@
 "preferred_label": "James"
 },
 {
-"id": "keyterm:Command",
-"type": "keyterm",
-"confidence": 0.2063,
-"match_method": "canonical",
-"preferred_label": "To Command"
-},
-{
-"id": "place:Nazareth",
-"type": "place",
-"confidence": 0.2063,
-"match_method": "canonical",
-"preferred_label": "Nazareth"
-},
-{
-"id": "place:Galilee",
-"type": "place",
-"confidence": 0.2063,
-"match_method": "canonical",
-"preferred_label": "Galilee"
-},
-{
-"id": "keyterm:Fear",
-"type": "keyterm",
-"confidence": 0.2063,
-"match_method": "canonical",
-"preferred_label": "Fear"
-},
-{
 "id": "keyterm:Imperishable",
 "type": "keyterm",
 "confidence": 0.2063,
 "match_method": "canonical",
 "preferred_label": "Imperishable"
+},
+{
+"id": "person:Jesus.2",
+"type": "person",
+"confidence": 0.2063,
+"match_method": "canonical",
+"preferred_label": "Jesus"
+},
+{
+"id": "keyterm:Surely",
+"type": "keyterm",
+"confidence": 0.2063,
+"match_method": "canonical",
+"preferred_label": "Surely!"
+},
+{
+"id": "person:Peter",
+"type": "person",
+"confidence": 0.2063,
+"match_method": "canonical",
+"preferred_label": "Peter"
 },
 {
 "id": "keyterm:Resurrection",
@@ -5434,11 +5345,39 @@
 "preferred_label": "Resurrection"
 },
 {
-"id": "keyterm:Disciple",
+"id": "keyterm:Anointed",
 "type": "keyterm",
 "confidence": 0.2063,
 "match_method": "canonical",
-"preferred_label": "Be a Disciple"
+"preferred_label": "Anointed"
+},
+{
+"id": "keyterm:Command",
+"type": "keyterm",
+"confidence": 0.2063,
+"match_method": "canonical",
+"preferred_label": "To Command"
+},
+{
+"id": "keyterm:Week",
+"type": "keyterm",
+"confidence": 0.2063,
+"match_method": "canonical",
+"preferred_label": "Week"
+},
+{
+"id": "keyterm:Salvation",
+"type": "keyterm",
+"confidence": 0.2063,
+"match_method": "canonical",
+"preferred_label": "Salvation"
+},
+{
+"id": "keyterm:Fear",
+"type": "keyterm",
+"confidence": 0.2063,
+"match_method": "canonical",
+"preferred_label": "Fear"
 },
 {
 "id": "keyterm:Sabbath",
@@ -5446,6 +5385,27 @@
 "confidence": 0.2063,
 "match_method": "canonical",
 "preferred_label": "Sabbath"
+},
+{
+"id": "place:Galilee",
+"type": "place",
+"confidence": 0.2063,
+"match_method": "canonical",
+"preferred_label": "Galilee"
+},
+{
+"id": "keyterm:Disciple",
+"type": "keyterm",
+"confidence": 0.2063,
+"match_method": "canonical",
+"preferred_label": "Be a Disciple"
+},
+{
+"id": "place:Nazareth",
+"type": "place",
+"confidence": 0.2063,
+"match_method": "canonical",
+"preferred_label": "Nazareth"
 },
 {
 "id": "person:Marymagdalene",
@@ -5514,25 +5474,11 @@
 "preferred_label": "Disbelieve"
 },
 {
-"id": "person:Jesus.2",
-"type": "person",
-"confidence": 0.275,
-"match_method": "canonical",
-"preferred_label": "Jesus"
-},
-{
 "id": "keyterm:Proclaim",
 "type": "keyterm",
 "confidence": 0.275,
 "match_method": "canonical",
 "preferred_label": "Proclaim"
-},
-{
-"id": "keyterm:Example",
-"type": "keyterm",
-"confidence": 0.275,
-"match_method": "canonical",
-"preferred_label": "Symbol"
 },
 {
 "id": "deity:Demons",
@@ -5542,46 +5488,18 @@
 "preferred_label": "Demons"
 },
 {
-"id": "keyterm:Salvation",
-"type": "keyterm",
-"confidence": 0.1875,
+"id": "person:Jesus.2",
+"type": "person",
+"confidence": 0.275,
 "match_method": "canonical",
-"preferred_label": "Salvation"
+"preferred_label": "Jesus"
 },
 {
-"id": "keyterm:Heaven",
+"id": "keyterm:Example",
 "type": "keyterm",
-"confidence": 0.1875,
+"confidence": 0.275,
 "match_method": "canonical",
-"preferred_label": "Sky"
-},
-{
-"id": "keyterm:Week",
-"type": "keyterm",
-"confidence": 0.1875,
-"match_method": "canonical",
-"preferred_label": "Week"
-},
-{
-"id": "keyterm:Life",
-"type": "keyterm",
-"confidence": 0.1875,
-"match_method": "canonical",
-"preferred_label": "Life"
-},
-{
-"id": "keyterm:Hardheartedness",
-"type": "keyterm",
-"confidence": 0.1875,
-"match_method": "canonical",
-"preferred_label": "Hardheartedness"
-},
-{
-"id": "keyterm:Condemn",
-"type": "keyterm",
-"confidence": 0.1875,
-"match_method": "canonical",
-"preferred_label": "Condemn"
+"preferred_label": "Symbol"
 },
 {
 "id": "keyterm:Baptism",
@@ -5589,13 +5507,6 @@
 "confidence": 0.1875,
 "match_method": "canonical",
 "preferred_label": "Baptism"
-},
-{
-"id": "keyterm:Ability",
-"type": "keyterm",
-"confidence": 0.1875,
-"match_method": "canonical",
-"preferred_label": "Ability"
 },
 {
 "id": "keyterm:GoodNews",
@@ -5612,6 +5523,34 @@
 "preferred_label": "Resurrection"
 },
 {
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.1875,
+"match_method": "canonical",
+"preferred_label": "LORD"
+},
+{
+"id": "keyterm:Week",
+"type": "keyterm",
+"confidence": 0.1875,
+"match_method": "canonical",
+"preferred_label": "Week"
+},
+{
+"id": "keyterm:Condemn",
+"type": "keyterm",
+"confidence": 0.1875,
+"match_method": "canonical",
+"preferred_label": "Condemn"
+},
+{
+"id": "keyterm:Salvation",
+"type": "keyterm",
+"confidence": 0.1875,
+"match_method": "canonical",
+"preferred_label": "Salvation"
+},
+{
 "id": "keyterm:Name",
 "type": "keyterm",
 "confidence": 0.1875,
@@ -5619,18 +5558,39 @@
 "preferred_label": "Name"
 },
 {
+"id": "keyterm:Hardheartedness",
+"type": "keyterm",
+"confidence": 0.1875,
+"match_method": "canonical",
+"preferred_label": "Hardheartedness"
+},
+{
+"id": "keyterm:Heaven",
+"type": "keyterm",
+"confidence": 0.1875,
+"match_method": "canonical",
+"preferred_label": "Sky"
+},
+{
+"id": "keyterm:Ability",
+"type": "keyterm",
+"confidence": 0.1875,
+"match_method": "canonical",
+"preferred_label": "Ability"
+},
+{
+"id": "keyterm:Life",
+"type": "keyterm",
+"confidence": 0.1875,
+"match_method": "canonical",
+"preferred_label": "Life"
+},
+{
 "id": "person:Marymagdalene",
 "type": "person",
 "confidence": 0.1875,
 "match_method": "canonical",
 "preferred_label": "Mary Magdalene"
-},
-{
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.1875,
-"match_method": "canonical",
-"preferred_label": "LORD"
 },
 {
 "id": "fauna:Snake",
