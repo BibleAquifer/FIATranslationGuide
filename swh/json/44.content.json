@@ -85,13 +85,6 @@
 "preferred_label": "BWANA"
 },
 {
-"id": "keyterm:Promise",
-"type": "keyterm",
-"confidence": 0.28,
-"match_method": "canonical",
-"preferred_label": "Promise"
-},
-{
 "id": "person:Theophilus",
 "type": "person",
 "confidence": 0.28,
@@ -99,11 +92,11 @@
 "preferred_label": "Theofilo"
 },
 {
-"id": "place:Jerusalem",
-"type": "place",
-"confidence": 0.24,
+"id": "keyterm:Promise",
+"type": "keyterm",
+"confidence": 0.28,
 "match_method": "canonical",
-"preferred_label": "Yerusalemu"
+"preferred_label": "Promise"
 },
 {
 "id": "keyterm:Chosen",
@@ -113,11 +106,32 @@
 "preferred_label": "Chosen"
 },
 {
+"id": "keyterm:Command",
+"type": "keyterm",
+"confidence": 0.24,
+"match_method": "canonical",
+"preferred_label": "To Command"
+},
+{
+"id": "keyterm:Kingdom",
+"type": "keyterm",
+"confidence": 0.24,
+"match_method": "canonical",
+"preferred_label": "Kingdom"
+},
+{
 "id": "keyterm:Baptism",
 "type": "keyterm",
 "confidence": 0.24,
 "match_method": "canonical",
 "preferred_label": "Baptism"
+},
+{
+"id": "place:Jerusalem",
+"type": "place",
+"confidence": 0.24,
+"match_method": "canonical",
+"preferred_label": "Yerusalemu"
 },
 {
 "id": "person:Jesus.2",
@@ -139,20 +153,6 @@
 "confidence": 0.24,
 "match_method": "canonical",
 "preferred_label": "Yohana"
-},
-{
-"id": "keyterm:Command",
-"type": "keyterm",
-"confidence": 0.24,
-"match_method": "canonical",
-"preferred_label": "To Command"
-},
-{
-"id": "keyterm:Kingdom",
-"type": "keyterm",
-"confidence": 0.24,
-"match_method": "canonical",
-"preferred_label": "Kingdom"
 }
 ]
 }
@@ -278,13 +278,6 @@
 "preferred_label": "Sky"
 },
 {
-"id": "person:Jesus.2",
-"type": "person",
-"confidence": 0.35,
-"match_method": "canonical",
-"preferred_label": "Yesu"
-},
-{
 "id": "keyterm:Ability",
 "type": "keyterm",
 "confidence": 0.35,
@@ -292,11 +285,11 @@
 "preferred_label": "Ability"
 },
 {
-"id": "place:Judea",
-"type": "place",
-"confidence": 0.2583,
+"id": "person:Jesus.2",
+"type": "person",
+"confidence": 0.35,
 "match_method": "canonical",
-"preferred_label": "Yudea"
+"preferred_label": "Yesu"
 },
 {
 "id": "keyterm:Witness",
@@ -306,46 +299,18 @@
 "preferred_label": "Witness"
 },
 {
+"id": "place:Judea",
+"type": "place",
+"confidence": 0.2583,
+"match_method": "canonical",
+"preferred_label": "Yudea"
+},
+{
 "id": "group:Galilee",
 "type": "group",
 "confidence": 0.2583,
 "match_method": "canonical",
 "preferred_label": "Galileans"
-},
-{
-"id": "place:Jerusalem",
-"type": "place",
-"confidence": 0.225,
-"match_method": "canonical",
-"preferred_label": "Yerusalemu"
-},
-{
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.225,
-"match_method": "canonical",
-"preferred_label": "BWANA"
-},
-{
-"id": "place:Samaria",
-"type": "place",
-"confidence": 0.225,
-"match_method": "canonical",
-"preferred_label": "Samaria"
-},
-{
-"id": "place:Galilee",
-"type": "place",
-"confidence": 0.225,
-"match_method": "canonical",
-"preferred_label": "Galilaya"
-},
-{
-"id": "keyterm:Authority.2",
-"type": "keyterm",
-"confidence": 0.225,
-"match_method": "canonical",
-"preferred_label": "Authority"
 },
 {
 "id": "person:Israel",
@@ -369,11 +334,46 @@
 "preferred_label": "Kingdom"
 },
 {
+"id": "place:Jerusalem",
+"type": "place",
+"confidence": 0.225,
+"match_method": "canonical",
+"preferred_label": "Yerusalemu"
+},
+{
 "id": "deity:HolySpirit",
 "type": "deity",
 "confidence": 0.225,
 "match_method": "canonical",
 "preferred_label": "Roho"
+},
+{
+"id": "place:Galilee",
+"type": "place",
+"confidence": 0.225,
+"match_method": "canonical",
+"preferred_label": "Galilaya"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.225,
+"match_method": "canonical",
+"preferred_label": "BWANA"
+},
+{
+"id": "keyterm:Authority.2",
+"type": "keyterm",
+"confidence": 0.225,
+"match_method": "canonical",
+"preferred_label": "Authority"
+},
+{
+"id": "place:Samaria",
+"type": "place",
+"confidence": 0.225,
+"match_method": "canonical",
+"preferred_label": "Samaria"
 },
 {
 "id": "realia:Clothing",
@@ -394,7 +394,7 @@
 "index_reference": "44001012-44001014",
 "language": "swh",
 "review_level": "None",
-"content": "<h2>Sikiliza na Moyo</h2><p>Sikiliza Matendo 1:12–14 na utie moyoni mwako maneno hayo. Sikiliza ujumbe mara tatu (katika tafsiri tatu tofauti, ikiwezekana). Kisha kama timu mjadili maswali yafuatayo:</p><ul><li>Unapenda nini katika simulizi hii?</li><li>Ni nini usichopenda au usichoelewa?</li><li>Simulizi hii inatuambia nini kuhusu Mungu au Yesu?</li><li>Simulizi hii inatuambia nini kuhusu watu?</li><li>Simulizi hii inaathiri vipi maisha yetu ya kila siku?</li><li>Unamjua nani ambaye anahitaji kusikiliza simulizi hili?</li></ul>\n<h2>Kufanya Maandalizi</h2><p>Sikiliza maandishi mara moja katika toleo rahisi zaidi kuelewa.</p><p>Simulizi ya awali inarekodi mazungumzo ya mwisho ya mitume kumi na moja na Yesu duniani na wakati alipokwenda mbinguni. Mitume walimwuliza Yesu kama angerejesha ufalme kwa Israeli. Aliwaambia hawakuhitaji kujua nyakati za matukio ya baadaye ambayo Mungu mwenyewe aliamua kwa mamlaka yake mwenyewe. Yesu anawaahidi mitume kwamba Roho Mtakatifu atawapa nguvu ya kushuhudia na kuwaambia watu kuhusu Yesu kila mahali. Baada ya hayo, Mungu alimchukua Yesu mbinguni na malaika wawili waliwaambia mitume kwamba Yesu angerejea duniani kwa njia ile ile kabisa aliyoenda.</p><p>Mungu alimchukua Yesu mbinguni kutoka kilimani kinachoitwa Mlima wa Mizeituni. Kisha mitume walirudi Yerusalemu. Yerusalemu ulikuwa mji mkuu wa kidini wa watu wa Kiyahudi. Mlima wa Mizeituni uko takriban mita 85 juu ya mji wa Yerusalemu, kama ilivyokuwa wakati huo. Watu waliita kilima hicho Mlima wa Mizeituni kwa sababu kilikuwa na miti ya mizeituni iliyokuwa ikikua juu yake. Miti ya mizeituni ina matunda madogo ya mviringo yenye ngozi laini na mbegu ngumu ndani. Mlima wa Mizeituni uko takriban kilomita moja, au mwendo wa takriban nusu saa kwa miguu, mashariki mwa Yerusalemu. Maandishi ya Biblia yanarejelea umbali huo kama &quot;safari ya siku ya Sabato,&quot; ambao ni umbali wa kilomita moja ambao sheria za Kiyahudi ziliwaruhusu watu kutembea siku ya Sabato, siku ya Kiyahudi ya kupumzika na kuabudu.</p><p>Sitisha hapa na uonyeshe timu ya tafsiri picha ya Yerusalemu na <data class=\"resource-ref\" data-content-id=\"a93\" data-resource-code=\"FIAImages\">Mlima wa Mizeituni</data>.</p><p>Sitisha hapa na uonyeshe timu ya tafsiri picha ya <data class=\"resource-ref\" data-content-id=\"a69\" data-resource-code=\"FIAImages\">mti wa zeituni na zeituni</data>.</p><p>Walipowasili mjini, mitume walikwenda kwenye chumba cha ghorofa ya juu ambapo walikuwa wakiishi kwa muda mfupi. Neno &quot;ghorofani&quot; lilionyesha kwamba nyumba hii ilikuwa na chumba kikubwa kilichojengwa juu ya paa bapa la sehemu kuu ya nyumba. Katika nyakati za Yesu, baadhi ya nyumba zilikuwa na ghorofa mbili kama hii. Mara nyingi chumba cha ghorofa kilikuwa na ngazi yake yenyewe nje. Mitume walikuwa wakitoka Galilaya, kwa hiyo pengine walikodisha chumba hicho. Kufikia wakati huu pengine walikuwa wamekaa pale kwa wiki sita hivi. Inawezekana kwamba wanafunzi walikuwa katika chumba hiki na Yesu wakati wa chakula cha mwisho ambacho Yesu alikuwa na wanafunzi wake kabla ya kufa. Inawezekana pia kwamba wanafunzi walikuwa katika chumba hiki wakati Yesu alipowatokea baada ya kufufuka.</p><p>Sitisha hapa na uonyeshe timu ya tafsiri ramani ya <data class=\"resource-ref\" data-content-id=\"c218\" data-resource-code=\"FIAMaps\">Yerusalemu na Mlima wa Mizeituni</data>.</p><p>Sitisha hapa na uonyeshe timu ya tafsiri picha ya <data class=\"resource-ref\" data-content-id=\"a587\" data-resource-code=\"FIAImages\">nyumba yenye chumba cha juu</data>.</p><p>Wale waliokuwepo walikuwa Petro, pia anayejulikana kama Simoni Petro, na Yohana na Yakobo na Andrea, Filipo na Tomaso, Bartholomayo na Mathayo, Yakobo mwana wa Alfayo na Simoni Mzalendo na Yuda, pia anayejulikana kama Thaddeo, mwana wa Yakobo mwingine. Kulikuwa na mitume wawili wenye jina la Yakobo na mitume wawili wenye jina la Simoni. Ili kujua ni yupi waliyokuwa wakimzungumzia, watu walimwita yule Yakobo mwingine, &quot;Yakobo mwana wa Alfayo.&quot; Walimwita yule Simoni mwingine, &quot;Simoni Mzalendo.&quot; Neno “zealot” linamaanisha “mtu mwenye bidii” au “mtu mwenye shauku.” Wakati huo katika Israeli ilirejelea watu waliokuwa na bidii ya kutaka Wayahudi wakombolewe kutoka kwenye udhibiti wa Roma.</p><p>Sitisha hapa na mjadili na timu ya tafsiri jinsi katika utamaduni wako mnavyowatofautisha watu ambao wana jina lile lile na ni sehemu ya kikundi kimoja.</p><p>Mitume, pamoja na wanawake, na Maria mama yake Yesu, na ndugu zake, walikuwa wakijiunga pamoja mara kwa mara katika kikundi ili kuomba. Mitume na wengine waliweka wakati mwingi na jitihada nyingi katika kuomba, nao walikuwa na nia moja na kukubaliana kwa njia nyingi walipoomba. Wakati watu wanaomba wanaweza kufanya mambo mawili. Wanaweza kumwomba Mungu vitu, na wanaweza kumsifu au kumshukuru Mungu kwa ajili ya vitu. Wanawake hao pengine walikuwa wale ambao walikuwa wamemwamini Yesu, walimfuata yeye na mitume popote walipoenda, na walikuwa wamewasaidia kwa njia za vitendo wakati wa huduma ya Yesu. Ndugu wa Yesu kuna uwezekano mkubwa walikuwa ndugu zake wadogo, wana wa Maria na Yosefu waliozaliwa baada ya Yesu.</p><p>Sitisha hapa na simulia hadithi ya wakati katika maisha yako wakati mlipokutana na kikundi cha waumini mara kwa mara na mara nyingi ili kuomba kuhusu kitu maalum.</p>\n<h2>Kufafanua Matukio</h2><p>Sikiliza maandishi mara moja katika toleo rahisi zaidi kuelewa.</p><p>Katika kipindi hiki, utasaidia kikundi kupata taswira ya hadithi hii. Utasaidia kikundi kufafanua matukio, mipangilio na wahusika wa hadithi.</p><p>Simulizi hili lina matukio matatu.</p><p><b>Tukio la kwanza:</b> Baada ya Mungu kumchukua Yesu mbinguni, mitume wanarudi Yerusalemu kutoka Mlima wa Mizeituni.</p><p><b>Tukio la pili:</b> Wanapoingia mjini, mitume wanaenda kwenye chumba cha juu wanakokaa.</p><p><b>Tukio la tatu:</b> Mitume pamoja na wanawake waliokuwa wakimfuata Yesu, Maria mama yake Yesu, na ndugu zake, wanakutana pamoja mara kwa mara na mara nyingi ili kuomba.</p><p>Wahusika katika hadithi hii ni pamoja na:</p><ul><li>Petro</li><li>Yohana</li><li>Yakobo</li><li>Andrea</li><li>Filipo</li><li>Tomaso</li><li>Bartholomayo</li><li>Mathayo</li><li>Yakobo mwana wa Alfayo</li><li>Simoni Mzalendo</li><li>Yuda, pia anajulikana kama Thaddeo, mwana wa Yakobo mwingine</li><li>Wanawake ambao walikuwa wakimfuata Yesu</li><li>Maria, mama ya Yesu</li><li>Ndugu wa Yesu</li></ul><p>Katika kipindi hiki, uwe na ubao wa kikundi cha hadithi, kuchora au kutumia aina fulani ya nyenzo (vitu ambavyo unaweza kuhamasisha kote kama vile miamba, vijiti, vinyago vya watoto) ili kupata taswira ya hadithi na vitendo vyake.</p><p>Baada ya Mungu kumchukua Yesu mbinguni kutoka kilima kinachoitwa Mlima wa Mizeituni, mitume walirudi Yerusalemu. Mlima wa Mizeituni uko takriban kilomita moja, au mwendo wa takriban nusu saa kwa miguu, mashariki mwa Yerusalemu. Maandishi ya Biblia yanarejelea umbali huo kama &quot;safari ya siku ya Sabato,&quot; ambao ni umbali wa kilomita moja ambao sheria za Kiyahudi ziliwaruhusu watu kutembea siku ya Sabato, siku ya Kiyahudi ya kupumzika na kuabudu. Haimaanishi kwamba Yesu alipaa mbinguni siku ya Sabato. </p><p>Mitume walipowasili Yerusalemu, mara moja walikwenda kwenye chumba cha juu walichokuwa wakiishi. Ni muhimu kuzingatia kwamba maandishi ya Biblia yanasema kwamba <b>waliingia</b> Yerusalemu. Hii inaonyesha kwamba wangepaswa kupita katika mmojawapo wa milango ya mji kwenye ukuta wa mji unaozunguka Yerusalemu. Kisha wangetembea hadi kwenye chumba cha juu walichokuwa wakikaa. Neno &quot;kukaa&quot; katika lugha ya awali mara nyingi linamaanisha makazi ya muda mfupi. Mitume walikuwa wakitoka Galilaya, kwa hiyo pengine walikodisha chumba hicho. Kufikia wakati huu pengine walikuwa wamekaa pale kwa wiki sita hivi. Hicho pengine kilikuwa chumba kilekile ambacho walikula Karamu ya Mwisho na Yesu na ambapo Yesu alikutana nao baada ya kufufuka kutoka kwa wafu.</p><p>Sitisha hapa na uonyeshe timu ya tafsiri ramani ya <data class=\"resource-ref\" data-content-id=\"c218\" data-resource-code=\"FIAMaps\">Yerusalemu na Mlima wa Mizeituni</data>.</p><p>Sitisha hapa na uonyeshe timu ya tafsiri picha ya <data class=\"resource-ref\" data-content-id=\"a587\" data-resource-code=\"FIAImages\">nyumba yenye chumba cha juu</data>.</p><p>Wale waliokuwepo walikuwa Petro, pia anayejulikana kama Simoni Petro, na Yohana na Yakobo na Andrea, Filipo na Tomaso, Bartholomayo na Mathayo, Yakobo mwana wa Alfayo na Simoni Mzalendo na Yuda, pia anayejulikana kama Thaddeo, mwana wa Yakobo mwingine. Kulikuwa na mitume wawili wenye jina la Yakobo na mitume wawili wenye jina la Simoni. Ili kujua ni yupi waliyokuwa wakimzungumzia, watu walimwita yule Yakobo mwingine, &quot;Yakobo mwana wa Alfayo.&quot; Walimwita yule Simoni mwingine, &quot;Simoni Mzalendo.&quot; Neno la Kigiriki “zealot” linamaanisha “mtu mwenye bidii kubwa” au “mtu mwenye shauku kubwa.” Wakati huo katika Israeli ilirejelea watu waliokuwa na bidii ya kutaka Wayahudi wakombolewe kutoka kwenye udhibiti wa Roma. Luka alipanga orodha ya majina kwa njia fulani. Kwanza aliorodhesha majina manne pamoja, kisha majina mawili pamoja, kisha majina mengine mawili, na kisha majina matatu. Hatujui kama kuna sababu yoyote iliyomfanya Luka kupanga majina kwa njia hiyo.</p><p>Hii ni mara ya kwanza kwamba mitume wanatajwa kwa jina katika Matendo.</p><p>Sitisha hapa na mjadili na timu ya tafsiri ikiwa au jinsi mnavyoandaa majina kwa utaratibu au njia fulani mnaposimulia hadithi.</p><p>Mitume, pamoja na wanawake na Maria mama yake Yesu na ndugu zake, walikuwa wakijiunga pamoja mara kwa mara na mara nyingi katika kikundi ili kuomba. Mitume na wengine waliweka wakati mwingi na jitihada nyingi katika kuomba, nao walikuwa na nia moja na kukubaliana kwa njia nyingi walipoomba.</p>\n<h2>Kudhihirisha Maandiko</h2><p>Sikiliza maandishi mara moja katika toleo rahisi zaidi kuelewa.</p><p>Katika kipindi hiki, timu itaigiza hadithi.</p><p>Simulizi hili lina matukio matatu.</p><p>Wahusika katika hadithi hii ni pamoja na:</p><ul><li>Petro</li><li>Yohana</li><li>Yakobo</li><li>Andrea</li><li>Filipo</li><li>Tomaso</li><li>Bartholomayo</li><li>Mathayo</li><li>Yakobo mwana wa Alfayo</li><li>Simoni mwigizaji</li><li>Yuda, pia anajulikana kama Thaddeo, mwana wa Yakobo mwingine</li><li>Wanawake ambao walikuwa wakimfuata Yesu</li><li>Maria, mama ya Yesu</li><li>Ndugu wa Yesu</li></ul><p>Hakikisha kwamba kikundi kimeigiza hadithi mara mbili. Wanapaswa kuigiza katika lugha wanayotafsiri. Kwanza, waambie timu igize hadithi bila kusitisha. Mara ya pili timu inapoigiza hadithi, sitisha katika sehemu tofauti katika hadithi.</p><p>Timu inapoigiza hadithi kwa mara ya kwanza, zingatia mazungumzo, mtiririko, mstari wa matukio na mpangilio wa hadithi. Angalia sehemu muhimu au ngumu za hadithi au simulizi ili igize na usirukwe. Saidia timu kukumbuka sehemu za hadithi.</p><p>Mara ya pili timu inapoigiza hadithi hii, sitisha katika sehemu fulani fulani.</p><p>Baada ya Mungu kumchukua Yesu mbinguni, mitume walirudi Yerusalemu kutoka Mlima wa Mizeituni. Mji ulikuwa takriban nusu saa kwa kutembea.</p><ul><li>Waulize waigizaji wanaoigiza mitume, &quot;Mnahisi vipi?&quot; Unaweza kusikia maneno kama, “Nimeshtuka na kushangaa kumwona Yesu akienda mbinguni,” “Nina huzuni kwamba Yesu hayupo pamoja nasi tena,” “Tufanye nini tunapongoja?” Tufanye nini baadaye?&quot; na &quot;Nina hamu ya kurudi Yerusalemu ili kusubiri Roho Mtakatifu.&quot;</li><li>Anzisha tena tendo.</li></ul><p>Wanaume walipowasili mjini walikwenda kwenye chumba cha juu ambapo walikuwa wakikaa. Wale waliokuwapo walikuwa Petro na Yohana na Yakobo na Andrea, Filipo na Tomaso, Bartholomayo na Mathayo, Yakobo mwana wa Alfayo na Simoni Mzalendo na Yuda, pia anajulikana kama Thaddeo, mwana wa Yakobo mwingine.</p><p>Mitume, pamoja na wanawake, na Maria mama ya Yesu, na ndugu zake, walikutana pamoja na kudumu daima katika kusali.</p><ul><li>Muulize mwigizaji anayeigiza Maria mama yake Yesu, &quot;Unahisi vipi?&quot; Unaweza kusikia mambo kama, &quot;Mwana wangu alitimiza kile alichokijia hapa. Sasa kila mtu anaweza kuwa na maisha ya milele,&quot; &quot;Namkosa sana Yesu. Lakini na iwe kulingana na mapenzi ya Mungu, si mapenzi yangu,&quot; na &quot;Mungu asifiwe kwamba niko pamoja na waumini wengine.&quot; Tutaendelea kutiwa moyo tunapoomba pamoja.&quot;</li><li>Anzisha tena tendo.</li></ul>\n<h2>Kujaza Mapengo</h2><p>Sikiliza maandishi mara moja katika toleo rahisi zaidi kuelewa.</p><p>Kisha walirudi <b>Yerusalemu</b> kutoka kilima kinachoitwa <b>Mlima wa Mizeituni</b>, ambacho kiko karibu na Yerusalemu, safari ya siku ya <b>Sabato</b>.</p><p><b>Yerusalemu</b> ni jina la mji mkuu wa kidini wa watu wa Kiyahudi. Mahali rasmi ambapo Wayahudi walikwenda kumtolea Mungu dhabihu, hekalu, lilikuwa Yerusalemu. Hapa ilikuwa mahali patakatifu zaidi kwa watu wa Kiyahudi, na mahali ambapo viongozi wa sheria ya kidini ya Kiyahudi walikutana. Kumbuka kutumia neno lile lile ulilotumia awali kwa Yerusalemu. Ufafanuzi kamili wa neno <data class=\"resource-ref\" data-content-id=\"swh-t76-v1\" data-resource-code=\"FIAKeyTerms\">Yerusalemu</data> unaweza kupatikana katika Faharasa Kuu.</p><p><b>Mizeituni</b> ni matunda madogo ya mviringo yenye ngozi laini na mbegu ngumu ndani, na yanakua kwenye miti. Zaituni ilikuwa chakula muhimu katika nyakati za kale. Watu waliikamua ili kupata mafuta yaliyotumiwa katika kupikia na katika baadhi ya ibada. Watu walitumia mafuta hayo kama nishati ya taa na katika dawa na vipodozi.</p><p>Sitisha hapa na uonyeshe timu ya tafsiri picha ya <data class=\"resource-ref\" data-content-id=\"a69\" data-resource-code=\"FIAImages\">mti wa zeituni na zeituni</data>.</p><p>Watu wa Kiyahudi walishika siku ya <b>Sabato</b> kama siku ya kupumzika na kuabudu tangu wakati Mungu alipowapa amri hii. Hii ilichukuliwa kuwa siku ya 7 ya wiki. Kufikia wakati wa Yesu, sheria kali na mahususi zilikuwa zimewekwa kuhusu ni aina gani ya kazi iliyoweza na isiyoweza kufanywa siku hii, na hata umbali ambao watu waliruhusiwa kutembea. Hii pia ilikuwa siku ambayo watu walikwenda sinagogi ili kuabudu. Kumbuka kutumia neno lile lile ulilotumia awali kwa Sabato. Ufafanuzi kamili wa neno <data class=\"resource-ref\" data-content-id=\"swh-t113-v1\" data-resource-code=\"FIAKeyTerms\">Sabato</data> unaweza kupatikana katika Faharasa Kuu.</p><p>Hawa wote kwa nia moja walikuwa wakijitolea katika <b>sala</b>. Sala inarejelea kuwasiliana na Mungu. Hakikisha kwamba neno unalotumia hapa halimaanishi mawasiliano ya ibada tu, lakini kitu cha kibinafsi zaidi. Baadhi ya lugha zina neno zaidi ya moja kwa ajili ya sala, kulingana na aina ya mazungumzo na Mungu yanayofanyika. Baadhi ya lugha zina maneno tofauti kwa sala za shukrani na sala za kuomba msaada. Katika hali hii, mitume pengine walikuwa wakifanya aina zote mbili za kuomba. Kumbuka kutumia neno lile lile ulilotumia awali kwa sala. Ufafanuzi kamili wa neno <data class=\"resource-ref\" data-content-id=\"swh-t102-v1\" data-resource-code=\"FIAKeyTerms\">sala</data> unaweza kupatikana katika Faharasa Kuu.</p>\n<h2>Kunena Neno</h2><p>Sikiliza toleo la sauti la kifungu katika tafsiri rahisi zaidi kueleweka.</p><p>Katika kipindi hiki, simulia tena simulizi kama kikundi kwa lugha yako asili.</p><p>Kwanza, kikundi chote kinapaswa kufanya mazoezi ya kuelezea simulizi kwa lugha yao ya asili. Kumbuka kujumuisha mambo uliyoamua katika hatua za awali, kama vile mpangilio, maneno, misemo, hisia au chochote kile mlichojadili.</p><p>Mshiriki mmoja wa kikundi anapaswa kusimulia sentensi chache za kifungu na kusitisha. Mshiriki mwingine wa kikundi anapaswa kusimulia sehemu inayofuata ya simulizi na kusitisha. Fanya hivi hadi kikundi kitakapokuwa kimesimulia tena kifungu chote. Washiriki wa kikundi wanaweza kusahihishana katika hatua hii.</p><p>Sitisha sauti hii hapa.</p><p>Kisha, kila mshiriki wa kikundi anatakiwa kuelezea simulizi lote bila kusitishwa angalau mara moja. Mshiriki wa kikundi anaweza kutumia vitu bila mpangilio, hisia za mwili, au ubao wao wa hadithi ili kuwasaidia kukumbuka kifungu hicho.</p><p>Sitisha sauti hii hapa.</p><p>Kisha, kikundi kinaweza kuamua ni toleo gani la simulizi wanalopenda zaidi. Unaweza kuamua kwamba ulipenda namna mshiriki mmoja wa kikundi alivyosimulia tukio fulani, lakini ukapenda namna mwanachama mwingine wa kikundi alivyosimulia tukio jingine.</p><p>Sitisha sauti hii hapa.</p><p>Hatimaye, kikundi kinaweza kuweka pamoja toleo la mwisho la simulizi ambalo kila mtu anakubaliana nalo. Kila mshiriki wa kikundi anapaswa kufanya mazoezi ya kusimulia toleo hili la mwisho la simulizi.</p>",
+"content": "<h2>Sikiliza na Moyo</h2><p>Sikiliza Matendo 1:12–14 na utie moyoni mwako maneno hayo. Sikiliza ujumbe mara tatu (katika tafsiri tatu tofauti, ikiwezekana). Kisha kama timu mjadili maswali yafuatayo:</p><ul><li>Unapenda nini katika simulizi hii?</li><li>Ni nini usichopenda au usichoelewa?</li><li>Simulizi hii inatuambia nini kuhusu Mungu au Yesu?</li><li>Simulizi hii inatuambia nini kuhusu watu?</li><li>Simulizi hii inaathiri vipi maisha yetu ya kila siku?</li><li>Unamjua nani ambaye anahitaji kusikiliza simulizi hili?</li></ul>\n<h2>Kufanya Maandalizi</h2><p>Sikiliza maandishi mara moja katika toleo rahisi zaidi kuelewa.</p><p>Simulizi ya awali inarekodi mazungumzo ya mwisho ya mitume kumi na moja na Yesu duniani na wakati alipokwenda mbinguni. Mitume walimwuliza Yesu kama angerejesha ufalme kwa Israeli. Aliwaambia hawakuhitaji kujua nyakati za matukio ya baadaye ambayo Mungu mwenyewe aliamua kwa mamlaka yake mwenyewe. Yesu anawaahidi mitume kwamba Roho Mtakatifu atawapa nguvu ya kushuhudia na kuwaambia watu kuhusu Yesu kila mahali. Baada ya hayo, Mungu alimchukua Yesu mbinguni na malaika wawili waliwaambia mitume kwamba Yesu angerejea duniani kwa njia ile ile kabisa aliyoenda.</p><p>Mungu alimchukua Yesu mbinguni kutoka kilimani kinachoitwa Mlima wa Mizeituni. Kisha mitume walirudi Yerusalemu. Yerusalemu ulikuwa mji mkuu wa kidini wa watu wa Kiyahudi. Mlima wa Mizeituni uko takriban mita 85 juu ya mji wa Yerusalemu, kama ilivyokuwa wakati huo. Watu waliita kilima hicho Mlima wa Mizeituni kwa sababu kilikuwa na miti ya mizeituni iliyokuwa ikikua juu yake. Miti ya mizeituni ina matunda madogo ya mviringo yenye ngozi laini na mbegu ngumu ndani. Mlima wa Mizeituni uko takriban kilomita moja, au mwendo wa takriban nusu saa kwa miguu, mashariki mwa Yerusalemu. Maandishi ya Biblia yanarejelea umbali huo kama &quot;safari ya siku ya Sabato,&quot; ambao ni umbali wa kilomita moja ambao sheria za Kiyahudi ziliwaruhusu watu kutembea siku ya Sabato, siku ya Kiyahudi ya kupumzika na kuabudu.</p><p>Sitisha hapa na uonyeshe timu ya tafsiri picha ya Yerusalemu na <data class=\"resource-ref\" data-content-id=\"a93\" data-resource-code=\"FIAImages\">Mlima wa Mizeituni</data>.</p><p>Sitisha hapa na uonyeshe timu ya tafsiri picha ya <data class=\"resource-ref\" data-content-id=\"a69\" data-resource-code=\"FIAImages\">mti wa zeituni na zeituni</data>.</p><p>Walipowasili mjini, mitume walikwenda kwenye chumba cha ghorofa ya juu ambapo walikuwa wakiishi kwa muda mfupi. Neno &quot;ghorofani&quot; lilionyesha kwamba nyumba hii ilikuwa na chumba kikubwa kilichojengwa juu ya paa bapa la sehemu kuu ya nyumba. Katika nyakati za Yesu, baadhi ya nyumba zilikuwa na ghorofa mbili kama hii. Mara nyingi chumba cha ghorofa kilikuwa na ngazi yake yenyewe nje. Mitume walikuwa wakitoka Galilaya, kwa hiyo pengine walikodisha chumba hicho. Kufikia wakati huu pengine walikuwa wamekaa pale kwa wiki sita hivi. Inawezekana kwamba wanafunzi walikuwa katika chumba hiki na Yesu wakati wa chakula cha mwisho ambacho Yesu alikuwa na wanafunzi wake kabla ya kufa. Inawezekana pia kwamba wanafunzi walikuwa katika chumba hiki wakati Yesu alipowatokea baada ya kufufuka.</p><p>Sitisha hapa na uonyeshe timu ya tafsiri ramani ya <data class=\"resource-ref\" data-content-id=\"c218\" data-resource-code=\"FIAMaps\">Yerusalemu na Mlima wa Mizeituni</data>.</p><p>Sitisha hapa na uonyeshe timu ya tafsiri picha ya <b>nyumba yenye chumba cha juu</b>.</p><p>Wale waliokuwepo walikuwa Petro, pia anayejulikana kama Simoni Petro, na Yohana na Yakobo na Andrea, Filipo na Tomaso, Bartholomayo na Mathayo, Yakobo mwana wa Alfayo na Simoni Mzalendo na Yuda, pia anayejulikana kama Thaddeo, mwana wa Yakobo mwingine. Kulikuwa na mitume wawili wenye jina la Yakobo na mitume wawili wenye jina la Simoni. Ili kujua ni yupi waliyokuwa wakimzungumzia, watu walimwita yule Yakobo mwingine, &quot;Yakobo mwana wa Alfayo.&quot; Walimwita yule Simoni mwingine, &quot;Simoni Mzalendo.&quot; Neno “zealot” linamaanisha “mtu mwenye bidii” au “mtu mwenye shauku.” Wakati huo katika Israeli ilirejelea watu waliokuwa na bidii ya kutaka Wayahudi wakombolewe kutoka kwenye udhibiti wa Roma.</p><p>Sitisha hapa na mjadili na timu ya tafsiri jinsi katika utamaduni wako mnavyowatofautisha watu ambao wana jina lile lile na ni sehemu ya kikundi kimoja.</p><p>Mitume, pamoja na wanawake, na Maria mama yake Yesu, na ndugu zake, walikuwa wakijiunga pamoja mara kwa mara katika kikundi ili kuomba. Mitume na wengine waliweka wakati mwingi na jitihada nyingi katika kuomba, nao walikuwa na nia moja na kukubaliana kwa njia nyingi walipoomba. Wakati watu wanaomba wanaweza kufanya mambo mawili. Wanaweza kumwomba Mungu vitu, na wanaweza kumsifu au kumshukuru Mungu kwa ajili ya vitu. Wanawake hao pengine walikuwa wale ambao walikuwa wamemwamini Yesu, walimfuata yeye na mitume popote walipoenda, na walikuwa wamewasaidia kwa njia za vitendo wakati wa huduma ya Yesu. Ndugu wa Yesu kuna uwezekano mkubwa walikuwa ndugu zake wadogo, wana wa Maria na Yosefu waliozaliwa baada ya Yesu.</p><p>Sitisha hapa na simulia hadithi ya wakati katika maisha yako wakati mlipokutana na kikundi cha waumini mara kwa mara na mara nyingi ili kuomba kuhusu kitu maalum.</p>\n<h2>Kufafanua Matukio</h2><p>Sikiliza maandishi mara moja katika toleo rahisi zaidi kuelewa.</p><p>Katika kipindi hiki, utasaidia kikundi kupata taswira ya hadithi hii. Utasaidia kikundi kufafanua matukio, mipangilio na wahusika wa hadithi.</p><p>Simulizi hili lina matukio matatu.</p><p><b>Tukio la kwanza:</b> Baada ya Mungu kumchukua Yesu mbinguni, mitume wanarudi Yerusalemu kutoka Mlima wa Mizeituni.</p><p><b>Tukio la pili:</b> Wanapoingia mjini, mitume wanaenda kwenye chumba cha juu wanakokaa.</p><p><b>Tukio la tatu:</b> Mitume pamoja na wanawake waliokuwa wakimfuata Yesu, Maria mama yake Yesu, na ndugu zake, wanakutana pamoja mara kwa mara na mara nyingi ili kuomba.</p><p>Wahusika katika hadithi hii ni pamoja na:</p><ul><li>Petro</li><li>Yohana</li><li>Yakobo</li><li>Andrea</li><li>Filipo</li><li>Tomaso</li><li>Bartholomayo</li><li>Mathayo</li><li>Yakobo mwana wa Alfayo</li><li>Simoni Mzalendo</li><li>Yuda, pia anajulikana kama Thaddeo, mwana wa Yakobo mwingine</li><li>Wanawake ambao walikuwa wakimfuata Yesu</li><li>Maria, mama ya Yesu</li><li>Ndugu wa Yesu</li></ul><p>Katika kipindi hiki, uwe na ubao wa kikundi cha hadithi, kuchora au kutumia aina fulani ya nyenzo (vitu ambavyo unaweza kuhamasisha kote kama vile miamba, vijiti, vinyago vya watoto) ili kupata taswira ya hadithi na vitendo vyake.</p><p>Baada ya Mungu kumchukua Yesu mbinguni kutoka kilima kinachoitwa Mlima wa Mizeituni, mitume walirudi Yerusalemu. Mlima wa Mizeituni uko takriban kilomita moja, au mwendo wa takriban nusu saa kwa miguu, mashariki mwa Yerusalemu. Maandishi ya Biblia yanarejelea umbali huo kama &quot;safari ya siku ya Sabato,&quot; ambao ni umbali wa kilomita moja ambao sheria za Kiyahudi ziliwaruhusu watu kutembea siku ya Sabato, siku ya Kiyahudi ya kupumzika na kuabudu. Haimaanishi kwamba Yesu alipaa mbinguni siku ya Sabato. </p><p>Mitume walipowasili Yerusalemu, mara moja walikwenda kwenye chumba cha juu walichokuwa wakiishi. Ni muhimu kuzingatia kwamba maandishi ya Biblia yanasema kwamba <b>waliingia</b> Yerusalemu. Hii inaonyesha kwamba wangepaswa kupita katika mmojawapo wa milango ya mji kwenye ukuta wa mji unaozunguka Yerusalemu. Kisha wangetembea hadi kwenye chumba cha juu walichokuwa wakikaa. Neno &quot;kukaa&quot; katika lugha ya awali mara nyingi linamaanisha makazi ya muda mfupi. Mitume walikuwa wakitoka Galilaya, kwa hiyo pengine walikodisha chumba hicho. Kufikia wakati huu pengine walikuwa wamekaa pale kwa wiki sita hivi. Hicho pengine kilikuwa chumba kilekile ambacho walikula Karamu ya Mwisho na Yesu na ambapo Yesu alikutana nao baada ya kufufuka kutoka kwa wafu.</p><p>Sitisha hapa na uonyeshe timu ya tafsiri ramani ya <data class=\"resource-ref\" data-content-id=\"c218\" data-resource-code=\"FIAMaps\">Yerusalemu na Mlima wa Mizeituni</data>.</p><p>Sitisha hapa na uonyeshe timu ya tafsiri picha ya <b>nyumba yenye chumba cha juu</b>.</p><p>Wale waliokuwepo walikuwa Petro, pia anayejulikana kama Simoni Petro, na Yohana na Yakobo na Andrea, Filipo na Tomaso, Bartholomayo na Mathayo, Yakobo mwana wa Alfayo na Simoni Mzalendo na Yuda, pia anayejulikana kama Thaddeo, mwana wa Yakobo mwingine. Kulikuwa na mitume wawili wenye jina la Yakobo na mitume wawili wenye jina la Simoni. Ili kujua ni yupi waliyokuwa wakimzungumzia, watu walimwita yule Yakobo mwingine, &quot;Yakobo mwana wa Alfayo.&quot; Walimwita yule Simoni mwingine, &quot;Simoni Mzalendo.&quot; Neno la Kigiriki “zealot” linamaanisha “mtu mwenye bidii kubwa” au “mtu mwenye shauku kubwa.” Wakati huo katika Israeli ilirejelea watu waliokuwa na bidii ya kutaka Wayahudi wakombolewe kutoka kwenye udhibiti wa Roma. Luka alipanga orodha ya majina kwa njia fulani. Kwanza aliorodhesha majina manne pamoja, kisha majina mawili pamoja, kisha majina mengine mawili, na kisha majina matatu. Hatujui kama kuna sababu yoyote iliyomfanya Luka kupanga majina kwa njia hiyo.</p><p>Hii ni mara ya kwanza kwamba mitume wanatajwa kwa jina katika Matendo.</p><p>Sitisha hapa na mjadili na timu ya tafsiri ikiwa au jinsi mnavyoandaa majina kwa utaratibu au njia fulani mnaposimulia hadithi.</p><p>Mitume, pamoja na wanawake na Maria mama yake Yesu na ndugu zake, walikuwa wakijiunga pamoja mara kwa mara na mara nyingi katika kikundi ili kuomba. Mitume na wengine waliweka wakati mwingi na jitihada nyingi katika kuomba, nao walikuwa na nia moja na kukubaliana kwa njia nyingi walipoomba.</p>\n<h2>Kudhihirisha Maandiko</h2><p>Sikiliza maandishi mara moja katika toleo rahisi zaidi kuelewa.</p><p>Katika kipindi hiki, timu itaigiza hadithi.</p><p>Simulizi hili lina matukio matatu.</p><p>Wahusika katika hadithi hii ni pamoja na:</p><ul><li>Petro</li><li>Yohana</li><li>Yakobo</li><li>Andrea</li><li>Filipo</li><li>Tomaso</li><li>Bartholomayo</li><li>Mathayo</li><li>Yakobo mwana wa Alfayo</li><li>Simoni mwigizaji</li><li>Yuda, pia anajulikana kama Thaddeo, mwana wa Yakobo mwingine</li><li>Wanawake ambao walikuwa wakimfuata Yesu</li><li>Maria, mama ya Yesu</li><li>Ndugu wa Yesu</li></ul><p>Hakikisha kwamba kikundi kimeigiza hadithi mara mbili. Wanapaswa kuigiza katika lugha wanayotafsiri. Kwanza, waambie timu igize hadithi bila kusitisha. Mara ya pili timu inapoigiza hadithi, sitisha katika sehemu tofauti katika hadithi.</p><p>Timu inapoigiza hadithi kwa mara ya kwanza, zingatia mazungumzo, mtiririko, mstari wa matukio na mpangilio wa hadithi. Angalia sehemu muhimu au ngumu za hadithi au simulizi ili igize na usirukwe. Saidia timu kukumbuka sehemu za hadithi.</p><p>Mara ya pili timu inapoigiza hadithi hii, sitisha katika sehemu fulani fulani.</p><p>Baada ya Mungu kumchukua Yesu mbinguni, mitume walirudi Yerusalemu kutoka Mlima wa Mizeituni. Mji ulikuwa takriban nusu saa kwa kutembea.</p><ul><li>Waulize waigizaji wanaoigiza mitume, &quot;Mnahisi vipi?&quot; Unaweza kusikia maneno kama, “Nimeshtuka na kushangaa kumwona Yesu akienda mbinguni,” “Nina huzuni kwamba Yesu hayupo pamoja nasi tena,” “Tufanye nini tunapongoja?” Tufanye nini baadaye?&quot; na &quot;Nina hamu ya kurudi Yerusalemu ili kusubiri Roho Mtakatifu.&quot;</li><li>Anzisha tena tendo.</li></ul><p>Wanaume walipowasili mjini walikwenda kwenye chumba cha juu ambapo walikuwa wakikaa. Wale waliokuwapo walikuwa Petro na Yohana na Yakobo na Andrea, Filipo na Tomaso, Bartholomayo na Mathayo, Yakobo mwana wa Alfayo na Simoni Mzalendo na Yuda, pia anajulikana kama Thaddeo, mwana wa Yakobo mwingine.</p><p>Mitume, pamoja na wanawake, na Maria mama ya Yesu, na ndugu zake, walikutana pamoja na kudumu daima katika kusali.</p><ul><li>Muulize mwigizaji anayeigiza Maria mama yake Yesu, &quot;Unahisi vipi?&quot; Unaweza kusikia mambo kama, &quot;Mwana wangu alitimiza kile alichokijia hapa. Sasa kila mtu anaweza kuwa na maisha ya milele,&quot; &quot;Namkosa sana Yesu. Lakini na iwe kulingana na mapenzi ya Mungu, si mapenzi yangu,&quot; na &quot;Mungu asifiwe kwamba niko pamoja na waumini wengine.&quot; Tutaendelea kutiwa moyo tunapoomba pamoja.&quot;</li><li>Anzisha tena tendo.</li></ul>\n<h2>Kujaza Mapengo</h2><p>Sikiliza maandishi mara moja katika toleo rahisi zaidi kuelewa.</p><p>Kisha walirudi <b>Yerusalemu</b> kutoka kilima kinachoitwa <b>Mlima wa Mizeituni</b>, ambacho kiko karibu na Yerusalemu, safari ya siku ya <b>Sabato</b>.</p><p><b>Yerusalemu</b> ni jina la mji mkuu wa kidini wa watu wa Kiyahudi. Mahali rasmi ambapo Wayahudi walikwenda kumtolea Mungu dhabihu, hekalu, lilikuwa Yerusalemu. Hapa ilikuwa mahali patakatifu zaidi kwa watu wa Kiyahudi, na mahali ambapo viongozi wa sheria ya kidini ya Kiyahudi walikutana. Kumbuka kutumia neno lile lile ulilotumia awali kwa Yerusalemu. Ufafanuzi kamili wa neno <data class=\"resource-ref\" data-content-id=\"swh-t76-v1\" data-resource-code=\"FIAKeyTerms\">Yerusalemu</data> unaweza kupatikana katika Faharasa Kuu.</p><p><b>Mizeituni</b> ni matunda madogo ya mviringo yenye ngozi laini na mbegu ngumu ndani, na yanakua kwenye miti. Zaituni ilikuwa chakula muhimu katika nyakati za kale. Watu waliikamua ili kupata mafuta yaliyotumiwa katika kupikia na katika baadhi ya ibada. Watu walitumia mafuta hayo kama nishati ya taa na katika dawa na vipodozi.</p><p>Sitisha hapa na uonyeshe timu ya tafsiri picha ya <data class=\"resource-ref\" data-content-id=\"a69\" data-resource-code=\"FIAImages\">mti wa zeituni na zeituni</data>.</p><p>Watu wa Kiyahudi walishika siku ya <b>Sabato</b> kama siku ya kupumzika na kuabudu tangu wakati Mungu alipowapa amri hii. Hii ilichukuliwa kuwa siku ya 7 ya wiki. Kufikia wakati wa Yesu, sheria kali na mahususi zilikuwa zimewekwa kuhusu ni aina gani ya kazi iliyoweza na isiyoweza kufanywa siku hii, na hata umbali ambao watu waliruhusiwa kutembea. Hii pia ilikuwa siku ambayo watu walikwenda sinagogi ili kuabudu. Kumbuka kutumia neno lile lile ulilotumia awali kwa Sabato. Ufafanuzi kamili wa neno <data class=\"resource-ref\" data-content-id=\"swh-t113-v1\" data-resource-code=\"FIAKeyTerms\">Sabato</data> unaweza kupatikana katika Faharasa Kuu.</p><p>Hawa wote kwa nia moja walikuwa wakijitolea katika <b>sala</b>. Sala inarejelea kuwasiliana na Mungu. Hakikisha kwamba neno unalotumia hapa halimaanishi mawasiliano ya ibada tu, lakini kitu cha kibinafsi zaidi. Baadhi ya lugha zina neno zaidi ya moja kwa ajili ya sala, kulingana na aina ya mazungumzo na Mungu yanayofanyika. Baadhi ya lugha zina maneno tofauti kwa sala za shukrani na sala za kuomba msaada. Katika hali hii, mitume pengine walikuwa wakifanya aina zote mbili za kuomba. Kumbuka kutumia neno lile lile ulilotumia awali kwa sala. Ufafanuzi kamili wa neno <data class=\"resource-ref\" data-content-id=\"swh-t102-v1\" data-resource-code=\"FIAKeyTerms\">sala</data> unaweza kupatikana katika Faharasa Kuu.</p>\n<h2>Kunena Neno</h2><p>Sikiliza toleo la sauti la kifungu katika tafsiri rahisi zaidi kueleweka.</p><p>Katika kipindi hiki, simulia tena simulizi kama kikundi kwa lugha yako asili.</p><p>Kwanza, kikundi chote kinapaswa kufanya mazoezi ya kuelezea simulizi kwa lugha yao ya asili. Kumbuka kujumuisha mambo uliyoamua katika hatua za awali, kama vile mpangilio, maneno, misemo, hisia au chochote kile mlichojadili.</p><p>Mshiriki mmoja wa kikundi anapaswa kusimulia sentensi chache za kifungu na kusitisha. Mshiriki mwingine wa kikundi anapaswa kusimulia sehemu inayofuata ya simulizi na kusitisha. Fanya hivi hadi kikundi kitakapokuwa kimesimulia tena kifungu chote. Washiriki wa kikundi wanaweza kusahihishana katika hatua hii.</p><p>Sitisha sauti hii hapa.</p><p>Kisha, kila mshiriki wa kikundi anatakiwa kuelezea simulizi lote bila kusitishwa angalau mara moja. Mshiriki wa kikundi anaweza kutumia vitu bila mpangilio, hisia za mwili, au ubao wao wa hadithi ili kuwasaidia kukumbuka kifungu hicho.</p><p>Sitisha sauti hii hapa.</p><p>Kisha, kikundi kinaweza kuamua ni toleo gani la simulizi wanalopenda zaidi. Unaweza kuamua kwamba ulipenda namna mshiriki mmoja wa kikundi alivyosimulia tukio fulani, lakini ukapenda namna mwanachama mwingine wa kikundi alivyosimulia tukio jingine.</p><p>Sitisha sauti hii hapa.</p><p>Hatimaye, kikundi kinaweza kuweka pamoja toleo la mwisho la simulizi ambalo kila mtu anakubaliana nalo. Kila mshiriki wa kikundi anapaswa kufanya mazoezi ya kusimulia toleo hili la mwisho la simulizi.</p>",
 "associations": {
 "passage": [
 {
@@ -428,13 +428,6 @@
 },
 {
 "reference_id": 0,
-"content_id": "a587",
-"resource_code": "FIAImages",
-"label": "nyumba yenye chumba cha juu",
-"language": "swh"
-},
-{
-"reference_id": 0,
 "content_id": "swh-t76-v1",
 "resource_code": "FIAKeyTerms",
 "label": "Yerusalemu",
@@ -457,11 +450,32 @@
 ],
 "acai": [
 {
-"id": "keyterm:Pray",
-"type": "keyterm",
+"id": "person:Simon.2",
+"type": "person",
 "confidence": 0.3667,
 "match_method": "canonical",
-"preferred_label": "Pray"
+"preferred_label": "Simoni"
+},
+{
+"id": "person:Mary",
+"type": "person",
+"confidence": 0.3667,
+"match_method": "canonical",
+"preferred_label": "Mariamu"
+},
+{
+"id": "person:Alphaeus",
+"type": "person",
+"confidence": 0.3667,
+"match_method": "canonical",
+"preferred_label": "Alfayo"
+},
+{
+"id": "person:Thomas",
+"type": "person",
+"confidence": 0.3667,
+"match_method": "canonical",
+"preferred_label": "Tomaso"
 },
 {
 "id": "place:OlivesMount",
@@ -478,27 +492,6 @@
 "preferred_label": "Bartholomayo"
 },
 {
-"id": "person:Andrew",
-"type": "person",
-"confidence": 0.3667,
-"match_method": "canonical",
-"preferred_label": "Andrea"
-},
-{
-"id": "person:Alphaeus",
-"type": "person",
-"confidence": 0.3667,
-"match_method": "canonical",
-"preferred_label": "Alfayo"
-},
-{
-"id": "person:Simon.2",
-"type": "person",
-"confidence": 0.3667,
-"match_method": "canonical",
-"preferred_label": "Simoni"
-},
-{
 "id": "person:James.2",
 "type": "person",
 "confidence": 0.3667,
@@ -506,18 +499,18 @@
 "preferred_label": "Yakobo"
 },
 {
-"id": "person:Thomas",
-"type": "person",
+"id": "keyterm:Pray",
+"type": "keyterm",
 "confidence": 0.3667,
 "match_method": "canonical",
-"preferred_label": "Tomaso"
+"preferred_label": "Pray"
 },
 {
-"id": "person:Mary",
+"id": "person:Andrew",
 "type": "person",
 "confidence": 0.3667,
 "match_method": "canonical",
-"preferred_label": "Mariamu"
+"preferred_label": "Andrea"
 },
 {
 "id": "realia:HalfAMile",
@@ -541,25 +534,11 @@
 "preferred_label": "Petro"
 },
 {
-"id": "person:Judas",
+"id": "person:Jesus.2",
 "type": "person",
 "confidence": 0.3,
 "match_method": "canonical",
-"preferred_label": "Yuda"
-},
-{
-"id": "person:Philip",
-"type": "person",
-"confidence": 0.3,
-"match_method": "canonical",
-"preferred_label": "Filipo"
-},
-{
-"id": "person:John.2",
-"type": "person",
-"confidence": 0.3,
-"match_method": "canonical",
-"preferred_label": "Yohana"
+"preferred_label": "Yesu"
 },
 {
 "id": "keyterm:HalfAMile",
@@ -569,18 +548,11 @@
 "preferred_label": "Sabbath Journey"
 },
 {
-"id": "place:Jerusalem",
-"type": "place",
-"confidence": 0.3,
-"match_method": "canonical",
-"preferred_label": "Yerusalemu"
-},
-{
-"id": "person:James",
+"id": "person:Judas",
 "type": "person",
 "confidence": 0.3,
 "match_method": "canonical",
-"preferred_label": "Yakobo"
+"preferred_label": "Yuda"
 },
 {
 "id": "person:Matthew",
@@ -590,11 +562,32 @@
 "preferred_label": "Mathayo"
 },
 {
-"id": "person:Jesus.2",
+"id": "person:John.2",
 "type": "person",
 "confidence": 0.3,
 "match_method": "canonical",
-"preferred_label": "Yesu"
+"preferred_label": "Yohana"
+},
+{
+"id": "place:Jerusalem",
+"type": "place",
+"confidence": 0.3,
+"match_method": "canonical",
+"preferred_label": "Yerusalemu"
+},
+{
+"id": "person:Philip",
+"type": "person",
+"confidence": 0.3,
+"match_method": "canonical",
+"preferred_label": "Filipo"
+},
+{
+"id": "person:James",
+"type": "person",
+"confidence": 0.3,
+"match_method": "canonical",
+"preferred_label": "Yakobo"
 },
 {
 "id": "flora:OliveTree",
@@ -699,13 +692,6 @@
 "preferred_label": "Yuda"
 },
 {
-"id": "person:Joseph.9",
-"type": "person",
-"confidence": 0.2042,
-"match_method": "canonical",
-"preferred_label": "Yusufu"
-},
-{
 "id": "place:Akeldama",
 "type": "place",
 "confidence": 0.2042,
@@ -713,53 +699,11 @@
 "preferred_label": "Akeldama"
 },
 {
-"id": "keyterm:Resurrection",
-"type": "keyterm",
-"confidence": 0.1875,
-"match_method": "canonical",
-"preferred_label": "Resurrection"
-},
-{
-"id": "keyterm:UnjustDeed",
-"type": "keyterm",
-"confidence": 0.1875,
-"match_method": "canonical",
-"preferred_label": "Unjust Deed"
-},
-{
-"id": "person:Peter",
+"id": "person:Joseph.9",
 "type": "person",
-"confidence": 0.1875,
+"confidence": 0.2042,
 "match_method": "canonical",
-"preferred_label": "Petro"
-},
-{
-"id": "keyterm:KnowerOfHearts",
-"type": "keyterm",
-"confidence": 0.1875,
-"match_method": "canonical",
-"preferred_label": "Knower of Hearts"
-},
-{
-"id": "keyterm:Pray",
-"type": "keyterm",
-"confidence": 0.1875,
-"match_method": "canonical",
-"preferred_label": "Pray"
-},
-{
-"id": "person:John",
-"type": "person",
-"confidence": 0.1875,
-"match_method": "canonical",
-"preferred_label": "Yohana"
-},
-{
-"id": "keyterm:Blood",
-"type": "keyterm",
-"confidence": 0.1875,
-"match_method": "canonical",
-"preferred_label": "Blood"
+"preferred_label": "Yusufu"
 },
 {
 "id": "keyterm:PositionOfResponsibility",
@@ -769,20 +713,6 @@
 "preferred_label": "Position of Responsibility"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.1875,
-"match_method": "canonical",
-"preferred_label": "BWANA"
-},
-{
-"id": "keyterm:Name",
-"type": "keyterm",
-"confidence": 0.1875,
-"match_method": "canonical",
-"preferred_label": "Name"
-},
-{
 "id": "keyterm:Happen",
 "type": "keyterm",
 "confidence": 0.1875,
@@ -790,11 +720,18 @@
 "preferred_label": "To Cause to Happen"
 },
 {
-"id": "keyterm:Scripture",
+"id": "keyterm:KnowerOfHearts",
 "type": "keyterm",
 "confidence": 0.1875,
 "match_method": "canonical",
-"preferred_label": "Written"
+"preferred_label": "Knower of Hearts"
+},
+{
+"id": "person:Peter",
+"type": "person",
+"confidence": 0.1875,
+"match_method": "canonical",
+"preferred_label": "Petro"
 },
 {
 "id": "person:David",
@@ -811,11 +748,25 @@
 "preferred_label": "Roho"
 },
 {
-"id": "keyterm:Chosen",
+"id": "keyterm:Resurrection",
 "type": "keyterm",
 "confidence": 0.1875,
 "match_method": "canonical",
-"preferred_label": "Chosen"
+"preferred_label": "Resurrection"
+},
+{
+"id": "keyterm:Scripture",
+"type": "keyterm",
+"confidence": 0.1875,
+"match_method": "canonical",
+"preferred_label": "Written"
+},
+{
+"id": "keyterm:UnjustDeed",
+"type": "keyterm",
+"confidence": 0.1875,
+"match_method": "canonical",
+"preferred_label": "Unjust Deed"
 },
 {
 "id": "keyterm:Witness",
@@ -825,11 +776,39 @@
 "preferred_label": "Witness"
 },
 {
-"id": "place:Jerusalem",
-"type": "place",
+"id": "keyterm:Chosen",
+"type": "keyterm",
 "confidence": 0.1875,
 "match_method": "canonical",
-"preferred_label": "Yerusalemu"
+"preferred_label": "Chosen"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.1875,
+"match_method": "canonical",
+"preferred_label": "BWANA"
+},
+{
+"id": "keyterm:Pray",
+"type": "keyterm",
+"confidence": 0.1875,
+"match_method": "canonical",
+"preferred_label": "Pray"
+},
+{
+"id": "keyterm:Name",
+"type": "keyterm",
+"confidence": 0.1875,
+"match_method": "canonical",
+"preferred_label": "Name"
+},
+{
+"id": "person:John",
+"type": "person",
+"confidence": 0.1875,
+"match_method": "canonical",
+"preferred_label": "Yohana"
 },
 {
 "id": "keyterm:Baptism",
@@ -837,6 +816,20 @@
 "confidence": 0.1875,
 "match_method": "canonical",
 "preferred_label": "Baptism"
+},
+{
+"id": "place:Jerusalem",
+"type": "place",
+"confidence": 0.1875,
+"match_method": "canonical",
+"preferred_label": "Yerusalemu"
+},
+{
+"id": "keyterm:Blood",
+"type": "keyterm",
+"confidence": 0.1875,
+"match_method": "canonical",
+"preferred_label": "Blood"
 },
 {
 "id": "realia:Lot",
@@ -941,53 +934,11 @@
 "preferred_label": "Sky"
 },
 {
-"id": "group:Elam",
-"type": "group",
-"confidence": 0.2,
-"match_method": "canonical",
-"preferred_label": "Elamites"
-},
-{
-"id": "group:Cretan",
-"type": "group",
-"confidence": 0.2,
-"match_method": "canonical",
-"preferred_label": "Cretans"
-},
-{
-"id": "person:Medan",
-"type": "person",
-"confidence": 0.2,
-"match_method": "canonical",
-"preferred_label": "Wamedi"
-},
-{
-"id": "place:Pontus",
+"id": "place:Libya",
 "type": "place",
 "confidence": 0.2,
 "match_method": "canonical",
-"preferred_label": "Ponto"
-},
-{
-"id": "place:Phrygia",
-"type": "place",
-"confidence": 0.2,
-"match_method": "canonical",
-"preferred_label": "Frigia"
-},
-{
-"id": "group:Galilee",
-"type": "group",
-"confidence": 0.2,
-"match_method": "canonical",
-"preferred_label": "Galileans"
-},
-{
-"id": "place:Elam",
-"type": "place",
-"confidence": 0.2,
-"match_method": "canonical",
-"preferred_label": "Elamu"
+"preferred_label": "Walubi"
 },
 {
 "id": "place:Cappadocia",
@@ -997,11 +948,39 @@
 "preferred_label": "Kapadokia"
 },
 {
+"id": "group:Cretan",
+"type": "group",
+"confidence": 0.2,
+"match_method": "canonical",
+"preferred_label": "Cretans"
+},
+{
+"id": "place:Phrygia",
+"type": "place",
+"confidence": 0.2,
+"match_method": "canonical",
+"preferred_label": "Frigia"
+},
+{
 "id": "group:Parthians",
 "type": "group",
 "confidence": 0.2,
 "match_method": "canonical",
 "preferred_label": "Parthians"
+},
+{
+"id": "person:Medan",
+"type": "person",
+"confidence": 0.2,
+"match_method": "canonical",
+"preferred_label": "Wamedi"
+},
+{
+"id": "group:Elam",
+"type": "group",
+"confidence": 0.2,
+"match_method": "canonical",
+"preferred_label": "Elamites"
 },
 {
 "id": "place:Cyrene",
@@ -1011,25 +990,32 @@
 "preferred_label": "Mkirene"
 },
 {
+"id": "place:Elam",
+"type": "place",
+"confidence": 0.2,
+"match_method": "canonical",
+"preferred_label": "Elamu"
+},
+{
+"id": "place:Pontus",
+"type": "place",
+"confidence": 0.2,
+"match_method": "canonical",
+"preferred_label": "Ponto"
+},
+{
+"id": "group:Galilee",
+"type": "group",
+"confidence": 0.2,
+"match_method": "canonical",
+"preferred_label": "Galileans"
+},
+{
 "id": "place:Jerusalem",
 "type": "place",
 "confidence": 0.2,
 "match_method": "canonical",
 "preferred_label": "Yerusalemu"
-},
-{
-"id": "place:Libya",
-"type": "place",
-"confidence": 0.2,
-"match_method": "canonical",
-"preferred_label": "Walubi"
-},
-{
-"id": "place:Pamphylia",
-"type": "place",
-"confidence": 0.1846,
-"match_method": "canonical",
-"preferred_label": "Pamfilia"
 },
 {
 "id": "group:Arabia",
@@ -1039,11 +1025,67 @@
 "preferred_label": "Arabians"
 },
 {
+"id": "group:Mede",
+"type": "group",
+"confidence": 0.1846,
+"match_method": "canonical",
+"preferred_label": "Medes"
+},
+{
+"id": "place:Judea",
+"type": "place",
+"confidence": 0.1846,
+"match_method": "canonical",
+"preferred_label": "Yudea"
+},
+{
+"id": "keyterm:MightyAct",
+"type": "keyterm",
+"confidence": 0.1846,
+"match_method": "canonical",
+"preferred_label": "Mighty Act"
+},
+{
+"id": "deity:HolySpirit",
+"type": "deity",
+"confidence": 0.1846,
+"match_method": "canonical",
+"preferred_label": "Roho"
+},
+{
 "id": "place:Mesopotamia",
 "type": "place",
 "confidence": 0.1846,
 "match_method": "canonical",
 "preferred_label": "Mesopotamia"
+},
+{
+"id": "place:Galilee",
+"type": "place",
+"confidence": 0.1846,
+"match_method": "canonical",
+"preferred_label": "Galilaya"
+},
+{
+"id": "place:Pamphylia",
+"type": "place",
+"confidence": 0.1846,
+"match_method": "canonical",
+"preferred_label": "Pamfilia"
+},
+{
+"id": "place:Arabia",
+"type": "place",
+"confidence": 0.1846,
+"match_method": "canonical",
+"preferred_label": "Waarabu"
+},
+{
+"id": "place:Asia",
+"type": "place",
+"confidence": 0.1846,
+"match_method": "canonical",
+"preferred_label": "Asia"
 },
 {
 "id": "place:Crete",
@@ -1060,13 +1102,6 @@
 "preferred_label": "BWANA"
 },
 {
-"id": "place:Egypt",
-"type": "place",
-"confidence": 0.1846,
-"match_method": "canonical",
-"preferred_label": "Misri"
-},
-{
 "id": "place:Rome",
 "type": "place",
 "confidence": 0.1846,
@@ -1074,53 +1109,11 @@
 "preferred_label": "Warumi"
 },
 {
-"id": "group:Mede",
-"type": "group",
-"confidence": 0.1846,
-"match_method": "canonical",
-"preferred_label": "Medes"
-},
-{
-"id": "deity:HolySpirit",
-"type": "deity",
-"confidence": 0.1846,
-"match_method": "canonical",
-"preferred_label": "Roho"
-},
-{
-"id": "place:Judea",
+"id": "place:Egypt",
 "type": "place",
 "confidence": 0.1846,
 "match_method": "canonical",
-"preferred_label": "Yudea"
-},
-{
-"id": "place:Galilee",
-"type": "place",
-"confidence": 0.1846,
-"match_method": "canonical",
-"preferred_label": "Galilaya"
-},
-{
-"id": "keyterm:MightyAct",
-"type": "keyterm",
-"confidence": 0.1846,
-"match_method": "canonical",
-"preferred_label": "Mighty Act"
-},
-{
-"id": "place:Arabia",
-"type": "place",
-"confidence": 0.1846,
-"match_method": "canonical",
-"preferred_label": "Waarabu"
-},
-{
-"id": "place:Asia",
-"type": "place",
-"confidence": 0.1846,
-"match_method": "canonical",
-"preferred_label": "Asia"
+"preferred_label": "Misri"
 },
 {
 "id": "realia:SweetWine",
@@ -1323,18 +1316,18 @@
 "preferred_label": "Yesu"
 },
 {
-"id": "keyterm:Body.3",
-"type": "keyterm",
-"confidence": 0.3087,
-"match_method": "canonical",
-"preferred_label": "Body"
-},
-{
 "id": "person:David",
 "type": "person",
 "confidence": 0.3087,
 "match_method": "canonical",
 "preferred_label": "Daudi"
+},
+{
+"id": "keyterm:Body.3",
+"type": "keyterm",
+"confidence": 0.3087,
+"match_method": "canonical",
+"preferred_label": "Body"
 },
 {
 "id": "deity:HolySpirit",
@@ -1358,18 +1351,18 @@
 "preferred_label": "World of the Dead"
 },
 {
+"id": "person:Israel",
+"type": "person",
+"confidence": 0.2391,
+"match_method": "canonical",
+"preferred_label": "Israeli"
+},
+{
 "id": "keyterm:Speak",
 "type": "keyterm",
 "confidence": 0.2391,
 "match_method": "canonical",
 "preferred_label": "Speak as a Prophet"
-},
-{
-"id": "keyterm:Blood",
-"type": "keyterm",
-"confidence": 0.2391,
-"match_method": "canonical",
-"preferred_label": "Blood"
 },
 {
 "id": "place:Hell",
@@ -1393,11 +1386,11 @@
 "preferred_label": "Sky"
 },
 {
-"id": "person:Israel",
-"type": "person",
+"id": "keyterm:Blood",
+"type": "keyterm",
 "confidence": 0.2391,
 "match_method": "canonical",
-"preferred_label": "Israeli"
+"preferred_label": "Blood"
 },
 {
 "id": "realia:Cross",
@@ -1407,11 +1400,11 @@
 "preferred_label": "Cross"
 },
 {
-"id": "keyterm:Resurrection",
-"type": "keyterm",
+"id": "person:Joel.14",
+"type": "person",
 "confidence": 0.1783,
 "match_method": "canonical",
-"preferred_label": "Resurrection"
+"preferred_label": "Yoeli"
 },
 {
 "id": "keyterm:CallUpon",
@@ -1428,11 +1421,11 @@
 "preferred_label": "Petro"
 },
 {
-"id": "person:Joel.14",
-"type": "person",
+"id": "keyterm:Resurrection",
+"type": "keyterm",
 "confidence": 0.1783,
 "match_method": "canonical",
-"preferred_label": "Yoeli"
+"preferred_label": "Resurrection"
 },
 {
 "id": "keyterm:Word",
@@ -1449,88 +1442,11 @@
 "preferred_label": "Judeans"
 },
 {
-"id": "keyterm:Promise",
-"type": "keyterm",
-"confidence": 0.1696,
-"match_method": "canonical",
-"preferred_label": "Promise"
-},
-{
-"id": "group:Israel",
-"type": "group",
-"confidence": 0.1696,
-"match_method": "canonical",
-"preferred_label": "Israelites"
-},
-{
-"id": "keyterm:Oath",
-"type": "keyterm",
-"confidence": 0.1696,
-"match_method": "canonical",
-"preferred_label": "Oath"
-},
-{
-"id": "keyterm:Name",
-"type": "keyterm",
-"confidence": 0.1696,
-"match_method": "canonical",
-"preferred_label": "Name"
-},
-{
-"id": "keyterm:Heart",
-"type": "keyterm",
-"confidence": 0.1696,
-"match_method": "canonical",
-"preferred_label": "Heart"
-},
-{
 "id": "keyterm:Holy",
 "type": "keyterm",
 "confidence": 0.1696,
 "match_method": "canonical",
 "preferred_label": "Holy"
-},
-{
-"id": "keyterm:Life",
-"type": "keyterm",
-"confidence": 0.1696,
-"match_method": "canonical",
-"preferred_label": "Life"
-},
-{
-"id": "keyterm:Ability",
-"type": "keyterm",
-"confidence": 0.1696,
-"match_method": "canonical",
-"preferred_label": "Ability"
-},
-{
-"id": "keyterm:SomethingDefinite",
-"type": "keyterm",
-"confidence": 0.1696,
-"match_method": "canonical",
-"preferred_label": "Something Definite"
-},
-{
-"id": "place:Judea",
-"type": "place",
-"confidence": 0.1696,
-"match_method": "canonical",
-"preferred_label": "Yudea"
-},
-{
-"id": "keyterm:Lawless",
-"type": "keyterm",
-"confidence": 0.1696,
-"match_method": "canonical",
-"preferred_label": "Lawless"
-},
-{
-"id": "keyterm:Witness",
-"type": "keyterm",
-"confidence": 0.1696,
-"match_method": "canonical",
-"preferred_label": "Witness"
 },
 {
 "id": "keyterm:Lawful",
@@ -1540,25 +1456,25 @@
 "preferred_label": "Be Lawful"
 },
 {
-"id": "place:Jerusalem",
+"id": "place:Judea",
 "type": "place",
 "confidence": 0.1696,
 "match_method": "canonical",
-"preferred_label": "Yerusalemu"
+"preferred_label": "Yudea"
 },
 {
-"id": "keyterm:Hope",
+"id": "keyterm:Promise",
 "type": "keyterm",
 "confidence": 0.1696,
 "match_method": "canonical",
-"preferred_label": "Hope"
+"preferred_label": "Promise"
 },
 {
-"id": "keyterm:Salvation",
+"id": "keyterm:Witness",
 "type": "keyterm",
 "confidence": 0.1696,
 "match_method": "canonical",
-"preferred_label": "Salvation"
+"preferred_label": "Witness"
 },
 {
 "id": "place:Nazareth",
@@ -1568,6 +1484,83 @@
 "preferred_label": "Nazareti"
 },
 {
+"id": "keyterm:Salvation",
+"type": "keyterm",
+"confidence": 0.1696,
+"match_method": "canonical",
+"preferred_label": "Salvation"
+},
+{
+"id": "keyterm:Hope",
+"type": "keyterm",
+"confidence": 0.1696,
+"match_method": "canonical",
+"preferred_label": "Hope"
+},
+{
+"id": "keyterm:SomethingDefinite",
+"type": "keyterm",
+"confidence": 0.1696,
+"match_method": "canonical",
+"preferred_label": "Something Definite"
+},
+{
+"id": "keyterm:Name",
+"type": "keyterm",
+"confidence": 0.1696,
+"match_method": "canonical",
+"preferred_label": "Name"
+},
+{
+"id": "keyterm:Life",
+"type": "keyterm",
+"confidence": 0.1696,
+"match_method": "canonical",
+"preferred_label": "Life"
+},
+{
+"id": "group:Israel",
+"type": "group",
+"confidence": 0.1696,
+"match_method": "canonical",
+"preferred_label": "Israelites"
+},
+{
+"id": "place:Jerusalem",
+"type": "place",
+"confidence": 0.1696,
+"match_method": "canonical",
+"preferred_label": "Yerusalemu"
+},
+{
+"id": "keyterm:Lawless",
+"type": "keyterm",
+"confidence": 0.1696,
+"match_method": "canonical",
+"preferred_label": "Lawless"
+},
+{
+"id": "keyterm:Ability",
+"type": "keyterm",
+"confidence": 0.1696,
+"match_method": "canonical",
+"preferred_label": "Ability"
+},
+{
+"id": "keyterm:Oath",
+"type": "keyterm",
+"confidence": 0.1696,
+"match_method": "canonical",
+"preferred_label": "Oath"
+},
+{
+"id": "keyterm:Heart",
+"type": "keyterm",
+"confidence": 0.1696,
+"match_method": "canonical",
+"preferred_label": "Heart"
+},
+{
 "id": "realia:Footstool",
 "type": "realia",
 "confidence": 0.1096,
@@ -1575,18 +1568,18 @@
 "preferred_label": "Footstool"
 },
 {
-"id": "realia:Throne",
-"type": "realia",
-"confidence": 0.1096,
-"match_method": "canonical",
-"preferred_label": "Throne"
-},
-{
 "id": "realia:Grave",
 "type": "realia",
 "confidence": 0.1096,
 "match_method": "canonical",
 "preferred_label": "Grave"
+},
+{
+"id": "realia:Throne",
+"type": "realia",
+"confidence": 0.1096,
+"match_method": "canonical",
+"preferred_label": "Throne"
 }
 ]
 }
@@ -1691,67 +1684,11 @@
 "preferred_label": "Repent"
 },
 {
-"id": "keyterm:Promise",
-"type": "keyterm",
-"confidence": 0.24,
-"match_method": "canonical",
-"preferred_label": "Promise"
-},
-{
-"id": "keyterm:Declare",
-"type": "keyterm",
-"confidence": 0.24,
-"match_method": "canonical",
-"preferred_label": "Declare"
-},
-{
-"id": "keyterm:Name",
-"type": "keyterm",
-"confidence": 0.24,
-"match_method": "canonical",
-"preferred_label": "Name"
-},
-{
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.24,
-"match_method": "canonical",
-"preferred_label": "BWANA"
-},
-{
-"id": "keyterm:Heart",
-"type": "keyterm",
-"confidence": 0.24,
-"match_method": "canonical",
-"preferred_label": "Heart"
-},
-{
-"id": "person:Jesus.2",
-"type": "person",
-"confidence": 0.24,
-"match_method": "canonical",
-"preferred_label": "Yesu"
-},
-{
-"id": "keyterm:Salvation",
-"type": "keyterm",
-"confidence": 0.24,
-"match_method": "canonical",
-"preferred_label": "Salvation"
-},
-{
 "id": "keyterm:AskFor",
 "type": "keyterm",
 "confidence": 0.24,
 "match_method": "canonical",
 "preferred_label": "Ask for"
-},
-{
-"id": "keyterm:Forgive",
-"type": "keyterm",
-"confidence": 0.24,
-"match_method": "canonical",
-"preferred_label": "Forgive"
 },
 {
 "id": "keyterm:Sin",
@@ -1761,11 +1698,67 @@
 "preferred_label": "To Sin"
 },
 {
+"id": "keyterm:Declare",
+"type": "keyterm",
+"confidence": 0.24,
+"match_method": "canonical",
+"preferred_label": "Declare"
+},
+{
+"id": "keyterm:Forgive",
+"type": "keyterm",
+"confidence": 0.24,
+"match_method": "canonical",
+"preferred_label": "Forgive"
+},
+{
+"id": "keyterm:Salvation",
+"type": "keyterm",
+"confidence": 0.24,
+"match_method": "canonical",
+"preferred_label": "Salvation"
+},
+{
 "id": "deity:HolySpirit",
 "type": "deity",
 "confidence": 0.24,
 "match_method": "canonical",
 "preferred_label": "Roho"
+},
+{
+"id": "keyterm:Promise",
+"type": "keyterm",
+"confidence": 0.24,
+"match_method": "canonical",
+"preferred_label": "Promise"
+},
+{
+"id": "person:Jesus.2",
+"type": "person",
+"confidence": 0.24,
+"match_method": "canonical",
+"preferred_label": "Yesu"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.24,
+"match_method": "canonical",
+"preferred_label": "BWANA"
+},
+{
+"id": "keyterm:Name",
+"type": "keyterm",
+"confidence": 0.24,
+"match_method": "canonical",
+"preferred_label": "Name"
+},
+{
+"id": "keyterm:Heart",
+"type": "keyterm",
+"confidence": 0.24,
+"match_method": "canonical",
+"preferred_label": "Heart"
 }
 ]
 }
@@ -1856,46 +1849,11 @@
 "preferred_label": "Fellowship"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.225,
-"match_method": "canonical",
-"preferred_label": "BWANA"
-},
-{
-"id": "keyterm:Heart",
+"id": "keyterm:Fear",
 "type": "keyterm",
 "confidence": 0.225,
 "match_method": "canonical",
-"preferred_label": "Heart"
-},
-{
-"id": "keyterm:Pray",
-"type": "keyterm",
-"confidence": 0.225,
-"match_method": "canonical",
-"preferred_label": "Pray"
-},
-{
-"id": "person:Jesus.2",
-"type": "person",
-"confidence": 0.225,
-"match_method": "canonical",
-"preferred_label": "Yesu"
-},
-{
-"id": "keyterm:Salvation",
-"type": "keyterm",
-"confidence": 0.225,
-"match_method": "canonical",
-"preferred_label": "Salvation"
-},
-{
-"id": "keyterm:Believe",
-"type": "keyterm",
-"confidence": 0.225,
-"match_method": "canonical",
-"preferred_label": "Believe"
+"preferred_label": "Fear"
 },
 {
 "id": "keyterm:Example",
@@ -1905,11 +1863,18 @@
 "preferred_label": "Symbol"
 },
 {
-"id": "keyterm:Fear",
+"id": "keyterm:InCommon",
 "type": "keyterm",
 "confidence": 0.225,
 "match_method": "canonical",
-"preferred_label": "Fear"
+"preferred_label": "In Common"
+},
+{
+"id": "keyterm:Salvation",
+"type": "keyterm",
+"confidence": 0.225,
+"match_method": "canonical",
+"preferred_label": "Salvation"
 },
 {
 "id": "keyterm:Favor",
@@ -1926,11 +1891,39 @@
 "preferred_label": "Portent"
 },
 {
-"id": "keyterm:InCommon",
+"id": "person:Jesus.2",
+"type": "person",
+"confidence": 0.225,
+"match_method": "canonical",
+"preferred_label": "Yesu"
+},
+{
+"id": "keyterm:Believe",
 "type": "keyterm",
 "confidence": 0.225,
 "match_method": "canonical",
-"preferred_label": "In Common"
+"preferred_label": "Believe"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.225,
+"match_method": "canonical",
+"preferred_label": "BWANA"
+},
+{
+"id": "keyterm:Pray",
+"type": "keyterm",
+"confidence": 0.225,
+"match_method": "canonical",
+"preferred_label": "Pray"
+},
+{
+"id": "keyterm:Heart",
+"type": "keyterm",
+"confidence": 0.225,
+"match_method": "canonical",
+"preferred_label": "Heart"
 },
 {
 "id": "realia:House",
@@ -2049,18 +2042,11 @@
 "preferred_label": "BWANA"
 },
 {
-"id": "keyterm:Name",
+"id": "keyterm:AskFor",
 "type": "keyterm",
 "confidence": 0.195,
 "match_method": "canonical",
-"preferred_label": "Name"
-},
-{
-"id": "keyterm:Pray",
-"type": "keyterm",
-"confidence": 0.195,
-"match_method": "canonical",
-"preferred_label": "Pray"
+"preferred_label": "Ask for"
 },
 {
 "id": "person:Jesus.2",
@@ -2070,18 +2056,25 @@
 "preferred_label": "Yesu"
 },
 {
+"id": "keyterm:Pray",
+"type": "keyterm",
+"confidence": 0.195,
+"match_method": "canonical",
+"preferred_label": "Pray"
+},
+{
+"id": "keyterm:Name",
+"type": "keyterm",
+"confidence": 0.195,
+"match_method": "canonical",
+"preferred_label": "Name"
+},
+{
 "id": "place:Nazareth",
 "type": "place",
 "confidence": 0.195,
 "match_method": "canonical",
 "preferred_label": "Nazareti"
-},
-{
-"id": "keyterm:AskFor",
-"type": "keyterm",
-"confidence": 0.195,
-"match_method": "canonical",
-"preferred_label": "Ask for"
 },
 {
 "id": "realia:Door",
@@ -2228,11 +2221,11 @@
 "preferred_label": "Abrahamu"
 },
 {
-"id": "person:Peter",
+"id": "person:Israel",
 "type": "person",
 "confidence": 0.2562,
 "match_method": "canonical",
-"preferred_label": "Petro"
+"preferred_label": "Israeli"
 },
 {
 "id": "keyterm:Holy",
@@ -2242,18 +2235,11 @@
 "preferred_label": "Holy"
 },
 {
-"id": "person:Israel",
+"id": "person:Peter",
 "type": "person",
 "confidence": 0.2562,
 "match_method": "canonical",
-"preferred_label": "Israeli"
-},
-{
-"id": "person:Samuel",
-"type": "person",
-"confidence": 0.1906,
-"match_method": "canonical",
-"preferred_label": "Samweli"
+"preferred_label": "Petro"
 },
 {
 "id": "keyterm:Happen",
@@ -2270,6 +2256,27 @@
 "preferred_label": "tao"
 },
 {
+"id": "person:Samuel",
+"type": "person",
+"confidence": 0.1906,
+"match_method": "canonical",
+"preferred_label": "Samweli"
+},
+{
+"id": "keyterm:Believe",
+"type": "keyterm",
+"confidence": 0.1781,
+"match_method": "canonical",
+"preferred_label": "Believe"
+},
+{
+"id": "keyterm:Forgive",
+"type": "keyterm",
+"confidence": 0.1781,
+"match_method": "canonical",
+"preferred_label": "Forgive"
+},
+{
 "id": "keyterm:Resurrection",
 "type": "keyterm",
 "confidence": 0.1781,
@@ -2277,25 +2284,60 @@
 "preferred_label": "Resurrection"
 },
 {
-"id": "keyterm:Covenant",
+"id": "keyterm:Decided",
 "type": "keyterm",
 "confidence": 0.1781,
 "match_method": "canonical",
-"preferred_label": "Covenant"
+"preferred_label": "Decided"
 },
 {
-"id": "group:Israel",
-"type": "group",
+"id": "keyterm:Always",
+"type": "keyterm",
 "confidence": 0.1781,
 "match_method": "canonical",
-"preferred_label": "Israelites"
+"preferred_label": "Always"
 },
 {
-"id": "person:John.2",
-"type": "person",
+"id": "keyterm:Witness",
+"type": "keyterm",
 "confidence": 0.1781,
 "match_method": "canonical",
-"preferred_label": "Yohana"
+"preferred_label": "Witness"
+},
+{
+"id": "keyterm:Sin",
+"type": "keyterm",
+"confidence": 0.1781,
+"match_method": "canonical",
+"preferred_label": "To Sin"
+},
+{
+"id": "keyterm:Repent",
+"type": "keyterm",
+"confidence": 0.1781,
+"match_method": "canonical",
+"preferred_label": "Repent"
+},
+{
+"id": "keyterm:Heaven",
+"type": "keyterm",
+"confidence": 0.1781,
+"match_method": "canonical",
+"preferred_label": "Sky"
+},
+{
+"id": "keyterm:Glory",
+"type": "keyterm",
+"confidence": 0.1781,
+"match_method": "canonical",
+"preferred_label": "Glory"
+},
+{
+"id": "keyterm:Bless",
+"type": "keyterm",
+"confidence": 0.1781,
+"match_method": "canonical",
+"preferred_label": "Bless"
 },
 {
 "id": "person:Pilate",
@@ -2319,41 +2361,6 @@
 "preferred_label": "Life"
 },
 {
-"id": "keyterm:Ability",
-"type": "keyterm",
-"confidence": 0.1781,
-"match_method": "canonical",
-"preferred_label": "Ability"
-},
-{
-"id": "keyterm:Glory",
-"type": "keyterm",
-"confidence": 0.1781,
-"match_method": "canonical",
-"preferred_label": "Glory"
-},
-{
-"id": "keyterm:Witness",
-"type": "keyterm",
-"confidence": 0.1781,
-"match_method": "canonical",
-"preferred_label": "Witness"
-},
-{
-"id": "keyterm:Believe",
-"type": "keyterm",
-"confidence": 0.1781,
-"match_method": "canonical",
-"preferred_label": "Believe"
-},
-{
-"id": "keyterm:Repent",
-"type": "keyterm",
-"confidence": 0.1781,
-"match_method": "canonical",
-"preferred_label": "Repent"
-},
-{
 "id": "person:Moses",
 "type": "person",
 "confidence": 0.1781,
@@ -2361,18 +2368,18 @@
 "preferred_label": "Musa"
 },
 {
-"id": "keyterm:Forgive",
-"type": "keyterm",
+"id": "group:Israel",
+"type": "group",
 "confidence": 0.1781,
 "match_method": "canonical",
-"preferred_label": "Forgive"
+"preferred_label": "Israelites"
 },
 {
-"id": "keyterm:Always",
-"type": "keyterm",
+"id": "person:John.2",
+"type": "person",
 "confidence": 0.1781,
 "match_method": "canonical",
-"preferred_label": "Always"
+"preferred_label": "Yohana"
 },
 {
 "id": "person:Isaac",
@@ -2382,27 +2389,6 @@
 "preferred_label": "Isaka"
 },
 {
-"id": "keyterm:Decided",
-"type": "keyterm",
-"confidence": 0.1781,
-"match_method": "canonical",
-"preferred_label": "Decided"
-},
-{
-"id": "keyterm:Heaven",
-"type": "keyterm",
-"confidence": 0.1781,
-"match_method": "canonical",
-"preferred_label": "Sky"
-},
-{
-"id": "keyterm:Bless",
-"type": "keyterm",
-"confidence": 0.1781,
-"match_method": "canonical",
-"preferred_label": "Bless"
-},
-{
 "id": "keyterm:Just",
 "type": "keyterm",
 "confidence": 0.1781,
@@ -2410,11 +2396,18 @@
 "preferred_label": "Be (Or Show Oneself) Just"
 },
 {
-"id": "keyterm:Sin",
+"id": "keyterm:Ability",
 "type": "keyterm",
 "confidence": 0.1781,
 "match_method": "canonical",
-"preferred_label": "To Sin"
+"preferred_label": "Ability"
+},
+{
+"id": "keyterm:Covenant",
+"type": "keyterm",
+"confidence": 0.1781,
+"match_method": "canonical",
+"preferred_label": "Covenant"
 },
 {
 "id": "realia:Porch",
@@ -2603,18 +2596,18 @@
 "preferred_label": "Resurrection"
 },
 {
-"id": "person:John.2",
-"type": "person",
-"confidence": 0.2409,
-"match_method": "canonical",
-"preferred_label": "Yohana"
-},
-{
 "id": "keyterm:Example",
 "type": "keyterm",
 "confidence": 0.2409,
 "match_method": "canonical",
 "preferred_label": "Symbol"
+},
+{
+"id": "person:John.2",
+"type": "person",
+"confidence": 0.2409,
+"match_method": "canonical",
+"preferred_label": "Yohana"
 },
 {
 "id": "place:Jerusalem",
@@ -2624,32 +2617,18 @@
 "preferred_label": "Yerusalemu"
 },
 {
-"id": "person:Caiaphas",
-"type": "person",
-"confidence": 0.1795,
-"match_method": "canonical",
-"preferred_label": "Kayafa"
-},
-{
-"id": "group:Sadducee",
-"type": "group",
-"confidence": 0.1795,
-"match_method": "canonical",
-"preferred_label": "Sadducees"
-},
-{
-"id": "person:Alexander.2",
-"type": "person",
-"confidence": 0.1795,
-"match_method": "canonical",
-"preferred_label": "Iskanda"
-},
-{
 "id": "person:John.3",
 "type": "person",
 "confidence": 0.1795,
 "match_method": "canonical",
 "preferred_label": "Yohana"
+},
+{
+"id": "person:Caiaphas",
+"type": "person",
+"confidence": 0.1795,
+"match_method": "canonical",
+"preferred_label": "Kayafa"
 },
 {
 "id": "person:Annas",
@@ -2659,60 +2638,25 @@
 "preferred_label": "Anasi"
 },
 {
+"id": "person:Alexander.2",
+"type": "person",
+"confidence": 0.1795,
+"match_method": "canonical",
+"preferred_label": "Iskanda"
+},
+{
+"id": "group:Sadducee",
+"type": "group",
+"confidence": 0.1795,
+"match_method": "canonical",
+"preferred_label": "Sadducees"
+},
+{
 "id": "keyterm:Serve",
 "type": "keyterm",
 "confidence": 0.1705,
 "match_method": "canonical",
 "preferred_label": "Serve"
-},
-{
-"id": "keyterm:Discern",
-"type": "keyterm",
-"confidence": 0.1705,
-"match_method": "canonical",
-"preferred_label": "Discern"
-},
-{
-"id": "keyterm:Ability",
-"type": "keyterm",
-"confidence": 0.1705,
-"match_method": "canonical",
-"preferred_label": "Ability"
-},
-{
-"id": "keyterm:Glory",
-"type": "keyterm",
-"confidence": 0.1705,
-"match_method": "canonical",
-"preferred_label": "Glory"
-},
-{
-"id": "deity:HolySpirit",
-"type": "deity",
-"confidence": 0.1705,
-"match_method": "canonical",
-"preferred_label": "Roho"
-},
-{
-"id": "keyterm:Believe",
-"type": "keyterm",
-"confidence": 0.1705,
-"match_method": "canonical",
-"preferred_label": "Believe"
-},
-{
-"id": "keyterm:Decided",
-"type": "keyterm",
-"confidence": 0.1705,
-"match_method": "canonical",
-"preferred_label": "Decided"
-},
-{
-"id": "keyterm:Heaven",
-"type": "keyterm",
-"confidence": 0.1705,
-"match_method": "canonical",
-"preferred_label": "Sky"
 },
 {
 "id": "person:Israel",
@@ -2722,6 +2666,27 @@
 "preferred_label": "Israeli"
 },
 {
+"id": "keyterm:Believe",
+"type": "keyterm",
+"confidence": 0.1705,
+"match_method": "canonical",
+"preferred_label": "Believe"
+},
+{
+"id": "deity:HolySpirit",
+"type": "deity",
+"confidence": 0.1705,
+"match_method": "canonical",
+"preferred_label": "Roho"
+},
+{
+"id": "keyterm:Decided",
+"type": "keyterm",
+"confidence": 0.1705,
+"match_method": "canonical",
+"preferred_label": "Decided"
+},
+{
 "id": "place:Nazareth",
 "type": "place",
 "confidence": 0.1705,
@@ -2729,11 +2694,39 @@
 "preferred_label": "Nazareti"
 },
 {
+"id": "keyterm:Heaven",
+"type": "keyterm",
+"confidence": 0.1705,
+"match_method": "canonical",
+"preferred_label": "Sky"
+},
+{
+"id": "keyterm:Glory",
+"type": "keyterm",
+"confidence": 0.1705,
+"match_method": "canonical",
+"preferred_label": "Glory"
+},
+{
+"id": "keyterm:Discern",
+"type": "keyterm",
+"confidence": 0.1705,
+"match_method": "canonical",
+"preferred_label": "Discern"
+},
+{
 "id": "keyterm:Just",
 "type": "keyterm",
 "confidence": 0.1705,
 "match_method": "canonical",
 "preferred_label": "Be (Or Show Oneself) Just"
+},
+{
+"id": "keyterm:Ability",
+"type": "keyterm",
+"confidence": 0.1705,
+"match_method": "canonical",
+"preferred_label": "Ability"
 },
 {
 "id": "realia:Cornerstone",
@@ -2894,11 +2887,11 @@
 "preferred_label": "BWANA"
 },
 {
-"id": "person:Jesus.2",
-"type": "person",
+"id": "group:Gentile",
+"type": "group",
 "confidence": 0.3,
 "match_method": "canonical",
-"preferred_label": "Yesu"
+"preferred_label": "Gentiles"
 },
 {
 "id": "keyterm:Holy",
@@ -2908,18 +2901,18 @@
 "preferred_label": "Holy"
 },
 {
-"id": "group:Gentile",
-"type": "group",
-"confidence": 0.3,
-"match_method": "canonical",
-"preferred_label": "Gentiles"
-},
-{
 "id": "deity:HolySpirit",
 "type": "deity",
 "confidence": 0.3,
 "match_method": "canonical",
 "preferred_label": "Roho"
+},
+{
+"id": "person:Jesus.2",
+"type": "person",
+"confidence": 0.3,
+"match_method": "canonical",
+"preferred_label": "Yesu"
 },
 {
 "id": "keyterm:AskFor",
@@ -2936,18 +2929,25 @@
 "preferred_label": "Pilato"
 },
 {
+"id": "person:Israel",
+"type": "person",
+"confidence": 0.2,
+"match_method": "canonical",
+"preferred_label": "Israeli"
+},
+{
+"id": "keyterm:Example",
+"type": "keyterm",
+"confidence": 0.2,
+"match_method": "canonical",
+"preferred_label": "Symbol"
+},
+{
 "id": "keyterm:Empty",
 "type": "keyterm",
 "confidence": 0.2,
 "match_method": "canonical",
 "preferred_label": "Empty"
-},
-{
-"id": "keyterm:Name",
-"type": "keyterm",
-"confidence": 0.2,
-"match_method": "canonical",
-"preferred_label": "Name"
 },
 {
 "id": "keyterm:Heaven",
@@ -2957,18 +2957,11 @@
 "preferred_label": "Sky"
 },
 {
-"id": "person:Herod.2",
-"type": "person",
+"id": "keyterm:Portent",
+"type": "keyterm",
 "confidence": 0.2,
 "match_method": "canonical",
-"preferred_label": "Herode"
-},
-{
-"id": "person:Israel",
-"type": "person",
-"confidence": 0.2,
-"match_method": "canonical",
-"preferred_label": "Israeli"
+"preferred_label": "Portent"
 },
 {
 "id": "keyterm:Anointed",
@@ -2985,13 +2978,6 @@
 "preferred_label": "Truth"
 },
 {
-"id": "keyterm:Example",
-"type": "keyterm",
-"confidence": 0.2,
-"match_method": "canonical",
-"preferred_label": "Symbol"
-},
-{
 "id": "person:David",
 "type": "person",
 "confidence": 0.2,
@@ -2999,11 +2985,18 @@
 "preferred_label": "Daudi"
 },
 {
-"id": "keyterm:Portent",
+"id": "person:Herod.2",
+"type": "person",
+"confidence": 0.2,
+"match_method": "canonical",
+"preferred_label": "Herode"
+},
+{
+"id": "keyterm:Name",
 "type": "keyterm",
 "confidence": 0.2,
 "match_method": "canonical",
-"preferred_label": "Portent"
+"preferred_label": "Name"
 }
 ]
 }
@@ -3094,6 +3087,13 @@
 ],
 "acai": [
 {
+"id": "group:Cyprus",
+"type": "group",
+"confidence": 0.2583,
+"match_method": "canonical",
+"preferred_label": "Cypriots"
+},
+{
 "id": "person:Barnabas",
 "type": "person",
 "confidence": 0.2583,
@@ -3101,11 +3101,11 @@
 "preferred_label": "Barnaba"
 },
 {
-"id": "group:Cyprus",
-"type": "group",
-"confidence": 0.2583,
+"id": "keyterm:AskFor",
+"type": "keyterm",
+"confidence": 0.225,
 "match_method": "canonical",
-"preferred_label": "Cypriots"
+"preferred_label": "Ask for"
 },
 {
 "id": "place:Cyprus",
@@ -3115,39 +3115,11 @@
 "preferred_label": "Kipro"
 },
 {
-"id": "keyterm:Resurrection",
+"id": "keyterm:InCommon",
 "type": "keyterm",
 "confidence": 0.225,
 "match_method": "canonical",
-"preferred_label": "Resurrection"
-},
-{
-"id": "keyterm:Heart",
-"type": "keyterm",
-"confidence": 0.225,
-"match_method": "canonical",
-"preferred_label": "Heart"
-},
-{
-"id": "person:Jesus.2",
-"type": "person",
-"confidence": 0.225,
-"match_method": "canonical",
-"preferred_label": "Yesu"
-},
-{
-"id": "keyterm:BearWitness",
-"type": "keyterm",
-"confidence": 0.225,
-"match_method": "canonical",
-"preferred_label": "Bear Witness"
-},
-{
-"id": "keyterm:Believe",
-"type": "keyterm",
-"confidence": 0.225,
-"match_method": "canonical",
-"preferred_label": "Believe"
+"preferred_label": "In Common"
 },
 {
 "id": "keyterm:Ability",
@@ -3157,11 +3129,32 @@
 "preferred_label": "Ability"
 },
 {
-"id": "keyterm:AskFor",
+"id": "group:Levi",
+"type": "group",
+"confidence": 0.225,
+"match_method": "canonical",
+"preferred_label": "Walawi"
+},
+{
+"id": "person:Jesus.2",
+"type": "person",
+"confidence": 0.225,
+"match_method": "canonical",
+"preferred_label": "Yesu"
+},
+{
+"id": "keyterm:Resurrection",
 "type": "keyterm",
 "confidence": 0.225,
 "match_method": "canonical",
-"preferred_label": "Ask for"
+"preferred_label": "Resurrection"
+},
+{
+"id": "keyterm:Believe",
+"type": "keyterm",
+"confidence": 0.225,
+"match_method": "canonical",
+"preferred_label": "Believe"
 },
 {
 "id": "keyterm:Favor",
@@ -3178,25 +3171,18 @@
 "preferred_label": "Walawi"
 },
 {
-"id": "keyterm:InCommon",
+"id": "keyterm:BearWitness",
 "type": "keyterm",
 "confidence": 0.225,
 "match_method": "canonical",
-"preferred_label": "In Common"
+"preferred_label": "Bear Witness"
 },
 {
-"id": "group:Levi",
-"type": "group",
+"id": "keyterm:Heart",
+"type": "keyterm",
 "confidence": 0.225,
 "match_method": "canonical",
-"preferred_label": "Walawi"
-},
-{
-"id": "realia:Money",
-"type": "realia",
-"confidence": 0.165,
-"match_method": "canonical",
-"preferred_label": "Money"
+"preferred_label": "Heart"
 },
 {
 "id": "realia:House",
@@ -3204,6 +3190,13 @@
 "confidence": 0.165,
 "match_method": "canonical",
 "preferred_label": "House"
+},
+{
+"id": "realia:Money",
+"type": "realia",
+"confidence": 0.165,
+"match_method": "canonical",
+"preferred_label": "Money"
 }
 ]
 }
@@ -3287,6 +3280,20 @@
 "preferred_label": "Petro"
 },
 {
+"id": "keyterm:Fear",
+"type": "keyterm",
+"confidence": 0.2818,
+"match_method": "canonical",
+"preferred_label": "Fear"
+},
+{
+"id": "deity:HolySpirit",
+"type": "deity",
+"confidence": 0.2818,
+"match_method": "canonical",
+"preferred_label": "Roho"
+},
+{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.2818,
@@ -3301,25 +3308,25 @@
 "preferred_label": "Heart"
 },
 {
-"id": "deity:HolySpirit",
-"type": "deity",
-"confidence": 0.2818,
-"match_method": "canonical",
-"preferred_label": "Roho"
-},
-{
-"id": "keyterm:Fear",
-"type": "keyterm",
-"confidence": 0.2818,
-"match_method": "canonical",
-"preferred_label": "Fear"
-},
-{
 "id": "person:Sapphira",
 "type": "person",
 "confidence": 0.2091,
 "match_method": "canonical",
 "preferred_label": "Safira"
+},
+{
+"id": "keyterm:Ability",
+"type": "keyterm",
+"confidence": 0.1909,
+"match_method": "canonical",
+"preferred_label": "Ability"
+},
+{
+"id": "keyterm:Authority.2",
+"type": "keyterm",
+"confidence": 0.1909,
+"match_method": "canonical",
+"preferred_label": "Authority"
 },
 {
 "id": "keyterm:Name",
@@ -3341,20 +3348,6 @@
 "confidence": 0.1909,
 "match_method": "canonical",
 "preferred_label": "Shetani"
-},
-{
-"id": "keyterm:Authority.2",
-"type": "keyterm",
-"confidence": 0.1909,
-"match_method": "canonical",
-"preferred_label": "Authority"
-},
-{
-"id": "keyterm:Ability",
-"type": "keyterm",
-"confidence": 0.1909,
-"match_method": "canonical",
-"preferred_label": "Ability"
 },
 {
 "id": "realia:Door",
@@ -3452,13 +3445,6 @@
 "preferred_label": "Portent"
 },
 {
-"id": "place:Jerusalem",
-"type": "place",
-"confidence": 0.24,
-"match_method": "canonical",
-"preferred_label": "Yerusalemu"
-},
-{
 "id": "keyterm:Serve",
 "type": "keyterm",
 "confidence": 0.24,
@@ -3466,11 +3452,18 @@
 "preferred_label": "Serve"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
+"id": "keyterm:Example",
+"type": "keyterm",
 "confidence": 0.24,
 "match_method": "canonical",
-"preferred_label": "BWANA"
+"preferred_label": "Symbol"
+},
+{
+"id": "place:Jerusalem",
+"type": "place",
+"confidence": 0.24,
+"match_method": "canonical",
+"preferred_label": "Yerusalemu"
 },
 {
 "id": "person:Peter",
@@ -3487,11 +3480,11 @@
 "preferred_label": "Believe"
 },
 {
-"id": "keyterm:Example",
-"type": "keyterm",
+"id": "deity:Lord",
+"type": "deity",
 "confidence": 0.24,
 "match_method": "canonical",
-"preferred_label": "Symbol"
+"preferred_label": "BWANA"
 },
 {
 "id": "realia:Porch",
@@ -3610,11 +3603,18 @@
 "preferred_label": "Resentment"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
+"id": "keyterm:Fear",
+"type": "keyterm",
 "confidence": 0.195,
 "match_method": "canonical",
-"preferred_label": "BWANA"
+"preferred_label": "Fear"
+},
+{
+"id": "person:Israel",
+"type": "person",
+"confidence": 0.195,
+"match_method": "canonical",
+"preferred_label": "Israeli"
 },
 {
 "id": "deity:Angel",
@@ -3631,20 +3631,6 @@
 "preferred_label": "Life"
 },
 {
-"id": "person:Israel",
-"type": "person",
-"confidence": 0.195,
-"match_method": "canonical",
-"preferred_label": "Israeli"
-},
-{
-"id": "keyterm:Word",
-"type": "keyterm",
-"confidence": 0.195,
-"match_method": "canonical",
-"preferred_label": "Word"
-},
-{
 "id": "group:Sadducee",
 "type": "group",
 "confidence": 0.195,
@@ -3652,18 +3638,25 @@
 "preferred_label": "Sadducees"
 },
 {
-"id": "keyterm:Fear",
-"type": "keyterm",
-"confidence": 0.195,
-"match_method": "canonical",
-"preferred_label": "Fear"
-},
-{
 "id": "person:GenericPerson",
 "type": "person",
 "confidence": 0.195,
 "match_method": "canonical",
 "preferred_label": "A Person"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.195,
+"match_method": "canonical",
+"preferred_label": "BWANA"
+},
+{
+"id": "keyterm:Word",
+"type": "keyterm",
+"confidence": 0.195,
+"match_method": "canonical",
+"preferred_label": "Word"
 }
 ]
 }
@@ -3824,18 +3817,18 @@
 "preferred_label": "Persuade"
 },
 {
-"id": "keyterm:Heart",
-"type": "keyterm",
-"confidence": 0.3344,
-"match_method": "canonical",
-"preferred_label": "Heart"
-},
-{
 "id": "person:Jesus.2",
 "type": "person",
 "confidence": 0.3344,
 "match_method": "canonical",
 "preferred_label": "Yesu"
+},
+{
+"id": "keyterm:Heart",
+"type": "keyterm",
+"confidence": 0.3344,
+"match_method": "canonical",
+"preferred_label": "Heart"
 },
 {
 "id": "person:Israel",
@@ -3845,18 +3838,11 @@
 "preferred_label": "Israeli"
 },
 {
-"id": "keyterm:Savior",
-"type": "keyterm",
-"confidence": 0.1906,
-"match_method": "canonical",
-"preferred_label": "Savior"
-},
-{
-"id": "person:Judas.3",
+"id": "person:Gamaliel",
 "type": "person",
 "confidence": 0.1906,
 "match_method": "canonical",
-"preferred_label": "Yuda"
+"preferred_label": "Gamalieli"
 },
 {
 "id": "keyterm:Witness",
@@ -3866,11 +3852,11 @@
 "preferred_label": "Witness"
 },
 {
-"id": "person:Gamaliel",
+"id": "person:Judas.3",
 "type": "person",
 "confidence": 0.1906,
 "match_method": "canonical",
-"preferred_label": "Gamalieli"
+"preferred_label": "Yuda"
 },
 {
 "id": "person:Theudas",
@@ -3880,11 +3866,11 @@
 "preferred_label": "Theuda"
 },
 {
-"id": "keyterm:Resurrection",
+"id": "keyterm:Savior",
 "type": "keyterm",
-"confidence": 0.1781,
+"confidence": 0.1906,
 "match_method": "canonical",
-"preferred_label": "Resurrection"
+"preferred_label": "Savior"
 },
 {
 "id": "person:Peter",
@@ -3894,48 +3880,6 @@
 "preferred_label": "Petro"
 },
 {
-"id": "group:Pharisee",
-"type": "group",
-"confidence": 0.1781,
-"match_method": "canonical",
-"preferred_label": "Pharisees"
-},
-{
-"id": "keyterm:Census",
-"type": "keyterm",
-"confidence": 0.1781,
-"match_method": "canonical",
-"preferred_label": "Census"
-},
-{
-"id": "group:Israel",
-"type": "group",
-"confidence": 0.1781,
-"match_method": "canonical",
-"preferred_label": "Israelites"
-},
-{
-"id": "keyterm:Blood",
-"type": "keyterm",
-"confidence": 0.1781,
-"match_method": "canonical",
-"preferred_label": "Blood"
-},
-{
-"id": "group:Galilee",
-"type": "group",
-"confidence": 0.1781,
-"match_method": "canonical",
-"preferred_label": "Galileans"
-},
-{
-"id": "deity:HolySpirit",
-"type": "deity",
-"confidence": 0.1781,
-"match_method": "canonical",
-"preferred_label": "Roho"
-},
-{
 "id": "keyterm:OpposingGod",
 "type": "keyterm",
 "confidence": 0.1781,
@@ -3943,32 +3887,11 @@
 "preferred_label": "Opposing God"
 },
 {
-"id": "place:Galilee",
-"type": "place",
+"id": "group:Pharisee",
+"type": "group",
 "confidence": 0.1781,
 "match_method": "canonical",
-"preferred_label": "Galilaya"
-},
-{
-"id": "keyterm:GoodNews",
-"type": "keyterm",
-"confidence": 0.1781,
-"match_method": "canonical",
-"preferred_label": "Good News"
-},
-{
-"id": "keyterm:Word",
-"type": "keyterm",
-"confidence": 0.1781,
-"match_method": "canonical",
-"preferred_label": "Word"
-},
-{
-"id": "keyterm:Repent",
-"type": "keyterm",
-"confidence": 0.1781,
-"match_method": "canonical",
-"preferred_label": "Repent"
+"preferred_label": "Pharisees"
 },
 {
 "id": "keyterm:Forgive",
@@ -3978,18 +3901,32 @@
 "preferred_label": "Forgive"
 },
 {
-"id": "place:Jerusalem",
+"id": "deity:HolySpirit",
+"type": "deity",
+"confidence": 0.1781,
+"match_method": "canonical",
+"preferred_label": "Roho"
+},
+{
+"id": "keyterm:Resurrection",
+"type": "keyterm",
+"confidence": 0.1781,
+"match_method": "canonical",
+"preferred_label": "Resurrection"
+},
+{
+"id": "place:Galilee",
 "type": "place",
 "confidence": 0.1781,
 "match_method": "canonical",
-"preferred_label": "Yerusalemu"
+"preferred_label": "Galilaya"
 },
 {
-"id": "group:GenericDisciples",
-"type": "group",
+"id": "keyterm:Word",
+"type": "keyterm",
 "confidence": 0.1781,
 "match_method": "canonical",
-"preferred_label": "A Group of Disciples"
+"preferred_label": "Word"
 },
 {
 "id": "keyterm:Sin",
@@ -3999,6 +3936,62 @@
 "preferred_label": "To Sin"
 },
 {
+"id": "keyterm:Repent",
+"type": "keyterm",
+"confidence": 0.1781,
+"match_method": "canonical",
+"preferred_label": "Repent"
+},
+{
+"id": "keyterm:Census",
+"type": "keyterm",
+"confidence": 0.1781,
+"match_method": "canonical",
+"preferred_label": "Census"
+},
+{
+"id": "group:GenericDisciples",
+"type": "group",
+"confidence": 0.1781,
+"match_method": "canonical",
+"preferred_label": "A Group of Disciples"
+},
+{
+"id": "group:Israel",
+"type": "group",
+"confidence": 0.1781,
+"match_method": "canonical",
+"preferred_label": "Israelites"
+},
+{
+"id": "group:Galilee",
+"type": "group",
+"confidence": 0.1781,
+"match_method": "canonical",
+"preferred_label": "Galileans"
+},
+{
+"id": "place:Jerusalem",
+"type": "place",
+"confidence": 0.1781,
+"match_method": "canonical",
+"preferred_label": "Yerusalemu"
+},
+{
+"id": "keyterm:GoodNews",
+"type": "keyterm",
+"confidence": 0.1781,
+"match_method": "canonical",
+"preferred_label": "Good News"
+},
+{
+"id": "keyterm:Blood",
+"type": "keyterm",
+"confidence": 0.1781,
+"match_method": "canonical",
+"preferred_label": "Blood"
+},
+{
 "id": "realia:Temple",
 "type": "realia",
 "confidence": 0.1181,
@@ -4006,18 +3999,18 @@
 "preferred_label": "Temple"
 },
 {
-"id": "realia:Cross",
-"type": "realia",
-"confidence": 0.1181,
-"match_method": "canonical",
-"preferred_label": "Cross"
-},
-{
 "id": "realia:House",
 "type": "realia",
 "confidence": 0.1181,
 "match_method": "canonical",
 "preferred_label": "House"
+},
+{
+"id": "realia:Cross",
+"type": "realia",
+"confidence": 0.1181,
+"match_method": "canonical",
+"preferred_label": "Cross"
 }
 ]
 }
@@ -4122,18 +4115,11 @@
 "preferred_label": "Filipo"
 },
 {
-"id": "keyterm:Pray",
+"id": "keyterm:Believe",
 "type": "keyterm",
 "confidence": 0.3286,
 "match_method": "canonical",
-"preferred_label": "Pray"
-},
-{
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.3286,
-"match_method": "canonical",
-"preferred_label": "BWANA"
+"preferred_label": "Believe"
 },
 {
 "id": "deity:HolySpirit",
@@ -4143,53 +4129,18 @@
 "preferred_label": "Roho"
 },
 {
-"id": "keyterm:Believe",
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.3286,
+"match_method": "canonical",
+"preferred_label": "BWANA"
+},
+{
+"id": "keyterm:Pray",
 "type": "keyterm",
 "confidence": 0.3286,
 "match_method": "canonical",
-"preferred_label": "Believe"
-},
-{
-"id": "group:Antioch",
-"type": "group",
-"confidence": 0.2429,
-"match_method": "canonical",
-"preferred_label": "Antiochians"
-},
-{
-"id": "person:Timon",
-"type": "person",
-"confidence": 0.2429,
-"match_method": "canonical",
-"preferred_label": "Timoni"
-},
-{
-"id": "person:Prochorus",
-"type": "person",
-"confidence": 0.2429,
-"match_method": "canonical",
-"preferred_label": "Prokoro"
-},
-{
-"id": "person:Stephen",
-"type": "person",
-"confidence": 0.2429,
-"match_method": "canonical",
-"preferred_label": "Stefano"
-},
-{
-"id": "person:Parmenas",
-"type": "person",
-"confidence": 0.2429,
-"match_method": "canonical",
-"preferred_label": "Parmena"
-},
-{
-"id": "group:Hellenist",
-"type": "group",
-"confidence": 0.2429,
-"match_method": "canonical",
-"preferred_label": "Hellenists"
+"preferred_label": "Pray"
 },
 {
 "id": "person:Nicanor",
@@ -4199,11 +4150,53 @@
 "preferred_label": "Nikanori"
 },
 {
+"id": "person:Parmenas",
+"type": "person",
+"confidence": 0.2429,
+"match_method": "canonical",
+"preferred_label": "Parmena"
+},
+{
 "id": "person:Nicolaus",
 "type": "person",
 "confidence": 0.2429,
 "match_method": "canonical",
 "preferred_label": "Nikolao"
+},
+{
+"id": "person:Timon",
+"type": "person",
+"confidence": 0.2429,
+"match_method": "canonical",
+"preferred_label": "Timoni"
+},
+{
+"id": "group:Hellenist",
+"type": "group",
+"confidence": 0.2429,
+"match_method": "canonical",
+"preferred_label": "Hellenists"
+},
+{
+"id": "person:Prochorus",
+"type": "person",
+"confidence": 0.2429,
+"match_method": "canonical",
+"preferred_label": "Prokoro"
+},
+{
+"id": "group:Antioch",
+"type": "group",
+"confidence": 0.2429,
+"match_method": "canonical",
+"preferred_label": "Antiochians"
+},
+{
+"id": "person:Stephen",
+"type": "person",
+"confidence": 0.2429,
+"match_method": "canonical",
+"preferred_label": "Stefano"
 },
 {
 "id": "place:Antioch",
@@ -4227,18 +4220,11 @@
 "preferred_label": "Chosen"
 },
 {
-"id": "place:Greece",
-"type": "place",
+"id": "group:GenericDisciples",
+"type": "group",
 "confidence": 0.2143,
 "match_method": "canonical",
-"preferred_label": "Kigiriki"
-},
-{
-"id": "place:Jerusalem",
-"type": "place",
-"confidence": 0.2143,
-"match_method": "canonical",
-"preferred_label": "Yerusalemu"
+"preferred_label": "A Group of Disciples"
 },
 {
 "id": "group:Hebrews",
@@ -4248,6 +4234,13 @@
 "preferred_label": "Hebrews"
 },
 {
+"id": "place:Greece",
+"type": "place",
+"confidence": 0.2143,
+"match_method": "canonical",
+"preferred_label": "Kigiriki"
+},
+{
 "id": "keyterm:Spirit.2",
 "type": "keyterm",
 "confidence": 0.2143,
@@ -4255,11 +4248,11 @@
 "preferred_label": "Spirit"
 },
 {
-"id": "group:GenericDisciples",
-"type": "group",
+"id": "place:Jerusalem",
+"type": "place",
 "confidence": 0.2143,
 "match_method": "canonical",
-"preferred_label": "A Group of Disciples"
+"preferred_label": "Yerusalemu"
 }
 ]
 }
@@ -4385,11 +4378,11 @@
 "preferred_label": "Musa"
 },
 {
-"id": "group:Freedmen",
+"id": "group:Alexandria",
 "type": "group",
 "confidence": 0.2313,
 "match_method": "canonical",
-"preferred_label": "Freedmen"
+"preferred_label": "Alexandrians"
 },
 {
 "id": "place:Alexandria",
@@ -4399,39 +4392,11 @@
 "preferred_label": "Aleksandria"
 },
 {
-"id": "group:Alexandria",
+"id": "group:Freedmen",
 "type": "group",
 "confidence": 0.2313,
 "match_method": "canonical",
-"preferred_label": "Alexandrians"
-},
-{
-"id": "keyterm:Blasphemous",
-"type": "keyterm",
-"confidence": 0.2063,
-"match_method": "canonical",
-"preferred_label": "Blasphemous"
-},
-{
-"id": "deity:Angel",
-"type": "deity",
-"confidence": 0.2063,
-"match_method": "canonical",
-"preferred_label": "An Angel"
-},
-{
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.2063,
-"match_method": "canonical",
-"preferred_label": "BWANA"
-},
-{
-"id": "keyterm:Law",
-"type": "keyterm",
-"confidence": 0.2063,
-"match_method": "canonical",
-"preferred_label": "Law"
+"preferred_label": "Freedmen"
 },
 {
 "id": "keyterm:Holy",
@@ -4441,25 +4406,18 @@
 "preferred_label": "Holy"
 },
 {
-"id": "keyterm:Ability",
+"id": "keyterm:Blasphemous",
 "type": "keyterm",
 "confidence": 0.2063,
 "match_method": "canonical",
-"preferred_label": "Ability"
+"preferred_label": "Blasphemous"
 },
 {
-"id": "keyterm:Example",
-"type": "keyterm",
+"id": "person:Jesus.2",
+"type": "person",
 "confidence": 0.2063,
 "match_method": "canonical",
-"preferred_label": "Symbol"
-},
-{
-"id": "place:Cilicia",
-"type": "place",
-"confidence": 0.2063,
-"match_method": "canonical",
-"preferred_label": "Kilikia"
+"preferred_label": "Yesu"
 },
 {
 "id": "keyterm:Favor",
@@ -4467,13 +4425,6 @@
 "confidence": 0.2063,
 "match_method": "canonical",
 "preferred_label": "Favor"
-},
-{
-"id": "keyterm:Portent",
-"type": "keyterm",
-"confidence": 0.2063,
-"match_method": "canonical",
-"preferred_label": "Portent"
 },
 {
 "id": "deity:HolySpirit",
@@ -4490,6 +4441,41 @@
 "preferred_label": "Witness"
 },
 {
+"id": "place:Nazareth",
+"type": "place",
+"confidence": 0.2063,
+"match_method": "canonical",
+"preferred_label": "Nazareti"
+},
+{
+"id": "keyterm:Example",
+"type": "keyterm",
+"confidence": 0.2063,
+"match_method": "canonical",
+"preferred_label": "Symbol"
+},
+{
+"id": "deity:Angel",
+"type": "deity",
+"confidence": 0.2063,
+"match_method": "canonical",
+"preferred_label": "An Angel"
+},
+{
+"id": "place:Asia",
+"type": "place",
+"confidence": 0.2063,
+"match_method": "canonical",
+"preferred_label": "Asia"
+},
+{
+"id": "keyterm:Portent",
+"type": "keyterm",
+"confidence": 0.2063,
+"match_method": "canonical",
+"preferred_label": "Portent"
+},
+{
 "id": "place:Cyrene",
 "type": "place",
 "confidence": 0.2063,
@@ -4497,11 +4483,25 @@
 "preferred_label": "Mkirene"
 },
 {
-"id": "person:Jesus.2",
-"type": "person",
+"id": "place:Cilicia",
+"type": "place",
 "confidence": 0.2063,
 "match_method": "canonical",
-"preferred_label": "Yesu"
+"preferred_label": "Kilikia"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.2063,
+"match_method": "canonical",
+"preferred_label": "BWANA"
+},
+{
+"id": "keyterm:Law",
+"type": "keyterm",
+"confidence": 0.2063,
+"match_method": "canonical",
+"preferred_label": "Law"
 },
 {
 "id": "keyterm:Spirit.2",
@@ -4511,18 +4511,11 @@
 "preferred_label": "Spirit"
 },
 {
-"id": "place:Nazareth",
-"type": "place",
+"id": "keyterm:Ability",
+"type": "keyterm",
 "confidence": 0.2063,
 "match_method": "canonical",
-"preferred_label": "Nazareti"
-},
-{
-"id": "place:Asia",
-"type": "place",
-"confidence": 0.2063,
-"match_method": "canonical",
-"preferred_label": "Asia"
+"preferred_label": "Ability"
 },
 {
 "id": "realia:Tabernacle",
@@ -4585,13 +4578,6 @@
 "preferred_label": "Mesopotamia"
 },
 {
-"id": "keyterm:Promise",
-"type": "keyterm",
-"confidence": 0.2063,
-"match_method": "canonical",
-"preferred_label": "Promise"
-},
-{
 "id": "keyterm:Serve",
 "type": "keyterm",
 "confidence": 0.2063,
@@ -4599,11 +4585,60 @@
 "preferred_label": "Serve"
 },
 {
+"id": "person:Israel",
+"type": "person",
+"confidence": 0.2063,
+"match_method": "canonical",
+"preferred_label": "Israeli"
+},
+{
+"id": "keyterm:Circumcision",
+"type": "keyterm",
+"confidence": 0.2063,
+"match_method": "canonical",
+"preferred_label": "Circumcision"
+},
+{
+"id": "keyterm:Serve.2",
+"type": "keyterm",
+"confidence": 0.2063,
+"match_method": "canonical",
+"preferred_label": "Be Enslaved"
+},
+{
+"id": "person:Abraham",
+"type": "person",
+"confidence": 0.2063,
+"match_method": "canonical",
+"preferred_label": "Abrahamu"
+},
+{
 "id": "person:Isaac",
 "type": "person",
 "confidence": 0.2063,
 "match_method": "canonical",
 "preferred_label": "Isaka"
+},
+{
+"id": "keyterm:Priesthood",
+"type": "keyterm",
+"confidence": 0.2063,
+"match_method": "canonical",
+"preferred_label": "Priesthood"
+},
+{
+"id": "keyterm:Promise",
+"type": "keyterm",
+"confidence": 0.2063,
+"match_method": "canonical",
+"preferred_label": "Promise"
+},
+{
+"id": "keyterm:Glory",
+"type": "keyterm",
+"confidence": 0.2063,
+"match_method": "canonical",
+"preferred_label": "Glory"
 },
 {
 "id": "place:Chaldea",
@@ -4620,60 +4655,18 @@
 "preferred_label": "Decided"
 },
 {
-"id": "keyterm:Covenant",
-"type": "keyterm",
-"confidence": 0.2063,
-"match_method": "canonical",
-"preferred_label": "Covenant"
-},
-{
-"id": "person:Israel",
-"type": "person",
-"confidence": 0.2063,
-"match_method": "canonical",
-"preferred_label": "Israeli"
-},
-{
-"id": "keyterm:Priesthood",
-"type": "keyterm",
-"confidence": 0.2063,
-"match_method": "canonical",
-"preferred_label": "Priesthood"
-},
-{
-"id": "keyterm:Serve.2",
-"type": "keyterm",
-"confidence": 0.2063,
-"match_method": "canonical",
-"preferred_label": "Be Enslaved"
-},
-{
-"id": "keyterm:Circumcision",
-"type": "keyterm",
-"confidence": 0.2063,
-"match_method": "canonical",
-"preferred_label": "Circumcision"
-},
-{
-"id": "keyterm:Glory",
-"type": "keyterm",
-"confidence": 0.2063,
-"match_method": "canonical",
-"preferred_label": "Glory"
-},
-{
-"id": "person:Abraham",
-"type": "person",
-"confidence": 0.2063,
-"match_method": "canonical",
-"preferred_label": "Abrahamu"
-},
-{
 "id": "group:Chaldea",
 "type": "group",
 "confidence": 0.2063,
 "match_method": "canonical",
 "preferred_label": "Chaldeans"
+},
+{
+"id": "keyterm:Covenant",
+"type": "keyterm",
+"confidence": 0.2063,
+"match_method": "canonical",
+"preferred_label": "Covenant"
 }
 ]
 }
@@ -4736,13 +4729,6 @@
 "preferred_label": "Farao"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.2818,
-"match_method": "canonical",
-"preferred_label": "BWANA"
-},
-{
 "id": "person:Abraham",
 "type": "person",
 "confidence": 0.2818,
@@ -4750,18 +4736,11 @@
 "preferred_label": "Abrahamu"
 },
 {
-"id": "place:Shechem",
-"type": "place",
-"confidence": 0.2091,
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.2818,
 "match_method": "canonical",
-"preferred_label": "Shekemu"
-},
-{
-"id": "keyterm:Rescue",
-"type": "keyterm",
-"confidence": 0.2091,
-"match_method": "canonical",
-"preferred_label": "Rescue"
+"preferred_label": "BWANA"
 },
 {
 "id": "person:Hamor",
@@ -4771,18 +4750,25 @@
 "preferred_label": "Hamori"
 },
 {
+"id": "keyterm:Rescue",
+"type": "keyterm",
+"confidence": 0.2091,
+"match_method": "canonical",
+"preferred_label": "Rescue"
+},
+{
+"id": "place:Shechem",
+"type": "place",
+"confidence": 0.2091,
+"match_method": "canonical",
+"preferred_label": "Shekemu"
+},
+{
 "id": "keyterm:Promise",
 "type": "keyterm",
 "confidence": 0.1909,
 "match_method": "canonical",
 "preferred_label": "Promise"
-},
-{
-"id": "place:Canaan",
-"type": "place",
-"confidence": 0.1909,
-"match_method": "canonical",
-"preferred_label": "Wakanaani"
 },
 {
 "id": "keyterm:Favor",
@@ -4792,11 +4778,11 @@
 "preferred_label": "Favor"
 },
 {
-"id": "flora:Wheat",
-"type": "flora",
-"confidence": 0.1309,
+"id": "place:Canaan",
+"type": "place",
+"confidence": 0.1909,
 "match_method": "canonical",
-"preferred_label": "Wheat"
+"preferred_label": "Wakanaani"
 },
 {
 "id": "realia:Grave",
@@ -4804,6 +4790,13 @@
 "confidence": 0.1309,
 "match_method": "canonical",
 "preferred_label": "Grave"
+},
+{
+"id": "flora:Wheat",
+"type": "flora",
+"confidence": 0.1309,
+"match_method": "canonical",
+"preferred_label": "Wheat"
 }
 ]
 }
@@ -4922,18 +4915,11 @@
 "preferred_label": "Rescue"
 },
 {
-"id": "keyterm:Peace",
-"type": "keyterm",
+"id": "person:Pharaoh.5",
+"type": "person",
 "confidence": 0.18,
 "match_method": "canonical",
-"preferred_label": "Make Peace"
-},
-{
-"id": "deity:Angel",
-"type": "deity",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "An Angel"
+"preferred_label": "Farao"
 },
 {
 "id": "keyterm:GrantJustice",
@@ -4943,32 +4929,11 @@
 "preferred_label": "Avenge"
 },
 {
-"id": "person:Pharaoh.5",
-"type": "person",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "Farao"
-},
-{
-"id": "keyterm:Heart",
-"type": "keyterm",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "Heart"
-},
-{
 "id": "keyterm:Holy",
 "type": "keyterm",
 "confidence": 0.18,
 "match_method": "canonical",
 "preferred_label": "Holy"
-},
-{
-"id": "place:Midian",
-"type": "place",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "Midiani"
 },
 {
 "id": "place:SinaiMount",
@@ -4978,11 +4943,11 @@
 "preferred_label": "Sinai"
 },
 {
-"id": "person:Abraham",
-"type": "person",
+"id": "keyterm:Peace",
+"type": "keyterm",
 "confidence": 0.18,
 "match_method": "canonical",
-"preferred_label": "Abrahamu"
+"preferred_label": "Make Peace"
 },
 {
 "id": "keyterm:Reconcile",
@@ -4992,11 +4957,11 @@
 "preferred_label": "Reconcile"
 },
 {
-"id": "person:Isaac",
-"type": "person",
+"id": "deity:Angel",
+"type": "deity",
 "confidence": 0.18,
 "match_method": "canonical",
-"preferred_label": "Isaka"
+"preferred_label": "An Angel"
 },
 {
 "id": "keyterm:Salvation",
@@ -5006,11 +4971,39 @@
 "preferred_label": "Salvation"
 },
 {
+"id": "keyterm:Heart",
+"type": "keyterm",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "Heart"
+},
+{
 "id": "keyterm:Judge",
 "type": "keyterm",
 "confidence": 0.18,
 "match_method": "canonical",
 "preferred_label": "Judge"
+},
+{
+"id": "place:Midian",
+"type": "place",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "Midiani"
+},
+{
+"id": "person:Abraham",
+"type": "person",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "Abrahamu"
+},
+{
+"id": "person:Isaac",
+"type": "person",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "Isaka"
 },
 {
 "id": "flora:Boxthorn",
@@ -5020,18 +5013,18 @@
 "preferred_label": "Boxthorn"
 },
 {
-"id": "realia:Sandal",
-"type": "realia",
-"confidence": 0.12,
-"match_method": "canonical",
-"preferred_label": "Sandal"
-},
-{
 "id": "flora:Brier",
 "type": "flora",
 "confidence": 0.12,
 "match_method": "canonical",
 "preferred_label": "Brier"
+},
+{
+"id": "realia:Sandal",
+"type": "realia",
+"confidence": 0.12,
+"match_method": "canonical",
+"preferred_label": "Sandal"
 }
 ]
 }
@@ -5143,13 +5136,6 @@
 "preferred_label": "BWANA"
 },
 {
-"id": "place:Egypt",
-"type": "place",
-"confidence": 0.4,
-"match_method": "canonical",
-"preferred_label": "Misri"
-},
-{
 "id": "person:Moses",
 "type": "person",
 "confidence": 0.4,
@@ -5157,11 +5143,18 @@
 "preferred_label": "Musa"
 },
 {
-"id": "deity:Angel",
-"type": "deity",
+"id": "place:Egypt",
+"type": "place",
+"confidence": 0.4,
+"match_method": "canonical",
+"preferred_label": "Misri"
+},
+{
+"id": "person:Israel",
+"type": "person",
 "confidence": 0.3,
 "match_method": "canonical",
-"preferred_label": "An Angel"
+"preferred_label": "Israeli"
 },
 {
 "id": "keyterm:Offering",
@@ -5171,11 +5164,11 @@
 "preferred_label": "Offering"
 },
 {
-"id": "person:Israel",
-"type": "person",
+"id": "deity:Angel",
+"type": "deity",
 "confidence": 0.3,
 "match_method": "canonical",
-"preferred_label": "Israeli"
+"preferred_label": "An Angel"
 },
 {
 "id": "realia:Image",
@@ -5199,6 +5192,76 @@
 "preferred_label": "Serve"
 },
 {
+"id": "place:SinaiMount",
+"type": "place",
+"confidence": 0.2,
+"match_method": "canonical",
+"preferred_label": "Sinai"
+},
+{
+"id": "deity:Molech",
+"type": "deity",
+"confidence": 0.2,
+"match_method": "canonical",
+"preferred_label": "Moleki"
+},
+{
+"id": "keyterm:Example",
+"type": "keyterm",
+"confidence": 0.2,
+"match_method": "canonical",
+"preferred_label": "Symbol"
+},
+{
+"id": "place:RedSea",
+"type": "place",
+"confidence": 0.2,
+"match_method": "canonical",
+"preferred_label": "Shamu"
+},
+{
+"id": "keyterm:Heaven",
+"type": "keyterm",
+"confidence": 0.2,
+"match_method": "canonical",
+"preferred_label": "Sky"
+},
+{
+"id": "keyterm:Portent",
+"type": "keyterm",
+"confidence": 0.2,
+"match_method": "canonical",
+"preferred_label": "Portent"
+},
+{
+"id": "keyterm:Judge",
+"type": "keyterm",
+"confidence": 0.2,
+"match_method": "canonical",
+"preferred_label": "Judge"
+},
+{
+"id": "keyterm:Life",
+"type": "keyterm",
+"confidence": 0.2,
+"match_method": "canonical",
+"preferred_label": "Life"
+},
+{
+"id": "keyterm:BowDown",
+"type": "keyterm",
+"confidence": 0.2,
+"match_method": "canonical",
+"preferred_label": "Bow Down"
+},
+{
+"id": "group:Israel",
+"type": "group",
+"confidence": 0.2,
+"match_method": "canonical",
+"preferred_label": "Israelites"
+},
+{
 "id": "place:Babylon",
 "type": "place",
 "confidence": 0.2,
@@ -5213,60 +5276,11 @@
 "preferred_label": "Haruni"
 },
 {
-"id": "group:Israel",
-"type": "group",
-"confidence": 0.2,
-"match_method": "canonical",
-"preferred_label": "Israelites"
-},
-{
 "id": "keyterm:Savior",
 "type": "keyterm",
 "confidence": 0.2,
 "match_method": "canonical",
 "preferred_label": "Savior"
-},
-{
-"id": "keyterm:BowDown",
-"type": "keyterm",
-"confidence": 0.2,
-"match_method": "canonical",
-"preferred_label": "Bow Down"
-},
-{
-"id": "keyterm:Heart",
-"type": "keyterm",
-"confidence": 0.2,
-"match_method": "canonical",
-"preferred_label": "Heart"
-},
-{
-"id": "keyterm:Life",
-"type": "keyterm",
-"confidence": 0.2,
-"match_method": "canonical",
-"preferred_label": "Life"
-},
-{
-"id": "keyterm:Example",
-"type": "keyterm",
-"confidence": 0.2,
-"match_method": "canonical",
-"preferred_label": "Symbol"
-},
-{
-"id": "keyterm:Portent",
-"type": "keyterm",
-"confidence": 0.2,
-"match_method": "canonical",
-"preferred_label": "Portent"
-},
-{
-"id": "place:SinaiMount",
-"type": "place",
-"confidence": 0.2,
-"match_method": "canonical",
-"preferred_label": "Sinai"
 },
 {
 "id": "keyterm:Priesthood",
@@ -5276,32 +5290,11 @@
 "preferred_label": "Priesthood"
 },
 {
-"id": "deity:Molech",
-"type": "deity",
-"confidence": 0.2,
-"match_method": "canonical",
-"preferred_label": "Moleki"
-},
-{
-"id": "keyterm:Heaven",
+"id": "keyterm:Heart",
 "type": "keyterm",
 "confidence": 0.2,
 "match_method": "canonical",
-"preferred_label": "Sky"
-},
-{
-"id": "place:RedSea",
-"type": "place",
-"confidence": 0.2,
-"match_method": "canonical",
-"preferred_label": "Shamu"
-},
-{
-"id": "keyterm:Judge",
-"type": "keyterm",
-"confidence": 0.2,
-"match_method": "canonical",
-"preferred_label": "Judge"
+"preferred_label": "Heart"
 },
 {
 "id": "flora:Boxthorn",
@@ -5311,18 +5304,18 @@
 "preferred_label": "Boxthorn"
 },
 {
-"id": "flora:Brier",
-"type": "flora",
-"confidence": 0.14,
-"match_method": "canonical",
-"preferred_label": "Brier"
-},
-{
 "id": "realia:Tent",
 "type": "realia",
 "confidence": 0.14,
 "match_method": "canonical",
 "preferred_label": "Tent"
+},
+{
+"id": "flora:Brier",
+"type": "flora",
+"confidence": 0.14,
+"match_method": "canonical",
+"preferred_label": "Brier"
 }
 ]
 }
@@ -5385,11 +5378,11 @@
 "preferred_label": "House"
 },
 {
-"id": "deity:Angel",
-"type": "deity",
+"id": "person:Israel",
+"type": "person",
 "confidence": 0.195,
 "match_method": "canonical",
-"preferred_label": "An Angel"
+"preferred_label": "Israeli"
 },
 {
 "id": "group:Gentile",
@@ -5406,32 +5399,11 @@
 "preferred_label": "Yoshua"
 },
 {
-"id": "keyterm:Law",
-"type": "keyterm",
-"confidence": 0.195,
-"match_method": "canonical",
-"preferred_label": "Law"
-},
-{
-"id": "keyterm:Heart",
-"type": "keyterm",
-"confidence": 0.195,
-"match_method": "canonical",
-"preferred_label": "Heart"
-},
-{
-"id": "keyterm:BearWitness",
-"type": "keyterm",
-"confidence": 0.195,
-"match_method": "canonical",
-"preferred_label": "Bear Witness"
-},
-{
-"id": "person:Solomon",
+"id": "person:David",
 "type": "person",
 "confidence": 0.195,
 "match_method": "canonical",
-"preferred_label": "Sulemani"
+"preferred_label": "Daudi"
 },
 {
 "id": "keyterm:Favor",
@@ -5441,11 +5413,11 @@
 "preferred_label": "Favor"
 },
 {
-"id": "person:David",
+"id": "person:Solomon",
 "type": "person",
 "confidence": 0.195,
 "match_method": "canonical",
-"preferred_label": "Daudi"
+"preferred_label": "Sulemani"
 },
 {
 "id": "deity:HolySpirit",
@@ -5455,11 +5427,18 @@
 "preferred_label": "Roho"
 },
 {
-"id": "person:Moses",
-"type": "person",
+"id": "keyterm:BearWitness",
+"type": "keyterm",
 "confidence": 0.195,
 "match_method": "canonical",
-"preferred_label": "Musa"
+"preferred_label": "Bear Witness"
+},
+{
+"id": "deity:Angel",
+"type": "deity",
+"confidence": 0.195,
+"match_method": "canonical",
+"preferred_label": "An Angel"
 },
 {
 "id": "keyterm:Heaven",
@@ -5469,11 +5448,18 @@
 "preferred_label": "Sky"
 },
 {
-"id": "person:Israel",
+"id": "keyterm:Law",
+"type": "keyterm",
+"confidence": 0.195,
+"match_method": "canonical",
+"preferred_label": "Law"
+},
+{
+"id": "person:Moses",
 "type": "person",
 "confidence": 0.195,
 "match_method": "canonical",
-"preferred_label": "Israeli"
+"preferred_label": "Musa"
 },
 {
 "id": "keyterm:Just",
@@ -5481,6 +5467,13 @@
 "confidence": 0.195,
 "match_method": "canonical",
 "preferred_label": "Be (Or Show Oneself) Just"
+},
+{
+"id": "keyterm:Heart",
+"type": "keyterm",
+"confidence": 0.195,
+"match_method": "canonical",
+"preferred_label": "Heart"
 },
 {
 "id": "realia:Footstool",
@@ -5613,13 +5606,6 @@
 ],
 "acai": [
 {
-"id": "person:Paul",
-"type": "person",
-"confidence": 0.385,
-"match_method": "canonical",
-"preferred_label": "Paulo"
-},
-{
 "id": "person:Jesus.2",
 "type": "person",
 "confidence": 0.385,
@@ -5627,11 +5613,25 @@
 "preferred_label": "Yesu"
 },
 {
+"id": "person:Paul",
+"type": "person",
+"confidence": 0.385,
+"match_method": "canonical",
+"preferred_label": "Paulo"
+},
+{
 "id": "person:Stephen",
 "type": "person",
 "confidence": 0.33,
 "match_method": "canonical",
 "preferred_label": "Stefano"
+},
+{
+"id": "keyterm:Heaven",
+"type": "keyterm",
+"confidence": 0.29,
+"match_method": "canonical",
+"preferred_label": "Sky"
 },
 {
 "id": "deity:Lord",
@@ -5646,13 +5646,6 @@
 "confidence": 0.29,
 "match_method": "canonical",
 "preferred_label": "Church"
-},
-{
-"id": "keyterm:Heaven",
-"type": "keyterm",
-"confidence": 0.29,
-"match_method": "canonical",
-"preferred_label": "Sky"
 },
 {
 "id": "keyterm:CallUpon",
@@ -5676,11 +5669,11 @@
 "preferred_label": "Yerusalemu"
 },
 {
-"id": "keyterm:Glory",
-"type": "keyterm",
+"id": "place:Samaria",
+"type": "place",
 "confidence": 0.195,
 "match_method": "canonical",
-"preferred_label": "Glory"
+"preferred_label": "Samaria"
 },
 {
 "id": "deity:HolySpirit",
@@ -5690,25 +5683,11 @@
 "preferred_label": "Roho"
 },
 {
-"id": "place:Samaria",
-"type": "place",
-"confidence": 0.195,
-"match_method": "canonical",
-"preferred_label": "Samaria"
-},
-{
 "id": "keyterm:Witness",
 "type": "keyterm",
 "confidence": 0.195,
 "match_method": "canonical",
 "preferred_label": "Witness"
-},
-{
-"id": "keyterm:Spirit.2",
-"type": "keyterm",
-"confidence": 0.195,
-"match_method": "canonical",
-"preferred_label": "Spirit"
 },
 {
 "id": "keyterm:Sin",
@@ -5718,18 +5697,18 @@
 "preferred_label": "To Sin"
 },
 {
-"id": "realia:Cloak",
-"type": "realia",
-"confidence": 0.135,
+"id": "keyterm:Glory",
+"type": "keyterm",
+"confidence": 0.195,
 "match_method": "canonical",
-"preferred_label": "Cloak"
+"preferred_label": "Glory"
 },
 {
-"id": "realia:Prison",
-"type": "realia",
-"confidence": 0.135,
+"id": "keyterm:Spirit.2",
+"type": "keyterm",
+"confidence": 0.195,
 "match_method": "canonical",
-"preferred_label": "Prison"
+"preferred_label": "Spirit"
 },
 {
 "id": "realia:Temple",
@@ -5739,11 +5718,25 @@
 "preferred_label": "Temple"
 },
 {
+"id": "realia:Prison",
+"type": "realia",
+"confidence": 0.135,
+"match_method": "canonical",
+"preferred_label": "Prison"
+},
+{
 "id": "realia:House",
 "type": "realia",
 "confidence": 0.135,
 "match_method": "canonical",
 "preferred_label": "House"
+},
+{
+"id": "realia:Cloak",
+"type": "realia",
+"confidence": 0.135,
+"match_method": "canonical",
+"preferred_label": "Cloak"
 }
 ]
 }
@@ -5841,18 +5834,18 @@
 "preferred_label": "Filipo"
 },
 {
-"id": "deity:HolySpirit",
-"type": "deity",
-"confidence": 0.3818,
-"match_method": "canonical",
-"preferred_label": "Roho"
-},
-{
 "id": "place:Samaria",
 "type": "place",
 "confidence": 0.3818,
 "match_method": "canonical",
 "preferred_label": "Samaria"
+},
+{
+"id": "deity:HolySpirit",
+"type": "deity",
+"confidence": 0.3818,
+"match_method": "canonical",
+"preferred_label": "Roho"
 },
 {
 "id": "person:Simon.8",
@@ -5862,11 +5855,25 @@
 "preferred_label": "Simoni"
 },
 {
+"id": "person:Jesus.2",
+"type": "person",
+"confidence": 0.3114,
+"match_method": "canonical",
+"preferred_label": "Yesu"
+},
+{
 "id": "keyterm:Name",
 "type": "keyterm",
 "confidence": 0.3114,
 "match_method": "canonical",
 "preferred_label": "Name"
+},
+{
+"id": "keyterm:Baptism",
+"type": "keyterm",
+"confidence": 0.3114,
+"match_method": "canonical",
+"preferred_label": "Baptism"
 },
 {
 "id": "keyterm:Ability",
@@ -5883,18 +5890,11 @@
 "preferred_label": "Good News"
 },
 {
-"id": "keyterm:Baptism",
+"id": "keyterm:AskFor",
 "type": "keyterm",
-"confidence": 0.3114,
+"confidence": 0.2409,
 "match_method": "canonical",
-"preferred_label": "Baptism"
-},
-{
-"id": "person:Jesus.2",
-"type": "person",
-"confidence": 0.3114,
-"match_method": "canonical",
-"preferred_label": "Yesu"
+"preferred_label": "Ask for"
 },
 {
 "id": "person:Peter",
@@ -5904,11 +5904,11 @@
 "preferred_label": "Petro"
 },
 {
-"id": "keyterm:Heart",
+"id": "keyterm:Believe",
 "type": "keyterm",
 "confidence": 0.2409,
 "match_method": "canonical",
-"preferred_label": "Heart"
+"preferred_label": "Believe"
 },
 {
 "id": "keyterm:Example",
@@ -5918,25 +5918,18 @@
 "preferred_label": "Symbol"
 },
 {
-"id": "keyterm:Believe",
-"type": "keyterm",
-"confidence": 0.2409,
-"match_method": "canonical",
-"preferred_label": "Believe"
-},
-{
-"id": "keyterm:AskFor",
-"type": "keyterm",
-"confidence": 0.2409,
-"match_method": "canonical",
-"preferred_label": "Ask for"
-},
-{
 "id": "place:Jerusalem",
 "type": "place",
 "confidence": 0.2409,
 "match_method": "canonical",
 "preferred_label": "Yerusalemu"
+},
+{
+"id": "keyterm:Heart",
+"type": "keyterm",
+"confidence": 0.2409,
+"match_method": "canonical",
+"preferred_label": "Heart"
 },
 {
 "id": "realia:Money",
@@ -5960,11 +5953,11 @@
 "preferred_label": "Serve"
 },
 {
-"id": "keyterm:UnjustDeed",
+"id": "keyterm:Declare",
 "type": "keyterm",
 "confidence": 0.1705,
 "match_method": "canonical",
-"preferred_label": "Unjust Deed"
+"preferred_label": "Declare"
 },
 {
 "id": "person:Simon.9",
@@ -5974,53 +5967,11 @@
 "preferred_label": "Simoni"
 },
 {
-"id": "keyterm:Pray",
-"type": "keyterm",
-"confidence": 0.1705,
-"match_method": "canonical",
-"preferred_label": "Pray"
-},
-{
-"id": "person:John.2",
-"type": "person",
-"confidence": 0.1705,
-"match_method": "canonical",
-"preferred_label": "Yohana"
-},
-{
 "id": "keyterm:Straightness",
 "type": "keyterm",
 "confidence": 0.1705,
 "match_method": "canonical",
 "preferred_label": "Straightness"
-},
-{
-"id": "keyterm:Kingdom",
-"type": "keyterm",
-"confidence": 0.1705,
-"match_method": "canonical",
-"preferred_label": "Kingdom"
-},
-{
-"id": "keyterm:Declare",
-"type": "keyterm",
-"confidence": 0.1705,
-"match_method": "canonical",
-"preferred_label": "Declare"
-},
-{
-"id": "keyterm:CauseOfJoy",
-"type": "keyterm",
-"confidence": 0.1705,
-"match_method": "canonical",
-"preferred_label": "Cause of Joy"
-},
-{
-"id": "keyterm:Repent",
-"type": "keyterm",
-"confidence": 0.1705,
-"match_method": "canonical",
-"preferred_label": "Repent"
 },
 {
 "id": "keyterm:Forgive",
@@ -6030,6 +5981,41 @@
 "preferred_label": "Forgive"
 },
 {
+"id": "group:Samaritan",
+"type": "group",
+"confidence": 0.1705,
+"match_method": "canonical",
+"preferred_label": "Samaritans"
+},
+{
+"id": "keyterm:UnjustDeed",
+"type": "keyterm",
+"confidence": 0.1705,
+"match_method": "canonical",
+"preferred_label": "Unjust Deed"
+},
+{
+"id": "keyterm:Repent",
+"type": "keyterm",
+"confidence": 0.1705,
+"match_method": "canonical",
+"preferred_label": "Repent"
+},
+{
+"id": "keyterm:Kingdom",
+"type": "keyterm",
+"confidence": 0.1705,
+"match_method": "canonical",
+"preferred_label": "Kingdom"
+},
+{
+"id": "keyterm:Pray",
+"type": "keyterm",
+"confidence": 0.1705,
+"match_method": "canonical",
+"preferred_label": "Pray"
+},
+{
 "id": "keyterm:Authority.2",
 "type": "keyterm",
 "confidence": 0.1705,
@@ -6037,11 +6023,18 @@
 "preferred_label": "Authority"
 },
 {
-"id": "group:Samaritan",
-"type": "group",
+"id": "person:John.2",
+"type": "person",
 "confidence": 0.1705,
 "match_method": "canonical",
-"preferred_label": "Samaritans"
+"preferred_label": "Yohana"
+},
+{
+"id": "keyterm:CauseOfJoy",
+"type": "keyterm",
+"confidence": 0.1705,
+"match_method": "canonical",
+"preferred_label": "Cause of Joy"
 }
 ]
 }
