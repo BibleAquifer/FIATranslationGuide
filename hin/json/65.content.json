@@ -47,7 +47,7 @@
 "type": "keyterm",
 "confidence": 0.65,
 "match_method": "canonical",
-"preferred_label": "Love"
+"preferred_label": "प्रेम"
 },
 {
 "id": "person:Jude",
@@ -61,14 +61,7 @@
 "type": "keyterm",
 "confidence": 0.375,
 "match_method": "canonical",
-"preferred_label": "Mercy"
-},
-{
-"id": "keyterm:Peace",
-"type": "keyterm",
-"confidence": 0.375,
-"match_method": "canonical",
-"preferred_label": "Make Peace"
+"preferred_label": "दया"
 },
 {
 "id": "person:James.3",
@@ -76,6 +69,13 @@
 "confidence": 0.375,
 "match_method": "canonical",
 "preferred_label": "याकूब"
+},
+{
+"id": "keyterm:Peace",
+"type": "keyterm",
+"confidence": 0.375,
+"match_method": "canonical",
+"preferred_label": "मेल-मिलाप करना"
 },
 {
 "id": "person:Jesus.2",
@@ -166,6 +166,13 @@
 ],
 "acai": [
 {
+"id": "keyterm:Believe",
+"type": "keyterm",
+"confidence": 0.38,
+"match_method": "canonical",
+"preferred_label": "विश्वास करना"
+},
+{
 "id": "person:Jesus.2",
 "type": "person",
 "confidence": 0.38,
@@ -173,81 +180,53 @@
 "preferred_label": "यीशु"
 },
 {
-"id": "keyterm:Believe",
+"id": "keyterm:Judgment",
 "type": "keyterm",
 "confidence": 0.38,
 "match_method": "canonical",
-"preferred_label": "Believe"
+"preferred_label": "न्याय"
 },
 {
 "id": "keyterm:Always",
 "type": "keyterm",
 "confidence": 0.38,
 "match_method": "canonical",
-"preferred_label": "Always"
+"preferred_label": "सदा"
 },
 {
 "id": "keyterm:Salvation",
 "type": "keyterm",
 "confidence": 0.38,
 "match_method": "canonical",
-"preferred_label": "Salvation"
+"preferred_label": "उद्धार"
 },
 {
-"id": "keyterm:Judgment",
-"type": "keyterm",
-"confidence": 0.38,
-"match_method": "canonical",
-"preferred_label": "Judgment"
-},
-{
-"id": "keyterm:AskFor",
+"id": "keyterm:InCommon",
 "type": "keyterm",
 "confidence": 0.24,
 "match_method": "canonical",
-"preferred_label": "Ask for"
-},
-{
-"id": "keyterm:Holy",
-"type": "keyterm",
-"confidence": 0.24,
-"match_method": "canonical",
-"preferred_label": "Holy"
-},
-{
-"id": "keyterm:Favor",
-"type": "keyterm",
-"confidence": 0.24,
-"match_method": "canonical",
-"preferred_label": "Favor"
-},
-{
-"id": "keyterm:Body.3",
-"type": "keyterm",
-"confidence": 0.24,
-"match_method": "canonical",
-"preferred_label": "Body"
-},
-{
-"id": "keyterm:Eagerness",
-"type": "keyterm",
-"confidence": 0.24,
-"match_method": "canonical",
-"preferred_label": "Eagerness"
+"preferred_label": "साझा"
 },
 {
 "id": "keyterm:Beloved",
 "type": "keyterm",
 "confidence": 0.24,
 "match_method": "canonical",
-"preferred_label": "Beloved"
+"preferred_label": "प्रिय"
 },
 {
-"id": "keyterm:CourtCase",
+"id": "keyterm:Body.3",
 "type": "keyterm",
 "confidence": 0.24,
 "match_method": "canonical",
-"preferred_label": "Court Case"
+"preferred_label": "शरीर"
+},
+{
+"id": "place:Gomorrah",
+"type": "place",
+"confidence": 0.24,
+"match_method": "canonical",
+"preferred_label": "गमोरा"
 },
 {
 "id": "place:Sodom",
@@ -257,18 +236,32 @@
 "preferred_label": "सदोम"
 },
 {
-"id": "keyterm:EternalFire",
+"id": "keyterm:CourtCase",
 "type": "keyterm",
 "confidence": 0.24,
 "match_method": "canonical",
-"preferred_label": "Eternal Fire"
+"preferred_label": "मुकदमा"
 },
 {
 "id": "deity:Angel",
 "type": "deity",
 "confidence": 0.24,
 "match_method": "canonical",
-"preferred_label": "An Angel"
+"preferred_label": "एक स्वर्गदूत"
+},
+{
+"id": "keyterm:Favor",
+"type": "keyterm",
+"confidence": 0.24,
+"match_method": "canonical",
+"preferred_label": "अनुग्रह"
+},
+{
+"id": "keyterm:EternalFire",
+"type": "keyterm",
+"confidence": 0.24,
+"match_method": "canonical",
+"preferred_label": "अनन्त आग"
 },
 {
 "id": "deity:Lord",
@@ -285,25 +278,32 @@
 "preferred_label": "मिस्र"
 },
 {
-"id": "keyterm:InCommon",
+"id": "keyterm:Eagerness",
 "type": "keyterm",
 "confidence": 0.24,
 "match_method": "canonical",
-"preferred_label": "In Common"
+"preferred_label": "उत्सुकता"
 },
 {
-"id": "place:Gomorrah",
-"type": "place",
+"id": "keyterm:AskFor",
+"type": "keyterm",
 "confidence": 0.24,
 "match_method": "canonical",
-"preferred_label": "गमोरा"
+"preferred_label": "माँगना"
+},
+{
+"id": "keyterm:Holy",
+"type": "keyterm",
+"confidence": 0.24,
+"match_method": "canonical",
+"preferred_label": "पवित्र"
 },
 {
 "id": "realia:Chain",
 "type": "realia",
 "confidence": 0.18,
 "match_method": "canonical",
-"preferred_label": "Chain"
+"preferred_label": "जंजीर"
 }
 ]
 }
@@ -391,14 +391,14 @@
 "type": "keyterm",
 "confidence": 0.5875,
 "match_method": "canonical",
-"preferred_label": "Blaspheme"
+"preferred_label": "निन्दा करना"
 },
 {
 "id": "keyterm:Body.3",
 "type": "keyterm",
 "confidence": 0.425,
 "match_method": "canonical",
-"preferred_label": "Body"
+"preferred_label": "शरीर"
 },
 {
 "id": "person:Korah.3",
@@ -408,11 +408,53 @@
 "preferred_label": "कोरह"
 },
 {
+"id": "keyterm:Disaster",
+"type": "keyterm",
+"confidence": 0.2625,
+"match_method": "canonical",
+"preferred_label": "विपत्ति"
+},
+{
+"id": "person:Balaam",
+"type": "person",
+"confidence": 0.2625,
+"match_method": "canonical",
+"preferred_label": "बिलाम"
+},
+{
 "id": "person:Moses",
 "type": "person",
 "confidence": 0.2625,
 "match_method": "canonical",
 "preferred_label": "मूसा"
+},
+{
+"id": "keyterm:Judgment",
+"type": "keyterm",
+"confidence": 0.2625,
+"match_method": "canonical",
+"preferred_label": "न्याय"
+},
+{
+"id": "keyterm:Ability",
+"type": "keyterm",
+"confidence": 0.2625,
+"match_method": "canonical",
+"preferred_label": "योग्यता"
+},
+{
+"id": "keyterm:Defilement",
+"type": "keyterm",
+"confidence": 0.2625,
+"match_method": "canonical",
+"preferred_label": "अशुद्ध करना"
+},
+{
+"id": "keyterm:Command",
+"type": "keyterm",
+"confidence": 0.2625,
+"match_method": "canonical",
+"preferred_label": "आज्ञा देना"
 },
 {
 "id": "person:Michael.11",
@@ -426,7 +468,7 @@
 "type": "keyterm",
 "confidence": 0.2625,
 "match_method": "canonical",
-"preferred_label": "Court Case"
+"preferred_label": "मुकदमा"
 },
 {
 "id": "person:Cain",
@@ -436,27 +478,6 @@
 "preferred_label": "कैन"
 },
 {
-"id": "keyterm:Command",
-"type": "keyterm",
-"confidence": 0.2625,
-"match_method": "canonical",
-"preferred_label": "To Command"
-},
-{
-"id": "keyterm:Ability",
-"type": "keyterm",
-"confidence": 0.2625,
-"match_method": "canonical",
-"preferred_label": "Ability"
-},
-{
-"id": "keyterm:Judgment",
-"type": "keyterm",
-"confidence": 0.2625,
-"match_method": "canonical",
-"preferred_label": "Judgment"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.2625,
@@ -464,32 +485,11 @@
 "preferred_label": "यहोवा"
 },
 {
-"id": "keyterm:Defilement",
-"type": "keyterm",
-"confidence": 0.2625,
-"match_method": "canonical",
-"preferred_label": "Defilement"
-},
-{
-"id": "keyterm:Disaster",
-"type": "keyterm",
-"confidence": 0.2625,
-"match_method": "canonical",
-"preferred_label": "Disaster"
-},
-{
 "id": "keyterm:Discern",
 "type": "keyterm",
 "confidence": 0.2625,
 "match_method": "canonical",
-"preferred_label": "Discern"
-},
-{
-"id": "person:Balaam",
-"type": "person",
-"confidence": 0.2625,
-"match_method": "canonical",
-"preferred_label": "बिलाम"
+"preferred_label": "परखना"
 }
 ]
 }
@@ -573,18 +573,39 @@
 ],
 "acai": [
 {
-"id": "keyterm:FellowshipMeal",
+"id": "keyterm:Judgment",
 "type": "keyterm",
 "confidence": 0.24,
 "match_method": "canonical",
-"preferred_label": "Fellowship Meal"
+"preferred_label": "न्याय"
 },
 {
 "id": "keyterm:Speak",
 "type": "keyterm",
 "confidence": 0.24,
 "match_method": "canonical",
-"preferred_label": "Speak as a Prophet"
+"preferred_label": "भविष्यद्वाणी करना"
+},
+{
+"id": "person:Enoch.2",
+"type": "person",
+"confidence": 0.24,
+"match_method": "canonical",
+"preferred_label": "हनोक"
+},
+{
+"id": "keyterm:FellowshipMeal",
+"type": "keyterm",
+"confidence": 0.24,
+"match_method": "canonical",
+"preferred_label": "प्रेम-भोज"
+},
+{
+"id": "keyterm:Always",
+"type": "keyterm",
+"confidence": 0.24,
+"match_method": "canonical",
+"preferred_label": "सदा"
 },
 {
 "id": "person:Adam",
@@ -598,21 +619,14 @@
 "type": "keyterm",
 "confidence": 0.24,
 "match_method": "canonical",
-"preferred_label": "Holy"
+"preferred_label": "पवित्र"
 },
 {
 "id": "keyterm:CourtCase",
 "type": "keyterm",
 "confidence": 0.24,
 "match_method": "canonical",
-"preferred_label": "Court Case"
-},
-{
-"id": "keyterm:Judgment",
-"type": "keyterm",
-"confidence": 0.24,
-"match_method": "canonical",
-"preferred_label": "Judgment"
+"preferred_label": "मुकदमा"
 },
 {
 "id": "deity:Lord",
@@ -622,32 +636,18 @@
 "preferred_label": "यहोवा"
 },
 {
-"id": "person:Enoch.2",
-"type": "person",
-"confidence": 0.24,
-"match_method": "canonical",
-"preferred_label": "हनोक"
-},
-{
-"id": "keyterm:Always",
-"type": "keyterm",
-"confidence": 0.24,
-"match_method": "canonical",
-"preferred_label": "Always"
-},
-{
 "id": "fauna:Goat",
 "type": "fauna",
 "confidence": 0.18,
 "match_method": "canonical",
-"preferred_label": "Goat"
+"preferred_label": "बकरी"
 },
 {
 "id": "fauna:Flock",
 "type": "fauna",
 "confidence": 0.18,
 "match_method": "canonical",
-"preferred_label": "Flock"
+"preferred_label": "झुंड"
 }
 ]
 }
@@ -728,21 +728,14 @@
 "type": "keyterm",
 "confidence": 0.4429,
 "match_method": "canonical",
-"preferred_label": "Mercy"
-},
-{
-"id": "person:Jesus.2",
-"type": "person",
-"confidence": 0.3286,
-"match_method": "canonical",
-"preferred_label": "यीशु"
+"preferred_label": "दया"
 },
 {
 "id": "keyterm:Beloved",
 "type": "keyterm",
 "confidence": 0.3286,
 "match_method": "canonical",
-"preferred_label": "Beloved"
+"preferred_label": "प्रिय"
 },
 {
 "id": "deity:HolySpirit",
@@ -752,60 +745,60 @@
 "preferred_label": "पवित्र आत्मा"
 },
 {
-"id": "keyterm:Fear",
-"type": "keyterm",
-"confidence": 0.2143,
+"id": "person:Jesus.2",
+"type": "person",
+"confidence": 0.3286,
 "match_method": "canonical",
-"preferred_label": "Fear"
-},
-{
-"id": "keyterm:Holy",
-"type": "keyterm",
-"confidence": 0.2143,
-"match_method": "canonical",
-"preferred_label": "Holy"
+"preferred_label": "यीशु"
 },
 {
 "id": "keyterm:Believe",
 "type": "keyterm",
 "confidence": 0.2143,
 "match_method": "canonical",
-"preferred_label": "Believe"
+"preferred_label": "विश्वास करना"
 },
 {
 "id": "keyterm:Body.3",
 "type": "keyterm",
 "confidence": 0.2143,
 "match_method": "canonical",
-"preferred_label": "Body"
+"preferred_label": "शरीर"
 },
 {
-"id": "keyterm:Always",
+"id": "keyterm:Love",
 "type": "keyterm",
 "confidence": 0.2143,
 "match_method": "canonical",
-"preferred_label": "Always"
+"preferred_label": "प्रेम"
 },
 {
 "id": "keyterm:Word",
 "type": "keyterm",
 "confidence": 0.2143,
 "match_method": "canonical",
-"preferred_label": "Word"
+"preferred_label": "वचन"
 },
 {
-"id": "keyterm:Salvation",
+"id": "keyterm:Pray",
 "type": "keyterm",
 "confidence": 0.2143,
 "match_method": "canonical",
-"preferred_label": "Salvation"
+"preferred_label": "प्रार्थना करना"
 },
 {
-"id": "keyterm:Discern",
+"id": "keyterm:Life",
 "type": "keyterm",
 "confidence": 0.2143,
 "match_method": "canonical",
-"preferred_label": "Discern"
+"preferred_label": "जीवन"
+},
+{
+"id": "keyterm:Natural",
+"type": "keyterm",
+"confidence": 0.2143,
+"match_method": "canonical",
+"preferred_label": "शारीरिक / स्वाभाविक"
 },
 {
 "id": "deity:Lord",
@@ -815,46 +808,53 @@
 "preferred_label": "यहोवा"
 },
 {
-"id": "keyterm:Pray",
+"id": "keyterm:Discern",
 "type": "keyterm",
 "confidence": 0.2143,
 "match_method": "canonical",
-"preferred_label": "Pray"
+"preferred_label": "परखना"
 },
 {
-"id": "keyterm:Life",
+"id": "keyterm:Always",
 "type": "keyterm",
 "confidence": 0.2143,
 "match_method": "canonical",
-"preferred_label": "Life"
-},
-{
-"id": "keyterm:Love",
-"type": "keyterm",
-"confidence": 0.2143,
-"match_method": "canonical",
-"preferred_label": "Love"
-},
-{
-"id": "keyterm:Natural",
-"type": "keyterm",
-"confidence": 0.2143,
-"match_method": "canonical",
-"preferred_label": "Natural"
+"preferred_label": "सदा"
 },
 {
 "id": "keyterm:CreatingDivisions",
 "type": "keyterm",
 "confidence": 0.2143,
 "match_method": "canonical",
-"preferred_label": "Creating Divisions"
+"preferred_label": "फूट डालना"
+},
+{
+"id": "keyterm:Salvation",
+"type": "keyterm",
+"confidence": 0.2143,
+"match_method": "canonical",
+"preferred_label": "उद्धार"
+},
+{
+"id": "keyterm:Holy",
+"type": "keyterm",
+"confidence": 0.2143,
+"match_method": "canonical",
+"preferred_label": "पवित्र"
+},
+{
+"id": "keyterm:Fear",
+"type": "keyterm",
+"confidence": 0.2143,
+"match_method": "canonical",
+"preferred_label": "भय"
 },
 {
 "id": "realia:Clothing",
 "type": "realia",
 "confidence": 0.1543,
 "match_method": "canonical",
-"preferred_label": "Clothing"
+"preferred_label": "वस्त्र"
 }
 ]
 }
@@ -921,28 +921,35 @@
 "type": "keyterm",
 "confidence": 0.65,
 "match_method": "canonical",
-"preferred_label": "Glory"
+"preferred_label": "तेज"
 },
 {
 "id": "keyterm:Surely",
 "type": "keyterm",
 "confidence": 0.375,
 "match_method": "canonical",
-"preferred_label": "Surely!"
-},
-{
-"id": "keyterm:Savior",
-"type": "keyterm",
-"confidence": 0.375,
-"match_method": "canonical",
-"preferred_label": "Savior"
+"preferred_label": "सचमुच!"
 },
 {
 "id": "keyterm:Ability",
 "type": "keyterm",
 "confidence": 0.375,
 "match_method": "canonical",
-"preferred_label": "Ability"
+"preferred_label": "योग्यता"
+},
+{
+"id": "keyterm:Always",
+"type": "keyterm",
+"confidence": 0.375,
+"match_method": "canonical",
+"preferred_label": "सदा"
+},
+{
+"id": "keyterm:Savior",
+"type": "keyterm",
+"confidence": 0.375,
+"match_method": "canonical",
+"preferred_label": "उद्धारकर्ता"
 },
 {
 "id": "person:Jesus.2",
@@ -956,7 +963,14 @@
 "type": "keyterm",
 "confidence": 0.375,
 "match_method": "canonical",
-"preferred_label": "Unblemished"
+"preferred_label": "निष्कलंक"
+},
+{
+"id": "keyterm:Authority.2",
+"type": "keyterm",
+"confidence": 0.375,
+"match_method": "canonical",
+"preferred_label": "अधिकार"
 },
 {
 "id": "deity:Lord",
@@ -964,20 +978,6 @@
 "confidence": 0.375,
 "match_method": "canonical",
 "preferred_label": "यहोवा"
-},
-{
-"id": "keyterm:Authority.2",
-"type": "keyterm",
-"confidence": 0.375,
-"match_method": "canonical",
-"preferred_label": "Authority"
-},
-{
-"id": "keyterm:Always",
-"type": "keyterm",
-"confidence": 0.375,
-"match_method": "canonical",
-"preferred_label": "Always"
 }
 ]
 }
