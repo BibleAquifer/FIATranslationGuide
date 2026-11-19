@@ -50,18 +50,11 @@
 "preferred_label": "fornicación"
 },
 {
-"id": "place:Hell",
-"type": "place",
-"confidence": 0.35,
-"match_method": "canonical",
-"preferred_label": "infierno"
-},
-{
-"id": "keyterm:Body.3",
+"id": "keyterm:CauseToStumble",
 "type": "keyterm",
 "confidence": 0.35,
 "match_method": "canonical",
-"preferred_label": "cuerpo"
+"preferred_label": "hacer tropezar"
 },
 {
 "id": "keyterm:Gehenna",
@@ -71,11 +64,18 @@
 "preferred_label": "Gehena"
 },
 {
-"id": "keyterm:CauseToStumble",
+"id": "keyterm:Body.3",
 "type": "keyterm",
 "confidence": 0.35,
 "match_method": "canonical",
-"preferred_label": "hacer tropezar"
+"preferred_label": "cuerpo"
+},
+{
+"id": "place:Hell",
+"type": "place",
+"confidence": 0.35,
+"match_method": "canonical",
+"preferred_label": "infierno"
 },
 {
 "id": "keyterm:Heart",
@@ -215,6 +215,13 @@
 "preferred_label": "decidir"
 },
 {
+"id": "realia:Mile",
+"type": "realia",
+"confidence": 0.155,
+"match_method": "canonical",
+"preferred_label": "milla"
+},
+{
 "id": "realia:Cloak",
 "type": "realia",
 "confidence": 0.155,
@@ -229,11 +236,11 @@
 "preferred_label": "estrado"
 },
 {
-"id": "realia:Mile",
+"id": "realia:Tunic.2",
 "type": "realia",
-"confidence": 0.155,
+"confidence": 0.135,
 "match_method": "canonical",
-"preferred_label": "milla"
+"preferred_label": "túnica"
 },
 {
 "id": "realia:Throne",
@@ -241,13 +248,6 @@
 "confidence": 0.135,
 "match_method": "canonical",
 "preferred_label": "trono"
-},
-{
-"id": "realia:Tunic.2",
-"type": "realia",
-"confidence": 0.135,
-"match_method": "canonical",
-"preferred_label": "túnica"
 }
 ]
 }
@@ -331,13 +331,6 @@
 "preferred_label": "bueno"
 },
 {
-"id": "keyterm:Pray",
-"type": "keyterm",
-"confidence": 0.225,
-"match_method": "canonical",
-"preferred_label": "orar"
-},
-{
 "id": "keyterm:Heaven",
 "type": "keyterm",
 "confidence": 0.225,
@@ -350,6 +343,13 @@
 "confidence": 0.225,
 "match_method": "canonical",
 "preferred_label": "ser justo"
+},
+{
+"id": "keyterm:Pray",
+"type": "keyterm",
+"confidence": 0.225,
+"match_method": "canonical",
+"preferred_label": "orar"
 },
 {
 "id": "keyterm:TaxCollector",
@@ -461,11 +461,11 @@
 "preferred_label": "sinagoga"
 },
 {
-"id": "keyterm:Glory",
+"id": "keyterm:Friendship",
 "type": "keyterm",
 "confidence": 0.2063,
 "match_method": "canonical",
-"preferred_label": "gloria"
+"preferred_label": "amistad"
 },
 {
 "id": "keyterm:Heaven",
@@ -482,11 +482,11 @@
 "preferred_label": "ser justo"
 },
 {
-"id": "keyterm:Friendship",
+"id": "keyterm:Glory",
 "type": "keyterm",
 "confidence": 0.2063,
 "match_method": "canonical",
-"preferred_label": "amistad"
+"preferred_label": "gloria"
 },
 {
 "id": "realia:InnerRoom",
@@ -496,11 +496,11 @@
 "preferred_label": "cuarto interior"
 },
 {
-"id": "realia:Cornerstone",
+"id": "realia:Door",
 "type": "realia",
 "confidence": 0.1463,
 "match_method": "canonical",
-"preferred_label": "piedra angular"
+"preferred_label": "puerta"
 },
 {
 "id": "realia:Trumpet",
@@ -510,11 +510,11 @@
 "preferred_label": "trompeta"
 },
 {
-"id": "realia:Door",
+"id": "realia:Cornerstone",
 "type": "realia",
 "confidence": 0.1463,
 "match_method": "canonical",
-"preferred_label": "puerta"
+"preferred_label": "piedra angular"
 }
 ]
 }
@@ -605,18 +605,18 @@
 "preferred_label": "Jehová"
 },
 {
-"id": "keyterm:Forgive",
-"type": "keyterm",
-"confidence": 0.405,
-"match_method": "canonical",
-"preferred_label": "perdonar"
-},
-{
 "id": "keyterm:Fast",
 "type": "keyterm",
 "confidence": 0.405,
 "match_method": "canonical",
 "preferred_label": "abstenerse de comer"
+},
+{
+"id": "keyterm:Forgive",
+"type": "keyterm",
+"confidence": 0.405,
+"match_method": "canonical",
+"preferred_label": "perdonar"
 },
 {
 "id": "keyterm:Heaven",
@@ -640,6 +640,55 @@
 "preferred_label": "meter"
 },
 {
+"id": "keyterm:Holy",
+"type": "keyterm",
+"confidence": 0.195,
+"match_method": "canonical",
+"preferred_label": "santo"
+},
+{
+"id": "keyterm:Surely",
+"type": "keyterm",
+"confidence": 0.195,
+"match_method": "canonical",
+"preferred_label": "¡ciertamente!"
+},
+{
+"id": "keyterm:Name",
+"type": "keyterm",
+"confidence": 0.195,
+"match_method": "canonical",
+"preferred_label": "nombre"
+},
+{
+"id": "keyterm:PutToTheTest",
+"type": "keyterm",
+"confidence": 0.195,
+"match_method": "canonical",
+"preferred_label": "poner a prueba"
+},
+{
+"id": "keyterm:Heavenly",
+"type": "keyterm",
+"confidence": 0.195,
+"match_method": "canonical",
+"preferred_label": "celestial"
+},
+{
+"id": "keyterm:Anointed",
+"type": "keyterm",
+"confidence": 0.195,
+"match_method": "canonical",
+"preferred_label": "ungido"
+},
+{
+"id": "keyterm:Wrong",
+"type": "keyterm",
+"confidence": 0.195,
+"match_method": "canonical",
+"preferred_label": "malo"
+},
+{
 "id": "keyterm:Pray",
 "type": "keyterm",
 "confidence": 0.195,
@@ -652,55 +701,6 @@
 "confidence": 0.195,
 "match_method": "canonical",
 "preferred_label": "librar"
-},
-{
-"id": "keyterm:Surely",
-"type": "keyterm",
-"confidence": 0.195,
-"match_method": "canonical",
-"preferred_label": "¡ciertamente!"
-},
-{
-"id": "keyterm:Wrong",
-"type": "keyterm",
-"confidence": 0.195,
-"match_method": "canonical",
-"preferred_label": "malo"
-},
-{
-"id": "keyterm:Anointed",
-"type": "keyterm",
-"confidence": 0.195,
-"match_method": "canonical",
-"preferred_label": "ungido"
-},
-{
-"id": "keyterm:Name",
-"type": "keyterm",
-"confidence": 0.195,
-"match_method": "canonical",
-"preferred_label": "nombre"
-},
-{
-"id": "keyterm:Holy",
-"type": "keyterm",
-"confidence": 0.195,
-"match_method": "canonical",
-"preferred_label": "santo"
-},
-{
-"id": "keyterm:Heavenly",
-"type": "keyterm",
-"confidence": 0.195,
-"match_method": "canonical",
-"preferred_label": "celestial"
-},
-{
-"id": "keyterm:PutToTheTest",
-"type": "keyterm",
-"confidence": 0.195,
-"match_method": "canonical",
-"preferred_label": "poner a prueba"
 }
 ]
 }
@@ -833,13 +833,6 @@
 "preferred_label": "celestial"
 },
 {
-"id": "fauna:Moth",
-"type": "fauna",
-"confidence": 0.2088,
-"match_method": "canonical",
-"preferred_label": "polilla"
-},
-{
 "id": "realia:Clothing",
 "type": "realia",
 "confidence": 0.2088,
@@ -847,25 +840,18 @@
 "preferred_label": "ropa"
 },
 {
+"id": "fauna:Moth",
+"type": "fauna",
+"confidence": 0.2088,
+"match_method": "canonical",
+"preferred_label": "polilla"
+},
+{
 "id": "keyterm:HavingLittleFaith",
 "type": "keyterm",
 "confidence": 0.1906,
 "match_method": "canonical",
 "preferred_label": "de poca fe"
-},
-{
-"id": "keyterm:Love",
-"type": "keyterm",
-"confidence": 0.1781,
-"match_method": "canonical",
-"preferred_label": "amor"
-},
-{
-"id": "keyterm:Glory",
-"type": "keyterm",
-"confidence": 0.1781,
-"match_method": "canonical",
-"preferred_label": "gloria"
 },
 {
 "id": "keyterm:Kingdom",
@@ -889,6 +875,20 @@
 "preferred_label": "vida"
 },
 {
+"id": "keyterm:Love",
+"type": "keyterm",
+"confidence": 0.1781,
+"match_method": "canonical",
+"preferred_label": "amor"
+},
+{
+"id": "keyterm:Heart",
+"type": "keyterm",
+"confidence": 0.1781,
+"match_method": "canonical",
+"preferred_label": "corazón"
+},
+{
 "id": "keyterm:Serve.2",
 "type": "keyterm",
 "confidence": 0.1781,
@@ -903,11 +903,18 @@
 "preferred_label": "Salomón"
 },
 {
-"id": "keyterm:Heart",
+"id": "keyterm:Glory",
 "type": "keyterm",
 "confidence": 0.1781,
 "match_method": "canonical",
-"preferred_label": "corazón"
+"preferred_label": "gloria"
+},
+{
+"id": "realia:Oven",
+"type": "realia",
+"confidence": 0.1306,
+"match_method": "canonical",
+"preferred_label": "horno"
 },
 {
 "id": "flora:WildFlower",
@@ -922,13 +929,6 @@
 "confidence": 0.1306,
 "match_method": "canonical",
 "preferred_label": "codo"
-},
-{
-"id": "realia:Oven",
-"type": "realia",
-"confidence": 0.1306,
-"match_method": "canonical",
-"preferred_label": "horno"
 },
 {
 "id": "realia:Barn",
@@ -1075,11 +1075,11 @@
 "preferred_label": "decidir"
 },
 {
-"id": "keyterm:Judgment",
+"id": "keyterm:Holy",
 "type": "keyterm",
 "confidence": 0.1875,
 "match_method": "canonical",
-"preferred_label": "juicio"
+"preferred_label": "santo"
 },
 {
 "id": "keyterm:Heaven",
@@ -1089,18 +1089,11 @@
 "preferred_label": "cielo"
 },
 {
-"id": "keyterm:Holy",
+"id": "keyterm:Judgment",
 "type": "keyterm",
 "confidence": 0.1875,
 "match_method": "canonical",
-"preferred_label": "santo"
-},
-{
-"id": "keyterm:Law",
-"type": "keyterm",
-"confidence": 0.1875,
-"match_method": "canonical",
-"preferred_label": "ley"
+"preferred_label": "juicio"
 },
 {
 "id": "deity:Lord",
@@ -1110,11 +1103,18 @@
 "preferred_label": "Jehová"
 },
 {
-"id": "fauna:Jackal",
+"id": "keyterm:Law",
+"type": "keyterm",
+"confidence": 0.1875,
+"match_method": "canonical",
+"preferred_label": "ley"
+},
+{
+"id": "fauna:Dog",
 "type": "fauna",
 "confidence": 0.1275,
 "match_method": "canonical",
-"preferred_label": "chacal"
+"preferred_label": "perro"
 },
 {
 "id": "fauna:Snake",
@@ -1124,18 +1124,18 @@
 "preferred_label": "serpiente"
 },
 {
+"id": "fauna:Jackal",
+"type": "fauna",
+"confidence": 0.1275,
+"match_method": "canonical",
+"preferred_label": "chacal"
+},
+{
 "id": "fauna:Fish",
 "type": "fauna",
 "confidence": 0.1275,
 "match_method": "canonical",
 "preferred_label": "pez"
-},
-{
-"id": "fauna:Dog",
-"type": "fauna",
-"confidence": 0.1275,
-"match_method": "canonical",
-"preferred_label": "perro"
 },
 {
 "id": "fauna:Pig",
@@ -1317,13 +1317,6 @@
 "preferred_label": "Templo"
 },
 {
-"id": "keyterm:Destroy",
-"type": "keyterm",
-"confidence": 0.1882,
-"match_method": "canonical",
-"preferred_label": "destruir"
-},
-{
 "id": "keyterm:Lawless",
 "type": "keyterm",
 "confidence": 0.1882,
@@ -1331,18 +1324,18 @@
 "preferred_label": "transgresor"
 },
 {
-"id": "deity:Demons",
-"type": "deity",
-"confidence": 0.1765,
+"id": "keyterm:Destroy",
+"type": "keyterm",
+"confidence": 0.1882,
 "match_method": "canonical",
-"preferred_label": "Demonios"
+"preferred_label": "destruir"
 },
 {
-"id": "keyterm:Speak",
+"id": "keyterm:Kingdom",
 "type": "keyterm",
 "confidence": 0.1765,
 "match_method": "canonical",
-"preferred_label": "profetizar"
+"preferred_label": "reino"
 },
 {
 "id": "keyterm:Heaven",
@@ -1352,25 +1345,11 @@
 "preferred_label": "cielo"
 },
 {
-"id": "keyterm:Name",
-"type": "keyterm",
-"confidence": 0.1765,
-"match_method": "canonical",
-"preferred_label": "nombre"
-},
-{
 "id": "keyterm:Authority.2",
 "type": "keyterm",
 "confidence": 0.1765,
 "match_method": "canonical",
 "preferred_label": "autoridad"
-},
-{
-"id": "keyterm:Kingdom",
-"type": "keyterm",
-"confidence": 0.1765,
-"match_method": "canonical",
-"preferred_label": "reino"
 },
 {
 "id": "keyterm:Life",
@@ -1387,53 +1366,32 @@
 "preferred_label": "Jehová"
 },
 {
+"id": "deity:Demons",
+"type": "deity",
+"confidence": 0.1765,
+"match_method": "canonical",
+"preferred_label": "Demonios"
+},
+{
+"id": "keyterm:Speak",
+"type": "keyterm",
+"confidence": 0.1765,
+"match_method": "canonical",
+"preferred_label": "profetizar"
+},
+{
+"id": "keyterm:Name",
+"type": "keyterm",
+"confidence": 0.1765,
+"match_method": "canonical",
+"preferred_label": "nombre"
+},
+{
 "id": "realia:Foundation",
 "type": "realia",
 "confidence": 0.1282,
 "match_method": "canonical",
 "preferred_label": "cimiento"
-},
-{
-"id": "flora:Boxthorn",
-"type": "flora",
-"confidence": 0.1165,
-"match_method": "canonical",
-"preferred_label": "cambrón"
-},
-{
-"id": "flora:Vine",
-"type": "flora",
-"confidence": 0.1165,
-"match_method": "canonical",
-"preferred_label": "vid"
-},
-{
-"id": "flora:Thistle",
-"type": "flora",
-"confidence": 0.1165,
-"match_method": "canonical",
-"preferred_label": "cardo"
-},
-{
-"id": "fauna:Wolf",
-"type": "fauna",
-"confidence": 0.1165,
-"match_method": "canonical",
-"preferred_label": "lobo"
-},
-{
-"id": "realia:Clothing",
-"type": "realia",
-"confidence": 0.1165,
-"match_method": "canonical",
-"preferred_label": "ropa"
-},
-{
-"id": "flora:Acacia",
-"type": "flora",
-"confidence": 0.1165,
-"match_method": "canonical",
-"preferred_label": "acacia"
 },
 {
 "id": "flora:Fig",
@@ -1443,6 +1401,20 @@
 "preferred_label": "higo"
 },
 {
+"id": "flora:Brier",
+"type": "flora",
+"confidence": 0.1165,
+"match_method": "canonical",
+"preferred_label": "zarza"
+},
+{
+"id": "flora:Vine",
+"type": "flora",
+"confidence": 0.1165,
+"match_method": "canonical",
+"preferred_label": "vid"
+},
+{
 "id": "fauna:Lamb",
 "type": "fauna",
 "confidence": 0.1165,
@@ -1450,11 +1422,39 @@
 "preferred_label": "cordero"
 },
 {
-"id": "flora:Brier",
+"id": "fauna:Wolf",
+"type": "fauna",
+"confidence": 0.1165,
+"match_method": "canonical",
+"preferred_label": "lobo"
+},
+{
+"id": "flora:Thistle",
 "type": "flora",
 "confidence": 0.1165,
 "match_method": "canonical",
-"preferred_label": "zarza"
+"preferred_label": "cardo"
+},
+{
+"id": "realia:Clothing",
+"type": "realia",
+"confidence": 0.1165,
+"match_method": "canonical",
+"preferred_label": "ropa"
+},
+{
+"id": "flora:Boxthorn",
+"type": "flora",
+"confidence": 0.1165,
+"match_method": "canonical",
+"preferred_label": "cambrón"
+},
+{
+"id": "flora:Acacia",
+"type": "flora",
+"confidence": 0.1165,
+"match_method": "canonical",
+"preferred_label": "acacia"
 }
 ]
 }
@@ -1573,13 +1573,6 @@
 "preferred_label": "servir"
 },
 {
-"id": "keyterm:Believe",
-"type": "keyterm",
-"confidence": 0.2647,
-"match_method": "canonical",
-"preferred_label": "creer"
-},
-{
 "id": "keyterm:Cleanse.2",
 "type": "keyterm",
 "confidence": 0.2647,
@@ -1587,11 +1580,11 @@
 "preferred_label": "purificar"
 },
 {
-"id": "person:Israel",
-"type": "person",
-"confidence": 0.2529,
+"id": "keyterm:Believe",
+"type": "keyterm",
+"confidence": 0.2647,
 "match_method": "canonical",
-"preferred_label": "Israel"
+"preferred_label": "creer"
 },
 {
 "id": "keyterm:Kingdom",
@@ -1601,18 +1594,18 @@
 "preferred_label": "reino"
 },
 {
+"id": "person:Israel",
+"type": "person",
+"confidence": 0.2529,
+"match_method": "canonical",
+"preferred_label": "Israel"
+},
+{
 "id": "realia:House",
 "type": "realia",
 "confidence": 0.1929,
 "match_method": "canonical",
 "preferred_label": "casa"
-},
-{
-"id": "keyterm:DemonPossessed",
-"type": "keyterm",
-"confidence": 0.1882,
-"match_method": "canonical",
-"preferred_label": "estar endemoniado"
 },
 {
 "id": "person:Centurion.2",
@@ -1622,67 +1615,18 @@
 "preferred_label": "Centurión con el siervo enfermo"
 },
 {
+"id": "keyterm:DemonPossessed",
+"type": "keyterm",
+"confidence": 0.1882,
+"match_method": "canonical",
+"preferred_label": "estar endemoniado"
+},
+{
 "id": "keyterm:InfectiousSkinDisease",
 "type": "keyterm",
 "confidence": 0.1882,
 "match_method": "canonical",
 "preferred_label": "enfermedad infecciosa de la piel"
-},
-{
-"id": "keyterm:Happen",
-"type": "keyterm",
-"confidence": 0.1765,
-"match_method": "canonical",
-"preferred_label": "hacer que suceda"
-},
-{
-"id": "keyterm:Ability",
-"type": "keyterm",
-"confidence": 0.1765,
-"match_method": "canonical",
-"preferred_label": "habilidad"
-},
-{
-"id": "keyterm:Command",
-"type": "keyterm",
-"confidence": 0.1765,
-"match_method": "canonical",
-"preferred_label": "mandar"
-},
-{
-"id": "keyterm:Offering",
-"type": "keyterm",
-"confidence": 0.1765,
-"match_method": "canonical",
-"preferred_label": "ofrenda"
-},
-{
-"id": "keyterm:Heaven",
-"type": "keyterm",
-"confidence": 0.1765,
-"match_method": "canonical",
-"preferred_label": "cielo"
-},
-{
-"id": "keyterm:Authority.2",
-"type": "keyterm",
-"confidence": 0.1765,
-"match_method": "canonical",
-"preferred_label": "autoridad"
-},
-{
-"id": "person:Abraham",
-"type": "person",
-"confidence": 0.1765,
-"match_method": "canonical",
-"preferred_label": "Abraham"
-},
-{
-"id": "person:Isaiah",
-"type": "person",
-"confidence": 0.1765,
-"match_method": "canonical",
-"preferred_label": "Isaías"
 },
 {
 "id": "keyterm:Surely",
@@ -1692,18 +1636,11 @@
 "preferred_label": "¡ciertamente!"
 },
 {
-"id": "keyterm:BearWitness",
+"id": "keyterm:Heaven",
 "type": "keyterm",
 "confidence": 0.1765,
 "match_method": "canonical",
-"preferred_label": "dar testimonio"
-},
-{
-"id": "place:Capernaum",
-"type": "place",
-"confidence": 0.1765,
-"match_method": "canonical",
-"preferred_label": "Capernaúm"
+"preferred_label": "cielo"
 },
 {
 "id": "person:Moses",
@@ -1713,6 +1650,13 @@
 "preferred_label": "Moisés"
 },
 {
+"id": "keyterm:Authority.2",
+"type": "keyterm",
+"confidence": 0.1765,
+"match_method": "canonical",
+"preferred_label": "autoridad"
+},
+{
 "id": "keyterm:AskFor",
 "type": "keyterm",
 "confidence": 0.1765,
@@ -1720,11 +1664,67 @@
 "preferred_label": "rogar"
 },
 {
+"id": "person:Peter",
+"type": "person",
+"confidence": 0.1765,
+"match_method": "canonical",
+"preferred_label": "Pedro"
+},
+{
+"id": "keyterm:Ability",
+"type": "keyterm",
+"confidence": 0.1765,
+"match_method": "canonical",
+"preferred_label": "habilidad"
+},
+{
 "id": "keyterm:BowDown",
 "type": "keyterm",
 "confidence": 0.1765,
 "match_method": "canonical",
 "preferred_label": "postrarse"
+},
+{
+"id": "keyterm:Command",
+"type": "keyterm",
+"confidence": 0.1765,
+"match_method": "canonical",
+"preferred_label": "mandar"
+},
+{
+"id": "place:Capernaum",
+"type": "place",
+"confidence": 0.1765,
+"match_method": "canonical",
+"preferred_label": "Capernaúm"
+},
+{
+"id": "keyterm:BearWitness",
+"type": "keyterm",
+"confidence": 0.1765,
+"match_method": "canonical",
+"preferred_label": "dar testimonio"
+},
+{
+"id": "person:Abraham",
+"type": "person",
+"confidence": 0.1765,
+"match_method": "canonical",
+"preferred_label": "Abraham"
+},
+{
+"id": "keyterm:Happen",
+"type": "keyterm",
+"confidence": 0.1765,
+"match_method": "canonical",
+"preferred_label": "hacer que suceda"
+},
+{
+"id": "keyterm:Offering",
+"type": "keyterm",
+"confidence": 0.1765,
+"match_method": "canonical",
+"preferred_label": "ofrenda"
 },
 {
 "id": "keyterm:OuterDarkness",
@@ -1741,11 +1741,11 @@
 "preferred_label": "Isaac"
 },
 {
-"id": "person:Peter",
+"id": "person:Isaiah",
 "type": "person",
 "confidence": 0.1765,
 "match_method": "canonical",
-"preferred_label": "Pedro"
+"preferred_label": "Isaías"
 },
 {
 "id": "realia:Housetop",
@@ -1836,13 +1836,6 @@
 "preferred_label": "Jesús"
 },
 {
-"id": "person:ReligiousOfficial",
-"type": "person",
-"confidence": 0.28,
-"match_method": "canonical",
-"preferred_label": "funcionario religioso"
-},
-{
 "id": "person:GenericDisciple",
 "type": "person",
 "confidence": 0.28,
@@ -1850,11 +1843,11 @@
 "preferred_label": "un discípulo"
 },
 {
-"id": "keyterm:Disciple",
-"type": "keyterm",
-"confidence": 0.24,
+"id": "person:ReligiousOfficial",
+"type": "person",
+"confidence": 0.28,
 "match_method": "canonical",
-"preferred_label": "ser discípulo"
+"preferred_label": "funcionario religioso"
 },
 {
 "id": "keyterm:Heaven",
@@ -1862,6 +1855,13 @@
 "confidence": 0.24,
 "match_method": "canonical",
 "preferred_label": "cielo"
+},
+{
+"id": "keyterm:Disciple",
+"type": "keyterm",
+"confidence": 0.24,
+"match_method": "canonical",
+"preferred_label": "ser discípulo"
 },
 {
 "id": "fauna:Jackal",
@@ -1924,18 +1924,18 @@
 "preferred_label": "barco"
 },
 {
-"id": "keyterm:Command",
-"type": "keyterm",
-"confidence": 0.28,
-"match_method": "canonical",
-"preferred_label": "mandar"
-},
-{
 "id": "keyterm:HavingLittleFaith",
 "type": "keyterm",
 "confidence": 0.28,
 "match_method": "canonical",
 "preferred_label": "de poca fe"
+},
+{
+"id": "keyterm:Command",
+"type": "keyterm",
+"confidence": 0.28,
+"match_method": "canonical",
+"preferred_label": "mandar"
 },
 {
 "id": "keyterm:Salvation",
@@ -2054,13 +2054,6 @@
 "preferred_label": "rogar"
 },
 {
-"id": "place:Gerasa",
-"type": "place",
-"confidence": 0.2143,
-"match_method": "canonical",
-"preferred_label": "Gerasa"
-},
-{
 "id": "person:Jesus.2",
 "type": "person",
 "confidence": 0.2143,
@@ -2073,6 +2066,13 @@
 "confidence": 0.2143,
 "match_method": "canonical",
 "preferred_label": "autoridad"
+},
+{
+"id": "place:Gerasa",
+"type": "place",
+"confidence": 0.2143,
+"match_method": "canonical",
+"preferred_label": "Gerasa"
 },
 {
 "id": "realia:Grave",
@@ -2170,13 +2170,6 @@
 ],
 "acai": [
 {
-"id": "keyterm:Forgive",
-"type": "keyterm",
-"confidence": 0.4187,
-"match_method": "canonical",
-"preferred_label": "perdonar"
-},
-{
 "id": "keyterm:Sin",
 "type": "keyterm",
 "confidence": 0.4187,
@@ -2184,11 +2177,11 @@
 "preferred_label": "pecar"
 },
 {
-"id": "keyterm:Ability",
+"id": "keyterm:Forgive",
 "type": "keyterm",
-"confidence": 0.3125,
+"confidence": 0.4187,
 "match_method": "canonical",
-"preferred_label": "habilidad"
+"preferred_label": "perdonar"
 },
 {
 "id": "person:Jesus.2",
@@ -2198,18 +2191,18 @@
 "preferred_label": "Jesús"
 },
 {
+"id": "keyterm:Ability",
+"type": "keyterm",
+"confidence": 0.3125,
+"match_method": "canonical",
+"preferred_label": "habilidad"
+},
+{
 "id": "keyterm:Authority.2",
 "type": "keyterm",
 "confidence": 0.3125,
 "match_method": "canonical",
 "preferred_label": "autoridad"
-},
-{
-"id": "realia:Temple",
-"type": "realia",
-"confidence": 0.2525,
-"match_method": "canonical",
-"preferred_label": "Templo"
 },
 {
 "id": "realia:Bed",
@@ -2226,32 +2219,11 @@
 "preferred_label": "casa"
 },
 {
-"id": "keyterm:Blaspheme",
-"type": "keyterm",
-"confidence": 0.2063,
+"id": "realia:Temple",
+"type": "realia",
+"confidence": 0.2525,
 "match_method": "canonical",
-"preferred_label": "blasfemar"
-},
-{
-"id": "keyterm:Believe",
-"type": "keyterm",
-"confidence": 0.2063,
-"match_method": "canonical",
-"preferred_label": "creer"
-},
-{
-"id": "keyterm:Glory",
-"type": "keyterm",
-"confidence": 0.2063,
-"match_method": "canonical",
-"preferred_label": "gloria"
-},
-{
-"id": "group:ReligiousOfficials",
-"type": "group",
-"confidence": 0.2063,
-"match_method": "canonical",
-"preferred_label": "funcionarios religiosos"
+"preferred_label": "Templo"
 },
 {
 "id": "keyterm:CheerUp",
@@ -2259,6 +2231,20 @@
 "confidence": 0.2063,
 "match_method": "canonical",
 "preferred_label": "cobrar ánimo"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.2063,
+"match_method": "canonical",
+"preferred_label": "Jehová"
+},
+{
+"id": "keyterm:Glory",
+"type": "keyterm",
+"confidence": 0.2063,
+"match_method": "canonical",
+"preferred_label": "gloria"
 },
 {
 "id": "keyterm:Heart",
@@ -2275,11 +2261,25 @@
 "preferred_label": "temor"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
+"id": "keyterm:Blaspheme",
+"type": "keyterm",
 "confidence": 0.2063,
 "match_method": "canonical",
-"preferred_label": "Jehová"
+"preferred_label": "blasfemar"
+},
+{
+"id": "keyterm:Believe",
+"type": "keyterm",
+"confidence": 0.2063,
+"match_method": "canonical",
+"preferred_label": "creer"
+},
+{
+"id": "group:ReligiousOfficials",
+"type": "group",
+"confidence": 0.2063,
+"match_method": "canonical",
+"preferred_label": "funcionarios religiosos"
 },
 {
 "id": "realia:Ship",
@@ -2370,13 +2370,6 @@
 "preferred_label": "recaudador de impuestos"
 },
 {
-"id": "keyterm:Disciple",
-"type": "keyterm",
-"confidence": 0.38,
-"match_method": "canonical",
-"preferred_label": "ser discípulo"
-},
-{
 "id": "person:Jesus.2",
 "type": "person",
 "confidence": 0.38,
@@ -2384,11 +2377,11 @@
 "preferred_label": "Jesús"
 },
 {
-"id": "keyterm:Mercy",
+"id": "keyterm:Disciple",
 "type": "keyterm",
-"confidence": 0.28,
+"confidence": 0.38,
 "match_method": "canonical",
-"preferred_label": "misericordia"
+"preferred_label": "ser discípulo"
 },
 {
 "id": "person:Matthew",
@@ -2398,18 +2391,18 @@
 "preferred_label": "Mateo"
 },
 {
-"id": "keyterm:Just",
+"id": "keyterm:Mercy",
 "type": "keyterm",
-"confidence": 0.24,
+"confidence": 0.28,
 "match_method": "canonical",
-"preferred_label": "ser justo"
+"preferred_label": "misericordia"
 },
 {
-"id": "keyterm:TaxOffice",
+"id": "keyterm:Offering",
 "type": "keyterm",
 "confidence": 0.24,
 "match_method": "canonical",
-"preferred_label": "oficina de recaudación de impuestos"
+"preferred_label": "ofrenda"
 },
 {
 "id": "keyterm:Healthy",
@@ -2419,6 +2412,13 @@
 "preferred_label": "estar sano"
 },
 {
+"id": "keyterm:TaxOffice",
+"type": "keyterm",
+"confidence": 0.24,
+"match_method": "canonical",
+"preferred_label": "oficina de recaudación de impuestos"
+},
+{
 "id": "group:Pharisee",
 "type": "group",
 "confidence": 0.24,
@@ -2426,11 +2426,11 @@
 "preferred_label": "fariseos"
 },
 {
-"id": "keyterm:Offering",
+"id": "keyterm:Just",
 "type": "keyterm",
 "confidence": 0.24,
 "match_method": "canonical",
-"preferred_label": "ofrenda"
+"preferred_label": "ser justo"
 },
 {
 "id": "realia:House",
@@ -2521,25 +2521,18 @@
 "preferred_label": "abstenerse de comer"
 },
 {
-"id": "person:John",
-"type": "person",
-"confidence": 0.2625,
-"match_method": "canonical",
-"preferred_label": "Juan"
-},
-{
-"id": "keyterm:Disciple",
-"type": "keyterm",
-"confidence": 0.2625,
-"match_method": "canonical",
-"preferred_label": "ser discípulo"
-},
-{
 "id": "person:Jesus.2",
 "type": "person",
 "confidence": 0.2625,
 "match_method": "canonical",
 "preferred_label": "Jesús"
+},
+{
+"id": "person:John",
+"type": "person",
+"confidence": 0.2625,
+"match_method": "canonical",
+"preferred_label": "Juan"
 },
 {
 "id": "group:Pharisee",
@@ -2549,11 +2542,11 @@
 "preferred_label": "fariseos"
 },
 {
-"id": "realia:Must",
-"type": "realia",
-"confidence": 0.2525,
+"id": "keyterm:Disciple",
+"type": "keyterm",
+"confidence": 0.2625,
 "match_method": "canonical",
-"preferred_label": "mosto"
+"preferred_label": "ser discípulo"
 },
 {
 "id": "realia:Patch",
@@ -2561,6 +2554,20 @@
 "confidence": 0.2525,
 "match_method": "canonical",
 "preferred_label": "remiendo"
+},
+{
+"id": "realia:Must",
+"type": "realia",
+"confidence": 0.2525,
+"match_method": "canonical",
+"preferred_label": "mosto"
+},
+{
+"id": "realia:Clothing",
+"type": "realia",
+"confidence": 0.2025,
+"match_method": "canonical",
+"preferred_label": "ropa"
 },
 {
 "id": "realia:Skin-bottle",
@@ -2575,13 +2582,6 @@
 "confidence": 0.2025,
 "match_method": "canonical",
 "preferred_label": "vino"
-},
-{
-"id": "realia:Clothing",
-"type": "realia",
-"confidence": 0.2025,
-"match_method": "canonical",
-"preferred_label": "ropa"
 }
 ]
 }
@@ -2665,39 +2665,11 @@
 "preferred_label": "manto"
 },
 {
-"id": "keyterm:Believe",
-"type": "keyterm",
-"confidence": 0.2,
-"match_method": "canonical",
-"preferred_label": "creer"
-},
-{
-"id": "keyterm:Disciple",
-"type": "keyterm",
-"confidence": 0.2,
-"match_method": "canonical",
-"preferred_label": "ser discípulo"
-},
-{
 "id": "keyterm:BowDown",
 "type": "keyterm",
 "confidence": 0.2,
 "match_method": "canonical",
 "preferred_label": "postrarse"
-},
-{
-"id": "keyterm:Life",
-"type": "keyterm",
-"confidence": 0.2,
-"match_method": "canonical",
-"preferred_label": "vida"
-},
-{
-"id": "keyterm:Bleed",
-"type": "keyterm",
-"confidence": 0.2,
-"match_method": "canonical",
-"preferred_label": "sangrar"
 },
 {
 "id": "keyterm:CheerUp",
@@ -2707,6 +2679,34 @@
 "preferred_label": "cobrar ánimo"
 },
 {
+"id": "keyterm:Disciple",
+"type": "keyterm",
+"confidence": 0.2,
+"match_method": "canonical",
+"preferred_label": "ser discípulo"
+},
+{
+"id": "keyterm:Bleed",
+"type": "keyterm",
+"confidence": 0.2,
+"match_method": "canonical",
+"preferred_label": "sangrar"
+},
+{
+"id": "keyterm:Life",
+"type": "keyterm",
+"confidence": 0.2,
+"match_method": "canonical",
+"preferred_label": "vida"
+},
+{
+"id": "keyterm:Believe",
+"type": "keyterm",
+"confidence": 0.2,
+"match_method": "canonical",
+"preferred_label": "creer"
+},
+{
 "id": "realia:Tassel",
 "type": "realia",
 "confidence": 0.1622,
@@ -2714,18 +2714,18 @@
 "preferred_label": "borla"
 },
 {
-"id": "realia:Flute",
-"type": "realia",
-"confidence": 0.14,
-"match_method": "canonical",
-"preferred_label": "flauta"
-},
-{
 "id": "realia:House",
 "type": "realia",
 "confidence": 0.14,
 "match_method": "canonical",
 "preferred_label": "casa"
+},
+{
+"id": "realia:Flute",
+"type": "realia",
+"confidence": 0.14,
+"match_method": "canonical",
+"preferred_label": "flauta"
 }
 ]
 }
@@ -2921,60 +2921,11 @@
 "preferred_label": "afecto"
 },
 {
-"id": "keyterm:DemonPossessed",
-"type": "keyterm",
-"confidence": 0.1875,
-"match_method": "canonical",
-"preferred_label": "estar endemoniado"
-},
-{
-"id": "keyterm:Serve",
-"type": "keyterm",
-"confidence": 0.1875,
-"match_method": "canonical",
-"preferred_label": "servir"
-},
-{
-"id": "person:David",
-"type": "person",
-"confidence": 0.1875,
-"match_method": "canonical",
-"preferred_label": "David"
-},
-{
-"id": "keyterm:Mercy",
-"type": "keyterm",
-"confidence": 0.1875,
-"match_method": "canonical",
-"preferred_label": "misericordia"
-},
-{
-"id": "person:Israel",
-"type": "person",
-"confidence": 0.1875,
-"match_method": "canonical",
-"preferred_label": "Israel"
-},
-{
-"id": "keyterm:Disciple",
-"type": "keyterm",
-"confidence": 0.1875,
-"match_method": "canonical",
-"preferred_label": "ser discípulo"
-},
-{
 "id": "keyterm:Kingdom",
 "type": "keyterm",
 "confidence": 0.1875,
 "match_method": "canonical",
 "preferred_label": "reino"
-},
-{
-"id": "group:Pharisee",
-"type": "group",
-"confidence": 0.1875,
-"match_method": "canonical",
-"preferred_label": "fariseos"
 },
 {
 "id": "keyterm:GoodNews",
@@ -2984,13 +2935,6 @@
 "preferred_label": "buenas noticias"
 },
 {
-"id": "keyterm:AskFor",
-"type": "keyterm",
-"confidence": 0.1875,
-"match_method": "canonical",
-"preferred_label": "rogar"
-},
-{
 "id": "keyterm:Proclaim",
 "type": "keyterm",
 "confidence": 0.1875,
@@ -2998,11 +2942,81 @@
 "preferred_label": "proclamar"
 },
 {
+"id": "keyterm:Disciple",
+"type": "keyterm",
+"confidence": 0.1875,
+"match_method": "canonical",
+"preferred_label": "ser discípulo"
+},
+{
+"id": "keyterm:Serve",
+"type": "keyterm",
+"confidence": 0.1875,
+"match_method": "canonical",
+"preferred_label": "servir"
+},
+{
+"id": "keyterm:DemonPossessed",
+"type": "keyterm",
+"confidence": 0.1875,
+"match_method": "canonical",
+"preferred_label": "estar endemoniado"
+},
+{
+"id": "keyterm:AskFor",
+"type": "keyterm",
+"confidence": 0.1875,
+"match_method": "canonical",
+"preferred_label": "rogar"
+},
+{
+"id": "person:David",
+"type": "person",
+"confidence": 0.1875,
+"match_method": "canonical",
+"preferred_label": "David"
+},
+{
+"id": "group:Pharisee",
+"type": "group",
+"confidence": 0.1875,
+"match_method": "canonical",
+"preferred_label": "fariseos"
+},
+{
+"id": "person:Israel",
+"type": "person",
+"confidence": 0.1875,
+"match_method": "canonical",
+"preferred_label": "Israel"
+},
+{
+"id": "keyterm:Mercy",
+"type": "keyterm",
+"confidence": 0.1875,
+"match_method": "canonical",
+"preferred_label": "misericordia"
+},
+{
+"id": "fauna:Lamb",
+"type": "fauna",
+"confidence": 0.1275,
+"match_method": "canonical",
+"preferred_label": "cordero"
+},
+{
 "id": "realia:Synagogue",
 "type": "realia",
 "confidence": 0.1275,
 "match_method": "canonical",
 "preferred_label": "sinagoga"
+},
+{
+"id": "fauna:Goat",
+"type": "fauna",
+"confidence": 0.1275,
+"match_method": "canonical",
+"preferred_label": "cabra"
 },
 {
 "id": "realia:House",
@@ -3017,20 +3031,6 @@
 "confidence": 0.1275,
 "match_method": "canonical",
 "preferred_label": "rebaño"
-},
-{
-"id": "fauna:Lamb",
-"type": "fauna",
-"confidence": 0.1275,
-"match_method": "canonical",
-"preferred_label": "cordero"
-},
-{
-"id": "fauna:Goat",
-"type": "fauna",
-"confidence": 0.1275,
-"match_method": "canonical",
-"preferred_label": "cabra"
 }
 ]
 }
@@ -3191,32 +3191,11 @@
 "preferred_label": "Bartolomé"
 },
 {
-"id": "person:Judas.2",
+"id": "person:Philip",
 "type": "person",
 "confidence": 0.1933,
 "match_method": "canonical",
-"preferred_label": "Judas"
-},
-{
-"id": "person:Thomas",
-"type": "person",
-"confidence": 0.1933,
-"match_method": "canonical",
-"preferred_label": "Tomás"
-},
-{
-"id": "person:Judas",
-"type": "person",
-"confidence": 0.1933,
-"match_method": "canonical",
-"preferred_label": "Judas"
-},
-{
-"id": "person:Alphaeus",
-"type": "person",
-"confidence": 0.1933,
-"match_method": "canonical",
-"preferred_label": "Alfeo"
+"preferred_label": "Felipe"
 },
 {
 "id": "group:Zealot",
@@ -3226,11 +3205,11 @@
 "preferred_label": "zelotes"
 },
 {
-"id": "keyterm:Peace",
-"type": "keyterm",
+"id": "person:Judas.2",
+"type": "person",
 "confidence": 0.1933,
 "match_method": "canonical",
-"preferred_label": "hacer la paz"
+"preferred_label": "Judas"
 },
 {
 "id": "person:Simon.2",
@@ -3240,11 +3219,11 @@
 "preferred_label": "Simón"
 },
 {
-"id": "person:Philip",
+"id": "person:Judas",
 "type": "person",
 "confidence": 0.1933,
 "match_method": "canonical",
-"preferred_label": "Felipe"
+"preferred_label": "Judas"
 },
 {
 "id": "person:James.2",
@@ -3254,123 +3233,25 @@
 "preferred_label": "Jacobo"
 },
 {
-"id": "keyterm:Ability",
-"type": "keyterm",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "habilidad"
-},
-{
-"id": "person:James",
+"id": "person:Thomas",
 "type": "person",
-"confidence": 0.18,
+"confidence": 0.1933,
 "match_method": "canonical",
-"preferred_label": "Jacobo"
+"preferred_label": "Tomás"
 },
 {
-"id": "place:Gomorrah",
-"type": "place",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "Gomorra"
-},
-{
-"id": "place:Sodom",
-"type": "place",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "Sodoma"
-},
-{
-"id": "keyterm:Resurrection",
-"type": "keyterm",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "resurrección"
-},
-{
-"id": "keyterm:CourtCase",
-"type": "keyterm",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "caso judicial"
-},
-{
-"id": "deity:Demons",
-"type": "deity",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "Demonios"
-},
-{
-"id": "place:Samaria",
-"type": "place",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "Samaria"
-},
-{
-"id": "keyterm:Heaven",
-"type": "keyterm",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "cielo"
-},
-{
-"id": "keyterm:Name",
-"type": "keyterm",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "nombre"
-},
-{
-"id": "person:Zebedee",
+"id": "person:Alphaeus",
 "type": "person",
-"confidence": 0.18,
+"confidence": 0.1933,
 "match_method": "canonical",
-"preferred_label": "Zebedeo"
+"preferred_label": "Alfeo"
 },
 {
-"id": "keyterm:Authority.2",
+"id": "keyterm:Peace",
 "type": "keyterm",
-"confidence": 0.18,
+"confidence": 0.1933,
 "match_method": "canonical",
-"preferred_label": "autoridad"
-},
-{
-"id": "keyterm:TaxCollector",
-"type": "keyterm",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "recaudador de impuestos"
-},
-{
-"id": "keyterm:Surely",
-"type": "keyterm",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "¡ciertamente!"
-},
-{
-"id": "person:Israel",
-"type": "person",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "Israel"
-},
-{
-"id": "keyterm:Disciple",
-"type": "keyterm",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "ser discípulo"
-},
-{
-"id": "person:Jesus.2",
-"type": "person",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "Jesús"
+"preferred_label": "hacer la paz"
 },
 {
 "id": "keyterm:Kingdom",
@@ -3380,32 +3261,18 @@
 "preferred_label": "reino"
 },
 {
-"id": "person:Andrew",
-"type": "person",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "Andrés"
-},
-{
-"id": "group:Samaritan",
-"type": "group",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "samaritanos"
-},
-{
-"id": "person:Matthew",
-"type": "person",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "Mateo"
-},
-{
-"id": "keyterm:Cleanse.2",
+"id": "keyterm:Heaven",
 "type": "keyterm",
 "confidence": 0.18,
 "match_method": "canonical",
-"preferred_label": "purificar"
+"preferred_label": "cielo"
+},
+{
+"id": "keyterm:Surely",
+"type": "keyterm",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "¡ciertamente!"
 },
 {
 "id": "keyterm:Judgment",
@@ -3415,25 +3282,39 @@
 "preferred_label": "juicio"
 },
 {
-"id": "group:Gentile",
-"type": "group",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "gentiles"
-},
-{
-"id": "person:John.2",
-"type": "person",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "Juan"
-},
-{
 "id": "keyterm:Proclaim",
 "type": "keyterm",
 "confidence": 0.18,
 "match_method": "canonical",
 "preferred_label": "proclamar"
+},
+{
+"id": "keyterm:Disciple",
+"type": "keyterm",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "ser discípulo"
+},
+{
+"id": "person:Andrew",
+"type": "person",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "Andrés"
+},
+{
+"id": "keyterm:Authority.2",
+"type": "keyterm",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "autoridad"
+},
+{
+"id": "keyterm:Cleanse.2",
+"type": "keyterm",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "purificar"
 },
 {
 "id": "person:Peter",
@@ -3443,25 +3324,130 @@
 "preferred_label": "Pedro"
 },
 {
-"id": "realia:Sandal",
-"type": "realia",
-"confidence": 0.12,
+"id": "keyterm:Ability",
+"type": "keyterm",
+"confidence": 0.18,
 "match_method": "canonical",
-"preferred_label": "sandalia"
+"preferred_label": "habilidad"
 },
 {
-"id": "realia:Tunic.2",
-"type": "realia",
-"confidence": 0.12,
+"id": "person:Matthew",
+"type": "person",
+"confidence": 0.18,
 "match_method": "canonical",
-"preferred_label": "túnica"
+"preferred_label": "Mateo"
 },
 {
-"id": "realia:Staff",
+"id": "group:Samaritan",
+"type": "group",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "samaritanos"
+},
+{
+"id": "place:Sodom",
+"type": "place",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "Sodoma"
+},
+{
+"id": "person:Jesus.2",
+"type": "person",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "Jesús"
+},
+{
+"id": "keyterm:CourtCase",
+"type": "keyterm",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "caso judicial"
+},
+{
+"id": "group:Gentile",
+"type": "group",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "gentiles"
+},
+{
+"id": "person:Israel",
+"type": "person",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "Israel"
+},
+{
+"id": "person:Zebedee",
+"type": "person",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "Zebedeo"
+},
+{
+"id": "deity:Demons",
+"type": "deity",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "Demonios"
+},
+{
+"id": "person:John.2",
+"type": "person",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "Juan"
+},
+{
+"id": "place:Gomorrah",
+"type": "place",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "Gomorra"
+},
+{
+"id": "keyterm:TaxCollector",
+"type": "keyterm",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "recaudador de impuestos"
+},
+{
+"id": "keyterm:Name",
+"type": "keyterm",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "nombre"
+},
+{
+"id": "person:James",
+"type": "person",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "Jacobo"
+},
+{
+"id": "keyterm:Resurrection",
+"type": "keyterm",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "resurrección"
+},
+{
+"id": "place:Samaria",
+"type": "place",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "Samaria"
+},
+{
+"id": "realia:Belt",
 "type": "realia",
 "confidence": 0.12,
 "match_method": "canonical",
-"preferred_label": "vara"
+"preferred_label": "cinturón"
 },
 {
 "id": "fauna:Lamb",
@@ -3471,11 +3457,25 @@
 "preferred_label": "cordero"
 },
 {
-"id": "realia:Belt",
+"id": "realia:Tunic.2",
 "type": "realia",
 "confidence": 0.12,
 "match_method": "canonical",
-"preferred_label": "cinturón"
+"preferred_label": "túnica"
+},
+{
+"id": "realia:Sandal",
+"type": "realia",
+"confidence": 0.12,
+"match_method": "canonical",
+"preferred_label": "sandalia"
+},
+{
+"id": "realia:Staff",
+"type": "realia",
+"confidence": 0.12,
+"match_method": "canonical",
+"preferred_label": "vara"
 }
 ]
 }
@@ -3636,20 +3636,6 @@
 "preferred_label": "¡ciertamente!"
 },
 {
-"id": "person:Israel",
-"type": "person",
-"confidence": 0.195,
-"match_method": "canonical",
-"preferred_label": "Israel"
-},
-{
-"id": "group:Gentile",
-"type": "group",
-"confidence": 0.195,
-"match_method": "canonical",
-"preferred_label": "gentiles"
-},
-{
 "id": "keyterm:Salvation",
 "type": "keyterm",
 "confidence": 0.195,
@@ -3678,11 +3664,18 @@
 "preferred_label": "Jehová"
 },
 {
-"id": "deity:HolySpirit",
-"type": "deity",
+"id": "group:Gentile",
+"type": "group",
 "confidence": 0.195,
 "match_method": "canonical",
-"preferred_label": "Espíritu Santo"
+"preferred_label": "gentiles"
+},
+{
+"id": "person:Israel",
+"type": "person",
+"confidence": 0.195,
+"match_method": "canonical",
+"preferred_label": "Israel"
 },
 {
 "id": "deity:Satan",
@@ -3692,18 +3685,18 @@
 "preferred_label": "Satanás"
 },
 {
+"id": "deity:HolySpirit",
+"type": "deity",
+"confidence": 0.195,
+"match_method": "canonical",
+"preferred_label": "Espíritu Santo"
+},
+{
 "id": "fauna:Wolf",
 "type": "fauna",
 "confidence": 0.155,
 "match_method": "canonical",
 "preferred_label": "lobo"
-},
-{
-"id": "fauna:Dove",
-"type": "fauna",
-"confidence": 0.135,
-"match_method": "canonical",
-"preferred_label": "paloma"
 },
 {
 "id": "fauna:Lamb",
@@ -3713,18 +3706,25 @@
 "preferred_label": "cordero"
 },
 {
-"id": "fauna:Snake",
-"type": "fauna",
-"confidence": 0.135,
-"match_method": "canonical",
-"preferred_label": "serpiente"
-},
-{
 "id": "realia:Synagogue",
 "type": "realia",
 "confidence": 0.135,
 "match_method": "canonical",
 "preferred_label": "sinagoga"
+},
+{
+"id": "fauna:Dove",
+"type": "fauna",
+"confidence": 0.135,
+"match_method": "canonical",
+"preferred_label": "paloma"
+},
+{
+"id": "fauna:Snake",
+"type": "fauna",
+"confidence": 0.135,
+"match_method": "canonical",
+"preferred_label": "serpiente"
 }
 ]
 }
@@ -3801,18 +3801,18 @@
 ],
 "acai": [
 {
-"id": "keyterm:Fear",
-"type": "keyterm",
-"confidence": 0.4187,
-"match_method": "canonical",
-"preferred_label": "temor"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.4187,
 "match_method": "canonical",
 "preferred_label": "Jehová"
+},
+{
+"id": "keyterm:Fear",
+"type": "keyterm",
+"confidence": 0.4187,
+"match_method": "canonical",
+"preferred_label": "temor"
 },
 {
 "id": "keyterm:Heaven",
@@ -3836,11 +3836,11 @@
 "preferred_label": "Gehena"
 },
 {
-"id": "place:Hell",
-"type": "place",
+"id": "keyterm:Command",
+"type": "keyterm",
 "confidence": 0.2063,
 "match_method": "canonical",
-"preferred_label": "infierno"
+"preferred_label": "mandar"
 },
 {
 "id": "keyterm:Proclaim",
@@ -3850,18 +3850,18 @@
 "preferred_label": "proclamar"
 },
 {
-"id": "keyterm:Command",
-"type": "keyterm",
-"confidence": 0.2063,
-"match_method": "canonical",
-"preferred_label": "mandar"
-},
-{
 "id": "keyterm:Body.3",
 "type": "keyterm",
 "confidence": 0.2063,
 "match_method": "canonical",
 "preferred_label": "cuerpo"
+},
+{
+"id": "place:Hell",
+"type": "place",
+"confidence": 0.2063,
+"match_method": "canonical",
+"preferred_label": "infierno"
 },
 {
 "id": "realia:Assarion",
@@ -3966,6 +3966,13 @@
 "preferred_label": "nombre"
 },
 {
+"id": "keyterm:Friendship",
+"type": "keyterm",
+"confidence": 0.2,
+"match_method": "canonical",
+"preferred_label": "amistad"
+},
+{
 "id": "keyterm:Surely",
 "type": "keyterm",
 "confidence": 0.2,
@@ -3999,13 +4006,6 @@
 "confidence": 0.2,
 "match_method": "canonical",
 "preferred_label": "vida"
-},
-{
-"id": "keyterm:Friendship",
-"type": "keyterm",
-"confidence": 0.2,
-"match_method": "canonical",
-"preferred_label": "amistad"
 },
 {
 "id": "realia:Cross",
@@ -4124,13 +4124,6 @@
 "preferred_label": "ser discípulo"
 },
 {
-"id": "keyterm:Cleanse.2",
-"type": "keyterm",
-"confidence": 0.225,
-"match_method": "canonical",
-"preferred_label": "purificar"
-},
-{
 "id": "keyterm:GoodNews",
 "type": "keyterm",
 "confidence": 0.225,
@@ -4145,6 +4138,13 @@
 "preferred_label": "proclamar"
 },
 {
+"id": "keyterm:Happy",
+"type": "keyterm",
+"confidence": 0.225,
+"match_method": "canonical",
+"preferred_label": "dichoso"
+},
+{
 "id": "keyterm:Resurrection",
 "type": "keyterm",
 "confidence": 0.225,
@@ -4152,11 +4152,11 @@
 "preferred_label": "resurrección"
 },
 {
-"id": "keyterm:Happy",
+"id": "keyterm:Cleanse.2",
 "type": "keyterm",
 "confidence": 0.225,
 "match_method": "canonical",
-"preferred_label": "dichoso"
+"preferred_label": "purificar"
 },
 {
 "id": "realia:Prison",
@@ -4310,13 +4310,6 @@
 "preferred_label": "bautista"
 },
 {
-"id": "keyterm:Heaven",
-"type": "keyterm",
-"confidence": 0.2692,
-"match_method": "canonical",
-"preferred_label": "cielo"
-},
-{
 "id": "keyterm:Kingdom",
 "type": "keyterm",
 "confidence": 0.2692,
@@ -4324,11 +4317,53 @@
 "preferred_label": "reino"
 },
 {
+"id": "keyterm:Heaven",
+"type": "keyterm",
+"confidence": 0.2692,
+"match_method": "canonical",
+"preferred_label": "cielo"
+},
+{
+"id": "person:Elijah",
+"type": "person",
+"confidence": 0.1846,
+"match_method": "canonical",
+"preferred_label": "Elías"
+},
+{
 "id": "keyterm:Surely",
 "type": "keyterm",
 "confidence": 0.1846,
 "match_method": "canonical",
 "preferred_label": "¡ciertamente!"
+},
+{
+"id": "person:Jesus.2",
+"type": "person",
+"confidence": 0.1846,
+"match_method": "canonical",
+"preferred_label": "Jesús"
+},
+{
+"id": "keyterm:Law",
+"type": "keyterm",
+"confidence": 0.1846,
+"match_method": "canonical",
+"preferred_label": "ley"
+},
+{
+"id": "keyterm:Just",
+"type": "keyterm",
+"confidence": 0.1846,
+"match_method": "canonical",
+"preferred_label": "ser justo"
+},
+{
+"id": "deity:Demons",
+"type": "deity",
+"confidence": 0.1846,
+"match_method": "canonical",
+"preferred_label": "Demonios"
 },
 {
 "id": "keyterm:Speak",
@@ -4345,46 +4380,11 @@
 "preferred_label": "Un ángel"
 },
 {
-"id": "person:Jesus.2",
-"type": "person",
-"confidence": 0.1846,
-"match_method": "canonical",
-"preferred_label": "Jesús"
-},
-{
-"id": "keyterm:Just",
-"type": "keyterm",
-"confidence": 0.1846,
-"match_method": "canonical",
-"preferred_label": "ser justo"
-},
-{
-"id": "keyterm:Law",
-"type": "keyterm",
-"confidence": 0.1846,
-"match_method": "canonical",
-"preferred_label": "ley"
-},
-{
-"id": "person:Elijah",
-"type": "person",
-"confidence": 0.1846,
-"match_method": "canonical",
-"preferred_label": "Elías"
-},
-{
 "id": "keyterm:TaxCollector",
 "type": "keyterm",
 "confidence": 0.1846,
 "match_method": "canonical",
 "preferred_label": "recaudador de impuestos"
-},
-{
-"id": "deity:Demons",
-"type": "deity",
-"confidence": 0.1846,
-"match_method": "canonical",
-"preferred_label": "Demonios"
 },
 {
 "id": "flora:Reed",
@@ -4394,18 +4394,18 @@
 "preferred_label": "caña"
 },
 {
-"id": "realia:Flute",
-"type": "realia",
-"confidence": 0.1246,
-"match_method": "canonical",
-"preferred_label": "flauta"
-},
-{
 "id": "realia:House",
 "type": "realia",
 "confidence": 0.1246,
 "match_method": "canonical",
 "preferred_label": "casa"
+},
+{
+"id": "realia:Flute",
+"type": "realia",
+"confidence": 0.1246,
+"match_method": "canonical",
+"preferred_label": "flauta"
 },
 {
 "id": "realia:Temple",
@@ -4489,20 +4489,6 @@
 "preferred_label": "habilidad"
 },
 {
-"id": "keyterm:Judgment",
-"type": "keyterm",
-"confidence": 0.38,
-"match_method": "canonical",
-"preferred_label": "juicio"
-},
-{
-"id": "place:Tyre",
-"type": "place",
-"confidence": 0.38,
-"match_method": "canonical",
-"preferred_label": "Tiro"
-},
-{
 "id": "place:Sodom",
 "type": "place",
 "confidence": 0.38,
@@ -4517,6 +4503,13 @@
 "preferred_label": "Sidón"
 },
 {
+"id": "keyterm:Repent",
+"type": "keyterm",
+"confidence": 0.38,
+"match_method": "canonical",
+"preferred_label": "arrepentirse"
+},
+{
 "id": "keyterm:CourtCase",
 "type": "keyterm",
 "confidence": 0.38,
@@ -4524,11 +4517,25 @@
 "preferred_label": "caso judicial"
 },
 {
-"id": "keyterm:Repent",
+"id": "keyterm:Judgment",
 "type": "keyterm",
 "confidence": 0.38,
 "match_method": "canonical",
-"preferred_label": "arrepentirse"
+"preferred_label": "juicio"
+},
+{
+"id": "place:Tyre",
+"type": "place",
+"confidence": 0.38,
+"match_method": "canonical",
+"preferred_label": "Tiro"
+},
+{
+"id": "keyterm:WorldOfTheDead",
+"type": "keyterm",
+"confidence": 0.28,
+"match_method": "canonical",
+"preferred_label": "mundo de los muertos"
 },
 {
 "id": "place:Chorazin",
@@ -4545,27 +4552,6 @@
 "preferred_label": "desastre"
 },
 {
-"id": "keyterm:WorldOfTheDead",
-"type": "keyterm",
-"confidence": 0.28,
-"match_method": "canonical",
-"preferred_label": "mundo de los muertos"
-},
-{
-"id": "place:Hell",
-"type": "place",
-"confidence": 0.24,
-"match_method": "canonical",
-"preferred_label": "infierno"
-},
-{
-"id": "place:Bethsaida",
-"type": "place",
-"confidence": 0.24,
-"match_method": "canonical",
-"preferred_label": "Betsaida"
-},
-{
 "id": "keyterm:Heaven",
 "type": "keyterm",
 "confidence": 0.24,
@@ -4578,6 +4564,20 @@
 "confidence": 0.24,
 "match_method": "canonical",
 "preferred_label": "Capernaúm"
+},
+{
+"id": "place:Bethsaida",
+"type": "place",
+"confidence": 0.24,
+"match_method": "canonical",
+"preferred_label": "Betsaida"
+},
+{
+"id": "place:Hell",
+"type": "place",
+"confidence": 0.24,
+"match_method": "canonical",
+"preferred_label": "infierno"
 },
 {
 "id": "realia:Sackcloth",
@@ -4675,18 +4675,18 @@
 "preferred_label": "Jesús"
 },
 {
-"id": "keyterm:Good",
-"type": "keyterm",
-"confidence": 0.225,
-"match_method": "canonical",
-"preferred_label": "bueno"
-},
-{
 "id": "keyterm:Heart",
 "type": "keyterm",
 "confidence": 0.225,
 "match_method": "canonical",
 "preferred_label": "corazón"
+},
+{
+"id": "keyterm:Good",
+"type": "keyterm",
+"confidence": 0.225,
+"match_method": "canonical",
+"preferred_label": "bueno"
 }
 ]
 }
@@ -4805,13 +4805,6 @@
 "preferred_label": "Templo"
 },
 {
-"id": "keyterm:Disciple",
-"type": "keyterm",
-"confidence": 0.2643,
-"match_method": "canonical",
-"preferred_label": "ser discípulo"
-},
-{
 "id": "group:Pharisee",
 "type": "group",
 "confidence": 0.2643,
@@ -4819,46 +4812,18 @@
 "preferred_label": "fariseos"
 },
 {
+"id": "keyterm:Disciple",
+"type": "keyterm",
+"confidence": 0.2643,
+"match_method": "canonical",
+"preferred_label": "ser discípulo"
+},
+{
 "id": "fauna:Lamb",
 "type": "fauna",
 "confidence": 0.2043,
 "match_method": "canonical",
 "preferred_label": "cordero"
-},
-{
-"id": "keyterm:Mercy",
-"type": "keyterm",
-"confidence": 0.1821,
-"match_method": "canonical",
-"preferred_label": "misericordia"
-},
-{
-"id": "keyterm:Defilement",
-"type": "keyterm",
-"confidence": 0.1821,
-"match_method": "canonical",
-"preferred_label": "contaminación"
-},
-{
-"id": "person:Jesus.2",
-"type": "person",
-"confidence": 0.1821,
-"match_method": "canonical",
-"preferred_label": "Jesús"
-},
-{
-"id": "keyterm:Law",
-"type": "keyterm",
-"confidence": 0.1821,
-"match_method": "canonical",
-"preferred_label": "ley"
-},
-{
-"id": "keyterm:Condemn",
-"type": "keyterm",
-"confidence": 0.1821,
-"match_method": "canonical",
-"preferred_label": "condenar"
 },
 {
 "id": "person:David",
@@ -4875,11 +4840,46 @@
 "preferred_label": "ofrenda"
 },
 {
+"id": "keyterm:Defilement",
+"type": "keyterm",
+"confidence": 0.1821,
+"match_method": "canonical",
+"preferred_label": "contaminación"
+},
+{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.1821,
 "match_method": "canonical",
 "preferred_label": "Jehová"
+},
+{
+"id": "keyterm:Condemn",
+"type": "keyterm",
+"confidence": 0.1821,
+"match_method": "canonical",
+"preferred_label": "condenar"
+},
+{
+"id": "person:Jesus.2",
+"type": "person",
+"confidence": 0.1821,
+"match_method": "canonical",
+"preferred_label": "Jesús"
+},
+{
+"id": "keyterm:Law",
+"type": "keyterm",
+"confidence": 0.1821,
+"match_method": "canonical",
+"preferred_label": "ley"
+},
+{
+"id": "keyterm:Mercy",
+"type": "keyterm",
+"confidence": 0.1821,
+"match_method": "canonical",
+"preferred_label": "misericordia"
 },
 {
 "id": "flora:Wheat",
@@ -4889,11 +4889,11 @@
 "preferred_label": "trigo"
 },
 {
-"id": "realia:House",
-"type": "realia",
+"id": "flora:Grain",
+"type": "flora",
 "confidence": 0.1221,
 "match_method": "canonical",
-"preferred_label": "casa"
+"preferred_label": "grano"
 },
 {
 "id": "realia:Synagogue",
@@ -4903,11 +4903,11 @@
 "preferred_label": "sinagoga"
 },
 {
-"id": "flora:Grain",
-"type": "flora",
+"id": "realia:House",
+"type": "realia",
 "confidence": 0.1221,
 "match_method": "canonical",
-"preferred_label": "grano"
+"preferred_label": "casa"
 }
 ]
 }
@@ -5012,39 +5012,11 @@
 "preferred_label": "hacer que suceda"
 },
 {
-"id": "keyterm:Serve",
-"type": "keyterm",
-"confidence": 0.2143,
-"match_method": "canonical",
-"preferred_label": "servir"
-},
-{
-"id": "keyterm:Beloved",
-"type": "keyterm",
-"confidence": 0.2143,
-"match_method": "canonical",
-"preferred_label": "amado"
-},
-{
 "id": "keyterm:Command",
 "type": "keyterm",
 "confidence": 0.2143,
 "match_method": "canonical",
 "preferred_label": "mandar"
-},
-{
-"id": "person:Jesus.2",
-"type": "person",
-"confidence": 0.2143,
-"match_method": "canonical",
-"preferred_label": "Jesús"
-},
-{
-"id": "keyterm:Name",
-"type": "keyterm",
-"confidence": 0.2143,
-"match_method": "canonical",
-"preferred_label": "nombre"
 },
 {
 "id": "keyterm:Hope",
@@ -5054,13 +5026,6 @@
 "preferred_label": "esperanza"
 },
 {
-"id": "person:Isaiah",
-"type": "person",
-"confidence": 0.2143,
-"match_method": "canonical",
-"preferred_label": "Isaías"
-},
-{
 "id": "deity:HolySpirit",
 "type": "deity",
 "confidence": 0.2143,
@@ -5068,11 +5033,39 @@
 "preferred_label": "Espíritu Santo"
 },
 {
-"id": "flora:Reed",
-"type": "flora",
-"confidence": 0.1543,
+"id": "keyterm:Name",
+"type": "keyterm",
+"confidence": 0.2143,
 "match_method": "canonical",
-"preferred_label": "caña"
+"preferred_label": "nombre"
+},
+{
+"id": "person:Jesus.2",
+"type": "person",
+"confidence": 0.2143,
+"match_method": "canonical",
+"preferred_label": "Jesús"
+},
+{
+"id": "keyterm:Beloved",
+"type": "keyterm",
+"confidence": 0.2143,
+"match_method": "canonical",
+"preferred_label": "amado"
+},
+{
+"id": "keyterm:Serve",
+"type": "keyterm",
+"confidence": 0.2143,
+"match_method": "canonical",
+"preferred_label": "servir"
+},
+{
+"id": "person:Isaiah",
+"type": "person",
+"confidence": 0.2143,
+"match_method": "canonical",
+"preferred_label": "Isaías"
 },
 {
 "id": "realia:Lamp",
@@ -5080,6 +5073,13 @@
 "confidence": 0.1543,
 "match_method": "canonical",
 "preferred_label": "lámpara"
+},
+{
+"id": "flora:Reed",
+"type": "flora",
+"confidence": 0.1543,
+"match_method": "canonical",
+"preferred_label": "caña"
 }
 ]
 }
@@ -5205,6 +5205,13 @@
 "preferred_label": "reino"
 },
 {
+"id": "deity:Satan",
+"type": "deity",
+"confidence": 0.3727,
+"match_method": "canonical",
+"preferred_label": "Satanás"
+},
+{
 "id": "deity:Demons",
 "type": "deity",
 "confidence": 0.3727,
@@ -5217,13 +5224,6 @@
 "confidence": 0.3727,
 "match_method": "canonical",
 "preferred_label": "Espíritu Santo"
-},
-{
-"id": "deity:Satan",
-"type": "deity",
-"confidence": 0.3727,
-"match_method": "canonical",
-"preferred_label": "Satanás"
 },
 {
 "id": "keyterm:Forgive",
@@ -5240,39 +5240,11 @@
 "preferred_label": "blasfemar"
 },
 {
-"id": "keyterm:DemonPossessed",
+"id": "keyterm:Sin",
 "type": "keyterm",
 "confidence": 0.1909,
 "match_method": "canonical",
-"preferred_label": "estar endemoniado"
-},
-{
-"id": "keyterm:Ability",
-"type": "keyterm",
-"confidence": 0.1909,
-"match_method": "canonical",
-"preferred_label": "habilidad"
-},
-{
-"id": "keyterm:Always",
-"type": "keyterm",
-"confidence": 0.1909,
-"match_method": "canonical",
-"preferred_label": "para siempre"
-},
-{
-"id": "keyterm:Serve",
-"type": "keyterm",
-"confidence": 0.1909,
-"match_method": "canonical",
-"preferred_label": "servir"
-},
-{
-"id": "group:Pharisee",
-"type": "group",
-"confidence": 0.1909,
-"match_method": "canonical",
-"preferred_label": "fariseos"
+"preferred_label": "pecar"
 },
 {
 "id": "person:David",
@@ -5282,18 +5254,46 @@
 "preferred_label": "David"
 },
 {
-"id": "keyterm:Sin",
-"type": "keyterm",
-"confidence": 0.1909,
-"match_method": "canonical",
-"preferred_label": "pecar"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.1909,
 "match_method": "canonical",
 "preferred_label": "Jehová"
+},
+{
+"id": "keyterm:Ability",
+"type": "keyterm",
+"confidence": 0.1909,
+"match_method": "canonical",
+"preferred_label": "habilidad"
+},
+{
+"id": "group:Pharisee",
+"type": "group",
+"confidence": 0.1909,
+"match_method": "canonical",
+"preferred_label": "fariseos"
+},
+{
+"id": "keyterm:Serve",
+"type": "keyterm",
+"confidence": 0.1909,
+"match_method": "canonical",
+"preferred_label": "servir"
+},
+{
+"id": "keyterm:Always",
+"type": "keyterm",
+"confidence": 0.1909,
+"match_method": "canonical",
+"preferred_label": "para siempre"
+},
+{
+"id": "keyterm:DemonPossessed",
+"type": "keyterm",
+"confidence": 0.1909,
+"match_method": "canonical",
+"preferred_label": "estar endemoniado"
 },
 {
 "id": "realia:House",
@@ -5356,13 +5356,6 @@
 "preferred_label": "bueno"
 },
 {
-"id": "keyterm:Judgment",
-"type": "keyterm",
-"confidence": 0.28,
-"match_method": "canonical",
-"preferred_label": "juicio"
-},
-{
 "id": "keyterm:Condemn",
 "type": "keyterm",
 "confidence": 0.28,
@@ -5370,11 +5363,11 @@
 "preferred_label": "condenar"
 },
 {
-"id": "keyterm:CourtCase",
+"id": "keyterm:Judgment",
 "type": "keyterm",
-"confidence": 0.24,
+"confidence": 0.28,
 "match_method": "canonical",
-"preferred_label": "caso judicial"
+"preferred_label": "juicio"
 },
 {
 "id": "keyterm:Idle",
@@ -5382,6 +5375,13 @@
 "confidence": 0.24,
 "match_method": "canonical",
 "preferred_label": "inútil"
+},
+{
+"id": "keyterm:CourtCase",
+"type": "keyterm",
+"confidence": 0.24,
+"match_method": "canonical",
+"preferred_label": "caso judicial"
 },
 {
 "id": "keyterm:Heart",
@@ -5398,18 +5398,18 @@
 "preferred_label": "palabra"
 },
 {
-"id": "fauna:Cobra",
-"type": "fauna",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "cobra"
-},
-{
 "id": "fauna:Snake",
 "type": "fauna",
 "confidence": 0.18,
 "match_method": "canonical",
 "preferred_label": "serpiente"
+},
+{
+"id": "fauna:Cobra",
+"type": "fauna",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "cobra"
 }
 ]
 }
@@ -5542,18 +5542,18 @@
 "preferred_label": "símbolo"
 },
 {
-"id": "keyterm:Judgment",
-"type": "keyterm",
-"confidence": 0.3125,
-"match_method": "canonical",
-"preferred_label": "juicio"
-},
-{
 "id": "keyterm:CourtCase",
 "type": "keyterm",
 "confidence": 0.3125,
 "match_method": "canonical",
 "preferred_label": "caso judicial"
+},
+{
+"id": "keyterm:Judgment",
+"type": "keyterm",
+"confidence": 0.3125,
+"match_method": "canonical",
+"preferred_label": "juicio"
 },
 {
 "id": "person:QueenOfSheba",
@@ -5570,25 +5570,11 @@
 "preferred_label": "ninivita"
 },
 {
-"id": "keyterm:Repent",
-"type": "keyterm",
-"confidence": 0.2063,
-"match_method": "canonical",
-"preferred_label": "arrepentirse"
-},
-{
 "id": "person:Solomon",
 "type": "person",
 "confidence": 0.2063,
 "match_method": "canonical",
 "preferred_label": "Salomón"
-},
-{
-"id": "place:Nineveh",
-"type": "place",
-"confidence": 0.2063,
-"match_method": "canonical",
-"preferred_label": "Nínive"
 },
 {
 "id": "keyterm:Unfaithful",
@@ -5598,11 +5584,11 @@
 "preferred_label": "ser infiel"
 },
 {
-"id": "group:Pharisee",
-"type": "group",
+"id": "keyterm:Repent",
+"type": "keyterm",
 "confidence": 0.2063,
 "match_method": "canonical",
-"preferred_label": "fariseos"
+"preferred_label": "arrepentirse"
 },
 {
 "id": "keyterm:Proclaim",
@@ -5619,11 +5605,18 @@
 "preferred_label": "corazón"
 },
 {
-"id": "fauna:Fish",
-"type": "fauna",
-"confidence": 0.1463,
+"id": "group:Pharisee",
+"type": "group",
+"confidence": 0.2063,
 "match_method": "canonical",
-"preferred_label": "pez"
+"preferred_label": "fariseos"
+},
+{
+"id": "place:Nineveh",
+"type": "place",
+"confidence": 0.2063,
+"match_method": "canonical",
+"preferred_label": "Nínive"
 },
 {
 "id": "realia:House",
@@ -5631,6 +5624,13 @@
 "confidence": 0.1463,
 "match_method": "canonical",
 "preferred_label": "casa"
+},
+{
+"id": "fauna:Fish",
+"type": "fauna",
+"confidence": 0.1463,
+"match_method": "canonical",
+"preferred_label": "pez"
 },
 {
 "id": "realia:Temple",
@@ -5686,11 +5686,11 @@
 "preferred_label": "ser discípulo"
 },
 {
-"id": "keyterm:Heaven",
-"type": "keyterm",
+"id": "group:GenericGroup",
+"type": "group",
 "confidence": 0.24,
 "match_method": "canonical",
-"preferred_label": "cielo"
+"preferred_label": "un grupo de personas"
 },
 {
 "id": "deity:Lord",
@@ -5700,11 +5700,11 @@
 "preferred_label": "Jehová"
 },
 {
-"id": "group:GenericGroup",
-"type": "group",
+"id": "keyterm:Heaven",
+"type": "keyterm",
 "confidence": 0.24,
 "match_method": "canonical",
-"preferred_label": "un grupo de personas"
+"preferred_label": "cielo"
 }
 ]
 }
@@ -5809,11 +5809,11 @@
 "preferred_label": "zarza"
 },
 {
-"id": "flora:Thistle",
-"type": "flora",
+"id": "realia:Ship",
+"type": "realia",
 "confidence": 0.14,
 "match_method": "canonical",
-"preferred_label": "cardo"
+"preferred_label": "barco"
 },
 {
 "id": "flora:Boxthorn",
@@ -5823,6 +5823,13 @@
 "preferred_label": "cambrón"
 },
 {
+"id": "realia:House",
+"type": "realia",
+"confidence": 0.14,
+"match_method": "canonical",
+"preferred_label": "casa"
+},
+{
 "id": "fauna:Rooster",
 "type": "fauna",
 "confidence": 0.14,
@@ -5830,11 +5837,11 @@
 "preferred_label": "gallo"
 },
 {
-"id": "realia:House",
-"type": "realia",
+"id": "flora:Acacia",
+"type": "flora",
 "confidence": 0.14,
 "match_method": "canonical",
-"preferred_label": "casa"
+"preferred_label": "acacia"
 },
 {
 "id": "fauna:Bird",
@@ -5844,18 +5851,11 @@
 "preferred_label": "ave"
 },
 {
-"id": "realia:Ship",
-"type": "realia",
-"confidence": 0.14,
-"match_method": "canonical",
-"preferred_label": "barco"
-},
-{
-"id": "flora:Acacia",
+"id": "flora:Thistle",
 "type": "flora",
 "confidence": 0.14,
 "match_method": "canonical",
-"preferred_label": "acacia"
+"preferred_label": "cardo"
 }
 ]
 }
@@ -5953,11 +5953,11 @@
 "preferred_label": "parábola"
 },
 {
-"id": "group:GenericDisciples",
-"type": "group",
+"id": "keyterm:Kingdom",
+"type": "keyterm",
 "confidence": 0.2063,
 "match_method": "canonical",
-"preferred_label": "un grupo de discípulos"
+"preferred_label": "reino"
 },
 {
 "id": "keyterm:Surely",
@@ -5967,11 +5967,25 @@
 "preferred_label": "¡ciertamente!"
 },
 {
+"id": "keyterm:Heaven",
+"type": "keyterm",
+"confidence": 0.2063,
+"match_method": "canonical",
+"preferred_label": "cielo"
+},
+{
 "id": "keyterm:Happy",
 "type": "keyterm",
 "confidence": 0.2063,
 "match_method": "canonical",
 "preferred_label": "dichoso"
+},
+{
+"id": "keyterm:Heart",
+"type": "keyterm",
+"confidence": 0.2063,
+"match_method": "canonical",
+"preferred_label": "corazón"
 },
 {
 "id": "keyterm:Disciple",
@@ -5981,18 +5995,11 @@
 "preferred_label": "ser discípulo"
 },
 {
-"id": "keyterm:Heaven",
-"type": "keyterm",
+"id": "group:GenericDisciples",
+"type": "group",
 "confidence": 0.2063,
 "match_method": "canonical",
-"preferred_label": "cielo"
-},
-{
-"id": "keyterm:Kingdom",
-"type": "keyterm",
-"confidence": 0.2063,
-"match_method": "canonical",
-"preferred_label": "reino"
+"preferred_label": "un grupo de discípulos"
 },
 {
 "id": "keyterm:Just",
@@ -6007,13 +6014,6 @@
 "confidence": 0.2063,
 "match_method": "canonical",
 "preferred_label": "Isaías"
-},
-{
-"id": "keyterm:Heart",
-"type": "keyterm",
-"confidence": 0.2063,
-"match_method": "canonical",
-"preferred_label": "corazón"
 }
 ]
 }
@@ -6104,18 +6104,11 @@
 ],
 "acai": [
 {
-"id": "keyterm:Ability",
+"id": "keyterm:Kingdom",
 "type": "keyterm",
 "confidence": 0.225,
 "match_method": "canonical",
-"preferred_label": "habilidad"
-},
-{
-"id": "keyterm:Always",
-"type": "keyterm",
-"confidence": 0.225,
-"match_method": "canonical",
-"preferred_label": "para siempre"
+"preferred_label": "reino"
 },
 {
 "id": "keyterm:Parable",
@@ -6125,18 +6118,11 @@
 "preferred_label": "parábola"
 },
 {
-"id": "keyterm:Kingdom",
+"id": "keyterm:Ability",
 "type": "keyterm",
 "confidence": 0.225,
 "match_method": "canonical",
-"preferred_label": "reino"
-},
-{
-"id": "keyterm:CauseOfJoy",
-"type": "keyterm",
-"confidence": 0.225,
-"match_method": "canonical",
-"preferred_label": "motivo de alegría"
+"preferred_label": "habilidad"
 },
 {
 "id": "keyterm:Heart",
@@ -6146,11 +6132,18 @@
 "preferred_label": "corazón"
 },
 {
-"id": "flora:Thistle",
-"type": "flora",
-"confidence": 0.165,
+"id": "keyterm:CauseOfJoy",
+"type": "keyterm",
+"confidence": 0.225,
 "match_method": "canonical",
-"preferred_label": "cardo"
+"preferred_label": "motivo de alegría"
+},
+{
+"id": "keyterm:Always",
+"type": "keyterm",
+"confidence": 0.225,
+"match_method": "canonical",
+"preferred_label": "para siempre"
 },
 {
 "id": "flora:Boxthorn",
@@ -6172,6 +6165,13 @@
 "confidence": 0.165,
 "match_method": "canonical",
 "preferred_label": "acacia"
+},
+{
+"id": "flora:Thistle",
+"type": "flora",
+"confidence": 0.165,
+"match_method": "canonical",
+"preferred_label": "cardo"
 }
 ]
 }
@@ -6185,7 +6185,7 @@
 "index_reference": "40013024-40013035",
 "language": "spa",
 "review_level": "None",
-"content": "<h2>Escuchar con el corazón</h2><p>Escuchen Mateo 13:24–35 y guárdenlo en sus corazones. Escuchen el texto tres veces (en tres traducciones diferentes, si es posible). Después, en equipo, discutan sobre las siguientes preguntas:</p><ul><li>¿Qué les gusta de esta historia?</li><li>¿Qué parte no les gusta o no entienden?</li><li>¿Qué nos dice esta historia acerca de Dios o de Jesús?</li><li>¿Qué nos dice esta historia acerca de las personas?</li><li>¿Cómo afecta esta historia nuestra vida cotidiana?</li><li>¿A quién conocen que necesite escuchar esta historia?</li></ul>\n<h2>Pongámonos en contexto</h2><p>Escuchen el texto una vez en la versión que sea más fácil de entender.</p><p>Jesús comienza a contar a la multitud tres parábolas más sobre el reino de los cielos, sin explicación. Recuerden que el reino de los cielos se usaba en lugar del reino de Dios para que Mateo no tuviera que decir el nombre de Dios. El reino de los cielos se refiere al gobierno y reinado de Dios en el mundo.</p><p>La primera parábola solo ocurre en el libro de Mateo. Esta parábola compara el reino de los cielos con la acción del agricultor de sembrar buena semilla en su campo. El hombre, o agricultor, en el comienzo de la parábola también es el dueño de la tierra o el amo de la casa. La idea es que este hombre es dueño del campo en el que plantó buena semilla. Recuerden que sembrar semilla es plantar o dispersar semillas en un campo.</p><p>Mientras estaban durmiendo, el enemigo del hombre vino y sembró cizaña, o hierbas malas, entre el trigo. Esta era probablemente una mala hierba específica que se ve similar al trigo cuando la planta es joven. Sin embargo, a medida que crecen y aparece la cabeza de grano, son fáciles de distinguir.</p><p>Muchas versiones llaman a los trabajadores del campo, esclavos, sirvientes, o incluso siervos. Le preguntan al dueño de la casa, &quot;Señor, ¿usted no sembró buena semilla en su campo?&quot; No esperaban una respuesta porque ya conocen la respuesta a esta pregunta. La pregunta real es, ¿de dónde vino la cizaña? ¿Qué sucedió? El dueño de la tierra afirma que fue su enemigo el que plantó las malas hierbas.</p><p>Deténganse y discutan: en su cultura, ¿qué tipos de cosas sutiles podría hacer el enemigo de alguien para causar problemas? Cuenten una historia de alguien que conocen cuyo enemigo le causó problemas.</p><p>Cuando los trabajadores preguntan si deben seguir adelante y sacar las malas hierbas, el agricultor responde que no. Quiere dejarlas crecer hasta que estén listas para la cosecha para estar seguro de separar ambas de manera apropiada. Esta mala hierba en particular tenía raíces más fuertes que el trigo y, por lo tanto, sacar la mala hierba temprano podría haber sacado accidentalmente el trigo que todavía estaba creciendo. Por lo tanto, esperar hasta que el trigo estuviera listo para ser sacado del suelo también mantendría el trigo saludable y en buen estado.</p><p>Deténganse y miren una imagen del<data class=\"resource-ref\" data-content-id=\"a1997\" data-resource-code=\"FIAImages\"> campo con una buena cosecha y mala hierba que crece e</data>n él.</p><p>El dueño de la tierra les dice a los trabajadores que les dirá a los que cosechan, o recogen los cultivos, que agrupen las malas hierbas y las quemen, y luego traigan el trigo a su granero, o casa de almacenamiento. Algunos creían que el Salvador los salvaría de los romanos que los oprimían. Jesús dijo esta parábola para ayudarlos a entender que las personas que creían y seguían a Jesús, y las personas que no seguían a Jesús crecerían juntas. El momento en que Dios viene a juzgar al mundo se compara con el tiempo de la cosecha. Jesús está diciendo que cuando Dios venga a juzgar, determinará quién está siguiendo a Jesús y quién no lo está.</p><p>Ahora hay dos parábolas que hablan sobre cómo el reino de los cielos crece. Así es como el reino de los cielos está comenzando con Jesús y sus discípulos. Podría pasar desapercibido o incluso no ser apreciado por muchos. Pero Jesús comenzó con un pequeño grupo de hombres y el reino terminó creciendo en toda la región y en todo el mundo. Las aves que vienen a anidar encuentran descanso, consuelo y protección en la sombra del árbol. Las personas vendrán de todas partes para encontrar descanso y protección en el reino de los cielos.</p><p>La parábola de la semilla de mostaza continúa hablando sobre cómo Dios hace una gran cosecha de una pequeña cantidad. La mostaza no es la semilla más pequeña, pero se usaba para hablar sobre cosas que son las más pequeñas o tienen la cantidad más pequeña. Esta pequeña semilla crece hasta convertirse en un gran arbusto o arbusto y, finalmente, un árbol de dos a tres metros de altura donde las aves pueden venir y anidar en sus ramas.</p><p>Deténganse y miren una imagen de una <data class=\"resource-ref\" data-content-id=\"a303\" data-resource-code=\"FIAImages\">semilla de mostaza</data>, así como la de un <data class=\"resource-ref\" data-content-id=\"a300\" data-resource-code=\"FIAImages\">árbol de mostaza</data>. ¿Cuál es una de las semillas más pequeñas en su cultura? ¿Tienen una manera de describir lo más pequeño? Conversen sobre lo que en su cultura comienza muy pequeño y crece hasta convertirse en algo muy grande.</p><p>La tercera parábola contada en esta sección es que el reino de los cielos se compara con una mujer que ha tomado algo de levadura y la ha trabajado hasta llegar a una gran cantidad de masa La levadura es lo que hace que la masa se expanda. Se dice que una gran cantidad es el equivalente a unos 23 kilogramos de harina. El leudado ocurre cuando toda la masa fermenta.</p><p>Deténganse y miren una imagen de la<data class=\"resource-ref\" data-content-id=\"a1158\" data-resource-code=\"FIAImages\"> mujer incorporando la levadura a la mas</data>a. Conversen con su equipo sobre cómo las personas en su cultura hacen la masa. ¿Se usa levadura en su cultura, o hay algo más que hace que la harina y el agua fermenten?</p><p>Jesús dijo a la multitud todas estas cosas en parábolas. Esta era la costumbre de Jesús. La frase que afirma que no les habló sin usar parábolas no significa que no les dijo nada, sino parábolas y nada más. Significa que Jesús no habló a las personas sobre el reino de los cielos, a menos que usara una parábola. Esto era para cumplir la profecía de los Salmos de que Jesús hablaría en parábolas y explicaría las cosas que habían estado ocultas desde el comienzo del mundo.</p>\n<h2>Definamos las escenas</h2><p>Escuchen el texto una vez más en la versión que sea más fácil de entender.</p><p>En esta sesión, ayudarán al equipo a visualizar esta historia. Les ayudarán a definir las escenas, el contexto y los personajes de la historia.</p><p>Esta historia tiene cuatro escenas. </p><p><b>Primera escena:</b> Jesús comienza a contar a la multitud una parábola sobre el reino de los cielos, que es semejante a un hombre que siembra buena semilla en su campo. El enemigo del hombre viene en medio de la noche y planta hierbas malas entre el trigo en el campo.</p><p><b>Segunda escena:</b> El trigo y la mala hierba comenzaron a crecer y los trabajadores del hombre notaron que había hierba mala entre el trigo. Fueron a su amo y le preguntaron cómo esto había sucedido. El amo dijo que un enemigo lo hizo. Entonces la conversación continúa sobre cómo tratar la mala hierba.</p><p><b>Tercera escena:</b> Jesús le cuenta a la multitud la parábola sobre que el reino de los cielos es como la semilla de mostaza que comienza muy pequeña y crece hasta convertirse en un árbol grande donde las aves vienen a anidar. Jesús cuenta una parábola más en la que compara el reino de los cielos con una mujer que pone levadura en una gran cantidad de masa hasta que toda la masa fermenta.</p><p><b>Cuarta escena:</b> Hay una explicación de Mateo sobre por qué Jesús decía parábolas a la multitud y con qué frecuencia Jesús les decía parábolas.</p><p>Entre los personajes de esta historia se encuentran los siguientes: </p><ul><li>Jesús</li><li>Los discípulos de Jesús</li><li>La gran multitud de personas</li></ul><p>Los personajes en la parábola incluyen:</p><ul><li>El dueño de la tierra</li><li>Los siervos del dueño de la tierra</li><li>El enemigo</li><li>El trigo</li><li>Las malas hierbas</li><li>Los cosechadores</li><li>La semilla de mostaza</li><li>Las aves</li><li>La mujer con la levadura</li></ul><p>En esta sesión, hagan que el grupo elabore un guion gráfico, dibuje o utilice algún tipo de manualidad (objetos que puedan desplazar, como piedras, palos o juguetes infantiles) para visualizar la historia y la acción que se desarrolla.</p><p>Jesús está contando parábolas sobre el reino de los cielos a la multitud. El reino de los cielos es el gobierno y el reinado de Dios en el mundo. Con base en el último pasaje, lo más probable es que Jesús todavía esté en el barco para que la multitud pueda escuchar a Jesús hablar. Sin embargo, no tenemos certeza de esto. Jesús comienza con la parábola del trigo y la mala hierba.</p><p>Hablen sobre el tipo de palabra que tienen para describir una mala hierba que es similar al trigo o a un cultivo.</p><p>La parábola habla sobre cómo el reino de los cielos se ha vuelto como el trigo y la cizaña que crecen juntos hasta que están listos para ser cosechados.</p><p>La segunda parábola que Jesús cuenta en esta sección trata sobre cómo el reino es como una semilla de mostaza.</p><p>Miren nuevamente la imagen de la <data class=\"resource-ref\" data-content-id=\"a303\" data-resource-code=\"FIAImages\">semilla de mostaza</data>.</p><p>El reino de los cielos comenzó pequeño, pero creció hasta convertirse en algo grande.</p><p>La tercera parábola trata sobre cómo el reino de los cielos es como la levadura que hace que mucha masa leve. Esto es similar a la segunda parábola en este pasaje, en que algo pequeño tiene un gran efecto.</p><p>Mateo entonces explica que Jesús hablaba a menudo en parábolas a la multitud, y que era para cumplir una profecía: &quot;Les hablaré en parábolas. Yo les explicaré las cosas ocultas desde la creación del mundo&quot;.</p><p>Conversen en equipo sobre cómo introducirán el material profético en su narración de la historia.</p>\n<h2>Actuemos el texto</h2><p>Escuchen el texto una vez más en la versión que sea más fácil de entender.</p><p>En esta sesión, el equipo dramatizará la historia.</p><p>Esta historia tiene cuatro escenas. </p><p>Entre los personajes de esta historia se encuentran los siguientes:</p><ul><li>Jesús</li><li>Los discípulos de Jesús</li><li>La gran multitud de personas</li></ul><p>Los personajes en la parábola incluyen:</p><ul><li>El dueño de la tierra</li><li>Los siervos del dueño de la tierra</li><li>El enemigo</li><li>El trigo</li><li>La mala hierba</li><li>Los cosechadores</li><li>La semilla de mostaza</li><li>Las aves</li><li>La mujer con la levadura</li></ul><p>El equipo debe interpretar la historia dos veces. Deben interpretarla en el idioma al que están traduciendo. La primera vez, el equipo debe interpretar la historia sin interrupciones. La segunda vez que el equipo actúe la historia, detenlo en diferentes puntos de la historia.</p><p>Cuando el equipo interprete la historia la primera vez, presten atención al diálogo, al flujo, a la trama y a la cronología de la historia. Asegúrense de que las partes importantes o difíciles de la historia o del pasaje se interpreten y no se omitan. Ayuden al equipo a recordar las partes de la historia.</p><p>La segunda vez que el equipo interprete esta historia, deténganlos en ciertos puntos.</p><p>Jesús cuenta la parábola sobre el hombre que siembra semilla en su campo y luego el enemigo viene de noche y siembra mala hierba en el campo. Cuando las malas hierbas comienzan a aparecer, los trabajadores lo notan.</p><ul><li>Detengan la acción.</li><li>Pregúntenles a los actores que interpretan a los trabajadores, &quot;¿Cómo se sienten cuando ven las malas hierbas creciendo con los cultivos?&quot; Esperen escuchar cosas como:</li><li>Reanuden la acción.</li></ul><p>Los trabajadores se acercan al hombre o al dueño de la tierra y le preguntan cómo sucedió esto. El dueño de la tierra dice que fue uno de sus enemigos.</p><ul><li>Detengan la acción.</li><li>Pregúntenle al actor que interpreta al dueño de la tierra: &quot;¿Cómo se siente al saber que un enemigo ha puesto malas hierbas entre sus buenos cultivos?&quot; Esperen escuchar cosas como:</li><li>Reanuden la acción.</li></ul><p>Los trabajadores preguntan si deben sacar las malas hierbas ahora y el dueño de la tierra dice que no, sino que deben esperar hasta que la cosecha también esté lista para ser recogida. Entonces las malas hierbas se quemarán y la cosecha se llevará al granero.</p><ul><li>Detengan la acción.</li><li>Pregúntenles a los actores que interpretan a la multitud y a los discípulos, &quot;¿Cómo se sienten?&quot; Es posible que escuchen cosas de los discípulos como: &quot;Confundido&quot;, &quot;Me alegro de que Jesús probablemente me explique esto más tarde&quot;. Tal vez de la multitud, &quot;Ansiosos por lo que Jesús está tratando de decir.&quot; ¿Soy una mala hierba o soy trigo?&quot;</li><li>Reanuden la acción.</li></ul><p>Jesús cuenta otra parábola sobre la semilla de mostaza y otra parábola sobre la mujer que incorpora la levadura en la masa.</p><ul><li>Detengan la acción.</li><li>Pregúntenles a los actores que interpretan a los discípulos cómo se sienten. Es posible que escuchen cosas como:</li></ul><p>Mateo entonces explica que la razón de las parábolas de Jesús es cumplir una profecía.</p>\n<h2>Cerremos las brechas</h2><p>Escuchen el texto una vez en la versión que sea más fácil de entender.</p><p>Jesús le cuenta a la multitud <b>parábolas</b>. Las parábolas son historias que usan situaciones cotidianas para explicar significados más profundos de Dios y la palabra de Dios. Usen la misma palabra que han usado para parábolas. Consulten el Glosario Principal para obtener una definición de <data class=\"resource-ref\" data-content-id=\"spa-t98-v1\" data-resource-code=\"FIAKeyTerms\">parábolas</data>. Las parábolas que Jesús cuenta son sobre el reino de los cielos.</p><p>Mateo se refiere al <b>reino de los cielos</b> en lugar del reino de Dios para que no tenga que decir el nombre de Dios. Un <data class=\"resource-ref\" data-content-id=\"spa-t157-v1\" data-resource-code=\"FIAKeyTerms\">reino</data> es un lugar donde un <data class=\"resource-ref\" data-content-id=\"spa-t226-v2\" data-resource-code=\"FIAKeyTerms\">rey</data> gobierna a un grupo de personas. El reino de los cielos o el reino de Dios en el Nuevo Testamento se refiere al tiempo en que Dios viene a gobernar, su reinado y autoridad que comienza su cumplimiento con el ministerio de Jesús en la tierra y la aceptación de él por parte de las personas. Más tarde, el Reino perfecto vendrá. Experimentamos el Reino de Dios ahora cuando lo escuchamos y lo obedecemos siguiendo a Jesús. Usen la misma frase para reino de los cielos que han usado antes. Consulten el Glosario Principal para obtener la definición de <data class=\"resource-ref\" data-content-id=\"spa-t82-v1\" data-resource-code=\"FIAKeyTerms\">reino de los cielos</data>.</p><p>La primera parábola es sobre el <b>trigo</b> y la <b>cizaña</b>. El trigo es cualquier grano comestible que se planta en un campo. Podría ser cebada. La cizaña es una mala hierba que crece exactamente igual que el trigo hasta que comienza a producir la parte comestible. Entonces es fácil distinguir entre los dos.</p><p>La segunda parábola trata sobre el reino, que es como una <b>semilla de mostaza</b> que comienza siendo pequeña y se hace grande. Se dice que esta semilla es una de las más pequeñas que crece hasta convertirse en un arbusto o árbol muy grande de hasta dos a tres metros.</p><p>La tercera parábola que Jesús cuenta sobre el reino es sobre una mujer que incorpora la <b>levadura</b> a su masa hasta que toda la masa fermenta. La levadura es lo que crea gas en la masa y hace que se expanda o leve.</p><p>Mateo dice que Jesús habla en parábolas para cumplir una <b>profecía</b>. Una profecía es un mensaje inspirado escrito o hablado de la voluntad de Dios para el pueblo de Dios. Usen la misma palabra que han usado para profecía. Consulten el Glosario Principal para obtener la definición de <data class=\"resource-ref\" data-content-id=\"spa-t200-v1\" data-resource-code=\"FIAKeyTerms\">profecía</data>.</p>\n<h2>Hablar la Palabra</h2><p>Escuchen una versión en audio del pasaje en la traducción que sea más fácil de entender.</p><p>En esta sesión, repitan el pasaje, como grupo, en su propio idioma.</p><p>Primero, todo el grupo debe practicar recitar el pasaje en su propio idioma. Recuerden incluir lo que decidieron en los pasos anteriores, como cronología, palabras, frases, emociones, o cualquier otra cosa que hayan hablado.</p><p>Un miembro del grupo deberá decir algunas oraciones del pasaje y hacer una pausa. Otro miembro del grupo deberá decir la siguiente parte del pasaje y hacer una pausa. Hagan esto hasta que el grupo haya vuelto a decir el pasaje completo. En este paso, los miembros del grupo pueden corregirse unos a otros.</p><p>Pausen este audio aquí.</p><p>Después, cada miembro del grupo debe decir todo el pasaje, sin interrupciones, al menos una vez. Un miembro del grupo puede utilizar variedad de objetos, movimientos o su guion gráfico para ayudarle a recordar el pasaje.</p><p>Pausen este audio aquí.</p><p>Luego, el grupo puede decidir cuál versión del pasaje les gusta más. Puede que decidan que les gustó la forma en que un miembro del grupo contó una escena, pero que les gustó la forma en que otro miembro del grupo contó otra.</p><p>Pausen este audio aquí.</p><p>Finalmente, el grupo puede elaborar una versión final del pasaje con la que todos estén de acuerdo. Cada miembro del grupo debe practicar decir esta versión final del pasaje.</p>",
+"content": "<h2>Escuchar con el corazón</h2><p>Escuchen Mateo 13:24–35 y guárdenlo en sus corazones. Escuchen el texto tres veces (en tres traducciones diferentes, si es posible). Después, en equipo, discutan sobre las siguientes preguntas:</p><ul><li>¿Qué les gusta de esta historia?</li><li>¿Qué parte no les gusta o no entienden?</li><li>¿Qué nos dice esta historia acerca de Dios o de Jesús?</li><li>¿Qué nos dice esta historia acerca de las personas?</li><li>¿Cómo afecta esta historia nuestra vida cotidiana?</li><li>¿A quién conocen que necesite escuchar esta historia?</li></ul>\n<h2>Pongámonos en contexto</h2><p>Escuchen el texto una vez en la versión que sea más fácil de entender.</p><p>Jesús comienza a contar a la multitud tres parábolas más sobre el reino de los cielos, sin explicación. Recuerden que el reino de los cielos se usaba en lugar del reino de Dios para que Mateo no tuviera que decir el nombre de Dios. El reino de los cielos se refiere al gobierno y reinado de Dios en el mundo.</p><p>La primera parábola solo ocurre en el libro de Mateo. Esta parábola compara el reino de los cielos con la acción del agricultor de sembrar buena semilla en su campo. El hombre, o agricultor, en el comienzo de la parábola también es el dueño de la tierra o el amo de la casa. La idea es que este hombre es dueño del campo en el que plantó buena semilla. Recuerden que sembrar semilla es plantar o dispersar semillas en un campo.</p><p>Mientras estaban durmiendo, el enemigo del hombre vino y sembró cizaña, o hierbas malas, entre el trigo. Esta era probablemente una mala hierba específica que se ve similar al trigo cuando la planta es joven. Sin embargo, a medida que crecen y aparece la cabeza de grano, son fáciles de distinguir.</p><p>Muchas versiones llaman a los trabajadores del campo, esclavos, sirvientes, o incluso siervos. Le preguntan al dueño de la casa, &quot;Señor, ¿usted no sembró buena semilla en su campo?&quot; No esperaban una respuesta porque ya conocen la respuesta a esta pregunta. La pregunta real es, ¿de dónde vino la cizaña? ¿Qué sucedió? El dueño de la tierra afirma que fue su enemigo el que plantó las malas hierbas.</p><p>Deténganse y discutan: en su cultura, ¿qué tipos de cosas sutiles podría hacer el enemigo de alguien para causar problemas? Cuenten una historia de alguien que conocen cuyo enemigo le causó problemas.</p><p>Cuando los trabajadores preguntan si deben seguir adelante y sacar las malas hierbas, el agricultor responde que no. Quiere dejarlas crecer hasta que estén listas para la cosecha para estar seguro de separar ambas de manera apropiada. Esta mala hierba en particular tenía raíces más fuertes que el trigo y, por lo tanto, sacar la mala hierba temprano podría haber sacado accidentalmente el trigo que todavía estaba creciendo. Por lo tanto, esperar hasta que el trigo estuviera listo para ser sacado del suelo también mantendría el trigo saludable y en buen estado.</p><p>Deténganse y miren una imagen del<data class=\"resource-ref\" data-content-id=\"a1997\" data-resource-code=\"FIAImages\"> campo con una buena cosecha y mala hierba que crece e</data>n él.</p><p>El dueño de la tierra les dice a los trabajadores que les dirá a los que cosechan, o recogen los cultivos, que agrupen las malas hierbas y las quemen, y luego traigan el trigo a su granero, o casa de almacenamiento. Algunos creían que el Salvador los salvaría de los romanos que los oprimían. Jesús dijo esta parábola para ayudarlos a entender que las personas que creían y seguían a Jesús, y las personas que no seguían a Jesús crecerían juntas. El momento en que Dios viene a juzgar al mundo se compara con el tiempo de la cosecha. Jesús está diciendo que cuando Dios venga a juzgar, determinará quién está siguiendo a Jesús y quién no lo está.</p><p>Ahora hay dos parábolas que hablan sobre cómo el reino de los cielos crece. Así es como el reino de los cielos está comenzando con Jesús y sus discípulos. Podría pasar desapercibido o incluso no ser apreciado por muchos. Pero Jesús comenzó con un pequeño grupo de hombres y el reino terminó creciendo en toda la región y en todo el mundo. Las aves que vienen a anidar encuentran descanso, consuelo y protección en la sombra del árbol. Las personas vendrán de todas partes para encontrar descanso y protección en el reino de los cielos.</p><p>La parábola de la semilla de mostaza continúa hablando sobre cómo Dios hace una gran cosecha de una pequeña cantidad. La mostaza no es la semilla más pequeña, pero se usaba para hablar sobre cosas que son las más pequeñas o tienen la cantidad más pequeña. Esta pequeña semilla crece hasta convertirse en un gran arbusto o arbusto y, finalmente, un árbol de dos a tres metros de altura donde las aves pueden venir y anidar en sus ramas.</p><p>Deténganse y miren una imagen de una <data class=\"resource-ref\" data-content-id=\"a303\" data-resource-code=\"FIAImages\">semilla de mostaza</data>, así como la de un <data class=\"resource-ref\" data-content-id=\"a300\" data-resource-code=\"FIAImages\">árbol de mostaza</data>. ¿Cuál es una de las semillas más pequeñas en su cultura? ¿Tienen una manera de describir lo más pequeño? Conversen sobre lo que en su cultura comienza muy pequeño y crece hasta convertirse en algo muy grande.</p><p>La tercera parábola contada en esta sección es que el reino de los cielos se compara con una mujer que ha tomado algo de levadura y la ha trabajado hasta llegar a una gran cantidad de masa La levadura es lo que hace que la masa se expanda. Se dice que una gran cantidad es el equivalente a unos 23 kilogramos de harina. El leudado ocurre cuando toda la masa fermenta.</p><p>Deténganse y miren una imagen de la<b> mujer incorporando la levadura a la mas</b>a. Conversen con su equipo sobre cómo las personas en su cultura hacen la masa. ¿Se usa levadura en su cultura, o hay algo más que hace que la harina y el agua fermenten?</p><p>Jesús dijo a la multitud todas estas cosas en parábolas. Esta era la costumbre de Jesús. La frase que afirma que no les habló sin usar parábolas no significa que no les dijo nada, sino parábolas y nada más. Significa que Jesús no habló a las personas sobre el reino de los cielos, a menos que usara una parábola. Esto era para cumplir la profecía de los Salmos de que Jesús hablaría en parábolas y explicaría las cosas que habían estado ocultas desde el comienzo del mundo.</p>\n<h2>Definamos las escenas</h2><p>Escuchen el texto una vez más en la versión que sea más fácil de entender.</p><p>En esta sesión, ayudarán al equipo a visualizar esta historia. Les ayudarán a definir las escenas, el contexto y los personajes de la historia.</p><p>Esta historia tiene cuatro escenas. </p><p><b>Primera escena:</b> Jesús comienza a contar a la multitud una parábola sobre el reino de los cielos, que es semejante a un hombre que siembra buena semilla en su campo. El enemigo del hombre viene en medio de la noche y planta hierbas malas entre el trigo en el campo.</p><p><b>Segunda escena:</b> El trigo y la mala hierba comenzaron a crecer y los trabajadores del hombre notaron que había hierba mala entre el trigo. Fueron a su amo y le preguntaron cómo esto había sucedido. El amo dijo que un enemigo lo hizo. Entonces la conversación continúa sobre cómo tratar la mala hierba.</p><p><b>Tercera escena:</b> Jesús le cuenta a la multitud la parábola sobre que el reino de los cielos es como la semilla de mostaza que comienza muy pequeña y crece hasta convertirse en un árbol grande donde las aves vienen a anidar. Jesús cuenta una parábola más en la que compara el reino de los cielos con una mujer que pone levadura en una gran cantidad de masa hasta que toda la masa fermenta.</p><p><b>Cuarta escena:</b> Hay una explicación de Mateo sobre por qué Jesús decía parábolas a la multitud y con qué frecuencia Jesús les decía parábolas.</p><p>Entre los personajes de esta historia se encuentran los siguientes: </p><ul><li>Jesús</li><li>Los discípulos de Jesús</li><li>La gran multitud de personas</li></ul><p>Los personajes en la parábola incluyen:</p><ul><li>El dueño de la tierra</li><li>Los siervos del dueño de la tierra</li><li>El enemigo</li><li>El trigo</li><li>Las malas hierbas</li><li>Los cosechadores</li><li>La semilla de mostaza</li><li>Las aves</li><li>La mujer con la levadura</li></ul><p>En esta sesión, hagan que el grupo elabore un guion gráfico, dibuje o utilice algún tipo de manualidad (objetos que puedan desplazar, como piedras, palos o juguetes infantiles) para visualizar la historia y la acción que se desarrolla.</p><p>Jesús está contando parábolas sobre el reino de los cielos a la multitud. El reino de los cielos es el gobierno y el reinado de Dios en el mundo. Con base en el último pasaje, lo más probable es que Jesús todavía esté en el barco para que la multitud pueda escuchar a Jesús hablar. Sin embargo, no tenemos certeza de esto. Jesús comienza con la parábola del trigo y la mala hierba.</p><p>Hablen sobre el tipo de palabra que tienen para describir una mala hierba que es similar al trigo o a un cultivo.</p><p>La parábola habla sobre cómo el reino de los cielos se ha vuelto como el trigo y la cizaña que crecen juntos hasta que están listos para ser cosechados.</p><p>La segunda parábola que Jesús cuenta en esta sección trata sobre cómo el reino es como una semilla de mostaza.</p><p>Miren nuevamente la imagen de la <data class=\"resource-ref\" data-content-id=\"a303\" data-resource-code=\"FIAImages\">semilla de mostaza</data>.</p><p>El reino de los cielos comenzó pequeño, pero creció hasta convertirse en algo grande.</p><p>La tercera parábola trata sobre cómo el reino de los cielos es como la levadura que hace que mucha masa leve. Esto es similar a la segunda parábola en este pasaje, en que algo pequeño tiene un gran efecto.</p><p>Mateo entonces explica que Jesús hablaba a menudo en parábolas a la multitud, y que era para cumplir una profecía: &quot;Les hablaré en parábolas. Yo les explicaré las cosas ocultas desde la creación del mundo&quot;.</p><p>Conversen en equipo sobre cómo introducirán el material profético en su narración de la historia.</p>\n<h2>Actuemos el texto</h2><p>Escuchen el texto una vez más en la versión que sea más fácil de entender.</p><p>En esta sesión, el equipo dramatizará la historia.</p><p>Esta historia tiene cuatro escenas. </p><p>Entre los personajes de esta historia se encuentran los siguientes:</p><ul><li>Jesús</li><li>Los discípulos de Jesús</li><li>La gran multitud de personas</li></ul><p>Los personajes en la parábola incluyen:</p><ul><li>El dueño de la tierra</li><li>Los siervos del dueño de la tierra</li><li>El enemigo</li><li>El trigo</li><li>La mala hierba</li><li>Los cosechadores</li><li>La semilla de mostaza</li><li>Las aves</li><li>La mujer con la levadura</li></ul><p>El equipo debe interpretar la historia dos veces. Deben interpretarla en el idioma al que están traduciendo. La primera vez, el equipo debe interpretar la historia sin interrupciones. La segunda vez que el equipo actúe la historia, detenlo en diferentes puntos de la historia.</p><p>Cuando el equipo interprete la historia la primera vez, presten atención al diálogo, al flujo, a la trama y a la cronología de la historia. Asegúrense de que las partes importantes o difíciles de la historia o del pasaje se interpreten y no se omitan. Ayuden al equipo a recordar las partes de la historia.</p><p>La segunda vez que el equipo interprete esta historia, deténganlos en ciertos puntos.</p><p>Jesús cuenta la parábola sobre el hombre que siembra semilla en su campo y luego el enemigo viene de noche y siembra mala hierba en el campo. Cuando las malas hierbas comienzan a aparecer, los trabajadores lo notan.</p><ul><li>Detengan la acción.</li><li>Pregúntenles a los actores que interpretan a los trabajadores, &quot;¿Cómo se sienten cuando ven las malas hierbas creciendo con los cultivos?&quot; Esperen escuchar cosas como:</li><li>Reanuden la acción.</li></ul><p>Los trabajadores se acercan al hombre o al dueño de la tierra y le preguntan cómo sucedió esto. El dueño de la tierra dice que fue uno de sus enemigos.</p><ul><li>Detengan la acción.</li><li>Pregúntenle al actor que interpreta al dueño de la tierra: &quot;¿Cómo se siente al saber que un enemigo ha puesto malas hierbas entre sus buenos cultivos?&quot; Esperen escuchar cosas como:</li><li>Reanuden la acción.</li></ul><p>Los trabajadores preguntan si deben sacar las malas hierbas ahora y el dueño de la tierra dice que no, sino que deben esperar hasta que la cosecha también esté lista para ser recogida. Entonces las malas hierbas se quemarán y la cosecha se llevará al granero.</p><ul><li>Detengan la acción.</li><li>Pregúntenles a los actores que interpretan a la multitud y a los discípulos, &quot;¿Cómo se sienten?&quot; Es posible que escuchen cosas de los discípulos como: &quot;Confundido&quot;, &quot;Me alegro de que Jesús probablemente me explique esto más tarde&quot;. Tal vez de la multitud, &quot;Ansiosos por lo que Jesús está tratando de decir.&quot; ¿Soy una mala hierba o soy trigo?&quot;</li><li>Reanuden la acción.</li></ul><p>Jesús cuenta otra parábola sobre la semilla de mostaza y otra parábola sobre la mujer que incorpora la levadura en la masa.</p><ul><li>Detengan la acción.</li><li>Pregúntenles a los actores que interpretan a los discípulos cómo se sienten. Es posible que escuchen cosas como:</li></ul><p>Mateo entonces explica que la razón de las parábolas de Jesús es cumplir una profecía.</p>\n<h2>Cerremos las brechas</h2><p>Escuchen el texto una vez en la versión que sea más fácil de entender.</p><p>Jesús le cuenta a la multitud <b>parábolas</b>. Las parábolas son historias que usan situaciones cotidianas para explicar significados más profundos de Dios y la palabra de Dios. Usen la misma palabra que han usado para parábolas. Consulten el Glosario Principal para obtener una definición de <data class=\"resource-ref\" data-content-id=\"spa-t98-v1\" data-resource-code=\"FIAKeyTerms\">parábolas</data>. Las parábolas que Jesús cuenta son sobre el reino de los cielos.</p><p>Mateo se refiere al <b>reino de los cielos</b> en lugar del reino de Dios para que no tenga que decir el nombre de Dios. Un <data class=\"resource-ref\" data-content-id=\"spa-t157-v1\" data-resource-code=\"FIAKeyTerms\">reino</data> es un lugar donde un <data class=\"resource-ref\" data-content-id=\"spa-t226-v2\" data-resource-code=\"FIAKeyTerms\">rey</data> gobierna a un grupo de personas. El reino de los cielos o el reino de Dios en el Nuevo Testamento se refiere al tiempo en que Dios viene a gobernar, su reinado y autoridad que comienza su cumplimiento con el ministerio de Jesús en la tierra y la aceptación de él por parte de las personas. Más tarde, el Reino perfecto vendrá. Experimentamos el Reino de Dios ahora cuando lo escuchamos y lo obedecemos siguiendo a Jesús. Usen la misma frase para reino de los cielos que han usado antes. Consulten el Glosario Principal para obtener la definición de <data class=\"resource-ref\" data-content-id=\"spa-t82-v1\" data-resource-code=\"FIAKeyTerms\">reino de los cielos</data>.</p><p>La primera parábola es sobre el <b>trigo</b> y la <b>cizaña</b>. El trigo es cualquier grano comestible que se planta en un campo. Podría ser cebada. La cizaña es una mala hierba que crece exactamente igual que el trigo hasta que comienza a producir la parte comestible. Entonces es fácil distinguir entre los dos.</p><p>La segunda parábola trata sobre el reino, que es como una <b>semilla de mostaza</b> que comienza siendo pequeña y se hace grande. Se dice que esta semilla es una de las más pequeñas que crece hasta convertirse en un arbusto o árbol muy grande de hasta dos a tres metros.</p><p>La tercera parábola que Jesús cuenta sobre el reino es sobre una mujer que incorpora la <b>levadura</b> a su masa hasta que toda la masa fermenta. La levadura es lo que crea gas en la masa y hace que se expanda o leve.</p><p>Mateo dice que Jesús habla en parábolas para cumplir una <b>profecía</b>. Una profecía es un mensaje inspirado escrito o hablado de la voluntad de Dios para el pueblo de Dios. Usen la misma palabra que han usado para profecía. Consulten el Glosario Principal para obtener la definición de <data class=\"resource-ref\" data-content-id=\"spa-t200-v1\" data-resource-code=\"FIAKeyTerms\">profecía</data>.</p>\n<h2>Hablar la Palabra</h2><p>Escuchen una versión en audio del pasaje en la traducción que sea más fácil de entender.</p><p>En esta sesión, repitan el pasaje, como grupo, en su propio idioma.</p><p>Primero, todo el grupo debe practicar recitar el pasaje en su propio idioma. Recuerden incluir lo que decidieron en los pasos anteriores, como cronología, palabras, frases, emociones, o cualquier otra cosa que hayan hablado.</p><p>Un miembro del grupo deberá decir algunas oraciones del pasaje y hacer una pausa. Otro miembro del grupo deberá decir la siguiente parte del pasaje y hacer una pausa. Hagan esto hasta que el grupo haya vuelto a decir el pasaje completo. En este paso, los miembros del grupo pueden corregirse unos a otros.</p><p>Pausen este audio aquí.</p><p>Después, cada miembro del grupo debe decir todo el pasaje, sin interrupciones, al menos una vez. Un miembro del grupo puede utilizar variedad de objetos, movimientos o su guion gráfico para ayudarle a recordar el pasaje.</p><p>Pausen este audio aquí.</p><p>Luego, el grupo puede decidir cuál versión del pasaje les gusta más. Puede que decidan que les gustó la forma en que un miembro del grupo contó una escena, pero que les gustó la forma en que otro miembro del grupo contó otra.</p><p>Pausen este audio aquí.</p><p>Finalmente, el grupo puede elaborar una versión final del pasaje con la que todos estén de acuerdo. Cada miembro del grupo debe practicar decir esta versión final del pasaje.</p>",
 "associations": {
 "passage": [
 {
@@ -6215,13 +6215,6 @@
 "content_id": "a300",
 "resource_code": "FIAImages",
 "label": "árbol de mostaza",
-"language": "spa"
-},
-{
-"reference_id": 0,
-"content_id": "a1158",
-"resource_code": "FIAImages",
-"label": " mujer incorporando la levadura a la mas",
 "language": "spa"
 },
 {
@@ -6325,18 +6318,18 @@
 "preferred_label": "Jesús"
 },
 {
-"id": "realia:Saton",
-"type": "realia",
-"confidence": 0.1442,
-"match_method": "canonical",
-"preferred_label": "satón"
-},
-{
 "id": "flora:Mustard",
 "type": "flora",
 "confidence": 0.1442,
 "match_method": "canonical",
 "preferred_label": "mostaza"
+},
+{
+"id": "realia:Saton",
+"type": "realia",
+"confidence": 0.1442,
+"match_method": "canonical",
+"preferred_label": "satón"
 },
 {
 "id": "realia:Barn",
@@ -6469,20 +6462,6 @@
 "preferred_label": "grano"
 },
 {
-"id": "keyterm:Ability",
-"type": "keyterm",
-"confidence": 0.2063,
-"match_method": "canonical",
-"preferred_label": "habilidad"
-},
-{
-"id": "keyterm:Lawless",
-"type": "keyterm",
-"confidence": 0.2063,
-"match_method": "canonical",
-"preferred_label": "transgresor"
-},
-{
 "id": "keyterm:Parable",
 "type": "keyterm",
 "confidence": 0.2063,
@@ -6490,18 +6469,11 @@
 "preferred_label": "parábola"
 },
 {
-"id": "keyterm:Disciple",
+"id": "keyterm:Lawless",
 "type": "keyterm",
 "confidence": 0.2063,
 "match_method": "canonical",
-"preferred_label": "ser discípulo"
-},
-{
-"id": "keyterm:Just",
-"type": "keyterm",
-"confidence": 0.2063,
-"match_method": "canonical",
-"preferred_label": "ser justo"
+"preferred_label": "transgresor"
 },
 {
 "id": "keyterm:StumblingBlock",
@@ -6518,11 +6490,25 @@
 "preferred_label": "Jehová"
 },
 {
-"id": "realia:Kiln",
-"type": "realia",
-"confidence": 0.1463,
+"id": "keyterm:Ability",
+"type": "keyterm",
+"confidence": 0.2063,
 "match_method": "canonical",
-"preferred_label": "horno"
+"preferred_label": "habilidad"
+},
+{
+"id": "keyterm:Disciple",
+"type": "keyterm",
+"confidence": 0.2063,
+"match_method": "canonical",
+"preferred_label": "ser discípulo"
+},
+{
+"id": "keyterm:Just",
+"type": "keyterm",
+"confidence": 0.2063,
+"match_method": "canonical",
+"preferred_label": "ser justo"
 },
 {
 "id": "realia:House",
@@ -6530,6 +6516,13 @@
 "confidence": 0.1463,
 "match_method": "canonical",
 "preferred_label": "casa"
+},
+{
+"id": "realia:Kiln",
+"type": "realia",
+"confidence": 0.1463,
+"match_method": "canonical",
+"preferred_label": "horno"
 }
 ]
 }
@@ -6606,13 +6599,6 @@
 ],
 "acai": [
 {
-"id": "keyterm:Heaven",
-"type": "keyterm",
-"confidence": 0.48,
-"match_method": "canonical",
-"preferred_label": "cielo"
-},
-{
 "id": "keyterm:Kingdom",
 "type": "keyterm",
 "confidence": 0.48,
@@ -6620,11 +6606,11 @@
 "preferred_label": "reino"
 },
 {
-"id": "keyterm:Always",
+"id": "keyterm:Heaven",
 "type": "keyterm",
-"confidence": 0.195,
+"confidence": 0.48,
 "match_method": "canonical",
-"preferred_label": "para siempre"
+"preferred_label": "cielo"
 },
 {
 "id": "keyterm:Parable",
@@ -6634,25 +6620,18 @@
 "preferred_label": "parábola"
 },
 {
-"id": "keyterm:Disciple",
-"type": "keyterm",
-"confidence": 0.195,
-"match_method": "canonical",
-"preferred_label": "ser discípulo"
-},
-{
-"id": "deity:Angel",
-"type": "deity",
-"confidence": 0.195,
-"match_method": "canonical",
-"preferred_label": "Un ángel"
-},
-{
 "id": "person:Jesus.2",
 "type": "person",
 "confidence": 0.195,
 "match_method": "canonical",
 "preferred_label": "Jesús"
+},
+{
+"id": "keyterm:Disciple",
+"type": "keyterm",
+"confidence": 0.195,
+"match_method": "canonical",
+"preferred_label": "ser discípulo"
 },
 {
 "id": "keyterm:Just",
@@ -6667,6 +6646,20 @@
 "confidence": 0.195,
 "match_method": "canonical",
 "preferred_label": "motivo de alegría"
+},
+{
+"id": "keyterm:Always",
+"type": "keyterm",
+"confidence": 0.195,
+"match_method": "canonical",
+"preferred_label": "para siempre"
+},
+{
+"id": "deity:Angel",
+"type": "deity",
+"confidence": 0.195,
+"match_method": "canonical",
+"preferred_label": "Un ángel"
 },
 {
 "id": "realia:Dragnet",
@@ -6764,11 +6757,11 @@
 "preferred_label": "habilidad"
 },
 {
-"id": "person:Jude",
-"type": "person",
+"id": "keyterm:Disbelieve",
+"type": "keyterm",
 "confidence": 0.28,
 "match_method": "canonical",
-"preferred_label": "Judas"
+"preferred_label": "no creer"
 },
 {
 "id": "person:James.3",
@@ -6778,11 +6771,11 @@
 "preferred_label": "Jacobo"
 },
 {
-"id": "keyterm:Disbelieve",
-"type": "keyterm",
+"id": "person:Jude",
+"type": "person",
 "confidence": 0.28,
 "match_method": "canonical",
-"preferred_label": "no creer"
+"preferred_label": "Judas"
 },
 {
 "id": "person:Simon.3",
@@ -6792,11 +6785,11 @@
 "preferred_label": "Simón"
 },
 {
-"id": "person:Mary",
+"id": "person:Joseph.4",
 "type": "person",
 "confidence": 0.24,
 "match_method": "canonical",
-"preferred_label": "María"
+"preferred_label": "José"
 },
 {
 "id": "person:Jesus.2",
@@ -6806,11 +6799,11 @@
 "preferred_label": "Jesús"
 },
 {
-"id": "person:Joseph.4",
+"id": "person:Mary",
 "type": "person",
 "confidence": 0.24,
 "match_method": "canonical",
-"preferred_label": "José"
+"preferred_label": "María"
 },
 {
 "id": "realia:Synagogue",
@@ -6908,6 +6901,13 @@
 "preferred_label": "Herodías"
 },
 {
+"id": "person:Jesus.2",
+"type": "person",
+"confidence": 0.275,
+"match_method": "canonical",
+"preferred_label": "Jesús"
+},
+{
 "id": "keyterm:Oath",
 "type": "keyterm",
 "confidence": 0.275,
@@ -6920,13 +6920,6 @@
 "confidence": 0.275,
 "match_method": "canonical",
 "preferred_label": "bautista"
-},
-{
-"id": "person:Jesus.2",
-"type": "person",
-"confidence": 0.275,
-"match_method": "canonical",
-"preferred_label": "Jesús"
 },
 {
 "id": "realia:Prison",
@@ -6943,13 +6936,6 @@
 "preferred_label": "plato"
 },
 {
-"id": "person:Philip.2",
-"type": "person",
-"confidence": 0.2042,
-"match_method": "canonical",
-"preferred_label": "Felipe"
-},
-{
 "id": "person:DaughterOfHerodias",
 "type": "person",
 "confidence": 0.2042,
@@ -6957,18 +6943,11 @@
 "preferred_label": "Hija de Herodías"
 },
 {
-"id": "keyterm:Ability",
-"type": "keyterm",
-"confidence": 0.1875,
+"id": "person:Philip.2",
+"type": "person",
+"confidence": 0.2042,
 "match_method": "canonical",
-"preferred_label": "habilidad"
-},
-{
-"id": "keyterm:Disciple",
-"type": "keyterm",
-"confidence": 0.1875,
-"match_method": "canonical",
-"preferred_label": "ser discípulo"
+"preferred_label": "Felipe"
 },
 {
 "id": "keyterm:Lawful",
@@ -6978,11 +6957,25 @@
 "preferred_label": "ser lícito"
 },
 {
+"id": "keyterm:Disciple",
+"type": "keyterm",
+"confidence": 0.1875,
+"match_method": "canonical",
+"preferred_label": "ser discípulo"
+},
+{
 "id": "keyterm:Fear",
 "type": "keyterm",
 "confidence": 0.1875,
 "match_method": "canonical",
 "preferred_label": "temor"
+},
+{
+"id": "keyterm:Ability",
+"type": "keyterm",
+"confidence": 0.1875,
+"match_method": "canonical",
+"preferred_label": "habilidad"
 },
 {
 "id": "keyterm:Resurrection",
@@ -7073,18 +7066,18 @@
 ],
 "acai": [
 {
-"id": "keyterm:Disciple",
-"type": "keyterm",
-"confidence": 0.3,
-"match_method": "canonical",
-"preferred_label": "ser discípulo"
-},
-{
 "id": "person:Jesus.2",
 "type": "person",
 "confidence": 0.3,
 "match_method": "canonical",
 "preferred_label": "Jesús"
+},
+{
+"id": "keyterm:Disciple",
+"type": "keyterm",
+"confidence": 0.3,
+"match_method": "canonical",
+"preferred_label": "ser discípulo"
 },
 {
 "id": "fauna:Fish",
@@ -7101,18 +7094,18 @@
 "preferred_label": "bendecir"
 },
 {
-"id": "keyterm:Serve",
-"type": "keyterm",
-"confidence": 0.2,
-"match_method": "canonical",
-"preferred_label": "servir"
-},
-{
 "id": "keyterm:Heaven",
 "type": "keyterm",
 "confidence": 0.2,
 "match_method": "canonical",
 "preferred_label": "cielo"
+},
+{
+"id": "keyterm:Serve",
+"type": "keyterm",
+"confidence": 0.2,
+"match_method": "canonical",
+"preferred_label": "servir"
 },
 {
 "id": "keyterm:Affection",
@@ -7266,13 +7259,6 @@
 "preferred_label": "temor"
 },
 {
-"id": "keyterm:Disciple",
-"type": "keyterm",
-"confidence": 0.26,
-"match_method": "canonical",
-"preferred_label": "ser discípulo"
-},
-{
 "id": "keyterm:Salvation",
 "type": "keyterm",
 "confidence": 0.26,
@@ -7287,18 +7273,18 @@
 "preferred_label": "Pedro"
 },
 {
+"id": "keyterm:Disciple",
+"type": "keyterm",
+"confidence": 0.26,
+"match_method": "canonical",
+"preferred_label": "ser discípulo"
+},
+{
 "id": "keyterm:HavingLittleFaith",
 "type": "keyterm",
 "confidence": 0.1933,
 "match_method": "canonical",
 "preferred_label": "de poca fe"
-},
-{
-"id": "place:Gennesaret",
-"type": "place",
-"confidence": 0.1933,
-"match_method": "canonical",
-"preferred_label": "Genesaret"
 },
 {
 "id": "keyterm:CheerUp",
@@ -7308,18 +7294,18 @@
 "preferred_label": "cobrar ánimo"
 },
 {
-"id": "keyterm:Pray",
-"type": "keyterm",
-"confidence": 0.18,
+"id": "place:Gennesaret",
+"type": "place",
+"confidence": 0.1933,
 "match_method": "canonical",
-"preferred_label": "orar"
+"preferred_label": "Genesaret"
 },
 {
-"id": "keyterm:True",
+"id": "keyterm:BowDown",
 "type": "keyterm",
 "confidence": 0.18,
 "match_method": "canonical",
-"preferred_label": "verdadero"
+"preferred_label": "postrarse"
 },
 {
 "id": "keyterm:AskFor",
@@ -7329,11 +7315,18 @@
 "preferred_label": "rogar"
 },
 {
-"id": "keyterm:BowDown",
+"id": "keyterm:True",
 "type": "keyterm",
 "confidence": 0.18,
 "match_method": "canonical",
-"preferred_label": "postrarse"
+"preferred_label": "verdadero"
+},
+{
+"id": "keyterm:Pray",
+"type": "keyterm",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "orar"
 },
 {
 "id": "realia:Cloak",
@@ -7494,25 +7487,18 @@
 "preferred_label": "parábola"
 },
 {
-"id": "keyterm:Offering",
+"id": "keyterm:Worship",
 "type": "keyterm",
 "confidence": 0.1725,
 "match_method": "canonical",
-"preferred_label": "ofrenda"
+"preferred_label": "adorar"
 },
 {
-"id": "keyterm:Blaspheme",
-"type": "keyterm",
+"id": "person:Peter",
+"type": "person",
 "confidence": 0.1725,
 "match_method": "canonical",
-"preferred_label": "blasfemar"
-},
-{
-"id": "keyterm:Speak",
-"type": "keyterm",
-"confidence": 0.1725,
-"match_method": "canonical",
-"preferred_label": "profetizar"
+"preferred_label": "Pedro"
 },
 {
 "id": "keyterm:Commandment",
@@ -7522,32 +7508,11 @@
 "preferred_label": "mandamiento"
 },
 {
-"id": "keyterm:Fornication",
+"id": "keyterm:Blaspheme",
 "type": "keyterm",
 "confidence": 0.1725,
 "match_method": "canonical",
-"preferred_label": "fornicación"
-},
-{
-"id": "person:Isaiah",
-"type": "person",
-"confidence": 0.1725,
-"match_method": "canonical",
-"preferred_label": "Isaías"
-},
-{
-"id": "group:GenericDisciples",
-"type": "group",
-"confidence": 0.1725,
-"match_method": "canonical",
-"preferred_label": "un grupo de discípulos"
-},
-{
-"id": "keyterm:Worship",
-"type": "keyterm",
-"confidence": 0.1725,
-"match_method": "canonical",
-"preferred_label": "adorar"
+"preferred_label": "blasfemar"
 },
 {
 "id": "place:Jerusalem",
@@ -7571,11 +7536,39 @@
 "preferred_label": "celestial"
 },
 {
-"id": "person:Peter",
+"id": "keyterm:Speak",
+"type": "keyterm",
+"confidence": 0.1725,
+"match_method": "canonical",
+"preferred_label": "profetizar"
+},
+{
+"id": "keyterm:Offering",
+"type": "keyterm",
+"confidence": 0.1725,
+"match_method": "canonical",
+"preferred_label": "ofrenda"
+},
+{
+"id": "group:GenericDisciples",
+"type": "group",
+"confidence": 0.1725,
+"match_method": "canonical",
+"preferred_label": "un grupo de discípulos"
+},
+{
+"id": "keyterm:Fornication",
+"type": "keyterm",
+"confidence": 0.1725,
+"match_method": "canonical",
+"preferred_label": "fornicación"
+},
+{
+"id": "person:Isaiah",
 "type": "person",
 "confidence": 0.1725,
 "match_method": "canonical",
-"preferred_label": "Pedro"
+"preferred_label": "Isaías"
 }
 ]
 }
@@ -7659,13 +7652,6 @@
 "preferred_label": "perro"
 },
 {
-"id": "person:SyrophonecianWoman",
-"type": "person",
-"confidence": 0.2313,
-"match_method": "canonical",
-"preferred_label": "mujer sirofenicia"
-},
-{
 "id": "place:Sidon",
 "type": "place",
 "confidence": 0.2313,
@@ -7680,6 +7666,41 @@
 "preferred_label": "Tiro"
 },
 {
+"id": "person:SyrophonecianWoman",
+"type": "person",
+"confidence": 0.2313,
+"match_method": "canonical",
+"preferred_label": "mujer sirofenicia"
+},
+{
+"id": "keyterm:BowDown",
+"type": "keyterm",
+"confidence": 0.2063,
+"match_method": "canonical",
+"preferred_label": "postrarse"
+},
+{
+"id": "person:David",
+"type": "person",
+"confidence": 0.2063,
+"match_method": "canonical",
+"preferred_label": "David"
+},
+{
+"id": "place:Canaan",
+"type": "place",
+"confidence": 0.2063,
+"match_method": "canonical",
+"preferred_label": "Canaán"
+},
+{
+"id": "keyterm:AskFor",
+"type": "keyterm",
+"confidence": 0.2063,
+"match_method": "canonical",
+"preferred_label": "rogar"
+},
+{
 "id": "keyterm:Mercy",
 "type": "keyterm",
 "confidence": 0.2063,
@@ -7687,18 +7708,11 @@
 "preferred_label": "misericordia"
 },
 {
-"id": "keyterm:Believe",
+"id": "keyterm:Honest",
 "type": "keyterm",
 "confidence": 0.2063,
 "match_method": "canonical",
-"preferred_label": "creer"
-},
-{
-"id": "keyterm:DemonPossessed",
-"type": "keyterm",
-"confidence": 0.2063,
-"match_method": "canonical",
-"preferred_label": "estar endemoniado"
+"preferred_label": "bueno"
 },
 {
 "id": "person:Israel",
@@ -7715,27 +7729,6 @@
 "preferred_label": "ser discípulo"
 },
 {
-"id": "keyterm:AskFor",
-"type": "keyterm",
-"confidence": 0.2063,
-"match_method": "canonical",
-"preferred_label": "rogar"
-},
-{
-"id": "place:Canaan",
-"type": "place",
-"confidence": 0.2063,
-"match_method": "canonical",
-"preferred_label": "Canaán"
-},
-{
-"id": "keyterm:BowDown",
-"type": "keyterm",
-"confidence": 0.2063,
-"match_method": "canonical",
-"preferred_label": "postrarse"
-},
-{
 "id": "group:Canaan",
 "type": "group",
 "confidence": 0.2063,
@@ -7743,18 +7736,18 @@
 "preferred_label": "cananeo"
 },
 {
-"id": "person:David",
-"type": "person",
-"confidence": 0.2063,
-"match_method": "canonical",
-"preferred_label": "David"
-},
-{
-"id": "keyterm:Honest",
+"id": "keyterm:DemonPossessed",
 "type": "keyterm",
 "confidence": 0.2063,
 "match_method": "canonical",
-"preferred_label": "bueno"
+"preferred_label": "estar endemoniado"
+},
+{
+"id": "keyterm:Believe",
+"type": "keyterm",
+"confidence": 0.2063,
+"match_method": "canonical",
+"preferred_label": "creer"
 },
 {
 "id": "fauna:Lamb",
@@ -7831,18 +7824,18 @@
 ],
 "acai": [
 {
-"id": "keyterm:Disciple",
-"type": "keyterm",
-"confidence": 0.3727,
-"match_method": "canonical",
-"preferred_label": "ser discípulo"
-},
-{
 "id": "person:Jesus.2",
 "type": "person",
 "confidence": 0.3727,
 "match_method": "canonical",
 "preferred_label": "Jesús"
+},
+{
+"id": "keyterm:Disciple",
+"type": "keyterm",
+"confidence": 0.3727,
+"match_method": "canonical",
+"preferred_label": "ser discípulo"
 },
 {
 "id": "group:GenericDisciples",
@@ -7866,6 +7859,13 @@
 "preferred_label": "Magadán"
 },
 {
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.1909,
+"match_method": "canonical",
+"preferred_label": "Jehová"
+},
+{
 "id": "person:Israel",
 "type": "person",
 "confidence": 0.1909,
@@ -7887,13 +7887,6 @@
 "preferred_label": "mar de Galilea"
 },
 {
-"id": "keyterm:Glory",
-"type": "keyterm",
-"confidence": 0.1909,
-"match_method": "canonical",
-"preferred_label": "gloria"
-},
-{
 "id": "keyterm:Affection",
 "type": "keyterm",
 "confidence": 0.1909,
@@ -7901,18 +7894,11 @@
 "preferred_label": "afecto"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
+"id": "keyterm:Glory",
+"type": "keyterm",
 "confidence": 0.1909,
 "match_method": "canonical",
-"preferred_label": "Jehová"
-},
-{
-"id": "realia:Basket",
-"type": "realia",
-"confidence": 0.1309,
-"match_method": "canonical",
-"preferred_label": "cesta"
+"preferred_label": "gloria"
 },
 {
 "id": "realia:Ship",
@@ -7920,6 +7906,13 @@
 "confidence": 0.1309,
 "match_method": "canonical",
 "preferred_label": "barco"
+},
+{
+"id": "realia:Basket",
+"type": "realia",
+"confidence": 0.1309,
+"match_method": "canonical",
+"preferred_label": "cesta"
 }
 ]
 }
@@ -8066,25 +8059,11 @@
 "preferred_label": "cesta"
 },
 {
-"id": "person:Jonah.2",
-"type": "person",
-"confidence": 0.1875,
-"match_method": "canonical",
-"preferred_label": "Jonás"
-},
-{
-"id": "keyterm:Disciple",
+"id": "keyterm:Discern",
 "type": "keyterm",
 "confidence": 0.1875,
 "match_method": "canonical",
-"preferred_label": "ser discípulo"
-},
-{
-"id": "keyterm:Unfaithful",
-"type": "keyterm",
-"confidence": 0.1875,
-"match_method": "canonical",
-"preferred_label": "ser infiel"
+"preferred_label": "discernir"
 },
 {
 "id": "keyterm:HavingLittleFaith",
@@ -8094,11 +8073,25 @@
 "preferred_label": "de poca fe"
 },
 {
-"id": "keyterm:Discern",
+"id": "keyterm:Unfaithful",
 "type": "keyterm",
 "confidence": 0.1875,
 "match_method": "canonical",
-"preferred_label": "discernir"
+"preferred_label": "ser infiel"
+},
+{
+"id": "keyterm:Disciple",
+"type": "keyterm",
+"confidence": 0.1875,
+"match_method": "canonical",
+"preferred_label": "ser discípulo"
+},
+{
+"id": "person:Jonah.2",
+"type": "person",
+"confidence": 0.1875,
+"match_method": "canonical",
+"preferred_label": "Jonás"
 }
 ]
 }
@@ -8259,13 +8252,6 @@
 "preferred_label": "ser discípulo"
 },
 {
-"id": "keyterm:Church",
-"type": "keyterm",
-"confidence": 0.2313,
-"match_method": "canonical",
-"preferred_label": "iglesia"
-},
-{
 "id": "place:CaesareaPhilippi",
 "type": "place",
 "confidence": 0.2313,
@@ -8273,67 +8259,11 @@
 "preferred_label": "Cesarea de Filipo"
 },
 {
-"id": "person:John",
-"type": "person",
-"confidence": 0.2063,
-"match_method": "canonical",
-"preferred_label": "Juan"
-},
-{
-"id": "keyterm:Body.3",
+"id": "keyterm:Church",
 "type": "keyterm",
-"confidence": 0.2063,
+"confidence": 0.2313,
 "match_method": "canonical",
-"preferred_label": "cuerpo"
-},
-{
-"id": "person:John.4",
-"type": "person",
-"confidence": 0.2063,
-"match_method": "canonical",
-"preferred_label": "Juan"
-},
-{
-"id": "keyterm:Baptist",
-"type": "keyterm",
-"confidence": 0.2063,
-"match_method": "canonical",
-"preferred_label": "bautista"
-},
-{
-"id": "keyterm:Blood",
-"type": "keyterm",
-"confidence": 0.2063,
-"match_method": "canonical",
-"preferred_label": "sangre"
-},
-{
-"id": "keyterm:WorldOfTheDead",
-"type": "keyterm",
-"confidence": 0.2063,
-"match_method": "canonical",
-"preferred_label": "mundo de los muertos"
-},
-{
-"id": "person:Elijah",
-"type": "person",
-"confidence": 0.2063,
-"match_method": "canonical",
-"preferred_label": "Elías"
-},
-{
-"id": "keyterm:Happy",
-"type": "keyterm",
-"confidence": 0.2063,
-"match_method": "canonical",
-"preferred_label": "dichoso"
-},
-{
-"id": "group:GenericDisciples",
-"type": "group",
-"confidence": 0.2063,
-"match_method": "canonical",
-"preferred_label": "un grupo de discípulos"
+"preferred_label": "iglesia"
 },
 {
 "id": "keyterm:Kingdom",
@@ -8343,18 +8273,11 @@
 "preferred_label": "reino"
 },
 {
-"id": "keyterm:Life",
+"id": "keyterm:Body.3",
 "type": "keyterm",
 "confidence": 0.2063,
 "match_method": "canonical",
-"preferred_label": "vida"
-},
-{
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.2063,
-"match_method": "canonical",
-"preferred_label": "Jehová"
+"preferred_label": "cuerpo"
 },
 {
 "id": "place:Hell",
@@ -8364,6 +8287,20 @@
 "preferred_label": "infierno"
 },
 {
+"id": "keyterm:Life",
+"type": "keyterm",
+"confidence": 0.2063,
+"match_method": "canonical",
+"preferred_label": "vida"
+},
+{
+"id": "keyterm:WorldOfTheDead",
+"type": "keyterm",
+"confidence": 0.2063,
+"match_method": "canonical",
+"preferred_label": "mundo de los muertos"
+},
+{
 "id": "keyterm:AskFor",
 "type": "keyterm",
 "confidence": 0.2063,
@@ -8371,11 +8308,67 @@
 "preferred_label": "rogar"
 },
 {
+"id": "keyterm:Happy",
+"type": "keyterm",
+"confidence": 0.2063,
+"match_method": "canonical",
+"preferred_label": "dichoso"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.2063,
+"match_method": "canonical",
+"preferred_label": "Jehová"
+},
+{
+"id": "keyterm:Baptist",
+"type": "keyterm",
+"confidence": 0.2063,
+"match_method": "canonical",
+"preferred_label": "bautista"
+},
+{
+"id": "person:John.4",
+"type": "person",
+"confidence": 0.2063,
+"match_method": "canonical",
+"preferred_label": "Juan"
+},
+{
+"id": "keyterm:Blood",
+"type": "keyterm",
+"confidence": 0.2063,
+"match_method": "canonical",
+"preferred_label": "sangre"
+},
+{
+"id": "person:Elijah",
+"type": "person",
+"confidence": 0.2063,
+"match_method": "canonical",
+"preferred_label": "Elías"
+},
+{
 "id": "person:Jeremiah.6",
 "type": "person",
 "confidence": 0.2063,
 "match_method": "canonical",
 "preferred_label": "Jeremías"
+},
+{
+"id": "person:John",
+"type": "person",
+"confidence": 0.2063,
+"match_method": "canonical",
+"preferred_label": "Juan"
+},
+{
+"id": "group:GenericDisciples",
+"type": "group",
+"confidence": 0.2063,
+"match_method": "canonical",
+"preferred_label": "un grupo de discípulos"
 },
 {
 "id": "realia:Key",
@@ -8515,32 +8508,11 @@
 ],
 "acai": [
 {
-"id": "keyterm:Disciple",
-"type": "keyterm",
-"confidence": 0.3125,
-"match_method": "canonical",
-"preferred_label": "ser discípulo"
-},
-{
 "id": "person:Jesus.2",
 "type": "person",
 "confidence": 0.3125,
 "match_method": "canonical",
 "preferred_label": "Jesús"
-},
-{
-"id": "person:Peter",
-"type": "person",
-"confidence": 0.3125,
-"match_method": "canonical",
-"preferred_label": "Pedro"
-},
-{
-"id": "keyterm:Life",
-"type": "keyterm",
-"confidence": 0.3125,
-"match_method": "canonical",
-"preferred_label": "vida"
 },
 {
 "id": "deity:Lord",
@@ -8550,25 +8522,25 @@
 "preferred_label": "Jehová"
 },
 {
-"id": "keyterm:Surely",
-"type": "keyterm",
-"confidence": 0.2063,
+"id": "person:Peter",
+"type": "person",
+"confidence": 0.3125,
 "match_method": "canonical",
-"preferred_label": "¡ciertamente!"
+"preferred_label": "Pedro"
 },
 {
-"id": "keyterm:Think",
+"id": "keyterm:Disciple",
 "type": "keyterm",
-"confidence": 0.2063,
+"confidence": 0.3125,
 "match_method": "canonical",
-"preferred_label": "pensar"
+"preferred_label": "ser discípulo"
 },
 {
-"id": "keyterm:Ability",
+"id": "keyterm:Life",
 "type": "keyterm",
-"confidence": 0.2063,
+"confidence": 0.3125,
 "match_method": "canonical",
-"preferred_label": "habilidad"
+"preferred_label": "vida"
 },
 {
 "id": "place:Jerusalem",
@@ -8576,27 +8548,6 @@
 "confidence": 0.2063,
 "match_method": "canonical",
 "preferred_label": "Jerusalén"
-},
-{
-"id": "keyterm:Salvation",
-"type": "keyterm",
-"confidence": 0.2063,
-"match_method": "canonical",
-"preferred_label": "salvación"
-},
-{
-"id": "deity:Angel",
-"type": "deity",
-"confidence": 0.2063,
-"match_method": "canonical",
-"preferred_label": "Un ángel"
-},
-{
-"id": "keyterm:Glory",
-"type": "keyterm",
-"confidence": 0.2063,
-"match_method": "canonical",
-"preferred_label": "gloria"
 },
 {
 "id": "keyterm:Kingdom",
@@ -8613,11 +8564,46 @@
 "preferred_label": "mandar"
 },
 {
+"id": "keyterm:Think",
+"type": "keyterm",
+"confidence": 0.2063,
+"match_method": "canonical",
+"preferred_label": "pensar"
+},
+{
+"id": "keyterm:Surely",
+"type": "keyterm",
+"confidence": 0.2063,
+"match_method": "canonical",
+"preferred_label": "¡ciertamente!"
+},
+{
+"id": "keyterm:Salvation",
+"type": "keyterm",
+"confidence": 0.2063,
+"match_method": "canonical",
+"preferred_label": "salvación"
+},
+{
 "id": "keyterm:StumblingBlock",
 "type": "keyterm",
 "confidence": 0.2063,
 "match_method": "canonical",
 "preferred_label": "piedra de tropiezo"
+},
+{
+"id": "keyterm:Ability",
+"type": "keyterm",
+"confidence": 0.2063,
+"match_method": "canonical",
+"preferred_label": "habilidad"
+},
+{
+"id": "deity:Satan",
+"type": "deity",
+"confidence": 0.2063,
+"match_method": "canonical",
+"preferred_label": "Satanás"
 },
 {
 "id": "keyterm:Resurrection",
@@ -8627,11 +8613,18 @@
 "preferred_label": "resurrección"
 },
 {
-"id": "deity:Satan",
+"id": "deity:Angel",
 "type": "deity",
 "confidence": 0.2063,
 "match_method": "canonical",
-"preferred_label": "Satanás"
+"preferred_label": "Un ángel"
+},
+{
+"id": "keyterm:Glory",
+"type": "keyterm",
+"confidence": 0.2063,
+"match_method": "canonical",
+"preferred_label": "gloria"
 },
 {
 "id": "realia:Cross",
@@ -8757,13 +8750,6 @@
 "preferred_label": "ser discípulo"
 },
 {
-"id": "person:Moses",
-"type": "person",
-"confidence": 0.2692,
-"match_method": "canonical",
-"preferred_label": "Moisés"
-},
-{
 "id": "person:Peter",
 "type": "person",
 "confidence": 0.2692,
@@ -8778,25 +8764,11 @@
 "preferred_label": "temor"
 },
 {
-"id": "person:John",
+"id": "person:Moses",
 "type": "person",
-"confidence": 0.1846,
+"confidence": 0.2692,
 "match_method": "canonical",
-"preferred_label": "Juan"
-},
-{
-"id": "keyterm:Baptist",
-"type": "keyterm",
-"confidence": 0.1846,
-"match_method": "canonical",
-"preferred_label": "bautista"
-},
-{
-"id": "keyterm:Resurrection",
-"type": "keyterm",
-"confidence": 0.1846,
-"match_method": "canonical",
-"preferred_label": "resurrección"
+"preferred_label": "Moisés"
 },
 {
 "id": "keyterm:Command",
@@ -8806,11 +8778,11 @@
 "preferred_label": "mandar"
 },
 {
-"id": "keyterm:Beloved",
-"type": "keyterm",
+"id": "person:John",
+"type": "person",
 "confidence": 0.1846,
 "match_method": "canonical",
-"preferred_label": "amado"
+"preferred_label": "Juan"
 },
 {
 "id": "person:James",
@@ -8818,6 +8790,27 @@
 "confidence": 0.1846,
 "match_method": "canonical",
 "preferred_label": "Jacobo"
+},
+{
+"id": "keyterm:Baptist",
+"type": "keyterm",
+"confidence": 0.1846,
+"match_method": "canonical",
+"preferred_label": "bautista"
+},
+{
+"id": "keyterm:Beloved",
+"type": "keyterm",
+"confidence": 0.1846,
+"match_method": "canonical",
+"preferred_label": "amado"
+},
+{
+"id": "keyterm:Resurrection",
+"type": "keyterm",
+"confidence": 0.1846,
+"match_method": "canonical",
+"preferred_label": "resurrección"
 },
 {
 "id": "person:John.2",
@@ -8915,13 +8908,6 @@
 "preferred_label": "Jesús"
 },
 {
-"id": "keyterm:Serve",
-"type": "keyterm",
-"confidence": 0.3125,
-"match_method": "canonical",
-"preferred_label": "servir"
-},
-{
 "id": "keyterm:Disciple",
 "type": "keyterm",
 "confidence": 0.3125,
@@ -8929,32 +8915,11 @@
 "preferred_label": "ser discípulo"
 },
 {
-"id": "keyterm:Mercy",
+"id": "keyterm:Serve",
 "type": "keyterm",
-"confidence": 0.2063,
+"confidence": 0.3125,
 "match_method": "canonical",
-"preferred_label": "misericordia"
-},
-{
-"id": "group:GenericDisciples",
-"type": "group",
-"confidence": 0.2063,
-"match_method": "canonical",
-"preferred_label": "un grupo de discípulos"
-},
-{
-"id": "keyterm:Surely",
-"type": "keyterm",
-"confidence": 0.2063,
-"match_method": "canonical",
-"preferred_label": "¡ciertamente!"
-},
-{
-"id": "keyterm:Believe",
-"type": "keyterm",
-"confidence": 0.2063,
-"match_method": "canonical",
-"preferred_label": "creer"
+"preferred_label": "servir"
 },
 {
 "id": "keyterm:Command",
@@ -8964,6 +8929,13 @@
 "preferred_label": "mandar"
 },
 {
+"id": "keyterm:Surely",
+"type": "keyterm",
+"confidence": 0.2063,
+"match_method": "canonical",
+"preferred_label": "¡ciertamente!"
+},
+{
 "id": "keyterm:Unfaithful",
 "type": "keyterm",
 "confidence": 0.2063,
@@ -8971,11 +8943,32 @@
 "preferred_label": "ser infiel"
 },
 {
+"id": "group:GenericDisciples",
+"type": "group",
+"confidence": 0.2063,
+"match_method": "canonical",
+"preferred_label": "un grupo de discípulos"
+},
+{
 "id": "deity:Demons",
 "type": "deity",
 "confidence": 0.2063,
 "match_method": "canonical",
 "preferred_label": "Demonios"
+},
+{
+"id": "keyterm:Mercy",
+"type": "keyterm",
+"confidence": 0.2063,
+"match_method": "canonical",
+"preferred_label": "misericordia"
+},
+{
+"id": "keyterm:Believe",
+"type": "keyterm",
+"confidence": 0.2063,
+"match_method": "canonical",
+"preferred_label": "creer"
 },
 {
 "id": "flora:Mustard",
@@ -9087,27 +9080,6 @@
 "preferred_label": "Pedro"
 },
 {
-"id": "keyterm:Resurrection",
-"type": "keyterm",
-"confidence": 0.225,
-"match_method": "canonical",
-"preferred_label": "resurrección"
-},
-{
-"id": "keyterm:PollTax",
-"type": "keyterm",
-"confidence": 0.225,
-"match_method": "canonical",
-"preferred_label": "tributo por persona"
-},
-{
-"id": "place:Galilee",
-"type": "place",
-"confidence": 0.225,
-"match_method": "canonical",
-"preferred_label": "Galilea"
-},
-{
 "id": "keyterm:Tax",
 "type": "keyterm",
 "confidence": 0.225,
@@ -9122,18 +9094,32 @@
 "preferred_label": "Capernaúm"
 },
 {
+"id": "place:Galilee",
+"type": "place",
+"confidence": 0.225,
+"match_method": "canonical",
+"preferred_label": "Galilea"
+},
+{
+"id": "keyterm:Resurrection",
+"type": "keyterm",
+"confidence": 0.225,
+"match_method": "canonical",
+"preferred_label": "resurrección"
+},
+{
+"id": "keyterm:PollTax",
+"type": "keyterm",
+"confidence": 0.225,
+"match_method": "canonical",
+"preferred_label": "tributo por persona"
+},
+{
 "id": "realia:Fishhook",
 "type": "realia",
 "confidence": 0.1983,
 "match_method": "canonical",
 "preferred_label": "anzuelo"
-},
-{
-"id": "realia:Stater",
-"type": "realia",
-"confidence": 0.1983,
-"match_method": "canonical",
-"preferred_label": "estáter"
 },
 {
 "id": "realia:Two-drachmaPiece",
@@ -9143,11 +9129,11 @@
 "preferred_label": "moneda de dos dracmas"
 },
 {
-"id": "fauna:Fish",
-"type": "fauna",
-"confidence": 0.165,
+"id": "realia:Stater",
+"type": "realia",
+"confidence": 0.1983,
 "match_method": "canonical",
-"preferred_label": "pez"
+"preferred_label": "estáter"
 },
 {
 "id": "realia:House",
@@ -9155,6 +9141,13 @@
 "confidence": 0.165,
 "match_method": "canonical",
 "preferred_label": "casa"
+},
+{
+"id": "fauna:Fish",
+"type": "fauna",
+"confidence": 0.165,
+"match_method": "canonical",
+"preferred_label": "pez"
 }
 ]
 }
@@ -9224,18 +9217,18 @@
 "preferred_label": "hacer tropezar"
 },
 {
-"id": "keyterm:Heaven",
-"type": "keyterm",
-"confidence": 0.4,
-"match_method": "canonical",
-"preferred_label": "cielo"
-},
-{
 "id": "keyterm:Kingdom",
 "type": "keyterm",
 "confidence": 0.4,
 "match_method": "canonical",
 "preferred_label": "reino"
+},
+{
+"id": "keyterm:Heaven",
+"type": "keyterm",
+"confidence": 0.4,
+"match_method": "canonical",
+"preferred_label": "cielo"
 },
 {
 "id": "keyterm:Life",
@@ -9252,32 +9245,11 @@
 "preferred_label": "piedra de tropiezo"
 },
 {
-"id": "keyterm:Disaster",
+"id": "keyterm:EternalFire",
 "type": "keyterm",
 "confidence": 0.2,
 "match_method": "canonical",
-"preferred_label": "desastre"
-},
-{
-"id": "keyterm:Believe",
-"type": "keyterm",
-"confidence": 0.2,
-"match_method": "canonical",
-"preferred_label": "creer"
-},
-{
-"id": "place:Hell",
-"type": "place",
-"confidence": 0.2,
-"match_method": "canonical",
-"preferred_label": "infierno"
-},
-{
-"id": "keyterm:Always",
-"type": "keyterm",
-"confidence": 0.2,
-"match_method": "canonical",
-"preferred_label": "para siempre"
+"preferred_label": "fuego eterno"
 },
 {
 "id": "keyterm:Surely",
@@ -9285,6 +9257,27 @@
 "confidence": 0.2,
 "match_method": "canonical",
 "preferred_label": "¡ciertamente!"
+},
+{
+"id": "keyterm:Name",
+"type": "keyterm",
+"confidence": 0.2,
+"match_method": "canonical",
+"preferred_label": "nombre"
+},
+{
+"id": "person:Jesus.2",
+"type": "person",
+"confidence": 0.2,
+"match_method": "canonical",
+"preferred_label": "Jesús"
+},
+{
+"id": "keyterm:Gehenna",
+"type": "keyterm",
+"confidence": 0.2,
+"match_method": "canonical",
+"preferred_label": "Gehena"
 },
 {
 "id": "keyterm:Ability",
@@ -9301,32 +9294,32 @@
 "preferred_label": "ser discípulo"
 },
 {
-"id": "person:Jesus.2",
-"type": "person",
+"id": "place:Hell",
+"type": "place",
 "confidence": 0.2,
 "match_method": "canonical",
-"preferred_label": "Jesús"
+"preferred_label": "infierno"
 },
 {
-"id": "keyterm:Name",
+"id": "keyterm:Disaster",
 "type": "keyterm",
 "confidence": 0.2,
 "match_method": "canonical",
-"preferred_label": "nombre"
+"preferred_label": "desastre"
 },
 {
-"id": "keyterm:Gehenna",
+"id": "keyterm:Always",
 "type": "keyterm",
 "confidence": 0.2,
 "match_method": "canonical",
-"preferred_label": "Gehena"
+"preferred_label": "para siempre"
 },
 {
-"id": "keyterm:EternalFire",
+"id": "keyterm:Believe",
 "type": "keyterm",
 "confidence": 0.2,
 "match_method": "canonical",
-"preferred_label": "fuego eterno"
+"preferred_label": "creer"
 },
 {
 "id": "realia:Hand-mill",
@@ -9470,13 +9463,6 @@
 ],
 "acai": [
 {
-"id": "keyterm:Surely",
-"type": "keyterm",
-"confidence": 0.35,
-"match_method": "canonical",
-"preferred_label": "¡ciertamente!"
-},
-{
 "id": "keyterm:Heaven",
 "type": "keyterm",
 "confidence": 0.35,
@@ -9484,18 +9470,18 @@
 "preferred_label": "cielo"
 },
 {
+"id": "keyterm:Surely",
+"type": "keyterm",
+"confidence": 0.35,
+"match_method": "canonical",
+"preferred_label": "¡ciertamente!"
+},
+{
 "id": "keyterm:Witness",
 "type": "keyterm",
 "confidence": 0.2583,
 "match_method": "canonical",
 "preferred_label": "testimonio"
-},
-{
-"id": "keyterm:Name",
-"type": "keyterm",
-"confidence": 0.225,
-"match_method": "canonical",
-"preferred_label": "nombre"
 },
 {
 "id": "keyterm:Church",
@@ -9512,11 +9498,18 @@
 "preferred_label": "pecar"
 },
 {
-"id": "keyterm:TaxCollector",
+"id": "keyterm:Name",
 "type": "keyterm",
 "confidence": 0.225,
 "match_method": "canonical",
-"preferred_label": "recaudador de impuestos"
+"preferred_label": "nombre"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.225,
+"match_method": "canonical",
+"preferred_label": "Jehová"
 },
 {
 "id": "keyterm:Word",
@@ -9526,11 +9519,11 @@
 "preferred_label": "palabra"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
+"id": "keyterm:TaxCollector",
+"type": "keyterm",
 "confidence": 0.225,
 "match_method": "canonical",
-"preferred_label": "Jehová"
+"preferred_label": "recaudador de impuestos"
 }
 ]
 }
@@ -9649,25 +9642,11 @@
 "preferred_label": "rogar"
 },
 {
-"id": "keyterm:Mercy",
+"id": "keyterm:Sin",
 "type": "keyterm",
 "confidence": 0.18,
 "match_method": "canonical",
-"preferred_label": "misericordia"
-},
-{
-"id": "keyterm:Heavenly",
-"type": "keyterm",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "celestial"
-},
-{
-"id": "person:Jesus.2",
-"type": "person",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "Jesús"
+"preferred_label": "pecar"
 },
 {
 "id": "keyterm:BowDown",
@@ -9677,46 +9656,11 @@
 "preferred_label": "postrarse"
 },
 {
-"id": "keyterm:Affection",
-"type": "keyterm",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "afecto"
-},
-{
-"id": "keyterm:Heaven",
-"type": "keyterm",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "cielo"
-},
-{
 "id": "keyterm:Kingdom",
 "type": "keyterm",
 "confidence": 0.18,
 "match_method": "canonical",
 "preferred_label": "reino"
-},
-{
-"id": "person:Peter",
-"type": "person",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "Pedro"
-},
-{
-"id": "keyterm:Sin",
-"type": "keyterm",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "pecar"
-},
-{
-"id": "keyterm:Heart",
-"type": "keyterm",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "corazón"
 },
 {
 "id": "keyterm:Debt",
@@ -9726,6 +9670,20 @@
 "preferred_label": "deuda"
 },
 {
+"id": "keyterm:Heaven",
+"type": "keyterm",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "cielo"
+},
+{
+"id": "person:Jesus.2",
+"type": "person",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "Jesús"
+},
+{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.18,
@@ -9733,11 +9691,46 @@
 "preferred_label": "Jehová"
 },
 {
-"id": "realia:Prison",
+"id": "person:Peter",
+"type": "person",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "Pedro"
+},
+{
+"id": "keyterm:Affection",
+"type": "keyterm",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "afecto"
+},
+{
+"id": "keyterm:Heart",
+"type": "keyterm",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "corazón"
+},
+{
+"id": "keyterm:Heavenly",
+"type": "keyterm",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "celestial"
+},
+{
+"id": "keyterm:Mercy",
+"type": "keyterm",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "misericordia"
+},
+{
+"id": "realia:Talent",
 "type": "realia",
 "confidence": 0.12,
 "match_method": "canonical",
-"preferred_label": "prisión"
+"preferred_label": "talento"
 },
 {
 "id": "realia:Denarius",
@@ -9747,11 +9740,11 @@
 "preferred_label": "denario"
 },
 {
-"id": "realia:Talent",
+"id": "realia:Prison",
 "type": "realia",
 "confidence": 0.12,
 "match_method": "canonical",
-"preferred_label": "talento"
+"preferred_label": "prisión"
 }
 ]
 }
@@ -9842,13 +9835,6 @@
 ],
 "acai": [
 {
-"id": "person:Moses",
-"type": "person",
-"confidence": 0.275,
-"match_method": "canonical",
-"preferred_label": "Moisés"
-},
-{
 "id": "keyterm:Body.3",
 "type": "keyterm",
 "confidence": 0.275,
@@ -9856,25 +9842,18 @@
 "preferred_label": "cuerpo"
 },
 {
-"id": "group:GenericDisciples",
-"type": "group",
-"confidence": 0.1875,
+"id": "person:Moses",
+"type": "person",
+"confidence": 0.275,
 "match_method": "canonical",
-"preferred_label": "un grupo de discípulos"
+"preferred_label": "Moisés"
 },
 {
-"id": "keyterm:Serve",
+"id": "keyterm:Kingdom",
 "type": "keyterm",
 "confidence": 0.1875,
 "match_method": "canonical",
-"preferred_label": "servir"
-},
-{
-"id": "keyterm:Disciple",
-"type": "keyterm",
-"confidence": 0.1875,
-"match_method": "canonical",
-"preferred_label": "ser discípulo"
+"preferred_label": "reino"
 },
 {
 "id": "keyterm:Command",
@@ -9884,11 +9863,32 @@
 "preferred_label": "mandar"
 },
 {
+"id": "place:Jordan",
+"type": "place",
+"confidence": 0.1875,
+"match_method": "canonical",
+"preferred_label": "Río Jordán"
+},
+{
 "id": "keyterm:Heaven",
 "type": "keyterm",
 "confidence": 0.1875,
 "match_method": "canonical",
 "preferred_label": "cielo"
+},
+{
+"id": "keyterm:Serve",
+"type": "keyterm",
+"confidence": 0.1875,
+"match_method": "canonical",
+"preferred_label": "servir"
+},
+{
+"id": "place:Judea",
+"type": "place",
+"confidence": 0.1875,
+"match_method": "canonical",
+"preferred_label": "Judea"
 },
 {
 "id": "person:Jesus.2",
@@ -9898,25 +9898,11 @@
 "preferred_label": "Jesús"
 },
 {
-"id": "place:Jordan",
-"type": "place",
+"id": "deity:Lord",
+"type": "deity",
 "confidence": 0.1875,
 "match_method": "canonical",
-"preferred_label": "Río Jordán"
-},
-{
-"id": "keyterm:Fornication",
-"type": "keyterm",
-"confidence": 0.1875,
-"match_method": "canonical",
-"preferred_label": "fornicación"
-},
-{
-"id": "group:Pharisee",
-"type": "group",
-"confidence": 0.1875,
-"match_method": "canonical",
-"preferred_label": "fariseos"
+"preferred_label": "Jehová"
 },
 {
 "id": "keyterm:Lawful",
@@ -9924,13 +9910,6 @@
 "confidence": 0.1875,
 "match_method": "canonical",
 "preferred_label": "ser lícito"
-},
-{
-"id": "keyterm:Kingdom",
-"type": "keyterm",
-"confidence": 0.1875,
-"match_method": "canonical",
-"preferred_label": "reino"
 },
 {
 "id": "place:Galilee",
@@ -9947,18 +9926,32 @@
 "preferred_label": "dureza de corazón"
 },
 {
-"id": "place:Judea",
-"type": "place",
+"id": "group:GenericDisciples",
+"type": "group",
 "confidence": 0.1875,
 "match_method": "canonical",
-"preferred_label": "Judea"
+"preferred_label": "un grupo de discípulos"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
+"id": "keyterm:Fornication",
+"type": "keyterm",
 "confidence": 0.1875,
 "match_method": "canonical",
-"preferred_label": "Jehová"
+"preferred_label": "fornicación"
+},
+{
+"id": "keyterm:Disciple",
+"type": "keyterm",
+"confidence": 0.1875,
+"match_method": "canonical",
+"preferred_label": "ser discípulo"
+},
+{
+"id": "group:Pharisee",
+"type": "group",
+"confidence": 0.1875,
+"match_method": "canonical",
+"preferred_label": "fariseos"
 },
 {
 "id": "realia:Scroll",
@@ -10063,6 +10056,13 @@
 "preferred_label": "Jesús"
 },
 {
+"id": "keyterm:Kingdom",
+"type": "keyterm",
+"confidence": 0.325,
+"match_method": "canonical",
+"preferred_label": "reino"
+},
+{
 "id": "keyterm:Heaven",
 "type": "keyterm",
 "confidence": 0.325,
@@ -10077,32 +10077,11 @@
 "preferred_label": "ser discípulo"
 },
 {
-"id": "keyterm:Kingdom",
-"type": "keyterm",
-"confidence": 0.325,
-"match_method": "canonical",
-"preferred_label": "reino"
-},
-{
 "id": "keyterm:Life",
 "type": "keyterm",
 "confidence": 0.325,
 "match_method": "canonical",
 "preferred_label": "vida"
-},
-{
-"id": "person:RichYoungRuler",
-"type": "person",
-"confidence": 0.25,
-"match_method": "canonical",
-"preferred_label": "Joven rico"
-},
-{
-"id": "keyterm:Good",
-"type": "keyterm",
-"confidence": 0.25,
-"match_method": "canonical",
-"preferred_label": "bueno"
 },
 {
 "id": "keyterm:Surely",
@@ -10112,11 +10091,11 @@
 "preferred_label": "¡ciertamente!"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
+"id": "keyterm:Good",
+"type": "keyterm",
 "confidence": 0.25,
 "match_method": "canonical",
-"preferred_label": "Jehová"
+"preferred_label": "bueno"
 },
 {
 "id": "keyterm:Always",
@@ -10126,11 +10105,18 @@
 "preferred_label": "para siempre"
 },
 {
-"id": "keyterm:Command",
-"type": "keyterm",
-"confidence": 0.175,
+"id": "person:RichYoungRuler",
+"type": "person",
+"confidence": 0.25,
 "match_method": "canonical",
-"preferred_label": "mandar"
+"preferred_label": "Joven rico"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.25,
+"match_method": "canonical",
+"preferred_label": "Jehová"
 },
 {
 "id": "keyterm:Decided",
@@ -10140,11 +10126,53 @@
 "preferred_label": "decidir"
 },
 {
+"id": "keyterm:AskFor",
+"type": "keyterm",
+"confidence": 0.175,
+"match_method": "canonical",
+"preferred_label": "rogar"
+},
+{
+"id": "keyterm:Salvation",
+"type": "keyterm",
+"confidence": 0.175,
+"match_method": "canonical",
+"preferred_label": "salvación"
+},
+{
 "id": "keyterm:Love",
 "type": "keyterm",
 "confidence": 0.175,
 "match_method": "canonical",
 "preferred_label": "amor"
+},
+{
+"id": "person:Peter",
+"type": "person",
+"confidence": 0.175,
+"match_method": "canonical",
+"preferred_label": "Pedro"
+},
+{
+"id": "keyterm:Commandment",
+"type": "keyterm",
+"confidence": 0.175,
+"match_method": "canonical",
+"preferred_label": "mandamiento"
+},
+{
+"id": "keyterm:Command",
+"type": "keyterm",
+"confidence": 0.175,
+"match_method": "canonical",
+"preferred_label": "mandar"
+},
+{
+"id": "person:Israel",
+"type": "person",
+"confidence": 0.175,
+"match_method": "canonical",
+"preferred_label": "Israel"
 },
 {
 "id": "keyterm:NewWorld",
@@ -10154,11 +10182,11 @@
 "preferred_label": "mundo nuevo"
 },
 {
-"id": "keyterm:Commandment",
+"id": "keyterm:Pray",
 "type": "keyterm",
 "confidence": 0.175,
 "match_method": "canonical",
-"preferred_label": "mandamiento"
+"preferred_label": "orar"
 },
 {
 "id": "keyterm:Name",
@@ -10175,46 +10203,11 @@
 "preferred_label": "fornicación"
 },
 {
-"id": "keyterm:Pray",
-"type": "keyterm",
-"confidence": 0.175,
-"match_method": "canonical",
-"preferred_label": "orar"
-},
-{
-"id": "person:Israel",
-"type": "person",
-"confidence": 0.175,
-"match_method": "canonical",
-"preferred_label": "Israel"
-},
-{
 "id": "keyterm:Glory",
 "type": "keyterm",
 "confidence": 0.175,
 "match_method": "canonical",
 "preferred_label": "gloria"
-},
-{
-"id": "keyterm:Salvation",
-"type": "keyterm",
-"confidence": 0.175,
-"match_method": "canonical",
-"preferred_label": "salvación"
-},
-{
-"id": "keyterm:AskFor",
-"type": "keyterm",
-"confidence": 0.175,
-"match_method": "canonical",
-"preferred_label": "rogar"
-},
-{
-"id": "person:Peter",
-"type": "person",
-"confidence": 0.175,
-"match_method": "canonical",
-"preferred_label": "Pedro"
 },
 {
 "id": "fauna:Camel",
@@ -10319,32 +10312,18 @@
 "preferred_label": "inútil"
 },
 {
-"id": "keyterm:Heaven",
-"type": "keyterm",
-"confidence": 0.1781,
-"match_method": "canonical",
-"preferred_label": "cielo"
-},
-{
-"id": "keyterm:Good",
-"type": "keyterm",
-"confidence": 0.1781,
-"match_method": "canonical",
-"preferred_label": "bueno"
-},
-{
-"id": "keyterm:Just",
-"type": "keyterm",
-"confidence": 0.1781,
-"match_method": "canonical",
-"preferred_label": "ser justo"
-},
-{
 "id": "keyterm:Kingdom",
 "type": "keyterm",
 "confidence": 0.1781,
 "match_method": "canonical",
 "preferred_label": "reino"
+},
+{
+"id": "keyterm:Heaven",
+"type": "keyterm",
+"confidence": 0.1781,
+"match_method": "canonical",
+"preferred_label": "cielo"
 },
 {
 "id": "keyterm:Lawful",
@@ -10359,6 +10338,20 @@
 "confidence": 0.1781,
 "match_method": "canonical",
 "preferred_label": "hacer lo malo"
+},
+{
+"id": "keyterm:Good",
+"type": "keyterm",
+"confidence": 0.1781,
+"match_method": "canonical",
+"preferred_label": "bueno"
+},
+{
+"id": "keyterm:Just",
+"type": "keyterm",
+"confidence": 0.1781,
+"match_method": "canonical",
+"preferred_label": "ser justo"
 }
 ]
 }
@@ -10484,6 +10477,48 @@
 "preferred_label": "servir"
 },
 {
+"id": "keyterm:BowDown",
+"type": "keyterm",
+"confidence": 0.1875,
+"match_method": "canonical",
+"preferred_label": "postrarse"
+},
+{
+"id": "keyterm:Kingdom",
+"type": "keyterm",
+"confidence": 0.1875,
+"match_method": "canonical",
+"preferred_label": "reino"
+},
+{
+"id": "keyterm:Command",
+"type": "keyterm",
+"confidence": 0.1875,
+"match_method": "canonical",
+"preferred_label": "mandar"
+},
+{
+"id": "keyterm:Condemn",
+"type": "keyterm",
+"confidence": 0.1875,
+"match_method": "canonical",
+"preferred_label": "condenar"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.1875,
+"match_method": "canonical",
+"preferred_label": "Jehová"
+},
+{
+"id": "keyterm:Ransom",
+"type": "keyterm",
+"confidence": 0.1875,
+"match_method": "canonical",
+"preferred_label": "rescate"
+},
+{
 "id": "group:Gentile",
 "type": "group",
 "confidence": 0.1875,
@@ -10498,60 +10533,11 @@
 "preferred_label": "ser discípulo"
 },
 {
-"id": "keyterm:Ransom",
-"type": "keyterm",
-"confidence": 0.1875,
-"match_method": "canonical",
-"preferred_label": "rescate"
-},
-{
-"id": "keyterm:Command",
-"type": "keyterm",
-"confidence": 0.1875,
-"match_method": "canonical",
-"preferred_label": "mandar"
-},
-{
-"id": "keyterm:Kingdom",
-"type": "keyterm",
-"confidence": 0.1875,
-"match_method": "canonical",
-"preferred_label": "reino"
-},
-{
-"id": "keyterm:BowDown",
-"type": "keyterm",
-"confidence": 0.1875,
-"match_method": "canonical",
-"preferred_label": "postrarse"
-},
-{
 "id": "person:Zebedee",
 "type": "person",
 "confidence": 0.1875,
 "match_method": "canonical",
 "preferred_label": "Zebedeo"
-},
-{
-"id": "keyterm:Life",
-"type": "keyterm",
-"confidence": 0.1875,
-"match_method": "canonical",
-"preferred_label": "vida"
-},
-{
-"id": "keyterm:Authority.2",
-"type": "keyterm",
-"confidence": 0.1875,
-"match_method": "canonical",
-"preferred_label": "autoridad"
-},
-{
-"id": "keyterm:Condemn",
-"type": "keyterm",
-"confidence": 0.1875,
-"match_method": "canonical",
-"preferred_label": "condenar"
 },
 {
 "id": "keyterm:Resurrection",
@@ -10561,11 +10547,18 @@
 "preferred_label": "resurrección"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
+"id": "keyterm:Authority.2",
+"type": "keyterm",
 "confidence": 0.1875,
 "match_method": "canonical",
-"preferred_label": "Jehová"
+"preferred_label": "autoridad"
+},
+{
+"id": "keyterm:Life",
+"type": "keyterm",
+"confidence": 0.1875,
+"match_method": "canonical",
+"preferred_label": "vida"
 },
 {
 "id": "realia:Cross",
@@ -10642,6 +10635,13 @@
 "preferred_label": "Jesús"
 },
 {
+"id": "person:David",
+"type": "person",
+"confidence": 0.35,
+"match_method": "canonical",
+"preferred_label": "David"
+},
+{
 "id": "keyterm:Mercy",
 "type": "keyterm",
 "confidence": 0.35,
@@ -10649,11 +10649,11 @@
 "preferred_label": "misericordia"
 },
 {
-"id": "person:David",
-"type": "person",
-"confidence": 0.35,
+"id": "place:Jericho",
+"type": "place",
+"confidence": 0.225,
 "match_method": "canonical",
-"preferred_label": "David"
+"preferred_label": "Jericó"
 },
 {
 "id": "keyterm:Command",
@@ -10668,13 +10668,6 @@
 "confidence": 0.225,
 "match_method": "canonical",
 "preferred_label": "afecto"
-},
-{
-"id": "place:Jericho",
-"type": "place",
-"confidence": 0.225,
-"match_method": "canonical",
-"preferred_label": "Jericó"
 }
 ]
 }
@@ -10842,13 +10835,6 @@
 "preferred_label": "ropa"
 },
 {
-"id": "place:Bethphage",
-"type": "place",
-"confidence": 0.2091,
-"match_method": "canonical",
-"preferred_label": "Betfagé"
-},
-{
 "id": "keyterm:Hosanna",
 "type": "keyterm",
 "confidence": 0.2091,
@@ -10856,53 +10842,11 @@
 "preferred_label": "hosanna"
 },
 {
-"id": "keyterm:Bless",
-"type": "keyterm",
-"confidence": 0.1909,
-"match_method": "canonical",
-"preferred_label": "bendecir"
-},
-{
-"id": "place:Nazareth",
+"id": "place:Bethphage",
 "type": "place",
-"confidence": 0.1909,
+"confidence": 0.2091,
 "match_method": "canonical",
-"preferred_label": "Nazaret"
-},
-{
-"id": "keyterm:Happen",
-"type": "keyterm",
-"confidence": 0.1909,
-"match_method": "canonical",
-"preferred_label": "hacer que suceda"
-},
-{
-"id": "group:GenericGroup",
-"type": "group",
-"confidence": 0.1909,
-"match_method": "canonical",
-"preferred_label": "un grupo de personas"
-},
-{
-"id": "keyterm:Name",
-"type": "keyterm",
-"confidence": 0.1909,
-"match_method": "canonical",
-"preferred_label": "nombre"
-},
-{
-"id": "keyterm:Command",
-"type": "keyterm",
-"confidence": 0.1909,
-"match_method": "canonical",
-"preferred_label": "mandar"
-},
-{
-"id": "place:Galilee",
-"type": "place",
-"confidence": 0.1909,
-"match_method": "canonical",
-"preferred_label": "Galilea"
+"preferred_label": "Betfagé"
 },
 {
 "id": "person:David",
@@ -10912,11 +10856,39 @@
 "preferred_label": "David"
 },
 {
-"id": "keyterm:Height",
+"id": "group:GenericGroup",
+"type": "group",
+"confidence": 0.1909,
+"match_method": "canonical",
+"preferred_label": "un grupo de personas"
+},
+{
+"id": "keyterm:Happen",
 "type": "keyterm",
 "confidence": 0.1909,
 "match_method": "canonical",
-"preferred_label": "altura"
+"preferred_label": "hacer que suceda"
+},
+{
+"id": "keyterm:Command",
+"type": "keyterm",
+"confidence": 0.1909,
+"match_method": "canonical",
+"preferred_label": "mandar"
+},
+{
+"id": "keyterm:Bless",
+"type": "keyterm",
+"confidence": 0.1909,
+"match_method": "canonical",
+"preferred_label": "bendecir"
+},
+{
+"id": "keyterm:Name",
+"type": "keyterm",
+"confidence": 0.1909,
+"match_method": "canonical",
+"preferred_label": "nombre"
 },
 {
 "id": "deity:Lord",
@@ -10924,6 +10896,27 @@
 "confidence": 0.1909,
 "match_method": "canonical",
 "preferred_label": "Jehová"
+},
+{
+"id": "place:Galilee",
+"type": "place",
+"confidence": 0.1909,
+"match_method": "canonical",
+"preferred_label": "Galilea"
+},
+{
+"id": "keyterm:Height",
+"type": "keyterm",
+"confidence": 0.1909,
+"match_method": "canonical",
+"preferred_label": "altura"
+},
+{
+"id": "place:Nazareth",
+"type": "place",
+"confidence": 0.1909,
+"match_method": "canonical",
+"preferred_label": "Nazaret"
 },
 {
 "id": "flora:OliveTree",
@@ -11105,6 +11098,20 @@
 "preferred_label": "creer"
 },
 {
+"id": "person:David",
+"type": "person",
+"confidence": 0.1909,
+"match_method": "canonical",
+"preferred_label": "David"
+},
+{
+"id": "keyterm:Discern",
+"type": "keyterm",
+"confidence": 0.1909,
+"match_method": "canonical",
+"preferred_label": "discernir"
+},
+{
 "id": "place:Bethany",
 "type": "place",
 "confidence": 0.1909,
@@ -11119,32 +11126,11 @@
 "preferred_label": "¡ciertamente!"
 },
 {
-"id": "keyterm:Always",
-"type": "keyterm",
-"confidence": 0.1909,
-"match_method": "canonical",
-"preferred_label": "para siempre"
-},
-{
 "id": "keyterm:Disciple",
 "type": "keyterm",
 "confidence": 0.1909,
 "match_method": "canonical",
 "preferred_label": "ser discípulo"
-},
-{
-"id": "keyterm:Serve",
-"type": "keyterm",
-"confidence": 0.1909,
-"match_method": "canonical",
-"preferred_label": "servir"
-},
-{
-"id": "person:David",
-"type": "person",
-"confidence": 0.1909,
-"match_method": "canonical",
-"preferred_label": "David"
 },
 {
 "id": "keyterm:Hosanna",
@@ -11154,11 +11140,18 @@
 "preferred_label": "hosanna"
 },
 {
-"id": "keyterm:Discern",
+"id": "keyterm:Serve",
 "type": "keyterm",
 "confidence": 0.1909,
 "match_method": "canonical",
-"preferred_label": "discernir"
+"preferred_label": "servir"
+},
+{
+"id": "keyterm:Always",
+"type": "keyterm",
+"confidence": 0.1909,
+"match_method": "canonical",
+"preferred_label": "para siempre"
 },
 {
 "id": "realia:Seat",
@@ -11277,11 +11270,11 @@
 ],
 "acai": [
 {
-"id": "person:John",
+"id": "person:Jesus.2",
 "type": "person",
 "confidence": 0.385,
 "match_method": "canonical",
-"preferred_label": "Juan"
+"preferred_label": "Jesús"
 },
 {
 "id": "keyterm:Ability",
@@ -11291,11 +11284,11 @@
 "preferred_label": "habilidad"
 },
 {
-"id": "person:Jesus.2",
+"id": "person:John",
 "type": "person",
 "confidence": 0.385,
 "match_method": "canonical",
-"preferred_label": "Jesús"
+"preferred_label": "Juan"
 },
 {
 "id": "keyterm:Authority.2",
@@ -11312,13 +11305,6 @@
 "preferred_label": "recaudador de impuestos"
 },
 {
-"id": "keyterm:Believe",
-"type": "keyterm",
-"confidence": 0.29,
-"match_method": "canonical",
-"preferred_label": "creer"
-},
-{
 "id": "keyterm:Repent",
 "type": "keyterm",
 "confidence": 0.29,
@@ -11326,18 +11312,18 @@
 "preferred_label": "arrepentirse"
 },
 {
-"id": "keyterm:Surely",
+"id": "keyterm:Believe",
 "type": "keyterm",
-"confidence": 0.195,
+"confidence": 0.29,
 "match_method": "canonical",
-"preferred_label": "¡ciertamente!"
+"preferred_label": "creer"
 },
 {
-"id": "keyterm:Baptism",
+"id": "keyterm:Kingdom",
 "type": "keyterm",
 "confidence": 0.195,
 "match_method": "canonical",
-"preferred_label": "bautismo"
+"preferred_label": "reino"
 },
 {
 "id": "keyterm:AskFor",
@@ -11354,11 +11340,25 @@
 "preferred_label": "cielo"
 },
 {
-"id": "keyterm:Kingdom",
+"id": "keyterm:Surely",
 "type": "keyterm",
 "confidence": 0.195,
 "match_method": "canonical",
-"preferred_label": "reino"
+"preferred_label": "¡ciertamente!"
+},
+{
+"id": "keyterm:Baptism",
+"type": "keyterm",
+"confidence": 0.195,
+"match_method": "canonical",
+"preferred_label": "bautismo"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.195,
+"match_method": "canonical",
+"preferred_label": "Jehová"
 },
 {
 "id": "keyterm:Just",
@@ -11375,11 +11375,11 @@
 "preferred_label": "temor"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.195,
+"id": "realia:Temple",
+"type": "realia",
+"confidence": 0.135,
 "match_method": "canonical",
-"preferred_label": "Jehová"
+"preferred_label": "Templo"
 },
 {
 "id": "flora:Vine",
@@ -11387,13 +11387,6 @@
 "confidence": 0.135,
 "match_method": "canonical",
 "preferred_label": "vid"
-},
-{
-"id": "realia:Temple",
-"type": "realia",
-"confidence": 0.135,
-"match_method": "canonical",
-"preferred_label": "Templo"
 }
 ]
 }
@@ -11561,11 +11554,11 @@
 "preferred_label": "desechar"
 },
 {
-"id": "person:Jesus.2",
-"type": "person",
+"id": "keyterm:Scripture",
+"type": "keyterm",
 "confidence": 0.1821,
 "match_method": "canonical",
-"preferred_label": "Jesús"
+"preferred_label": "escrito"
 },
 {
 "id": "keyterm:Kingdom",
@@ -11575,11 +11568,11 @@
 "preferred_label": "reino"
 },
 {
-"id": "keyterm:Scripture",
-"type": "keyterm",
+"id": "person:Jesus.2",
+"type": "person",
 "confidence": 0.1821,
 "match_method": "canonical",
-"preferred_label": "escrito"
+"preferred_label": "Jesús"
 },
 {
 "id": "group:Pharisee",
@@ -11596,18 +11589,18 @@
 "preferred_label": "temor"
 },
 {
-"id": "realia:Tower",
-"type": "realia",
-"confidence": 0.1364,
-"match_method": "canonical",
-"preferred_label": "torre"
-},
-{
 "id": "realia:Cornerstone",
 "type": "realia",
 "confidence": 0.1364,
 "match_method": "canonical",
 "preferred_label": "piedra angular"
+},
+{
+"id": "realia:Tower",
+"type": "realia",
+"confidence": 0.1364,
+"match_method": "canonical",
+"preferred_label": "torre"
 },
 {
 "id": "realia:Winepress",
@@ -11719,11 +11712,11 @@
 "preferred_label": "ropa"
 },
 {
-"id": "keyterm:Chosen",
+"id": "keyterm:Kingdom",
 "type": "keyterm",
 "confidence": 0.1821,
 "match_method": "canonical",
-"preferred_label": "escogido"
+"preferred_label": "reino"
 },
 {
 "id": "keyterm:Parable",
@@ -11747,6 +11740,13 @@
 "preferred_label": "cielo"
 },
 {
+"id": "keyterm:OuterDarkness",
+"type": "keyterm",
+"confidence": 0.1821,
+"match_method": "canonical",
+"preferred_label": "tinieblas de afuera"
+},
+{
 "id": "person:Jesus.2",
 "type": "person",
 "confidence": 0.1821,
@@ -11754,18 +11754,11 @@
 "preferred_label": "Jesús"
 },
 {
-"id": "keyterm:Kingdom",
+"id": "keyterm:Chosen",
 "type": "keyterm",
 "confidence": 0.1821,
 "match_method": "canonical",
-"preferred_label": "reino"
-},
-{
-"id": "keyterm:OuterDarkness",
-"type": "keyterm",
-"confidence": 0.1821,
-"match_method": "canonical",
-"preferred_label": "tinieblas de afuera"
+"preferred_label": "escogido"
 },
 {
 "id": "keyterm:Good",
@@ -11863,6 +11856,13 @@
 ],
 "acai": [
 {
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.3125,
+"match_method": "canonical",
+"preferred_label": "Jehová"
+},
+{
 "id": "person:Tiberius",
 "type": "person",
 "confidence": 0.3125,
@@ -11877,39 +11877,11 @@
 "preferred_label": "tributo por persona"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.3125,
-"match_method": "canonical",
-"preferred_label": "Jehová"
-},
-{
 "id": "group:Herodian",
 "type": "group",
 "confidence": 0.2313,
 "match_method": "canonical",
 "preferred_label": "herodianos"
-},
-{
-"id": "keyterm:TheWay",
-"type": "keyterm",
-"confidence": 0.2063,
-"match_method": "canonical",
-"preferred_label": "el Camino"
-},
-{
-"id": "keyterm:True",
-"type": "keyterm",
-"confidence": 0.2063,
-"match_method": "canonical",
-"preferred_label": "verdadero"
-},
-{
-"id": "keyterm:Disciple",
-"type": "keyterm",
-"confidence": 0.2063,
-"match_method": "canonical",
-"preferred_label": "ser discípulo"
 },
 {
 "id": "keyterm:Truth",
@@ -11919,11 +11891,11 @@
 "preferred_label": "verdad"
 },
 {
-"id": "group:Pharisee",
-"type": "group",
+"id": "keyterm:True",
+"type": "keyterm",
 "confidence": 0.2063,
 "match_method": "canonical",
-"preferred_label": "fariseos"
+"preferred_label": "verdadero"
 },
 {
 "id": "person:Jesus.2",
@@ -11938,6 +11910,27 @@
 "confidence": 0.2063,
 "match_method": "canonical",
 "preferred_label": "ser lícito"
+},
+{
+"id": "group:Pharisee",
+"type": "group",
+"confidence": 0.2063,
+"match_method": "canonical",
+"preferred_label": "fariseos"
+},
+{
+"id": "keyterm:Disciple",
+"type": "keyterm",
+"confidence": 0.2063,
+"match_method": "canonical",
+"preferred_label": "ser discípulo"
+},
+{
+"id": "keyterm:TheWay",
+"type": "keyterm",
+"confidence": 0.2063,
+"match_method": "canonical",
+"preferred_label": "el Camino"
 },
 {
 "id": "realia:Denarius",
@@ -12021,18 +12014,18 @@
 ],
 "acai": [
 {
-"id": "keyterm:Resurrection",
-"type": "keyterm",
-"confidence": 0.4636,
-"match_method": "canonical",
-"preferred_label": "resurrección"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.4636,
 "match_method": "canonical",
 "preferred_label": "Jehová"
+},
+{
+"id": "keyterm:Resurrection",
+"type": "keyterm",
+"confidence": 0.4636,
+"match_method": "canonical",
+"preferred_label": "resurrección"
 },
 {
 "id": "person:Israel",
@@ -12049,25 +12042,18 @@
 "preferred_label": "saduceos"
 },
 {
-"id": "person:Moses",
-"type": "person",
-"confidence": 0.1909,
-"match_method": "canonical",
-"preferred_label": "Moisés"
-},
-{
-"id": "keyterm:Ability",
+"id": "keyterm:Scripture",
 "type": "keyterm",
 "confidence": 0.1909,
 "match_method": "canonical",
-"preferred_label": "habilidad"
+"preferred_label": "escrito"
 },
 {
-"id": "deity:Angel",
-"type": "deity",
+"id": "person:Isaac",
+"type": "person",
 "confidence": 0.1909,
 "match_method": "canonical",
-"preferred_label": "Un ángel"
+"preferred_label": "Isaac"
 },
 {
 "id": "keyterm:Heaven",
@@ -12084,20 +12070,6 @@
 "preferred_label": "Jesús"
 },
 {
-"id": "keyterm:Scripture",
-"type": "keyterm",
-"confidence": 0.1909,
-"match_method": "canonical",
-"preferred_label": "escrito"
-},
-{
-"id": "keyterm:Life",
-"type": "keyterm",
-"confidence": 0.1909,
-"match_method": "canonical",
-"preferred_label": "vida"
-},
-{
 "id": "person:Abraham",
 "type": "person",
 "confidence": 0.1909,
@@ -12105,11 +12077,32 @@
 "preferred_label": "Abraham"
 },
 {
-"id": "person:Isaac",
+"id": "keyterm:Ability",
+"type": "keyterm",
+"confidence": 0.1909,
+"match_method": "canonical",
+"preferred_label": "habilidad"
+},
+{
+"id": "person:Moses",
 "type": "person",
 "confidence": 0.1909,
 "match_method": "canonical",
-"preferred_label": "Isaac"
+"preferred_label": "Moisés"
+},
+{
+"id": "deity:Angel",
+"type": "deity",
+"confidence": 0.1909,
+"match_method": "canonical",
+"preferred_label": "Un ángel"
+},
+{
+"id": "keyterm:Life",
+"type": "keyterm",
+"confidence": 0.1909,
+"match_method": "canonical",
+"preferred_label": "vida"
 }
 ]
 }
@@ -12263,6 +12256,13 @@
 "preferred_label": "Jesús"
 },
 {
+"id": "keyterm:Love",
+"type": "keyterm",
+"confidence": 0.2692,
+"match_method": "canonical",
+"preferred_label": "amor"
+},
+{
 "id": "group:Pharisee",
 "type": "group",
 "confidence": 0.2692,
@@ -12277,11 +12277,11 @@
 "preferred_label": "ley"
 },
 {
-"id": "keyterm:Love",
+"id": "keyterm:Heart",
 "type": "keyterm",
-"confidence": 0.2692,
+"confidence": 0.2,
 "match_method": "canonical",
-"preferred_label": "amor"
+"preferred_label": "corazón"
 },
 {
 "id": "keyterm:Mind.2",
@@ -12291,11 +12291,11 @@
 "preferred_label": "mente"
 },
 {
-"id": "keyterm:Heart",
-"type": "keyterm",
-"confidence": 0.2,
+"id": "group:Sadducee",
+"type": "group",
+"confidence": 0.1846,
 "match_method": "canonical",
-"preferred_label": "corazón"
+"preferred_label": "saduceos"
 },
 {
 "id": "deity:HolySpirit",
@@ -12303,13 +12303,6 @@
 "confidence": 0.1846,
 "match_method": "canonical",
 "preferred_label": "Espíritu Santo"
-},
-{
-"id": "group:Sadducee",
-"type": "group",
-"confidence": 0.1846,
-"match_method": "canonical",
-"preferred_label": "saduceos"
 }
 ]
 }
@@ -12421,18 +12414,18 @@
 "preferred_label": "Jesús"
 },
 {
-"id": "person:Moses",
-"type": "person",
-"confidence": 0.1875,
-"match_method": "canonical",
-"preferred_label": "Moisés"
-},
-{
-"id": "keyterm:Disciple",
+"id": "keyterm:Friendship",
 "type": "keyterm",
 "confidence": 0.1875,
 "match_method": "canonical",
-"preferred_label": "ser discípulo"
+"preferred_label": "amistad"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.1875,
+"match_method": "canonical",
+"preferred_label": "Jehová"
 },
 {
 "id": "keyterm:Heavenly",
@@ -12449,18 +12442,18 @@
 "preferred_label": "fariseos"
 },
 {
-"id": "keyterm:Friendship",
+"id": "keyterm:Disciple",
 "type": "keyterm",
 "confidence": 0.1875,
 "match_method": "canonical",
-"preferred_label": "amistad"
+"preferred_label": "ser discípulo"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
+"id": "person:Moses",
+"type": "person",
 "confidence": 0.1875,
 "match_method": "canonical",
-"preferred_label": "Jehová"
+"preferred_label": "Moisés"
 },
 {
 "id": "realia:Phylactery",
@@ -12529,18 +12522,11 @@
 "preferred_label": "Templo"
 },
 {
-"id": "keyterm:Heaven",
+"id": "keyterm:Offering",
 "type": "keyterm",
 "confidence": 0.29,
 "match_method": "canonical",
-"preferred_label": "cielo"
-},
-{
-"id": "group:Pharisee",
-"type": "group",
-"confidence": 0.29,
-"match_method": "canonical",
-"preferred_label": "fariseos"
+"preferred_label": "ofrenda"
 },
 {
 "id": "keyterm:Consecration.2",
@@ -12550,11 +12536,11 @@
 "preferred_label": "consagración"
 },
 {
-"id": "keyterm:Offering",
+"id": "keyterm:Heaven",
 "type": "keyterm",
 "confidence": 0.29,
 "match_method": "canonical",
-"preferred_label": "ofrenda"
+"preferred_label": "cielo"
 },
 {
 "id": "keyterm:Ought",
@@ -12564,6 +12550,13 @@
 "preferred_label": "obligado"
 },
 {
+"id": "group:Pharisee",
+"type": "group",
+"confidence": 0.29,
+"match_method": "canonical",
+"preferred_label": "fariseos"
+},
+{
 "id": "keyterm:Kingdom",
 "type": "keyterm",
 "confidence": 0.195,
@@ -12571,18 +12564,18 @@
 "preferred_label": "reino"
 },
 {
-"id": "keyterm:Gehenna",
-"type": "keyterm",
-"confidence": 0.195,
-"match_method": "canonical",
-"preferred_label": "Gehena"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.195,
 "match_method": "canonical",
 "preferred_label": "Jehová"
+},
+{
+"id": "keyterm:Gehenna",
+"type": "keyterm",
+"confidence": 0.195,
+"match_method": "canonical",
+"preferred_label": "Gehena"
 },
 {
 "id": "realia:Throne",
@@ -12750,13 +12743,6 @@
 "preferred_label": "purificar"
 },
 {
-"id": "keyterm:Hypocrisy",
-"type": "keyterm",
-"confidence": 0.2583,
-"match_method": "canonical",
-"preferred_label": "hipocresía"
-},
-{
 "id": "keyterm:Clean",
 "type": "keyterm",
 "confidence": 0.2583,
@@ -12764,46 +12750,11 @@
 "preferred_label": "limpio"
 },
 {
-"id": "keyterm:Believe",
+"id": "keyterm:Hypocrisy",
 "type": "keyterm",
-"confidence": 0.225,
+"confidence": 0.2583,
 "match_method": "canonical",
-"preferred_label": "creer"
-},
-{
-"id": "keyterm:Law",
-"type": "keyterm",
-"confidence": 0.225,
-"match_method": "canonical",
-"preferred_label": "ley"
-},
-{
-"id": "keyterm:Mercy",
-"type": "keyterm",
-"confidence": 0.225,
-"match_method": "canonical",
-"preferred_label": "misericordia"
-},
-{
-"id": "keyterm:Defilement",
-"type": "keyterm",
-"confidence": 0.225,
-"match_method": "canonical",
-"preferred_label": "contaminación"
-},
-{
-"id": "keyterm:Just",
-"type": "keyterm",
-"confidence": 0.225,
-"match_method": "canonical",
-"preferred_label": "ser justo"
-},
-{
-"id": "keyterm:Lawless",
-"type": "keyterm",
-"confidence": 0.225,
-"match_method": "canonical",
-"preferred_label": "transgresor"
+"preferred_label": "hipocresía"
 },
 {
 "id": "keyterm:Judgment",
@@ -12813,18 +12764,60 @@
 "preferred_label": "juicio"
 },
 {
+"id": "keyterm:Just",
+"type": "keyterm",
+"confidence": 0.225,
+"match_method": "canonical",
+"preferred_label": "ser justo"
+},
+{
+"id": "keyterm:Defilement",
+"type": "keyterm",
+"confidence": 0.225,
+"match_method": "canonical",
+"preferred_label": "contaminación"
+},
+{
+"id": "keyterm:Law",
+"type": "keyterm",
+"confidence": 0.225,
+"match_method": "canonical",
+"preferred_label": "ley"
+},
+{
+"id": "keyterm:Believe",
+"type": "keyterm",
+"confidence": 0.225,
+"match_method": "canonical",
+"preferred_label": "creer"
+},
+{
+"id": "keyterm:Lawless",
+"type": "keyterm",
+"confidence": 0.225,
+"match_method": "canonical",
+"preferred_label": "transgresor"
+},
+{
+"id": "keyterm:Mercy",
+"type": "keyterm",
+"confidence": 0.225,
+"match_method": "canonical",
+"preferred_label": "misericordia"
+},
+{
+"id": "realia:Plate.2",
+"type": "realia",
+"confidence": 0.1983,
+"match_method": "canonical",
+"preferred_label": "plato"
+},
+{
 "id": "flora:Cumin",
 "type": "flora",
 "confidence": 0.1983,
 "match_method": "canonical",
 "preferred_label": "comino"
-},
-{
-"id": "flora:Mint",
-"type": "flora",
-"confidence": 0.1983,
-"match_method": "canonical",
-"preferred_label": "menta"
 },
 {
 "id": "fauna:Mosquito",
@@ -12841,11 +12834,11 @@
 "preferred_label": "eneldo"
 },
 {
-"id": "realia:Plate.2",
-"type": "realia",
+"id": "flora:Mint",
+"type": "flora",
 "confidence": 0.1983,
 "match_method": "canonical",
-"preferred_label": "plato"
+"preferred_label": "menta"
 },
 {
 "id": "realia:Grave",
@@ -12978,13 +12971,6 @@
 "preferred_label": "ser justo"
 },
 {
-"id": "person:Zechariah.12",
-"type": "person",
-"confidence": 0.2313,
-"match_method": "canonical",
-"preferred_label": "Zacarías"
-},
-{
 "id": "person:Jehoiada.2",
 "type": "person",
 "confidence": 0.2313,
@@ -12999,11 +12985,11 @@
 "preferred_label": "Gehena"
 },
 {
-"id": "keyterm:Disaster",
-"type": "keyterm",
-"confidence": 0.2063,
+"id": "person:Zechariah.12",
+"type": "person",
+"confidence": 0.2313,
 "match_method": "canonical",
-"preferred_label": "desastre"
+"preferred_label": "Zacarías"
 },
 {
 "id": "keyterm:Surely",
@@ -13013,11 +12999,11 @@
 "preferred_label": "¡ciertamente!"
 },
 {
-"id": "place:Hell",
-"type": "place",
+"id": "keyterm:CourtCase",
+"type": "keyterm",
 "confidence": 0.2063,
 "match_method": "canonical",
-"preferred_label": "infierno"
+"preferred_label": "caso judicial"
 },
 {
 "id": "keyterm:Judgment",
@@ -13041,32 +13027,25 @@
 "preferred_label": "fariseos"
 },
 {
+"id": "place:Hell",
+"type": "place",
+"confidence": 0.2063,
+"match_method": "canonical",
+"preferred_label": "infierno"
+},
+{
+"id": "keyterm:Disaster",
+"type": "keyterm",
+"confidence": 0.2063,
+"match_method": "canonical",
+"preferred_label": "desastre"
+},
+{
 "id": "person:Abel",
 "type": "person",
 "confidence": 0.2063,
 "match_method": "canonical",
 "preferred_label": "Abel"
-},
-{
-"id": "keyterm:CourtCase",
-"type": "keyterm",
-"confidence": 0.2063,
-"match_method": "canonical",
-"preferred_label": "caso judicial"
-},
-{
-"id": "realia:Temple",
-"type": "realia",
-"confidence": 0.1463,
-"match_method": "canonical",
-"preferred_label": "Templo"
-},
-{
-"id": "fauna:Snake",
-"type": "fauna",
-"confidence": 0.1463,
-"match_method": "canonical",
-"preferred_label": "serpiente"
 },
 {
 "id": "realia:Grave",
@@ -13083,11 +13062,25 @@
 "preferred_label": "sinagoga"
 },
 {
+"id": "fauna:Snake",
+"type": "fauna",
+"confidence": 0.1463,
+"match_method": "canonical",
+"preferred_label": "serpiente"
+},
+{
 "id": "realia:Cross",
 "type": "realia",
 "confidence": 0.1463,
 "match_method": "canonical",
 "preferred_label": "cruz"
+},
+{
+"id": "realia:Temple",
+"type": "realia",
+"confidence": 0.1463,
+"match_method": "canonical",
+"preferred_label": "Templo"
 }
 ]
 }
@@ -13121,6 +13114,13 @@
 "preferred_label": "Templo"
 },
 {
+"id": "place:Jerusalem",
+"type": "place",
+"confidence": 0.24,
+"match_method": "canonical",
+"preferred_label": "Jerusalén"
+},
+{
 "id": "keyterm:Bless",
 "type": "keyterm",
 "confidence": 0.24,
@@ -13133,20 +13133,6 @@
 "confidence": 0.24,
 "match_method": "canonical",
 "preferred_label": "¡ciertamente!"
-},
-{
-"id": "place:Jerusalem",
-"type": "place",
-"confidence": 0.24,
-"match_method": "canonical",
-"preferred_label": "Jerusalén"
-},
-{
-"id": "keyterm:Disciple",
-"type": "keyterm",
-"confidence": 0.24,
-"match_method": "canonical",
-"preferred_label": "ser discípulo"
 },
 {
 "id": "person:Jesus.2",
@@ -13170,11 +13156,11 @@
 "preferred_label": "Jehová"
 },
 {
-"id": "fauna:Rooster",
-"type": "fauna",
-"confidence": 0.18,
+"id": "keyterm:Disciple",
+"type": "keyterm",
+"confidence": 0.24,
 "match_method": "canonical",
-"preferred_label": "gallo"
+"preferred_label": "ser discípulo"
 },
 {
 "id": "realia:House",
@@ -13182,6 +13168,13 @@
 "confidence": 0.18,
 "match_method": "canonical",
 "preferred_label": "casa"
+},
+{
+"id": "fauna:Rooster",
+"type": "fauna",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "gallo"
 },
 {
 "id": "fauna:Bird",
@@ -13293,11 +13286,11 @@
 ],
 "acai": [
 {
-"id": "person:Jesus.2",
-"type": "person",
+"id": "keyterm:Kingdom",
+"type": "keyterm",
 "confidence": 0.275,
 "match_method": "canonical",
-"preferred_label": "Jesús"
+"preferred_label": "reino"
 },
 {
 "id": "keyterm:Name",
@@ -13307,25 +13300,11 @@
 "preferred_label": "nombre"
 },
 {
-"id": "keyterm:Kingdom",
-"type": "keyterm",
+"id": "person:Jesus.2",
+"type": "person",
 "confidence": 0.275,
 "match_method": "canonical",
-"preferred_label": "reino"
-},
-{
-"id": "keyterm:Ability",
-"type": "keyterm",
-"confidence": 0.1875,
-"match_method": "canonical",
-"preferred_label": "habilidad"
-},
-{
-"id": "keyterm:Always",
-"type": "keyterm",
-"confidence": 0.1875,
-"match_method": "canonical",
-"preferred_label": "para siempre"
+"preferred_label": "Jesús"
 },
 {
 "id": "keyterm:GoodNews",
@@ -13342,13 +13321,6 @@
 "preferred_label": "transgresor"
 },
 {
-"id": "keyterm:Disciple",
-"type": "keyterm",
-"confidence": 0.1875,
-"match_method": "canonical",
-"preferred_label": "ser discípulo"
-},
-{
 "id": "keyterm:Salvation",
 "type": "keyterm",
 "confidence": 0.1875,
@@ -13363,11 +13335,11 @@
 "preferred_label": "dar testimonio"
 },
 {
-"id": "keyterm:Love",
+"id": "keyterm:Ability",
 "type": "keyterm",
 "confidence": 0.1875,
 "match_method": "canonical",
-"preferred_label": "amor"
+"preferred_label": "habilidad"
 },
 {
 "id": "keyterm:Proclaim",
@@ -13375,6 +13347,27 @@
 "confidence": 0.1875,
 "match_method": "canonical",
 "preferred_label": "proclamar"
+},
+{
+"id": "keyterm:Love",
+"type": "keyterm",
+"confidence": 0.1875,
+"match_method": "canonical",
+"preferred_label": "amor"
+},
+{
+"id": "keyterm:Disciple",
+"type": "keyterm",
+"confidence": 0.1875,
+"match_method": "canonical",
+"preferred_label": "ser discípulo"
+},
+{
+"id": "keyterm:Always",
+"type": "keyterm",
+"confidence": 0.1875,
+"match_method": "canonical",
+"preferred_label": "para siempre"
 },
 {
 "id": "keyterm:Example",
@@ -13486,18 +13479,18 @@
 ],
 "acai": [
 {
-"id": "keyterm:Believe",
-"type": "keyterm",
-"confidence": 0.2643,
-"match_method": "canonical",
-"preferred_label": "creer"
-},
-{
 "id": "keyterm:Chosen",
 "type": "keyterm",
 "confidence": 0.2643,
 "match_method": "canonical",
 "preferred_label": "escogido"
+},
+{
+"id": "keyterm:Believe",
+"type": "keyterm",
+"confidence": 0.2643,
+"match_method": "canonical",
+"preferred_label": "creer"
 },
 {
 "id": "person:Daniel.3",
@@ -13507,74 +13500,11 @@
 "preferred_label": "Daniel"
 },
 {
-"id": "keyterm:Disaster",
-"type": "keyterm",
-"confidence": 0.1821,
-"match_method": "canonical",
-"preferred_label": "desastre"
-},
-{
-"id": "keyterm:Ability",
-"type": "keyterm",
-"confidence": 0.1821,
-"match_method": "canonical",
-"preferred_label": "habilidad"
-},
-{
 "id": "keyterm:Body.3",
 "type": "keyterm",
 "confidence": 0.1821,
 "match_method": "canonical",
 "preferred_label": "cuerpo"
-},
-{
-"id": "place:Judea",
-"type": "place",
-"confidence": 0.1821,
-"match_method": "canonical",
-"preferred_label": "Judea"
-},
-{
-"id": "keyterm:Example",
-"type": "keyterm",
-"confidence": 0.1821,
-"match_method": "canonical",
-"preferred_label": "símbolo"
-},
-{
-"id": "keyterm:Portent",
-"type": "keyterm",
-"confidence": 0.1821,
-"match_method": "canonical",
-"preferred_label": "prodigio"
-},
-{
-"id": "keyterm:Sabbath",
-"type": "keyterm",
-"confidence": 0.1821,
-"match_method": "canonical",
-"preferred_label": "día de reposo"
-},
-{
-"id": "keyterm:Pray",
-"type": "keyterm",
-"confidence": 0.1821,
-"match_method": "canonical",
-"preferred_label": "orar"
-},
-{
-"id": "person:Jesus.2",
-"type": "person",
-"confidence": 0.1821,
-"match_method": "canonical",
-"preferred_label": "Jesús"
-},
-{
-"id": "keyterm:AbominationOfDesolation",
-"type": "keyterm",
-"confidence": 0.1821,
-"match_method": "canonical",
-"preferred_label": "abominación desoladora"
 },
 {
 "id": "keyterm:Salvation",
@@ -13584,11 +13514,74 @@
 "preferred_label": "salvación"
 },
 {
+"id": "keyterm:Portent",
+"type": "keyterm",
+"confidence": 0.1821,
+"match_method": "canonical",
+"preferred_label": "prodigio"
+},
+{
+"id": "keyterm:Ability",
+"type": "keyterm",
+"confidence": 0.1821,
+"match_method": "canonical",
+"preferred_label": "habilidad"
+},
+{
+"id": "keyterm:Example",
+"type": "keyterm",
+"confidence": 0.1821,
+"match_method": "canonical",
+"preferred_label": "símbolo"
+},
+{
+"id": "keyterm:Sabbath",
+"type": "keyterm",
+"confidence": 0.1821,
+"match_method": "canonical",
+"preferred_label": "día de reposo"
+},
+{
+"id": "place:Judea",
+"type": "place",
+"confidence": 0.1821,
+"match_method": "canonical",
+"preferred_label": "Judea"
+},
+{
+"id": "person:Jesus.2",
+"type": "person",
+"confidence": 0.1821,
+"match_method": "canonical",
+"preferred_label": "Jesús"
+},
+{
+"id": "keyterm:Pray",
+"type": "keyterm",
+"confidence": 0.1821,
+"match_method": "canonical",
+"preferred_label": "orar"
+},
+{
+"id": "keyterm:AbominationOfDesolation",
+"type": "keyterm",
+"confidence": 0.1821,
+"match_method": "canonical",
+"preferred_label": "abominación desoladora"
+},
+{
 "id": "keyterm:Holy",
 "type": "keyterm",
 "confidence": 0.1821,
 "match_method": "canonical",
 "preferred_label": "santo"
+},
+{
+"id": "keyterm:Disaster",
+"type": "keyterm",
+"confidence": 0.1821,
+"match_method": "canonical",
+"preferred_label": "desastre"
 },
 {
 "id": "realia:InnerRoom",
@@ -13598,18 +13591,18 @@
 "preferred_label": "cuarto interior"
 },
 {
-"id": "fauna:Vulture",
-"type": "fauna",
-"confidence": 0.1364,
-"match_method": "canonical",
-"preferred_label": "buitre"
-},
-{
 "id": "realia:Housetop",
 "type": "realia",
 "confidence": 0.1364,
 "match_method": "canonical",
 "preferred_label": "azotea"
+},
+{
+"id": "fauna:Vulture",
+"type": "fauna",
+"confidence": 0.1364,
+"match_method": "canonical",
+"preferred_label": "buitre"
 },
 {
 "id": "realia:Cloak",
@@ -13671,11 +13664,25 @@
 "preferred_label": "Un ángel"
 },
 {
+"id": "keyterm:Parable",
+"type": "keyterm",
+"confidence": 0.2063,
+"match_method": "canonical",
+"preferred_label": "parábola"
+},
+{
 "id": "keyterm:Surely",
 "type": "keyterm",
 "confidence": 0.2063,
 "match_method": "canonical",
 "preferred_label": "¡ciertamente!"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.2063,
+"match_method": "canonical",
+"preferred_label": "Jehová"
 },
 {
 "id": "keyterm:Chosen",
@@ -13692,11 +13699,11 @@
 "preferred_label": "habilidad"
 },
 {
-"id": "keyterm:Parable",
+"id": "keyterm:Example",
 "type": "keyterm",
 "confidence": 0.2063,
 "match_method": "canonical",
-"preferred_label": "parábola"
+"preferred_label": "símbolo"
 },
 {
 "id": "keyterm:Glory",
@@ -13706,20 +13713,6 @@
 "preferred_label": "gloria"
 },
 {
-"id": "keyterm:Example",
-"type": "keyterm",
-"confidence": 0.2063,
-"match_method": "canonical",
-"preferred_label": "símbolo"
-},
-{
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.2063,
-"match_method": "canonical",
-"preferred_label": "Jehová"
-},
-{
 "id": "realia:Trumpet",
 "type": "realia",
 "confidence": 0.1713,
@@ -13727,18 +13720,18 @@
 "preferred_label": "trompeta"
 },
 {
-"id": "flora:Fig",
-"type": "flora",
-"confidence": 0.1463,
-"match_method": "canonical",
-"preferred_label": "higo"
-},
-{
 "id": "realia:Door",
 "type": "realia",
 "confidence": 0.1463,
 "match_method": "canonical",
 "preferred_label": "puerta"
+},
+{
+"id": "flora:Fig",
+"type": "flora",
+"confidence": 0.1463,
+"match_method": "canonical",
+"preferred_label": "higo"
 }
 ]
 }
@@ -13779,11 +13772,11 @@
 "preferred_label": "Jesús"
 },
 {
-"id": "realia:Hand-mill",
+"id": "realia:House",
 "type": "realia",
 "confidence": 0.1463,
 "match_method": "canonical",
-"preferred_label": "molino de mano"
+"preferred_label": "casa"
 },
 {
 "id": "realia:Boat",
@@ -13793,11 +13786,11 @@
 "preferred_label": "barco"
 },
 {
-"id": "realia:House",
+"id": "realia:Hand-mill",
 "type": "realia",
 "confidence": 0.1463,
 "match_method": "canonical",
-"preferred_label": "casa"
+"preferred_label": "molino de mano"
 }
 ]
 }
@@ -13888,13 +13881,6 @@
 "preferred_label": "fidelidad"
 },
 {
-"id": "keyterm:Surely",
-"type": "keyterm",
-"confidence": 0.2143,
-"match_method": "canonical",
-"preferred_label": "¡ciertamente!"
-},
-{
 "id": "keyterm:Happy",
 "type": "keyterm",
 "confidence": 0.2143,
@@ -13907,6 +13893,13 @@
 "confidence": 0.2143,
 "match_method": "canonical",
 "preferred_label": "corazón"
+},
+{
+"id": "keyterm:Surely",
+"type": "keyterm",
+"confidence": 0.2143,
+"match_method": "canonical",
+"preferred_label": "¡ciertamente!"
 }
 ]
 }
@@ -13969,6 +13962,13 @@
 "preferred_label": "aceite de oliva"
 },
 {
+"id": "keyterm:Kingdom",
+"type": "keyterm",
+"confidence": 0.1846,
+"match_method": "canonical",
+"preferred_label": "reino"
+},
+{
 "id": "keyterm:Surely",
 "type": "keyterm",
 "confidence": 0.1846,
@@ -13981,13 +13981,6 @@
 "confidence": 0.1846,
 "match_method": "canonical",
 "preferred_label": "cielo"
-},
-{
-"id": "keyterm:Kingdom",
-"type": "keyterm",
-"confidence": 0.1846,
-"match_method": "canonical",
-"preferred_label": "reino"
 },
 {
 "id": "realia:Container",
@@ -14050,13 +14043,6 @@
 "preferred_label": "talento"
 },
 {
-"id": "keyterm:CauseOfJoy",
-"type": "keyterm",
-"confidence": 0.2529,
-"match_method": "canonical",
-"preferred_label": "motivo de alegría"
-},
-{
 "id": "keyterm:Good",
 "type": "keyterm",
 "confidence": 0.2529,
@@ -14064,11 +14050,25 @@
 "preferred_label": "bueno"
 },
 {
+"id": "keyterm:CauseOfJoy",
+"type": "keyterm",
+"confidence": 0.2529,
+"match_method": "canonical",
+"preferred_label": "motivo de alegría"
+},
+{
 "id": "keyterm:Faithfulness",
 "type": "keyterm",
 "confidence": 0.2529,
 "match_method": "canonical",
 "preferred_label": "fidelidad"
+},
+{
+"id": "keyterm:OuterDarkness",
+"type": "keyterm",
+"confidence": 0.1765,
+"match_method": "canonical",
+"preferred_label": "tinieblas de afuera"
 },
 {
 "id": "keyterm:Ability",
@@ -14083,13 +14083,6 @@
 "confidence": 0.1765,
 "match_method": "canonical",
 "preferred_label": "temor"
-},
-{
-"id": "keyterm:OuterDarkness",
-"type": "keyterm",
-"confidence": 0.1765,
-"match_method": "canonical",
-"preferred_label": "tinieblas de afuera"
 }
 ]
 }
@@ -14123,25 +14116,11 @@
 "preferred_label": "prisión"
 },
 {
-"id": "deity:Angel",
-"type": "deity",
-"confidence": 0.2562,
-"match_method": "canonical",
-"preferred_label": "Un ángel"
-},
-{
 "id": "keyterm:Surely",
 "type": "keyterm",
 "confidence": 0.2562,
 "match_method": "canonical",
 "preferred_label": "¡ciertamente!"
-},
-{
-"id": "person:Jesus.2",
-"type": "person",
-"confidence": 0.2562,
-"match_method": "canonical",
-"preferred_label": "Jesús"
 },
 {
 "id": "keyterm:Just",
@@ -14158,11 +14137,18 @@
 "preferred_label": "para siempre"
 },
 {
-"id": "fauna:Kid",
-"type": "fauna",
-"confidence": 0.1963,
+"id": "deity:Angel",
+"type": "deity",
+"confidence": 0.2562,
 "match_method": "canonical",
-"preferred_label": "cabrito"
+"preferred_label": "Un ángel"
+},
+{
+"id": "person:Jesus.2",
+"type": "person",
+"confidence": 0.2562,
+"match_method": "canonical",
+"preferred_label": "Jesús"
 },
 {
 "id": "fauna:Lamb",
@@ -14179,25 +14165,11 @@
 "preferred_label": "cabra"
 },
 {
-"id": "keyterm:Ability",
-"type": "keyterm",
-"confidence": 0.1781,
+"id": "fauna:Kid",
+"type": "fauna",
+"confidence": 0.1963,
 "match_method": "canonical",
-"preferred_label": "habilidad"
-},
-{
-"id": "keyterm:Serve",
-"type": "keyterm",
-"confidence": 0.1781,
-"match_method": "canonical",
-"preferred_label": "servir"
-},
-{
-"id": "keyterm:Glory",
-"type": "keyterm",
-"confidence": 0.1781,
-"match_method": "canonical",
-"preferred_label": "gloria"
+"preferred_label": "cabrito"
 },
 {
 "id": "keyterm:Kingdom",
@@ -14205,6 +14177,13 @@
 "confidence": 0.1781,
 "match_method": "canonical",
 "preferred_label": "reino"
+},
+{
+"id": "keyterm:Serve",
+"type": "keyterm",
+"confidence": 0.1781,
+"match_method": "canonical",
+"preferred_label": "servir"
 },
 {
 "id": "keyterm:Life",
@@ -14221,6 +14200,20 @@
 "preferred_label": "fuego eterno"
 },
 {
+"id": "keyterm:Bless",
+"type": "keyterm",
+"confidence": 0.1781,
+"match_method": "canonical",
+"preferred_label": "bendecir"
+},
+{
+"id": "keyterm:Ability",
+"type": "keyterm",
+"confidence": 0.1781,
+"match_method": "canonical",
+"preferred_label": "habilidad"
+},
+{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.1781,
@@ -14228,11 +14221,11 @@
 "preferred_label": "Jehová"
 },
 {
-"id": "keyterm:Bless",
+"id": "keyterm:Glory",
 "type": "keyterm",
 "confidence": 0.1781,
 "match_method": "canonical",
-"preferred_label": "bendecir"
+"preferred_label": "gloria"
 },
 {
 "id": "realia:Throne",
@@ -14386,11 +14379,11 @@
 "preferred_label": "mirra"
 },
 {
-"id": "person:Judas.2",
-"type": "person",
+"id": "place:Bethany",
+"type": "place",
 "confidence": 0.1906,
 "match_method": "canonical",
-"preferred_label": "Judas"
+"preferred_label": "Betania"
 },
 {
 "id": "person:Simon.4",
@@ -14400,39 +14393,11 @@
 "preferred_label": "Simón"
 },
 {
-"id": "place:Bethany",
-"type": "place",
+"id": "person:Judas.2",
+"type": "person",
 "confidence": 0.1906,
 "match_method": "canonical",
-"preferred_label": "Betania"
-},
-{
-"id": "person:Caiaphas",
-"type": "person",
-"confidence": 0.1781,
-"match_method": "canonical",
-"preferred_label": "Caifás"
-},
-{
-"id": "keyterm:Surely",
-"type": "keyterm",
-"confidence": 0.1781,
-"match_method": "canonical",
-"preferred_label": "¡ciertamente!"
-},
-{
-"id": "keyterm:Ability",
-"type": "keyterm",
-"confidence": 0.1781,
-"match_method": "canonical",
-"preferred_label": "habilidad"
-},
-{
-"id": "keyterm:GoodNews",
-"type": "keyterm",
-"confidence": 0.1781,
-"match_method": "canonical",
-"preferred_label": "buenas noticias"
+"preferred_label": "Judas"
 },
 {
 "id": "keyterm:Passover",
@@ -14442,11 +14407,32 @@
 "preferred_label": "Pascua"
 },
 {
-"id": "keyterm:Body.3",
+"id": "keyterm:GoodNews",
 "type": "keyterm",
 "confidence": 0.1781,
 "match_method": "canonical",
-"preferred_label": "cuerpo"
+"preferred_label": "buenas noticias"
+},
+{
+"id": "keyterm:Surely",
+"type": "keyterm",
+"confidence": 0.1781,
+"match_method": "canonical",
+"preferred_label": "¡ciertamente!"
+},
+{
+"id": "person:Caiaphas",
+"type": "person",
+"confidence": 0.1781,
+"match_method": "canonical",
+"preferred_label": "Caifás"
+},
+{
+"id": "keyterm:Ability",
+"type": "keyterm",
+"confidence": 0.1781,
+"match_method": "canonical",
+"preferred_label": "habilidad"
 },
 {
 "id": "keyterm:Proclaim",
@@ -14456,18 +14442,18 @@
 "preferred_label": "proclamar"
 },
 {
+"id": "keyterm:Body.3",
+"type": "keyterm",
+"confidence": 0.1781,
+"match_method": "canonical",
+"preferred_label": "cuerpo"
+},
+{
 "id": "realia:AlabasterJar",
 "type": "realia",
 "confidence": 0.1306,
 "match_method": "canonical",
 "preferred_label": "frasco de alabastro"
-},
-{
-"id": "realia:Courtyard",
-"type": "realia",
-"confidence": 0.1181,
-"match_method": "canonical",
-"preferred_label": "atrio"
 },
 {
 "id": "realia:House",
@@ -14482,6 +14468,13 @@
 "confidence": 0.1181,
 "match_method": "canonical",
 "preferred_label": "cruz"
+},
+{
+"id": "realia:Courtyard",
+"type": "realia",
+"confidence": 0.1181,
+"match_method": "canonical",
+"preferred_label": "atrio"
 }
 ]
 }
@@ -14544,13 +14537,6 @@
 "preferred_label": "Jesús"
 },
 {
-"id": "keyterm:Resurrection",
-"type": "keyterm",
-"confidence": 0.275,
-"match_method": "canonical",
-"preferred_label": "resurrección"
-},
-{
 "id": "group:GenericGroup",
 "type": "group",
 "confidence": 0.275,
@@ -14572,39 +14558,18 @@
 "preferred_label": "santo"
 },
 {
+"id": "keyterm:Resurrection",
+"type": "keyterm",
+"confidence": 0.275,
+"match_method": "canonical",
+"preferred_label": "resurrección"
+},
+{
 "id": "realia:Grave",
 "type": "realia",
 "confidence": 0.215,
 "match_method": "canonical",
 "preferred_label": "sepulcro"
-},
-{
-"id": "person:James.4",
-"type": "person",
-"confidence": 0.2042,
-"match_method": "canonical",
-"preferred_label": "Jacobo"
-},
-{
-"id": "person:Joseph.5",
-"type": "person",
-"confidence": 0.2042,
-"match_method": "canonical",
-"preferred_label": "José"
-},
-{
-"id": "person:Zebedee",
-"type": "person",
-"confidence": 0.2042,
-"match_method": "canonical",
-"preferred_label": "Zebedeo"
-},
-{
-"id": "person:Marymagdalene",
-"type": "person",
-"confidence": 0.2042,
-"match_method": "canonical",
-"preferred_label": "María Magdalena"
 },
 {
 "id": "person:Mary.2",
@@ -14614,11 +14579,32 @@
 "preferred_label": "María"
 },
 {
-"id": "keyterm:Body.3",
-"type": "keyterm",
-"confidence": 0.1875,
+"id": "person:Joseph.5",
+"type": "person",
+"confidence": 0.2042,
 "match_method": "canonical",
-"preferred_label": "cuerpo"
+"preferred_label": "José"
+},
+{
+"id": "person:Marymagdalene",
+"type": "person",
+"confidence": 0.2042,
+"match_method": "canonical",
+"preferred_label": "María Magdalena"
+},
+{
+"id": "person:James.4",
+"type": "person",
+"confidence": 0.2042,
+"match_method": "canonical",
+"preferred_label": "Jacobo"
+},
+{
+"id": "person:Zebedee",
+"type": "person",
+"confidence": 0.2042,
+"match_method": "canonical",
+"preferred_label": "Zebedeo"
 },
 {
 "id": "place:Galilee",
@@ -14628,18 +14614,11 @@
 "preferred_label": "Galilea"
 },
 {
-"id": "keyterm:Serve",
+"id": "keyterm:Body.3",
 "type": "keyterm",
 "confidence": 0.1875,
 "match_method": "canonical",
-"preferred_label": "servir"
-},
-{
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.1875,
-"match_method": "canonical",
-"preferred_label": "Jehová"
+"preferred_label": "cuerpo"
 },
 {
 "id": "keyterm:Spirit.2",
@@ -14649,18 +14628,11 @@
 "preferred_label": "espíritu"
 },
 {
-"id": "keyterm:True",
+"id": "keyterm:Serve",
 "type": "keyterm",
 "confidence": 0.1875,
 "match_method": "canonical",
-"preferred_label": "verdadero"
-},
-{
-"id": "keyterm:Salvation",
-"type": "keyterm",
-"confidence": 0.1875,
-"match_method": "canonical",
-"preferred_label": "salvación"
+"preferred_label": "servir"
 },
 {
 "id": "keyterm:Fear",
@@ -14670,6 +14642,27 @@
 "preferred_label": "temor"
 },
 {
+"id": "keyterm:Salvation",
+"type": "keyterm",
+"confidence": 0.1875,
+"match_method": "canonical",
+"preferred_label": "salvación"
+},
+{
+"id": "keyterm:True",
+"type": "keyterm",
+"confidence": 0.1875,
+"match_method": "canonical",
+"preferred_label": "verdadero"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.1875,
+"match_method": "canonical",
+"preferred_label": "Jehová"
+},
+{
 "id": "realia:Curtain",
 "type": "realia",
 "confidence": 0.1442,
@@ -14677,18 +14670,18 @@
 "preferred_label": "cortina"
 },
 {
-"id": "flora:Reed",
-"type": "flora",
-"confidence": 0.1442,
-"match_method": "canonical",
-"preferred_label": "caña"
-},
-{
 "id": "realia:SourWine",
 "type": "realia",
 "confidence": 0.1442,
 "match_method": "canonical",
 "preferred_label": "vinagre"
+},
+{
+"id": "flora:Reed",
+"type": "flora",
+"confidence": 0.1442,
+"match_method": "canonical",
+"preferred_label": "caña"
 },
 {
 "id": "realia:Temple",
@@ -14772,13 +14765,6 @@
 "preferred_label": "José"
 },
 {
-"id": "keyterm:Disciple",
-"type": "keyterm",
-"confidence": 0.29,
-"match_method": "canonical",
-"preferred_label": "ser discípulo"
-},
-{
 "id": "person:Jesus.2",
 "type": "person",
 "confidence": 0.29,
@@ -14791,6 +14777,13 @@
 "confidence": 0.29,
 "match_method": "canonical",
 "preferred_label": "cuerpo"
+},
+{
+"id": "keyterm:Disciple",
+"type": "keyterm",
+"confidence": 0.29,
+"match_method": "canonical",
+"preferred_label": "ser discípulo"
 },
 {
 "id": "keyterm:Resurrection",
@@ -14807,11 +14800,11 @@
 "preferred_label": "Arimatea"
 },
 {
-"id": "person:Mary.2",
-"type": "person",
+"id": "keyterm:Clean",
+"type": "keyterm",
 "confidence": 0.195,
 "match_method": "canonical",
-"preferred_label": "María"
+"preferred_label": "limpio"
 },
 {
 "id": "keyterm:Name",
@@ -14821,18 +14814,18 @@
 "preferred_label": "nombre"
 },
 {
+"id": "person:Mary.2",
+"type": "person",
+"confidence": 0.195,
+"match_method": "canonical",
+"preferred_label": "María"
+},
+{
 "id": "group:Pharisee",
 "type": "group",
 "confidence": 0.195,
 "match_method": "canonical",
 "preferred_label": "fariseos"
-},
-{
-"id": "keyterm:Life",
-"type": "keyterm",
-"confidence": 0.195,
-"match_method": "canonical",
-"preferred_label": "vida"
 },
 {
 "id": "person:Marymagdalene",
@@ -14842,11 +14835,11 @@
 "preferred_label": "María Magdalena"
 },
 {
-"id": "keyterm:Clean",
+"id": "keyterm:Life",
 "type": "keyterm",
 "confidence": 0.195,
 "match_method": "canonical",
-"preferred_label": "limpio"
+"preferred_label": "vida"
 },
 {
 "id": "realia:Seal",
@@ -15014,25 +15007,11 @@
 "preferred_label": "semana"
 },
 {
-"id": "keyterm:Heaven",
+"id": "keyterm:Persuade",
 "type": "keyterm",
 "confidence": 0.18,
 "match_method": "canonical",
-"preferred_label": "cielo"
-},
-{
-"id": "keyterm:Sabbath",
-"type": "keyterm",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "día de reposo"
-},
-{
-"id": "person:Marymagdalene",
-"type": "person",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "María Magdalena"
+"preferred_label": "persuadir"
 },
 {
 "id": "group:Jews",
@@ -15042,25 +15021,11 @@
 "preferred_label": "judío"
 },
 {
-"id": "keyterm:CauseOfJoy",
+"id": "keyterm:Heaven",
 "type": "keyterm",
 "confidence": 0.18,
 "match_method": "canonical",
-"preferred_label": "motivo de alegría"
-},
-{
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "Jehová"
-},
-{
-"id": "keyterm:Persuade",
-"type": "keyterm",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "persuadir"
+"preferred_label": "cielo"
 },
 {
 "id": "person:Mary.2",
@@ -15070,11 +15035,39 @@
 "preferred_label": "María"
 },
 {
+"id": "person:Marymagdalene",
+"type": "person",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "María Magdalena"
+},
+{
+"id": "keyterm:CauseOfJoy",
+"type": "keyterm",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "motivo de alegría"
+},
+{
 "id": "keyterm:BowDown",
 "type": "keyterm",
 "confidence": 0.18,
 "match_method": "canonical",
 "preferred_label": "postrarse"
+},
+{
+"id": "keyterm:Sabbath",
+"type": "keyterm",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "día de reposo"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "Jehová"
 },
 {
 "id": "realia:Cross",
@@ -15200,25 +15193,11 @@
 "preferred_label": "autoridad"
 },
 {
-"id": "keyterm:Ability",
+"id": "keyterm:BowDown",
 "type": "keyterm",
 "confidence": 0.24,
 "match_method": "canonical",
-"preferred_label": "habilidad"
-},
-{
-"id": "keyterm:Always",
-"type": "keyterm",
-"confidence": 0.24,
-"match_method": "canonical",
-"preferred_label": "para siempre"
-},
-{
-"id": "keyterm:Baptism",
-"type": "keyterm",
-"confidence": 0.24,
-"match_method": "canonical",
-"preferred_label": "bautismo"
+"preferred_label": "postrarse"
 },
 {
 "id": "keyterm:Command",
@@ -15235,6 +15214,13 @@
 "preferred_label": "cielo"
 },
 {
+"id": "keyterm:Baptism",
+"type": "keyterm",
+"confidence": 0.24,
+"match_method": "canonical",
+"preferred_label": "bautismo"
+},
+{
 "id": "keyterm:Name",
 "type": "keyterm",
 "confidence": 0.24,
@@ -15242,11 +15228,11 @@
 "preferred_label": "nombre"
 },
 {
-"id": "keyterm:BowDown",
-"type": "keyterm",
+"id": "deity:Lord",
+"type": "deity",
 "confidence": 0.24,
 "match_method": "canonical",
-"preferred_label": "postrarse"
+"preferred_label": "Jehová"
 },
 {
 "id": "place:Galilee",
@@ -15256,11 +15242,18 @@
 "preferred_label": "Galilea"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
+"id": "keyterm:Ability",
+"type": "keyterm",
 "confidence": 0.24,
 "match_method": "canonical",
-"preferred_label": "Jehová"
+"preferred_label": "habilidad"
+},
+{
+"id": "keyterm:Always",
+"type": "keyterm",
+"confidence": 0.24,
+"match_method": "canonical",
+"preferred_label": "para siempre"
 },
 {
 "id": "deity:HolySpirit",

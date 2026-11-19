@@ -21,13 +21,6 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:Life",
-"type": "keyterm",
-"confidence": 0.425,
-"match_method": "canonical",
-"preferred_label": "जीवन"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.425,
@@ -35,11 +28,18 @@
 "preferred_label": "यहोवा"
 },
 {
-"id": "keyterm:Always",
+"id": "keyterm:Life",
+"type": "keyterm",
+"confidence": 0.425,
+"match_method": "canonical",
+"preferred_label": "जीवन"
+},
+{
+"id": "keyterm:Fellowship",
 "type": "keyterm",
 "confidence": 0.2625,
 "match_method": "canonical",
-"preferred_label": "सदा"
+"preferred_label": "सहभागिता"
 },
 {
 "id": "person:Jesus.2",
@@ -63,11 +63,11 @@
 "preferred_label": "आनन्द का कारण"
 },
 {
-"id": "keyterm:Fellowship",
+"id": "keyterm:Always",
 "type": "keyterm",
 "confidence": 0.2625,
 "match_method": "canonical",
-"preferred_label": "सहभागिता"
+"preferred_label": "सदा"
 }
 ]
 }
@@ -101,13 +101,6 @@
 "preferred_label": "पाप करना"
 },
 {
-"id": "keyterm:Cleanse.2",
-"type": "keyterm",
-"confidence": 0.3375,
-"match_method": "canonical",
-"preferred_label": "पवित्र करना"
-},
-{
 "id": "keyterm:Fellowship",
 "type": "keyterm",
 "confidence": 0.3375,
@@ -115,11 +108,11 @@
 "preferred_label": "सहभागिता"
 },
 {
-"id": "keyterm:Truth",
+"id": "keyterm:Cleanse.2",
 "type": "keyterm",
-"confidence": 0.3125,
+"confidence": 0.3375,
 "match_method": "canonical",
-"preferred_label": "सत्य"
+"preferred_label": "पवित्र करना"
 },
 {
 "id": "person:Jesus.2",
@@ -129,11 +122,25 @@
 "preferred_label": "यीशु"
 },
 {
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.3125,
+"match_method": "canonical",
+"preferred_label": "यहोवा"
+},
+{
 "id": "keyterm:Just",
 "type": "keyterm",
 "confidence": 0.3125,
 "match_method": "canonical",
 "preferred_label": "धर्मी होना"
+},
+{
+"id": "keyterm:Truth",
+"type": "keyterm",
+"confidence": 0.3125,
+"match_method": "canonical",
+"preferred_label": "सत्य"
 },
 {
 "id": "keyterm:Live.3",
@@ -143,25 +150,11 @@
 "preferred_label": "जीवन बिताना"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.3125,
-"match_method": "canonical",
-"preferred_label": "यहोवा"
-},
-{
 "id": "keyterm:Faithfulness",
 "type": "keyterm",
 "confidence": 0.2313,
 "match_method": "canonical",
 "preferred_label": "विश्वासयोग्यता"
-},
-{
-"id": "keyterm:Ability",
-"type": "keyterm",
-"confidence": 0.2063,
-"match_method": "canonical",
-"preferred_label": "योग्यता"
 },
 {
 "id": "keyterm:Blood",
@@ -171,18 +164,25 @@
 "preferred_label": "लहू"
 },
 {
-"id": "keyterm:Forgive",
-"type": "keyterm",
-"confidence": 0.2063,
-"match_method": "canonical",
-"preferred_label": "क्षमा करना"
-},
-{
 "id": "keyterm:UnjustDeed",
 "type": "keyterm",
 "confidence": 0.2063,
 "match_method": "canonical",
 "preferred_label": "अधर्म का काम"
+},
+{
+"id": "keyterm:Ability",
+"type": "keyterm",
+"confidence": 0.2063,
+"match_method": "canonical",
+"preferred_label": "योग्यता"
+},
+{
+"id": "keyterm:Forgive",
+"type": "keyterm",
+"confidence": 0.2063,
+"match_method": "canonical",
+"preferred_label": "क्षमा करना"
 },
 {
 "id": "keyterm:Propitiation",
@@ -230,6 +230,13 @@
 "preferred_label": "सच्चा"
 },
 {
+"id": "keyterm:Love",
+"type": "keyterm",
+"confidence": 0.3,
+"match_method": "canonical",
+"preferred_label": "प्रेम"
+},
+{
 "id": "keyterm:Live.3",
 "type": "keyterm",
 "confidence": 0.3,
@@ -237,11 +244,25 @@
 "preferred_label": "जीवन बिताना"
 },
 {
-"id": "keyterm:Love",
+"id": "keyterm:Ought",
 "type": "keyterm",
-"confidence": 0.3,
+"confidence": 0.2,
 "match_method": "canonical",
-"preferred_label": "प्रेम"
+"preferred_label": "बाध्य"
+},
+{
+"id": "keyterm:StumblingBlock",
+"type": "keyterm",
+"confidence": 0.2,
+"match_method": "canonical",
+"preferred_label": "ठोकर का कारण"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.2,
+"match_method": "canonical",
+"preferred_label": "यहोवा"
 },
 {
 "id": "keyterm:Beloved",
@@ -256,27 +277,6 @@
 "confidence": 0.2,
 "match_method": "canonical",
 "preferred_label": "सत्य"
-},
-{
-"id": "keyterm:StumblingBlock",
-"type": "keyterm",
-"confidence": 0.2,
-"match_method": "canonical",
-"preferred_label": "ठोकर का कारण"
-},
-{
-"id": "keyterm:Ought",
-"type": "keyterm",
-"confidence": 0.2,
-"match_method": "canonical",
-"preferred_label": "बाध्य"
-},
-{
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.2,
-"match_method": "canonical",
-"preferred_label": "यहोवा"
 }
 ]
 }
@@ -324,18 +324,11 @@
 "preferred_label": "दैनिक जीवन"
 },
 {
-"id": "keyterm:Always",
+"id": "keyterm:Sin",
 "type": "keyterm",
 "confidence": 0.225,
 "match_method": "canonical",
-"preferred_label": "सदा"
-},
-{
-"id": "keyterm:Forgive",
-"type": "keyterm",
-"confidence": 0.225,
-"match_method": "canonical",
-"preferred_label": "क्षमा करना"
+"preferred_label": "पाप करना"
 },
 {
 "id": "keyterm:Name",
@@ -345,13 +338,6 @@
 "preferred_label": "नाम"
 },
 {
-"id": "keyterm:Body.3",
-"type": "keyterm",
-"confidence": 0.225,
-"match_method": "canonical",
-"preferred_label": "शरीर"
-},
-{
 "id": "keyterm:Love",
 "type": "keyterm",
 "confidence": 0.225,
@@ -359,11 +345,25 @@
 "preferred_label": "प्रेम"
 },
 {
-"id": "keyterm:Sin",
+"id": "keyterm:Body.3",
 "type": "keyterm",
 "confidence": 0.225,
 "match_method": "canonical",
-"preferred_label": "पाप करना"
+"preferred_label": "शरीर"
+},
+{
+"id": "keyterm:Forgive",
+"type": "keyterm",
+"confidence": 0.225,
+"match_method": "canonical",
+"preferred_label": "क्षमा करना"
+},
+{
+"id": "keyterm:Always",
+"type": "keyterm",
+"confidence": 0.225,
+"match_method": "canonical",
+"preferred_label": "सदा"
 }
 ]
 }
@@ -404,6 +404,34 @@
 "preferred_label": "अभिषिक्त"
 },
 {
+"id": "keyterm:Holy",
+"type": "keyterm",
+"confidence": 0.1909,
+"match_method": "canonical",
+"preferred_label": "पवित्र"
+},
+{
+"id": "keyterm:True",
+"type": "keyterm",
+"confidence": 0.1909,
+"match_method": "canonical",
+"preferred_label": "सच्चा"
+},
+{
+"id": "keyterm:Truth",
+"type": "keyterm",
+"confidence": 0.1909,
+"match_method": "canonical",
+"preferred_label": "सत्य"
+},
+{
+"id": "person:Jesus.2",
+"type": "person",
+"confidence": 0.1909,
+"match_method": "canonical",
+"preferred_label": "यीशु"
+},
+{
 "id": "keyterm:Promise",
 "type": "keyterm",
 "confidence": 0.1909,
@@ -418,39 +446,11 @@
 "preferred_label": "सदा"
 },
 {
-"id": "keyterm:True",
-"type": "keyterm",
-"confidence": 0.1909,
-"match_method": "canonical",
-"preferred_label": "सच्चा"
-},
-{
 "id": "deity:HolySpirit",
 "type": "deity",
 "confidence": 0.1909,
 "match_method": "canonical",
 "preferred_label": "पवित्र आत्मा"
-},
-{
-"id": "person:Jesus.2",
-"type": "person",
-"confidence": 0.1909,
-"match_method": "canonical",
-"preferred_label": "यीशु"
-},
-{
-"id": "keyterm:Truth",
-"type": "keyterm",
-"confidence": 0.1909,
-"match_method": "canonical",
-"preferred_label": "सत्य"
-},
-{
-"id": "keyterm:Holy",
-"type": "keyterm",
-"confidence": 0.1909,
-"match_method": "canonical",
-"preferred_label": "पवित्र"
 },
 {
 "id": "keyterm:Life",
@@ -512,11 +512,11 @@
 "preferred_label": "प्रेम"
 },
 {
-"id": "keyterm:Ability",
+"id": "keyterm:Hope",
 "type": "keyterm",
 "confidence": 0.1909,
 "match_method": "canonical",
-"preferred_label": "योग्यता"
+"preferred_label": "आशा"
 },
 {
 "id": "keyterm:Lawless",
@@ -524,6 +524,13 @@
 "confidence": 0.1909,
 "match_method": "canonical",
 "preferred_label": "अधर्मी"
+},
+{
+"id": "keyterm:Ability",
+"type": "keyterm",
+"confidence": 0.1909,
+"match_method": "canonical",
+"preferred_label": "योग्यता"
 },
 {
 "id": "keyterm:Beloved",
@@ -538,13 +545,6 @@
 "confidence": 0.1909,
 "match_method": "canonical",
 "preferred_label": "शुद्ध"
-},
-{
-"id": "keyterm:Hope",
-"type": "keyterm",
-"confidence": 0.1909,
-"match_method": "canonical",
-"preferred_label": "आशा"
 }
 ]
 }
@@ -606,11 +606,18 @@
 "preferred_label": "सदा"
 },
 {
-"id": "keyterm:Truth",
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.2063,
+"match_method": "canonical",
+"preferred_label": "यहोवा"
+},
+{
+"id": "keyterm:DailyLife",
 "type": "keyterm",
 "confidence": 0.2063,
 "match_method": "canonical",
-"preferred_label": "सत्य"
+"preferred_label": "दैनिक जीवन"
 },
 {
 "id": "keyterm:Just",
@@ -627,18 +634,11 @@
 "preferred_label": "स्नेह"
 },
 {
-"id": "keyterm:DailyLife",
+"id": "keyterm:Truth",
 "type": "keyterm",
 "confidence": 0.2063,
 "match_method": "canonical",
-"preferred_label": "दैनिक जीवन"
-},
-{
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.2063,
-"match_method": "canonical",
-"preferred_label": "यहोवा"
+"preferred_label": "सत्य"
 }
 ]
 }
@@ -665,18 +665,18 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:Commandment",
-"type": "keyterm",
-"confidence": 0.475,
-"match_method": "canonical",
-"preferred_label": "आज्ञा"
-},
-{
 "id": "keyterm:Heart",
 "type": "keyterm",
 "confidence": 0.475,
 "match_method": "canonical",
 "preferred_label": "मन"
+},
+{
+"id": "keyterm:Commandment",
+"type": "keyterm",
+"confidence": 0.475,
+"match_method": "canonical",
+"preferred_label": "आज्ञा"
 },
 {
 "id": "keyterm:Condemn",
@@ -700,11 +700,32 @@
 "preferred_label": "समझाना-बुझाना"
 },
 {
-"id": "keyterm:Believe",
+"id": "keyterm:Truth",
 "type": "keyterm",
 "confidence": 0.225,
 "match_method": "canonical",
-"preferred_label": "विश्वास करना"
+"preferred_label": "सत्य"
+},
+{
+"id": "keyterm:Name",
+"type": "keyterm",
+"confidence": 0.225,
+"match_method": "canonical",
+"preferred_label": "नाम"
+},
+{
+"id": "person:Jesus.2",
+"type": "person",
+"confidence": 0.225,
+"match_method": "canonical",
+"preferred_label": "यीशु"
+},
+{
+"id": "keyterm:Love",
+"type": "keyterm",
+"confidence": 0.225,
+"match_method": "canonical",
+"preferred_label": "प्रेम"
 },
 {
 "id": "keyterm:Beloved",
@@ -721,32 +742,11 @@
 "preferred_label": "पवित्र आत्मा"
 },
 {
-"id": "keyterm:Truth",
+"id": "keyterm:Believe",
 "type": "keyterm",
 "confidence": 0.225,
 "match_method": "canonical",
-"preferred_label": "सत्य"
-},
-{
-"id": "person:Jesus.2",
-"type": "person",
-"confidence": 0.225,
-"match_method": "canonical",
-"preferred_label": "यीशु"
-},
-{
-"id": "keyterm:Name",
-"type": "keyterm",
-"confidence": 0.225,
-"match_method": "canonical",
-"preferred_label": "नाम"
-},
-{
-"id": "keyterm:Love",
-"type": "keyterm",
-"confidence": 0.225,
-"match_method": "canonical",
-"preferred_label": "प्रेम"
+"preferred_label": "विश्वास करना"
 }
 ]
 }
@@ -780,18 +780,18 @@
 "preferred_label": "यहोवा"
 },
 {
-"id": "keyterm:Spirit.2",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "आत्मा"
-},
-{
 "id": "keyterm:Ability",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "योग्यता"
+},
+{
+"id": "keyterm:Spirit.2",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "आत्मा"
 },
 {
 "id": "deity:HolySpirit",
@@ -808,11 +808,18 @@
 "preferred_label": "यीशु"
 },
 {
-"id": "keyterm:Believe",
+"id": "keyterm:Truth",
 "type": "keyterm",
 "confidence": 0.225,
 "match_method": "canonical",
-"preferred_label": "विश्वास करना"
+"preferred_label": "सत्य"
+},
+{
+"id": "keyterm:Interpret",
+"type": "keyterm",
+"confidence": 0.225,
+"match_method": "canonical",
+"preferred_label": "परखना"
 },
 {
 "id": "keyterm:Beloved",
@@ -822,13 +829,6 @@
 "preferred_label": "प्रिय"
 },
 {
-"id": "keyterm:Truth",
-"type": "keyterm",
-"confidence": 0.225,
-"match_method": "canonical",
-"preferred_label": "सत्य"
-},
-{
 "id": "keyterm:Body.3",
 "type": "keyterm",
 "confidence": 0.225,
@@ -836,11 +836,11 @@
 "preferred_label": "शरीर"
 },
 {
-"id": "keyterm:Interpret",
+"id": "keyterm:Believe",
 "type": "keyterm",
 "confidence": 0.225,
 "match_method": "canonical",
-"preferred_label": "परखना"
+"preferred_label": "विश्वास करना"
 }
 ]
 }
@@ -895,18 +895,18 @@
 "preferred_label": "बाध्य"
 },
 {
+"id": "keyterm:Sin",
+"type": "keyterm",
+"confidence": 0.225,
+"match_method": "canonical",
+"preferred_label": "पाप करना"
+},
+{
 "id": "keyterm:Ability",
 "type": "keyterm",
 "confidence": 0.225,
 "match_method": "canonical",
 "preferred_label": "योग्यता"
-},
-{
-"id": "keyterm:Life",
-"type": "keyterm",
-"confidence": 0.225,
-"match_method": "canonical",
-"preferred_label": "जीवन"
 },
 {
 "id": "keyterm:Propitiation",
@@ -916,11 +916,11 @@
 "preferred_label": "प्रायश्चित का ढकना"
 },
 {
-"id": "keyterm:Sin",
+"id": "keyterm:Life",
 "type": "keyterm",
 "confidence": 0.225,
 "match_method": "canonical",
-"preferred_label": "पाप करना"
+"preferred_label": "जीवन"
 }
 ]
 }
@@ -975,48 +975,6 @@
 "preferred_label": "उद्धारकर्ता"
 },
 {
-"id": "keyterm:Believe",
-"type": "keyterm",
-"confidence": 0.2,
-"match_method": "canonical",
-"preferred_label": "विश्वास करना"
-},
-{
-"id": "keyterm:Judgment",
-"type": "keyterm",
-"confidence": 0.2,
-"match_method": "canonical",
-"preferred_label": "न्याय"
-},
-{
-"id": "deity:HolySpirit",
-"type": "deity",
-"confidence": 0.2,
-"match_method": "canonical",
-"preferred_label": "पवित्र आत्मा"
-},
-{
-"id": "keyterm:Commandment",
-"type": "keyterm",
-"confidence": 0.2,
-"match_method": "canonical",
-"preferred_label": "आज्ञा"
-},
-{
-"id": "person:Jesus.2",
-"type": "person",
-"confidence": 0.2,
-"match_method": "canonical",
-"preferred_label": "यीशु"
-},
-{
-"id": "keyterm:BearWitness",
-"type": "keyterm",
-"confidence": 0.2,
-"match_method": "canonical",
-"preferred_label": "गवाही देना"
-},
-{
 "id": "person:GenericPerson",
 "type": "person",
 "confidence": 0.2,
@@ -1031,11 +989,53 @@
 "preferred_label": "मुकदमा"
 },
 {
+"id": "person:Jesus.2",
+"type": "person",
+"confidence": 0.2,
+"match_method": "canonical",
+"preferred_label": "यीशु"
+},
+{
+"id": "keyterm:Judgment",
+"type": "keyterm",
+"confidence": 0.2,
+"match_method": "canonical",
+"preferred_label": "न्याय"
+},
+{
+"id": "keyterm:BearWitness",
+"type": "keyterm",
+"confidence": 0.2,
+"match_method": "canonical",
+"preferred_label": "गवाही देना"
+},
+{
 "id": "keyterm:Fear",
 "type": "keyterm",
 "confidence": 0.2,
 "match_method": "canonical",
 "preferred_label": "भय"
+},
+{
+"id": "keyterm:Commandment",
+"type": "keyterm",
+"confidence": 0.2,
+"match_method": "canonical",
+"preferred_label": "आज्ञा"
+},
+{
+"id": "deity:HolySpirit",
+"type": "deity",
+"confidence": 0.2,
+"match_method": "canonical",
+"preferred_label": "पवित्र आत्मा"
+},
+{
+"id": "keyterm:Believe",
+"type": "keyterm",
+"confidence": 0.2,
+"match_method": "canonical",
+"preferred_label": "विश्वास करना"
 }
 ]
 }
@@ -1069,18 +1069,18 @@
 "preferred_label": "यहोवा"
 },
 {
-"id": "keyterm:Believe",
-"type": "keyterm",
-"confidence": 0.52,
-"match_method": "canonical",
-"preferred_label": "विश्वास करना"
-},
-{
 "id": "keyterm:Love",
 "type": "keyterm",
 "confidence": 0.52,
 "match_method": "canonical",
 "preferred_label": "प्रेम"
+},
+{
+"id": "keyterm:Believe",
+"type": "keyterm",
+"confidence": 0.52,
+"match_method": "canonical",
+"preferred_label": "विश्वास करना"
 },
 {
 "id": "keyterm:Commandment",
@@ -1090,18 +1090,18 @@
 "preferred_label": "आज्ञा"
 },
 {
-"id": "keyterm:Ability",
-"type": "keyterm",
-"confidence": 0.38,
-"match_method": "canonical",
-"preferred_label": "योग्यता"
-},
-{
 "id": "person:Jesus.2",
 "type": "person",
 "confidence": 0.38,
 "match_method": "canonical",
 "preferred_label": "यीशु"
+},
+{
+"id": "keyterm:Ability",
+"type": "keyterm",
+"confidence": 0.38,
+"match_method": "canonical",
+"preferred_label": "योग्यता"
 }
 ]
 }
@@ -1170,18 +1170,18 @@
 "preferred_label": "विश्वास करना"
 },
 {
-"id": "keyterm:Always",
-"type": "keyterm",
-"confidence": 0.2143,
-"match_method": "canonical",
-"preferred_label": "सदा"
-},
-{
 "id": "person:Jesus.2",
 "type": "person",
 "confidence": 0.2143,
 "match_method": "canonical",
 "preferred_label": "यीशु"
+},
+{
+"id": "keyterm:Always",
+"type": "keyterm",
+"confidence": 0.2143,
+"match_method": "canonical",
+"preferred_label": "सदा"
 },
 {
 "id": "keyterm:Truth",
@@ -1222,18 +1222,18 @@
 "preferred_label": "पाप करना"
 },
 {
-"id": "keyterm:Life",
-"type": "keyterm",
-"confidence": 0.4,
-"match_method": "canonical",
-"preferred_label": "जीवन"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.4,
 "match_method": "canonical",
 "preferred_label": "यहोवा"
+},
+{
+"id": "keyterm:Life",
+"type": "keyterm",
+"confidence": 0.4,
+"match_method": "canonical",
+"preferred_label": "जीवन"
 },
 {
 "id": "keyterm:Always",
@@ -1250,6 +1250,41 @@
 "preferred_label": "अधर्म का काम"
 },
 {
+"id": "keyterm:AskFor",
+"type": "keyterm",
+"confidence": 0.2,
+"match_method": "canonical",
+"preferred_label": "माँगना"
+},
+{
+"id": "keyterm:True",
+"type": "keyterm",
+"confidence": 0.2,
+"match_method": "canonical",
+"preferred_label": "सच्चा"
+},
+{
+"id": "keyterm:Name",
+"type": "keyterm",
+"confidence": 0.2,
+"match_method": "canonical",
+"preferred_label": "नाम"
+},
+{
+"id": "person:Jesus.2",
+"type": "person",
+"confidence": 0.2,
+"match_method": "canonical",
+"preferred_label": "यीशु"
+},
+{
+"id": "keyterm:Ability",
+"type": "keyterm",
+"confidence": 0.2,
+"match_method": "canonical",
+"preferred_label": "योग्यता"
+},
+{
 "id": "keyterm:Mind.2",
 "type": "keyterm",
 "confidence": 0.2,
@@ -1262,41 +1297,6 @@
 "confidence": 0.2,
 "match_method": "canonical",
 "preferred_label": "विश्वास करना"
-},
-{
-"id": "keyterm:Ability",
-"type": "keyterm",
-"confidence": 0.2,
-"match_method": "canonical",
-"preferred_label": "योग्यता"
-},
-{
-"id": "keyterm:True",
-"type": "keyterm",
-"confidence": 0.2,
-"match_method": "canonical",
-"preferred_label": "सच्चा"
-},
-{
-"id": "keyterm:AskFor",
-"type": "keyterm",
-"confidence": 0.2,
-"match_method": "canonical",
-"preferred_label": "माँगना"
-},
-{
-"id": "person:Jesus.2",
-"type": "person",
-"confidence": 0.2,
-"match_method": "canonical",
-"preferred_label": "यीशु"
-},
-{
-"id": "keyterm:Name",
-"type": "keyterm",
-"confidence": 0.2,
-"match_method": "canonical",
-"preferred_label": "नाम"
 },
 {
 "id": "realia:Image",

@@ -43,11 +43,11 @@
 "preferred_label": "耶和華"
 },
 {
-"id": "keyterm:Ability",
+"id": "keyterm:Holy",
 "type": "keyterm",
 "confidence": 0.35,
 "match_method": "canonical",
-"preferred_label": "能力（技能）"
+"preferred_label": "聖潔"
 },
 {
 "id": "keyterm:InChrist",
@@ -57,18 +57,18 @@
 "preferred_label": "在基督裏"
 },
 {
-"id": "keyterm:Holy",
-"type": "keyterm",
-"confidence": 0.35,
-"match_method": "canonical",
-"preferred_label": "聖潔"
-},
-{
 "id": "keyterm:Favor",
 "type": "keyterm",
 "confidence": 0.35,
 "match_method": "canonical",
 "preferred_label": "恩寵（仁慈）"
+},
+{
+"id": "keyterm:Ability",
+"type": "keyterm",
+"confidence": 0.35,
+"match_method": "canonical",
+"preferred_label": "能力（技能）"
 },
 {
 "id": "keyterm:Love",
@@ -99,13 +99,6 @@
 "preferred_label": "以弗所"
 },
 {
-"id": "keyterm:Faithfulness",
-"type": "keyterm",
-"confidence": 0.225,
-"match_method": "canonical",
-"preferred_label": "信實（真實）"
-},
-{
 "id": "keyterm:Bless",
 "type": "keyterm",
 "confidence": 0.225,
@@ -113,11 +106,11 @@
 "preferred_label": "賜福（認可）"
 },
 {
-"id": "keyterm:Chosen",
-"type": "keyterm",
+"id": "person:Paul",
+"type": "person",
 "confidence": 0.225,
 "match_method": "canonical",
-"preferred_label": "蒙揀選的"
+"preferred_label": "保羅"
 },
 {
 "id": "keyterm:Peace",
@@ -127,18 +120,25 @@
 "preferred_label": "使人和睦"
 },
 {
+"id": "keyterm:Chosen",
+"type": "keyterm",
+"confidence": 0.225,
+"match_method": "canonical",
+"preferred_label": "蒙揀選的"
+},
+{
+"id": "keyterm:Faithfulness",
+"type": "keyterm",
+"confidence": 0.225,
+"match_method": "canonical",
+"preferred_label": "信實（真實）"
+},
+{
 "id": "keyterm:Glory",
 "type": "keyterm",
 "confidence": 0.225,
 "match_method": "canonical",
 "preferred_label": "榮耀（神的同在）"
-},
-{
-"id": "person:Paul",
-"type": "person",
-"confidence": 0.225,
-"match_method": "canonical",
-"preferred_label": "保羅"
 }
 ]
 }
@@ -180,6 +180,13 @@
 ],
 "acai": [
 {
+"id": "keyterm:Liberation",
+"type": "keyterm",
+"confidence": 0.3125,
+"match_method": "canonical",
+"preferred_label": "釋放（脫離奴役）"
+},
+{
 "id": "keyterm:Blood",
 "type": "keyterm",
 "confidence": 0.3125,
@@ -192,13 +199,6 @@
 "confidence": 0.3125,
 "match_method": "canonical",
 "preferred_label": "赦免"
-},
-{
-"id": "keyterm:Liberation",
-"type": "keyterm",
-"confidence": 0.3125,
-"match_method": "canonical",
-"preferred_label": "釋放（脫離奴役）"
 },
 {
 "id": "keyterm:Heaven",
@@ -261,18 +261,25 @@
 "preferred_label": "榮耀（神的同在）"
 },
 {
-"id": "keyterm:Promise",
+"id": "keyterm:Liberation",
 "type": "keyterm",
 "confidence": 0.2625,
 "match_method": "canonical",
-"preferred_label": "應許"
+"preferred_label": "釋放（脫離奴役）"
 },
 {
-"id": "keyterm:Believe",
+"id": "keyterm:HopePreviously",
 "type": "keyterm",
 "confidence": 0.2625,
 "match_method": "canonical",
-"preferred_label": "相信"
+"preferred_label": "先有盼望"
+},
+{
+"id": "keyterm:Truth",
+"type": "keyterm",
+"confidence": 0.2625,
+"match_method": "canonical",
+"preferred_label": "信實（誠實）"
 },
 {
 "id": "keyterm:GoodNews",
@@ -296,18 +303,11 @@
 "preferred_label": "耶穌"
 },
 {
-"id": "keyterm:Truth",
+"id": "keyterm:Promise",
 "type": "keyterm",
 "confidence": 0.2625,
 "match_method": "canonical",
-"preferred_label": "信實（誠實）"
-},
-{
-"id": "keyterm:HopePreviously",
-"type": "keyterm",
-"confidence": 0.2625,
-"match_method": "canonical",
-"preferred_label": "先有盼望"
+"preferred_label": "應許"
 },
 {
 "id": "deity:HolySpirit",
@@ -317,11 +317,11 @@
 "preferred_label": "聖靈"
 },
 {
-"id": "keyterm:Liberation",
+"id": "keyterm:Believe",
 "type": "keyterm",
 "confidence": 0.2625,
 "match_method": "canonical",
-"preferred_label": "釋放（脫離奴役）"
+"preferred_label": "相信"
 }
 ]
 }
@@ -370,13 +370,6 @@
 "preferred_label": "耶穌"
 },
 {
-"id": "keyterm:Believe",
-"type": "keyterm",
-"confidence": 0.3,
-"match_method": "canonical",
-"preferred_label": "相信"
-},
-{
 "id": "keyterm:Ability",
 "type": "keyterm",
 "confidence": 0.3,
@@ -384,11 +377,11 @@
 "preferred_label": "能力（技能）"
 },
 {
-"id": "keyterm:Glory",
+"id": "keyterm:Believe",
 "type": "keyterm",
 "confidence": 0.3,
 "match_method": "canonical",
-"preferred_label": "榮耀（神的同在）"
+"preferred_label": "相信"
 },
 {
 "id": "keyterm:Holy",
@@ -398,67 +391,18 @@
 "preferred_label": "聖潔"
 },
 {
+"id": "keyterm:Glory",
+"type": "keyterm",
+"confidence": 0.3,
+"match_method": "canonical",
+"preferred_label": "榮耀（神的同在）"
+},
+{
 "id": "keyterm:Body.3",
 "type": "keyterm",
 "confidence": 0.2,
 "match_method": "canonical",
 "preferred_label": "身體（實體）"
-},
-{
-"id": "keyterm:Love",
-"type": "keyterm",
-"confidence": 0.2,
-"match_method": "canonical",
-"preferred_label": "愛"
-},
-{
-"id": "keyterm:Resurrection",
-"type": "keyterm",
-"confidence": 0.2,
-"match_method": "canonical",
-"preferred_label": "復活（事件）"
-},
-{
-"id": "keyterm:Name",
-"type": "keyterm",
-"confidence": 0.2,
-"match_method": "canonical",
-"preferred_label": "名"
-},
-{
-"id": "keyterm:Authority.2",
-"type": "keyterm",
-"confidence": 0.2,
-"match_method": "canonical",
-"preferred_label": "權柄（控制）"
-},
-{
-"id": "keyterm:Church",
-"type": "keyterm",
-"confidence": 0.2,
-"match_method": "canonical",
-"preferred_label": "教會"
-},
-{
-"id": "deity:HolySpirit",
-"type": "deity",
-"confidence": 0.2,
-"match_method": "canonical",
-"preferred_label": "聖靈"
-},
-{
-"id": "keyterm:Pray",
-"type": "keyterm",
-"confidence": 0.2,
-"match_method": "canonical",
-"preferred_label": "禱告"
-},
-{
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.2,
-"match_method": "canonical",
-"preferred_label": "耶和華"
 },
 {
 "id": "keyterm:Spirit.2",
@@ -468,6 +412,27 @@
 "preferred_label": "心靈"
 },
 {
+"id": "keyterm:Authority.2",
+"type": "keyterm",
+"confidence": 0.2,
+"match_method": "canonical",
+"preferred_label": "權柄（控制）"
+},
+{
+"id": "keyterm:Love",
+"type": "keyterm",
+"confidence": 0.2,
+"match_method": "canonical",
+"preferred_label": "愛"
+},
+{
+"id": "keyterm:Heart",
+"type": "keyterm",
+"confidence": 0.2,
+"match_method": "canonical",
+"preferred_label": "心（比喻）"
+},
+{
 "id": "keyterm:Always",
 "type": "keyterm",
 "confidence": 0.2,
@@ -475,11 +440,11 @@
 "preferred_label": "永遠"
 },
 {
-"id": "keyterm:Heavenly",
+"id": "keyterm:Church",
 "type": "keyterm",
 "confidence": 0.2,
 "match_method": "canonical",
-"preferred_label": "天上的"
+"preferred_label": "教會"
 },
 {
 "id": "keyterm:Hope",
@@ -489,11 +454,46 @@
 "preferred_label": "盼望"
 },
 {
-"id": "keyterm:Heart",
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.2,
+"match_method": "canonical",
+"preferred_label": "耶和華"
+},
+{
+"id": "keyterm:Heavenly",
 "type": "keyterm",
 "confidence": 0.2,
 "match_method": "canonical",
-"preferred_label": "心（比喻）"
+"preferred_label": "天上的"
+},
+{
+"id": "keyterm:Pray",
+"type": "keyterm",
+"confidence": 0.2,
+"match_method": "canonical",
+"preferred_label": "禱告"
+},
+{
+"id": "deity:HolySpirit",
+"type": "deity",
+"confidence": 0.2,
+"match_method": "canonical",
+"preferred_label": "聖靈"
+},
+{
+"id": "keyterm:Name",
+"type": "keyterm",
+"confidence": 0.2,
+"match_method": "canonical",
+"preferred_label": "名"
+},
+{
+"id": "keyterm:Resurrection",
+"type": "keyterm",
+"confidence": 0.2,
+"match_method": "canonical",
+"preferred_label": "復活（事件）"
 }
 ]
 }
@@ -542,13 +542,6 @@
 "preferred_label": "在基督裏"
 },
 {
-"id": "keyterm:Favor",
-"type": "keyterm",
-"confidence": 0.385,
-"match_method": "canonical",
-"preferred_label": "恩寵（仁慈）"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.385,
@@ -556,25 +549,11 @@
 "preferred_label": "耶和華"
 },
 {
-"id": "keyterm:Ability",
+"id": "keyterm:Favor",
 "type": "keyterm",
-"confidence": 0.29,
+"confidence": 0.385,
 "match_method": "canonical",
-"preferred_label": "能力（技能）"
-},
-{
-"id": "keyterm:Live.3",
-"type": "keyterm",
-"confidence": 0.29,
-"match_method": "canonical",
-"preferred_label": "行事"
-},
-{
-"id": "keyterm:Always",
-"type": "keyterm",
-"confidence": 0.29,
-"match_method": "canonical",
-"preferred_label": "永遠"
+"preferred_label": "恩寵（仁慈）"
 },
 {
 "id": "keyterm:Salvation",
@@ -584,11 +563,32 @@
 "preferred_label": "拯救"
 },
 {
-"id": "keyterm:Believe",
+"id": "keyterm:Ability",
+"type": "keyterm",
+"confidence": 0.29,
+"match_method": "canonical",
+"preferred_label": "能力（技能）"
+},
+{
+"id": "keyterm:Always",
+"type": "keyterm",
+"confidence": 0.29,
+"match_method": "canonical",
+"preferred_label": "永遠"
+},
+{
+"id": "keyterm:Live.3",
+"type": "keyterm",
+"confidence": 0.29,
+"match_method": "canonical",
+"preferred_label": "行事"
+},
+{
+"id": "keyterm:Sin",
 "type": "keyterm",
 "confidence": 0.195,
 "match_method": "canonical",
-"preferred_label": "相信"
+"preferred_label": "犯罪"
 },
 {
 "id": "keyterm:Body.3",
@@ -596,27 +596,6 @@
 "confidence": 0.195,
 "match_method": "canonical",
 "preferred_label": "身體（實體）"
-},
-{
-"id": "keyterm:Love",
-"type": "keyterm",
-"confidence": 0.195,
-"match_method": "canonical",
-"preferred_label": "愛"
-},
-{
-"id": "keyterm:Offering",
-"type": "keyterm",
-"confidence": 0.195,
-"match_method": "canonical",
-"preferred_label": "供物"
-},
-{
-"id": "keyterm:Resurrection",
-"type": "keyterm",
-"confidence": 0.195,
-"match_method": "canonical",
-"preferred_label": "復活（事件）"
 },
 {
 "id": "keyterm:Good",
@@ -633,6 +612,34 @@
 "preferred_label": "權柄（控制）"
 },
 {
+"id": "keyterm:Love",
+"type": "keyterm",
+"confidence": 0.195,
+"match_method": "canonical",
+"preferred_label": "愛"
+},
+{
+"id": "keyterm:Kindness",
+"type": "keyterm",
+"confidence": 0.195,
+"match_method": "canonical",
+"preferred_label": "慈愛（團結互助）"
+},
+{
+"id": "keyterm:Believe",
+"type": "keyterm",
+"confidence": 0.195,
+"match_method": "canonical",
+"preferred_label": "相信"
+},
+{
+"id": "keyterm:Heavenly",
+"type": "keyterm",
+"confidence": 0.195,
+"match_method": "canonical",
+"preferred_label": "天上的"
+},
+{
 "id": "keyterm:Mind.2",
 "type": "keyterm",
 "confidence": 0.195,
@@ -647,20 +654,6 @@
 "preferred_label": "憐憫（行動）"
 },
 {
-"id": "keyterm:Heavenly",
-"type": "keyterm",
-"confidence": 0.195,
-"match_method": "canonical",
-"preferred_label": "天上的"
-},
-{
-"id": "keyterm:Kindness",
-"type": "keyterm",
-"confidence": 0.195,
-"match_method": "canonical",
-"preferred_label": "慈愛（團結互助）"
-},
-{
 "id": "keyterm:Behavior",
 "type": "keyterm",
 "confidence": 0.195,
@@ -668,11 +661,18 @@
 "preferred_label": "行為"
 },
 {
-"id": "keyterm:Sin",
+"id": "keyterm:Offering",
 "type": "keyterm",
 "confidence": 0.195,
 "match_method": "canonical",
-"preferred_label": "犯罪"
+"preferred_label": "供物"
+},
+{
+"id": "keyterm:Resurrection",
+"type": "keyterm",
+"confidence": 0.195,
+"match_method": "canonical",
+"preferred_label": "復活（事件）"
 }
 ]
 }
@@ -770,6 +770,34 @@
 "preferred_label": "和好"
 },
 {
+"id": "keyterm:GoodNews",
+"type": "keyterm",
+"confidence": 0.2063,
+"match_method": "canonical",
+"preferred_label": "福音"
+},
+{
+"id": "keyterm:Covenant",
+"type": "keyterm",
+"confidence": 0.2063,
+"match_method": "canonical",
+"preferred_label": "約"
+},
+{
+"id": "keyterm:WithoutGod",
+"type": "keyterm",
+"confidence": 0.2063,
+"match_method": "canonical",
+"preferred_label": "沒有上帝"
+},
+{
+"id": "keyterm:InChrist",
+"type": "keyterm",
+"confidence": 0.2063,
+"match_method": "canonical",
+"preferred_label": "在基督裏"
+},
+{
 "id": "keyterm:Ability",
 "type": "keyterm",
 "confidence": 0.2063,
@@ -784,25 +812,39 @@
 "preferred_label": "律法"
 },
 {
-"id": "keyterm:InChrist",
-"type": "keyterm",
-"confidence": 0.2063,
-"match_method": "canonical",
-"preferred_label": "在基督裏"
-},
-{
-"id": "keyterm:Blood",
-"type": "keyterm",
-"confidence": 0.2063,
-"match_method": "canonical",
-"preferred_label": "血"
-},
-{
 "id": "keyterm:Commandment",
 "type": "keyterm",
 "confidence": 0.2063,
 "match_method": "canonical",
 "preferred_label": "誡命"
+},
+{
+"id": "keyterm:Hope",
+"type": "keyterm",
+"confidence": 0.2063,
+"match_method": "canonical",
+"preferred_label": "盼望"
+},
+{
+"id": "group:Gentile",
+"type": "group",
+"confidence": 0.2063,
+"match_method": "canonical",
+"preferred_label": "外邦人"
+},
+{
+"id": "person:Israel",
+"type": "person",
+"confidence": 0.2063,
+"match_method": "canonical",
+"preferred_label": "以色列"
+},
+{
+"id": "keyterm:Promise",
+"type": "keyterm",
+"confidence": 0.2063,
+"match_method": "canonical",
+"preferred_label": "應許"
 },
 {
 "id": "keyterm:Circumcision",
@@ -819,60 +861,11 @@
 "preferred_label": "聖靈"
 },
 {
-"id": "keyterm:WithoutGod",
+"id": "keyterm:Blood",
 "type": "keyterm",
 "confidence": 0.2063,
 "match_method": "canonical",
-"preferred_label": "沒有上帝"
-},
-{
-"id": "person:Israel",
-"type": "person",
-"confidence": 0.2063,
-"match_method": "canonical",
-"preferred_label": "以色列"
-},
-{
-"id": "keyterm:Covenant",
-"type": "keyterm",
-"confidence": 0.2063,
-"match_method": "canonical",
-"preferred_label": "約"
-},
-{
-"id": "keyterm:Promise",
-"type": "keyterm",
-"confidence": 0.2063,
-"match_method": "canonical",
-"preferred_label": "應許"
-},
-{
-"id": "keyterm:GoodNews",
-"type": "keyterm",
-"confidence": 0.2063,
-"match_method": "canonical",
-"preferred_label": "福音"
-},
-{
-"id": "group:Gentile",
-"type": "group",
-"confidence": 0.2063,
-"match_method": "canonical",
-"preferred_label": "外邦人"
-},
-{
-"id": "keyterm:Hope",
-"type": "keyterm",
-"confidence": 0.2063,
-"match_method": "canonical",
-"preferred_label": "盼望"
-},
-{
-"id": "realia:Cross",
-"type": "realia",
-"confidence": 0.1463,
-"match_method": "canonical",
-"preferred_label": "十字架"
+"preferred_label": "血"
 },
 {
 "id": "realia:ThornHedge",
@@ -880,6 +873,13 @@
 "confidence": 0.1463,
 "match_method": "canonical",
 "preferred_label": "荊棘籬笆"
+},
+{
+"id": "realia:Cross",
+"type": "realia",
+"confidence": 0.1463,
+"match_method": "canonical",
+"preferred_label": "十字架"
 }
 ]
 }
@@ -935,18 +935,18 @@
 ],
 "acai": [
 {
-"id": "person:Jesus.2",
-"type": "person",
-"confidence": 0.425,
-"match_method": "canonical",
-"preferred_label": "耶穌"
-},
-{
 "id": "keyterm:Holy",
 "type": "keyterm",
 "confidence": 0.425,
 "match_method": "canonical",
 "preferred_label": "聖潔"
+},
+{
+"id": "person:Jesus.2",
+"type": "person",
+"confidence": 0.425,
+"match_method": "canonical",
+"preferred_label": "耶穌"
 },
 {
 "id": "deity:Lord",
@@ -1030,18 +1030,11 @@
 "preferred_label": "外邦人"
 },
 {
-"id": "keyterm:Promise",
-"type": "keyterm",
+"id": "person:Paul",
+"type": "person",
 "confidence": 0.225,
 "match_method": "canonical",
-"preferred_label": "應許"
-},
-{
-"id": "keyterm:InChrist",
-"type": "keyterm",
-"confidence": 0.225,
-"match_method": "canonical",
-"preferred_label": "在基督裏"
+"preferred_label": "保羅"
 },
 {
 "id": "keyterm:GoodNews",
@@ -1051,11 +1044,18 @@
 "preferred_label": "福音"
 },
 {
-"id": "deity:HolySpirit",
-"type": "deity",
+"id": "keyterm:Holy",
+"type": "keyterm",
 "confidence": 0.225,
 "match_method": "canonical",
-"preferred_label": "聖靈"
+"preferred_label": "聖潔"
+},
+{
+"id": "keyterm:InChrist",
+"type": "keyterm",
+"confidence": 0.225,
+"match_method": "canonical",
+"preferred_label": "在基督裏"
 },
 {
 "id": "keyterm:Favor",
@@ -1065,25 +1065,25 @@
 "preferred_label": "恩寵（仁慈）"
 },
 {
-"id": "keyterm:Holy",
-"type": "keyterm",
-"confidence": 0.225,
-"match_method": "canonical",
-"preferred_label": "聖潔"
-},
-{
-"id": "person:Paul",
-"type": "person",
-"confidence": 0.225,
-"match_method": "canonical",
-"preferred_label": "保羅"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.225,
 "match_method": "canonical",
 "preferred_label": "耶和華"
+},
+{
+"id": "keyterm:Promise",
+"type": "keyterm",
+"confidence": 0.225,
+"match_method": "canonical",
+"preferred_label": "應許"
+},
+{
+"id": "deity:HolySpirit",
+"type": "deity",
+"confidence": 0.225,
+"match_method": "canonical",
+"preferred_label": "聖靈"
 }
 ]
 }
@@ -1139,20 +1139,6 @@
 "preferred_label": "耶和華"
 },
 {
-"id": "keyterm:Ability",
-"type": "keyterm",
-"confidence": 0.3286,
-"match_method": "canonical",
-"preferred_label": "能力（技能）"
-},
-{
-"id": "keyterm:Always",
-"type": "keyterm",
-"confidence": 0.3286,
-"match_method": "canonical",
-"preferred_label": "永遠"
-},
-{
 "id": "person:Jesus.2",
 "type": "person",
 "confidence": 0.3286,
@@ -1167,6 +1153,20 @@
 "preferred_label": "恩寵（仁慈）"
 },
 {
+"id": "keyterm:Ability",
+"type": "keyterm",
+"confidence": 0.3286,
+"match_method": "canonical",
+"preferred_label": "能力（技能）"
+},
+{
+"id": "keyterm:Always",
+"type": "keyterm",
+"confidence": 0.3286,
+"match_method": "canonical",
+"preferred_label": "永遠"
+},
+{
 "id": "keyterm:Believe",
 "type": "keyterm",
 "confidence": 0.2143,
@@ -1174,18 +1174,18 @@
 "preferred_label": "相信"
 },
 {
+"id": "keyterm:Holy",
+"type": "keyterm",
+"confidence": 0.2143,
+"match_method": "canonical",
+"preferred_label": "聖潔"
+},
+{
 "id": "keyterm:GoodNews",
 "type": "keyterm",
 "confidence": 0.2143,
 "match_method": "canonical",
 "preferred_label": "福音"
-},
-{
-"id": "group:Gentile",
-"type": "group",
-"confidence": 0.2143,
-"match_method": "canonical",
-"preferred_label": "外邦人"
 },
 {
 "id": "keyterm:Glory",
@@ -1202,11 +1202,11 @@
 "preferred_label": "天上的"
 },
 {
-"id": "keyterm:Holy",
-"type": "keyterm",
+"id": "group:Gentile",
+"type": "group",
 "confidence": 0.2143,
 "match_method": "canonical",
-"preferred_label": "聖潔"
+"preferred_label": "外邦人"
 },
 {
 "id": "keyterm:Authority.2",
@@ -1283,18 +1283,18 @@
 "preferred_label": "耶穌"
 },
 {
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.3125,
+"match_method": "canonical",
+"preferred_label": "耶和華"
+},
+{
 "id": "keyterm:Ability",
 "type": "keyterm",
 "confidence": 0.3125,
 "match_method": "canonical",
 "preferred_label": "能力（技能）"
-},
-{
-"id": "keyterm:Glory",
-"type": "keyterm",
-"confidence": 0.3125,
-"match_method": "canonical",
-"preferred_label": "榮耀（神的同在）"
 },
 {
 "id": "keyterm:Love",
@@ -1304,11 +1304,11 @@
 "preferred_label": "愛"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
+"id": "keyterm:Glory",
+"type": "keyterm",
 "confidence": 0.3125,
 "match_method": "canonical",
-"preferred_label": "耶和華"
+"preferred_label": "榮耀（神的同在）"
 },
 {
 "id": "keyterm:Heart",
@@ -1318,11 +1318,11 @@
 "preferred_label": "心（比喻）"
 },
 {
-"id": "keyterm:Surely",
+"id": "keyterm:Church",
 "type": "keyterm",
 "confidence": 0.2063,
 "match_method": "canonical",
-"preferred_label": "實在！"
+"preferred_label": "教會"
 },
 {
 "id": "keyterm:Believe",
@@ -1332,25 +1332,18 @@
 "preferred_label": "相信"
 },
 {
-"id": "keyterm:Always",
+"id": "keyterm:Holy",
 "type": "keyterm",
 "confidence": 0.2063,
 "match_method": "canonical",
-"preferred_label": "永遠"
+"preferred_label": "聖潔"
 },
 {
-"id": "keyterm:InChrist",
+"id": "keyterm:Surely",
 "type": "keyterm",
 "confidence": 0.2063,
 "match_method": "canonical",
-"preferred_label": "在基督裏"
-},
-{
-"id": "deity:HolySpirit",
-"type": "deity",
-"confidence": 0.2063,
-"match_method": "canonical",
-"preferred_label": "聖靈"
+"preferred_label": "實在！"
 },
 {
 "id": "keyterm:Heaven",
@@ -1360,18 +1353,25 @@
 "preferred_label": "天"
 },
 {
-"id": "keyterm:Holy",
+"id": "keyterm:InChrist",
 "type": "keyterm",
 "confidence": 0.2063,
 "match_method": "canonical",
-"preferred_label": "聖潔"
+"preferred_label": "在基督裏"
 },
 {
-"id": "keyterm:Church",
+"id": "keyterm:Always",
 "type": "keyterm",
 "confidence": 0.2063,
 "match_method": "canonical",
-"preferred_label": "教會"
+"preferred_label": "永遠"
+},
+{
+"id": "deity:HolySpirit",
+"type": "deity",
+"confidence": 0.2063,
+"match_method": "canonical",
+"preferred_label": "聖靈"
 }
 ]
 }
@@ -1420,11 +1420,18 @@
 "preferred_label": "聖靈"
 },
 {
-"id": "keyterm:Believe",
+"id": "keyterm:AskFor",
 "type": "keyterm",
 "confidence": 0.225,
 "match_method": "canonical",
-"preferred_label": "相信"
+"preferred_label": "求（懇求）"
+},
+{
+"id": "keyterm:Hope",
+"type": "keyterm",
+"confidence": 0.225,
+"match_method": "canonical",
+"preferred_label": "盼望"
 },
 {
 "id": "keyterm:Peace",
@@ -1441,25 +1448,11 @@
 "preferred_label": "洗禮"
 },
 {
-"id": "keyterm:AskFor",
-"type": "keyterm",
+"id": "deity:Lord",
+"type": "deity",
 "confidence": 0.225,
 "match_method": "canonical",
-"preferred_label": "求（懇求）"
-},
-{
-"id": "keyterm:Body.3",
-"type": "keyterm",
-"confidence": 0.225,
-"match_method": "canonical",
-"preferred_label": "身體（實體）"
-},
-{
-"id": "keyterm:Live.3",
-"type": "keyterm",
-"confidence": 0.225,
-"match_method": "canonical",
-"preferred_label": "行事"
+"preferred_label": "耶和華"
 },
 {
 "id": "keyterm:Love",
@@ -1469,18 +1462,25 @@
 "preferred_label": "愛"
 },
 {
-"id": "keyterm:Hope",
+"id": "keyterm:Body.3",
 "type": "keyterm",
 "confidence": 0.225,
 "match_method": "canonical",
-"preferred_label": "盼望"
+"preferred_label": "身體（實體）"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
+"id": "keyterm:Believe",
+"type": "keyterm",
 "confidence": 0.225,
 "match_method": "canonical",
-"preferred_label": "耶和華"
+"preferred_label": "相信"
+},
+{
+"id": "keyterm:Live.3",
+"type": "keyterm",
+"confidence": 0.225,
+"match_method": "canonical",
+"preferred_label": "行事"
 }
 ]
 }
@@ -1536,18 +1536,18 @@
 "preferred_label": "造就"
 },
 {
-"id": "keyterm:Body.3",
-"type": "keyterm",
-"confidence": 0.29,
-"match_method": "canonical",
-"preferred_label": "身體（實體）"
-},
-{
 "id": "keyterm:Love",
 "type": "keyterm",
 "confidence": 0.29,
 "match_method": "canonical",
 "preferred_label": "愛"
+},
+{
+"id": "keyterm:Body.3",
+"type": "keyterm",
+"confidence": 0.29,
+"match_method": "canonical",
+"preferred_label": "身體（實體）"
 },
 {
 "id": "keyterm:Height",
@@ -1557,18 +1557,11 @@
 "preferred_label": "高度"
 },
 {
-"id": "keyterm:Believe",
+"id": "keyterm:Holy",
 "type": "keyterm",
 "confidence": 0.195,
 "match_method": "canonical",
-"preferred_label": "相信"
-},
-{
-"id": "keyterm:Serve",
-"type": "keyterm",
-"confidence": 0.195,
-"match_method": "canonical",
-"preferred_label": "服事"
+"preferred_label": "聖潔"
 },
 {
 "id": "keyterm:Heaven",
@@ -1592,11 +1585,18 @@
 "preferred_label": "恩寵（仁慈）"
 },
 {
-"id": "keyterm:Holy",
+"id": "keyterm:Serve",
 "type": "keyterm",
 "confidence": 0.195,
 "match_method": "canonical",
-"preferred_label": "聖潔"
+"preferred_label": "服事"
+},
+{
+"id": "keyterm:Believe",
+"type": "keyterm",
+"confidence": 0.195,
+"match_method": "canonical",
+"preferred_label": "相信"
 },
 {
 "id": "fauna:Lamb",
@@ -1659,13 +1659,6 @@
 "preferred_label": "耶穌"
 },
 {
-"id": "keyterm:Truth",
-"type": "keyterm",
-"confidence": 0.3125,
-"match_method": "canonical",
-"preferred_label": "信實（誠實）"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.3125,
@@ -1673,11 +1666,11 @@
 "preferred_label": "耶和華"
 },
 {
-"id": "keyterm:Behavior",
+"id": "keyterm:Truth",
 "type": "keyterm",
-"confidence": 0.2313,
+"confidence": 0.3125,
 "match_method": "canonical",
-"preferred_label": "行為"
+"preferred_label": "信實（誠實）"
 },
 {
 "id": "keyterm:Mind.2",
@@ -1687,32 +1680,11 @@
 "preferred_label": "心思（理解）"
 },
 {
-"id": "keyterm:Spirit.2",
+"id": "keyterm:Behavior",
 "type": "keyterm",
-"confidence": 0.2063,
+"confidence": 0.2313,
 "match_method": "canonical",
-"preferred_label": "心靈"
-},
-{
-"id": "keyterm:Defilement",
-"type": "keyterm",
-"confidence": 0.2063,
-"match_method": "canonical",
-"preferred_label": "玷污（行為）"
-},
-{
-"id": "group:Gentile",
-"type": "group",
-"confidence": 0.2063,
-"match_method": "canonical",
-"preferred_label": "外邦人"
-},
-{
-"id": "keyterm:Worthless",
-"type": "keyterm",
-"confidence": 0.2063,
-"match_method": "canonical",
-"preferred_label": "虛妄"
+"preferred_label": "行為"
 },
 {
 "id": "keyterm:Holy",
@@ -1722,11 +1694,46 @@
 "preferred_label": "聖潔"
 },
 {
+"id": "keyterm:Defilement",
+"type": "keyterm",
+"confidence": 0.2063,
+"match_method": "canonical",
+"preferred_label": "玷污（行為）"
+},
+{
+"id": "keyterm:Worthless",
+"type": "keyterm",
+"confidence": 0.2063,
+"match_method": "canonical",
+"preferred_label": "虛妄"
+},
+{
+"id": "group:Gentile",
+"type": "group",
+"confidence": 0.2063,
+"match_method": "canonical",
+"preferred_label": "外邦人"
+},
+{
+"id": "keyterm:Heart",
+"type": "keyterm",
+"confidence": 0.2063,
+"match_method": "canonical",
+"preferred_label": "心（比喻）"
+},
+{
 "id": "keyterm:Just",
 "type": "keyterm",
 "confidence": 0.2063,
 "match_method": "canonical",
 "preferred_label": "顯為公義／行事公正"
+},
+{
+"id": "keyterm:Spirit.2",
+"type": "keyterm",
+"confidence": 0.2063,
+"match_method": "canonical",
+"preferred_label": "心靈"
 },
 {
 "id": "keyterm:Life",
@@ -1748,13 +1755,6 @@
 "confidence": 0.2063,
 "match_method": "canonical",
 "preferred_label": "行事"
-},
-{
-"id": "keyterm:Heart",
-"type": "keyterm",
-"confidence": 0.2063,
-"match_method": "canonical",
-"preferred_label": "心（比喻）"
 }
 ]
 }
@@ -1810,53 +1810,11 @@
 "preferred_label": "造就"
 },
 {
-"id": "keyterm:Blaspheme",
+"id": "keyterm:Liberation",
 "type": "keyterm",
 "confidence": 0.2063,
 "match_method": "canonical",
-"preferred_label": "褻瀆"
-},
-{
-"id": "keyterm:InChrist",
-"type": "keyterm",
-"confidence": 0.2063,
-"match_method": "canonical",
-"preferred_label": "在基督裏"
-},
-{
-"id": "deity:HolySpirit",
-"type": "deity",
-"confidence": 0.2063,
-"match_method": "canonical",
-"preferred_label": "聖靈"
-},
-{
-"id": "keyterm:Forgive",
-"type": "keyterm",
-"confidence": 0.2063,
-"match_method": "canonical",
-"preferred_label": "赦免"
-},
-{
-"id": "keyterm:Favor",
-"type": "keyterm",
-"confidence": 0.2063,
-"match_method": "canonical",
-"preferred_label": "恩寵（仁慈）"
-},
-{
-"id": "keyterm:Truth",
-"type": "keyterm",
-"confidence": 0.2063,
-"match_method": "canonical",
-"preferred_label": "信實（誠實）"
-},
-{
-"id": "person:Jesus.2",
-"type": "person",
-"confidence": 0.2063,
-"match_method": "canonical",
-"preferred_label": "耶穌"
+"preferred_label": "釋放（脫離奴役）"
 },
 {
 "id": "keyterm:Sin",
@@ -1866,11 +1824,53 @@
 "preferred_label": "犯罪"
 },
 {
-"id": "keyterm:Liberation",
+"id": "person:Jesus.2",
+"type": "person",
+"confidence": 0.2063,
+"match_method": "canonical",
+"preferred_label": "耶穌"
+},
+{
+"id": "keyterm:InChrist",
 "type": "keyterm",
 "confidence": 0.2063,
 "match_method": "canonical",
-"preferred_label": "釋放（脫離奴役）"
+"preferred_label": "在基督裏"
+},
+{
+"id": "keyterm:Favor",
+"type": "keyterm",
+"confidence": 0.2063,
+"match_method": "canonical",
+"preferred_label": "恩寵（仁慈）"
+},
+{
+"id": "keyterm:Forgive",
+"type": "keyterm",
+"confidence": 0.2063,
+"match_method": "canonical",
+"preferred_label": "赦免"
+},
+{
+"id": "keyterm:Blaspheme",
+"type": "keyterm",
+"confidence": 0.2063,
+"match_method": "canonical",
+"preferred_label": "褻瀆"
+},
+{
+"id": "deity:HolySpirit",
+"type": "deity",
+"confidence": 0.2063,
+"match_method": "canonical",
+"preferred_label": "聖靈"
+},
+{
+"id": "keyterm:Truth",
+"type": "keyterm",
+"confidence": 0.2063,
+"match_method": "canonical",
+"preferred_label": "信實（誠實）"
 }
 ]
 }
@@ -1947,11 +1947,18 @@
 "preferred_label": "徒然"
 },
 {
-"id": "keyterm:Beloved",
+"id": "keyterm:Kingdom",
 "type": "keyterm",
 "confidence": 0.225,
 "match_method": "canonical",
-"preferred_label": "所愛的"
+"preferred_label": "國度"
+},
+{
+"id": "keyterm:Offering",
+"type": "keyterm",
+"confidence": 0.225,
+"match_method": "canonical",
+"preferred_label": "供物"
 },
 {
 "id": "keyterm:Holy",
@@ -1961,11 +1968,18 @@
 "preferred_label": "聖潔"
 },
 {
-"id": "keyterm:Kingdom",
+"id": "keyterm:Love",
 "type": "keyterm",
 "confidence": 0.225,
 "match_method": "canonical",
-"preferred_label": "國度"
+"preferred_label": "愛"
+},
+{
+"id": "keyterm:Beloved",
+"type": "keyterm",
+"confidence": 0.225,
+"match_method": "canonical",
+"preferred_label": "所愛的"
 },
 {
 "id": "keyterm:Fornication",
@@ -1980,20 +1994,6 @@
 "confidence": 0.225,
 "match_method": "canonical",
 "preferred_label": "行事"
-},
-{
-"id": "keyterm:Love",
-"type": "keyterm",
-"confidence": 0.225,
-"match_method": "canonical",
-"preferred_label": "愛"
-},
-{
-"id": "keyterm:Offering",
-"type": "keyterm",
-"confidence": 0.225,
-"match_method": "canonical",
-"preferred_label": "供物"
 }
 ]
 }
@@ -2027,18 +2027,18 @@
 "preferred_label": "耶穌"
 },
 {
-"id": "keyterm:Truth",
-"type": "keyterm",
-"confidence": 0.2063,
-"match_method": "canonical",
-"preferred_label": "信實（誠實）"
-},
-{
 "id": "keyterm:Interpret",
 "type": "keyterm",
 "confidence": 0.2063,
 "match_method": "canonical",
 "preferred_label": "察驗"
+},
+{
+"id": "keyterm:Good",
+"type": "keyterm",
+"confidence": 0.2063,
+"match_method": "canonical",
+"preferred_label": "好（道德）"
 },
 {
 "id": "keyterm:Just",
@@ -2048,13 +2048,6 @@
 "preferred_label": "顯為公義／行事公正"
 },
 {
-"id": "keyterm:Live.3",
-"type": "keyterm",
-"confidence": 0.2063,
-"match_method": "canonical",
-"preferred_label": "行事"
-},
-{
 "id": "keyterm:Resurrection",
 "type": "keyterm",
 "confidence": 0.2063,
@@ -2062,11 +2055,18 @@
 "preferred_label": "復活（事件）"
 },
 {
-"id": "keyterm:Good",
+"id": "keyterm:Truth",
 "type": "keyterm",
 "confidence": 0.2063,
 "match_method": "canonical",
-"preferred_label": "好（道德）"
+"preferred_label": "信實（誠實）"
+},
+{
+"id": "keyterm:Live.3",
+"type": "keyterm",
+"confidence": 0.2063,
+"match_method": "canonical",
+"preferred_label": "行事"
 }
 ]
 }
@@ -2122,18 +2122,25 @@
 "preferred_label": "行事"
 },
 {
-"id": "keyterm:Ability",
-"type": "keyterm",
-"confidence": 0.2143,
-"match_method": "canonical",
-"preferred_label": "能力（技能）"
-},
-{
 "id": "keyterm:Name",
 "type": "keyterm",
 "confidence": 0.2143,
 "match_method": "canonical",
 "preferred_label": "名"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.2143,
+"match_method": "canonical",
+"preferred_label": "耶和華"
+},
+{
+"id": "keyterm:Ability",
+"type": "keyterm",
+"confidence": 0.2143,
+"match_method": "canonical",
+"preferred_label": "能力（技能）"
 },
 {
 "id": "keyterm:Heart",
@@ -2148,13 +2155,6 @@
 "confidence": 0.2143,
 "match_method": "canonical",
 "preferred_label": "懼怕"
-},
-{
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.2143,
-"match_method": "canonical",
-"preferred_label": "耶和華"
 },
 {
 "id": "deity:HolySpirit",
@@ -2238,18 +2238,18 @@
 "preferred_label": "愛"
 },
 {
-"id": "keyterm:Cleanse.2",
+"id": "keyterm:Unblemished",
 "type": "keyterm",
 "confidence": 0.1875,
 "match_method": "canonical",
-"preferred_label": "潔淨"
+"preferred_label": "無瑕疵"
 },
 {
-"id": "keyterm:Savior",
+"id": "keyterm:Glorious",
 "type": "keyterm",
 "confidence": 0.1875,
 "match_method": "canonical",
-"preferred_label": "救主"
+"preferred_label": "榮耀的"
 },
 {
 "id": "keyterm:Holy",
@@ -2257,13 +2257,6 @@
 "confidence": 0.1875,
 "match_method": "canonical",
 "preferred_label": "聖潔"
-},
-{
-"id": "keyterm:Unblemished",
-"type": "keyterm",
-"confidence": 0.1875,
-"match_method": "canonical",
-"preferred_label": "無瑕疵"
 },
 {
 "id": "keyterm:Consecration.2",
@@ -2287,11 +2280,18 @@
 "preferred_label": "懼怕"
 },
 {
-"id": "keyterm:Glorious",
+"id": "keyterm:Cleanse.2",
 "type": "keyterm",
 "confidence": 0.1875,
 "match_method": "canonical",
-"preferred_label": "榮耀的"
+"preferred_label": "潔淨"
+},
+{
+"id": "keyterm:Savior",
+"type": "keyterm",
+"confidence": 0.1875,
+"match_method": "canonical",
+"preferred_label": "救主"
 }
 ]
 }
@@ -2325,11 +2325,74 @@
 "preferred_label": "耶穌"
 },
 {
+"id": "keyterm:Heaven",
+"type": "keyterm",
+"confidence": 0.2,
+"match_method": "canonical",
+"preferred_label": "天"
+},
+{
 "id": "keyterm:EyeService",
 "type": "keyterm",
 "confidence": 0.2,
 "match_method": "canonical",
 "preferred_label": "只做討人喜歡的表面工夫"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.2,
+"match_method": "canonical",
+"preferred_label": "耶和華"
+},
+{
+"id": "keyterm:Heart",
+"type": "keyterm",
+"confidence": 0.2,
+"match_method": "canonical",
+"preferred_label": "心（比喻）"
+},
+{
+"id": "keyterm:Good",
+"type": "keyterm",
+"confidence": 0.2,
+"match_method": "canonical",
+"preferred_label": "好（道德）"
+},
+{
+"id": "keyterm:Just",
+"type": "keyterm",
+"confidence": 0.2,
+"match_method": "canonical",
+"preferred_label": "顯為公義／行事公正"
+},
+{
+"id": "keyterm:Body.3",
+"type": "keyterm",
+"confidence": 0.2,
+"match_method": "canonical",
+"preferred_label": "身體（實體）"
+},
+{
+"id": "keyterm:Fear",
+"type": "keyterm",
+"confidence": 0.2,
+"match_method": "canonical",
+"preferred_label": "懼怕"
+},
+{
+"id": "keyterm:Serve.2",
+"type": "keyterm",
+"confidence": 0.2,
+"match_method": "canonical",
+"preferred_label": "作奴僕"
+},
+{
+"id": "keyterm:Commandment",
+"type": "keyterm",
+"confidence": 0.2,
+"match_method": "canonical",
+"preferred_label": "誡命"
 },
 {
 "id": "keyterm:Promise",
@@ -2344,69 +2407,6 @@
 "confidence": 0.2,
 "match_method": "canonical",
 "preferred_label": "偏心"
-},
-{
-"id": "keyterm:Commandment",
-"type": "keyterm",
-"confidence": 0.2,
-"match_method": "canonical",
-"preferred_label": "誡命"
-},
-{
-"id": "keyterm:Heaven",
-"type": "keyterm",
-"confidence": 0.2,
-"match_method": "canonical",
-"preferred_label": "天"
-},
-{
-"id": "keyterm:Body.3",
-"type": "keyterm",
-"confidence": 0.2,
-"match_method": "canonical",
-"preferred_label": "身體（實體）"
-},
-{
-"id": "keyterm:Just",
-"type": "keyterm",
-"confidence": 0.2,
-"match_method": "canonical",
-"preferred_label": "顯為公義／行事公正"
-},
-{
-"id": "keyterm:Serve.2",
-"type": "keyterm",
-"confidence": 0.2,
-"match_method": "canonical",
-"preferred_label": "作奴僕"
-},
-{
-"id": "keyterm:Good",
-"type": "keyterm",
-"confidence": 0.2,
-"match_method": "canonical",
-"preferred_label": "好（道德）"
-},
-{
-"id": "keyterm:Heart",
-"type": "keyterm",
-"confidence": 0.2,
-"match_method": "canonical",
-"preferred_label": "心（比喻）"
-},
-{
-"id": "keyterm:Fear",
-"type": "keyterm",
-"confidence": 0.2,
-"match_method": "canonical",
-"preferred_label": "懼怕"
-},
-{
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.2,
-"match_method": "canonical",
-"preferred_label": "耶和華"
 }
 ]
 }
@@ -2497,13 +2497,6 @@
 "preferred_label": "耶和華"
 },
 {
-"id": "deity:HolySpirit",
-"type": "deity",
-"confidence": 0.2818,
-"match_method": "canonical",
-"preferred_label": "聖靈"
-},
-{
 "id": "keyterm:GoodNews",
 "type": "keyterm",
 "confidence": 0.2818,
@@ -2511,25 +2504,11 @@
 "preferred_label": "福音"
 },
 {
-"id": "keyterm:Believe",
-"type": "keyterm",
-"confidence": 0.1909,
+"id": "deity:HolySpirit",
+"type": "deity",
+"confidence": 0.2818,
 "match_method": "canonical",
-"preferred_label": "相信"
-},
-{
-"id": "keyterm:Ability",
-"type": "keyterm",
-"confidence": 0.1909,
-"match_method": "canonical",
-"preferred_label": "能力（技能）"
-},
-{
-"id": "keyterm:Truth",
-"type": "keyterm",
-"confidence": 0.1909,
-"match_method": "canonical",
-"preferred_label": "信實（誠實）"
+"preferred_label": "聖靈"
 },
 {
 "id": "keyterm:Body.3",
@@ -2539,11 +2518,11 @@
 "preferred_label": "身體（實體）"
 },
 {
-"id": "keyterm:Blood",
+"id": "keyterm:Just",
 "type": "keyterm",
 "confidence": 0.1909,
 "match_method": "canonical",
-"preferred_label": "血"
+"preferred_label": "顯為公義／行事公正"
 },
 {
 "id": "keyterm:Authority.2",
@@ -2553,11 +2532,25 @@
 "preferred_label": "權柄（控制）"
 },
 {
-"id": "keyterm:Pray",
+"id": "keyterm:Salvation",
 "type": "keyterm",
 "confidence": 0.1909,
 "match_method": "canonical",
-"preferred_label": "禱告"
+"preferred_label": "拯救"
+},
+{
+"id": "keyterm:Ability",
+"type": "keyterm",
+"confidence": 0.1909,
+"match_method": "canonical",
+"preferred_label": "能力（技能）"
+},
+{
+"id": "keyterm:Believe",
+"type": "keyterm",
+"confidence": 0.1909,
+"match_method": "canonical",
+"preferred_label": "相信"
 },
 {
 "id": "keyterm:Peace",
@@ -2574,25 +2567,25 @@
 "preferred_label": "耶穌"
 },
 {
-"id": "keyterm:Just",
-"type": "keyterm",
-"confidence": 0.1909,
-"match_method": "canonical",
-"preferred_label": "顯為公義／行事公正"
-},
-{
-"id": "keyterm:Salvation",
-"type": "keyterm",
-"confidence": 0.1909,
-"match_method": "canonical",
-"preferred_label": "拯救"
-},
-{
 "id": "keyterm:Heavenly",
 "type": "keyterm",
 "confidence": 0.1909,
 "match_method": "canonical",
 "preferred_label": "天上的"
+},
+{
+"id": "keyterm:Pray",
+"type": "keyterm",
+"confidence": 0.1909,
+"match_method": "canonical",
+"preferred_label": "禱告"
+},
+{
+"id": "keyterm:Blood",
+"type": "keyterm",
+"confidence": 0.1909,
+"match_method": "canonical",
+"preferred_label": "血"
 },
 {
 "id": "keyterm:Holy",
@@ -2602,6 +2595,13 @@
 "preferred_label": "聖潔"
 },
 {
+"id": "keyterm:Truth",
+"type": "keyterm",
+"confidence": 0.1909,
+"match_method": "canonical",
+"preferred_label": "信實（誠實）"
+},
+{
 "id": "realia:LargeShield",
 "type": "realia",
 "confidence": 0.1491,
@@ -2609,18 +2609,18 @@
 "preferred_label": "擋牌"
 },
 {
-"id": "realia:Arrow",
-"type": "realia",
-"confidence": 0.1491,
-"match_method": "canonical",
-"preferred_label": "箭"
-},
-{
 "id": "realia:Helmet",
 "type": "realia",
 "confidence": 0.1491,
 "match_method": "canonical",
 "preferred_label": "頭盔"
+},
+{
+"id": "realia:Arrow",
+"type": "realia",
+"confidence": 0.1491,
+"match_method": "canonical",
+"preferred_label": "箭"
 },
 {
 "id": "realia:Chain",
@@ -2697,25 +2697,11 @@
 "preferred_label": "推基古"
 },
 {
-"id": "keyterm:Faithfulness",
+"id": "keyterm:AskFor",
 "type": "keyterm",
 "confidence": 0.2625,
 "match_method": "canonical",
-"preferred_label": "信實（真實）"
-},
-{
-"id": "keyterm:Encourage",
-"type": "keyterm",
-"confidence": 0.2625,
-"match_method": "canonical",
-"preferred_label": "勉勵"
-},
-{
-"id": "keyterm:Believe",
-"type": "keyterm",
-"confidence": 0.2625,
-"match_method": "canonical",
-"preferred_label": "相信"
+"preferred_label": "求（懇求）"
 },
 {
 "id": "keyterm:Peace",
@@ -2725,25 +2711,25 @@
 "preferred_label": "使人和睦"
 },
 {
-"id": "keyterm:Beloved",
-"type": "keyterm",
-"confidence": 0.2625,
-"match_method": "canonical",
-"preferred_label": "所愛的"
-},
-{
-"id": "keyterm:AskFor",
-"type": "keyterm",
-"confidence": 0.2625,
-"match_method": "canonical",
-"preferred_label": "求（懇求）"
-},
-{
 "id": "keyterm:Favor",
 "type": "keyterm",
 "confidence": 0.2625,
 "match_method": "canonical",
 "preferred_label": "恩寵（仁慈）"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.2625,
+"match_method": "canonical",
+"preferred_label": "耶和華"
+},
+{
+"id": "keyterm:Encourage",
+"type": "keyterm",
+"confidence": 0.2625,
+"match_method": "canonical",
+"preferred_label": "勉勵"
 },
 {
 "id": "keyterm:Heart",
@@ -2753,11 +2739,25 @@
 "preferred_label": "心（比喻）"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
+"id": "keyterm:Beloved",
+"type": "keyterm",
 "confidence": 0.2625,
 "match_method": "canonical",
-"preferred_label": "耶和華"
+"preferred_label": "所愛的"
+},
+{
+"id": "keyterm:Faithfulness",
+"type": "keyterm",
+"confidence": 0.2625,
+"match_method": "canonical",
+"preferred_label": "信實（真實）"
+},
+{
+"id": "keyterm:Believe",
+"type": "keyterm",
+"confidence": 0.2625,
+"match_method": "canonical",
+"preferred_label": "相信"
 }
 ]
 }

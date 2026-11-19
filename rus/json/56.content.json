@@ -50,18 +50,18 @@
 "preferred_label": "Верить"
 },
 {
-"id": "keyterm:Savior",
-"type": "keyterm",
-"confidence": 0.425,
-"match_method": "canonical",
-"preferred_label": "Спаситель"
-},
-{
 "id": "person:Jesus.2",
 "type": "person",
 "confidence": 0.425,
 "match_method": "canonical",
 "preferred_label": "Иисус"
+},
+{
+"id": "keyterm:Savior",
+"type": "keyterm",
+"confidence": 0.425,
+"match_method": "canonical",
+"preferred_label": "Спаситель"
 },
 {
 "id": "person:Titus",
@@ -71,60 +71,11 @@
 "preferred_label": "Тит"
 },
 {
-"id": "keyterm:Promise",
+"id": "keyterm:Life",
 "type": "keyterm",
 "confidence": 0.2625,
 "match_method": "canonical",
-"preferred_label": "обетование"
-},
-{
-"id": "keyterm:InCommon",
-"type": "keyterm",
-"confidence": 0.2625,
-"match_method": "canonical",
-"preferred_label": "Общий"
-},
-{
-"id": "keyterm:Chosen",
-"type": "keyterm",
-"confidence": 0.2625,
-"match_method": "canonical",
-"preferred_label": "Избранный"
-},
-{
-"id": "keyterm:Always",
-"type": "keyterm",
-"confidence": 0.2625,
-"match_method": "canonical",
-"preferred_label": "вовеки"
-},
-{
-"id": "keyterm:Peace",
-"type": "keyterm",
-"confidence": 0.2625,
-"match_method": "canonical",
-"preferred_label": "Миротворить"
-},
-{
-"id": "keyterm:Hope",
-"type": "keyterm",
-"confidence": 0.2625,
-"match_method": "canonical",
-"preferred_label": "надежда"
-},
-{
-"id": "keyterm:Truth",
-"type": "keyterm",
-"confidence": 0.2625,
-"match_method": "canonical",
-"preferred_label": "Истина"
-},
-{
-"id": "keyterm:Favor",
-"type": "keyterm",
-"confidence": 0.2625,
-"match_method": "canonical",
-"preferred_label": "Благоволение"
+"preferred_label": "Жизнь"
 },
 {
 "id": "person:Paul",
@@ -134,11 +85,39 @@
 "preferred_label": "Павел"
 },
 {
-"id": "keyterm:Life",
+"id": "keyterm:Truth",
 "type": "keyterm",
 "confidence": 0.2625,
 "match_method": "canonical",
-"preferred_label": "Жизнь"
+"preferred_label": "Истина"
+},
+{
+"id": "keyterm:Hope",
+"type": "keyterm",
+"confidence": 0.2625,
+"match_method": "canonical",
+"preferred_label": "надежда"
+},
+{
+"id": "keyterm:Peace",
+"type": "keyterm",
+"confidence": 0.2625,
+"match_method": "canonical",
+"preferred_label": "Миротворить"
+},
+{
+"id": "keyterm:Chosen",
+"type": "keyterm",
+"confidence": 0.2625,
+"match_method": "canonical",
+"preferred_label": "Избранный"
+},
+{
+"id": "keyterm:Favor",
+"type": "keyterm",
+"confidence": 0.2625,
+"match_method": "canonical",
+"preferred_label": "Благоволение"
 },
 {
 "id": "keyterm:Proclaim",
@@ -146,6 +125,27 @@
 "confidence": 0.2625,
 "match_method": "canonical",
 "preferred_label": "Провозглашать"
+},
+{
+"id": "keyterm:InCommon",
+"type": "keyterm",
+"confidence": 0.2625,
+"match_method": "canonical",
+"preferred_label": "Общий"
+},
+{
+"id": "keyterm:Promise",
+"type": "keyterm",
+"confidence": 0.2625,
+"match_method": "canonical",
+"preferred_label": "обетование"
+},
+{
+"id": "keyterm:Always",
+"type": "keyterm",
+"confidence": 0.2625,
+"match_method": "canonical",
+"preferred_label": "вовеки"
 }
 ]
 }
@@ -193,13 +193,6 @@
 "preferred_label": "Крит"
 },
 {
-"id": "keyterm:Encourage",
-"type": "keyterm",
-"confidence": 0.24,
-"match_method": "canonical",
-"preferred_label": "ободрять"
-},
-{
 "id": "keyterm:AskFor",
 "type": "keyterm",
 "confidence": 0.24,
@@ -214,13 +207,6 @@
 "preferred_label": "святой"
 },
 {
-"id": "keyterm:Just",
-"type": "keyterm",
-"confidence": 0.24,
-"match_method": "canonical",
-"preferred_label": "Быть (или являть себя) праведным"
-},
-{
 "id": "keyterm:LikingWhatIsGood",
 "type": "keyterm",
 "confidence": 0.24,
@@ -233,6 +219,20 @@
 "confidence": 0.24,
 "match_method": "canonical",
 "preferred_label": "ГОСПОДЬ"
+},
+{
+"id": "keyterm:Just",
+"type": "keyterm",
+"confidence": 0.24,
+"match_method": "canonical",
+"preferred_label": "Быть (или являть себя) праведным"
+},
+{
+"id": "keyterm:Encourage",
+"type": "keyterm",
+"confidence": 0.24,
+"match_method": "canonical",
+"preferred_label": "ободрять"
 }
 ]
 }
@@ -274,11 +274,11 @@
 ],
 "acai": [
 {
-"id": "person:CretanProphet",
-"type": "person",
+"id": "group:Cretan",
+"type": "group",
 "confidence": 0.2429,
 "match_method": "canonical",
-"preferred_label": "Критский пророк"
+"preferred_label": "Критяне"
 },
 {
 "id": "keyterm:Clean",
@@ -288,11 +288,11 @@
 "preferred_label": "Чистый"
 },
 {
-"id": "group:Cretan",
-"type": "group",
+"id": "person:CretanProphet",
+"type": "person",
 "confidence": 0.2429,
 "match_method": "canonical",
-"preferred_label": "Критяне"
+"preferred_label": "Критский пророк"
 },
 {
 "id": "keyterm:Believe",
@@ -302,11 +302,11 @@
 "preferred_label": "Верить"
 },
 {
-"id": "keyterm:Defilement",
-"type": "keyterm",
+"id": "group:Jews",
+"type": "group",
 "confidence": 0.2143,
 "match_method": "canonical",
-"preferred_label": "Осквернение"
+"preferred_label": "Иудеи"
 },
 {
 "id": "keyterm:True",
@@ -316,39 +316,18 @@
 "preferred_label": "Истинный"
 },
 {
-"id": "group:Jews",
-"type": "group",
-"confidence": 0.2143,
-"match_method": "canonical",
-"preferred_label": "Иудеи"
-},
-{
-"id": "keyterm:Commandment",
+"id": "keyterm:Conscience",
 "type": "keyterm",
 "confidence": 0.2143,
 "match_method": "canonical",
-"preferred_label": "Заповедь"
+"preferred_label": "совесть"
 },
 {
-"id": "keyterm:Truth",
+"id": "keyterm:Defilement",
 "type": "keyterm",
 "confidence": 0.2143,
 "match_method": "canonical",
-"preferred_label": "Истина"
-},
-{
-"id": "keyterm:Circumcision",
-"type": "keyterm",
-"confidence": 0.2143,
-"match_method": "canonical",
-"preferred_label": "Обрезание"
-},
-{
-"id": "keyterm:BearWitness",
-"type": "keyterm",
-"confidence": 0.2143,
-"match_method": "canonical",
-"preferred_label": "Свидетельствовать"
+"preferred_label": "Осквернение"
 },
 {
 "id": "keyterm:Unfaithful",
@@ -358,11 +337,18 @@
 "preferred_label": "Быть неверным"
 },
 {
-"id": "keyterm:Conscience",
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.2143,
+"match_method": "canonical",
+"preferred_label": "ГОСПОДЬ"
+},
+{
+"id": "keyterm:BearWitness",
 "type": "keyterm",
 "confidence": 0.2143,
 "match_method": "canonical",
-"preferred_label": "совесть"
+"preferred_label": "Свидетельствовать"
 },
 {
 "id": "keyterm:Good",
@@ -372,18 +358,32 @@
 "preferred_label": "Добрый"
 },
 {
+"id": "keyterm:Commandment",
+"type": "keyterm",
+"confidence": 0.2143,
+"match_method": "canonical",
+"preferred_label": "Заповедь"
+},
+{
+"id": "keyterm:Circumcision",
+"type": "keyterm",
+"confidence": 0.2143,
+"match_method": "canonical",
+"preferred_label": "Обрезание"
+},
+{
+"id": "keyterm:Truth",
+"type": "keyterm",
+"confidence": 0.2143,
+"match_method": "canonical",
+"preferred_label": "Истина"
+},
+{
 "id": "place:Crete",
 "type": "place",
 "confidence": 0.2143,
 "match_method": "canonical",
 "preferred_label": "Крит"
-},
-{
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.2143,
-"match_method": "canonical",
-"preferred_label": "ГОСПОДЬ"
 }
 ]
 }
@@ -418,11 +418,11 @@
 ],
 "acai": [
 {
-"id": "keyterm:Believe",
-"type": "keyterm",
+"id": "deity:Lord",
+"type": "deity",
 "confidence": 0.29,
 "match_method": "canonical",
-"preferred_label": "Верить"
+"preferred_label": "ГОСПОДЬ"
 },
 {
 "id": "keyterm:Good",
@@ -432,32 +432,11 @@
 "preferred_label": "Добрый"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
+"id": "keyterm:Believe",
+"type": "keyterm",
 "confidence": 0.29,
 "match_method": "canonical",
-"preferred_label": "ГОСПОДЬ"
-},
-{
-"id": "keyterm:Blaspheme",
-"type": "keyterm",
-"confidence": 0.195,
-"match_method": "canonical",
-"preferred_label": "хулить"
-},
-{
-"id": "keyterm:BeyondReproach",
-"type": "keyterm",
-"confidence": 0.195,
-"match_method": "canonical",
-"preferred_label": "безупречный"
-},
-{
-"id": "keyterm:Savior",
-"type": "keyterm",
-"confidence": 0.195,
-"match_method": "canonical",
-"preferred_label": "Спаситель"
+"preferred_label": "Верить"
 },
 {
 "id": "keyterm:AskFor",
@@ -465,6 +444,13 @@
 "confidence": 0.195,
 "match_method": "canonical",
 "preferred_label": "Просить"
+},
+{
+"id": "keyterm:Love",
+"type": "keyterm",
+"confidence": 0.195,
+"match_method": "canonical",
+"preferred_label": "Любовь"
 },
 {
 "id": "keyterm:HavingLoveForOnesHusband",
@@ -481,11 +467,25 @@
 "preferred_label": "чистый"
 },
 {
-"id": "keyterm:Love",
+"id": "keyterm:Savior",
 "type": "keyterm",
 "confidence": 0.195,
 "match_method": "canonical",
-"preferred_label": "Любовь"
+"preferred_label": "Спаситель"
+},
+{
+"id": "keyterm:Blaspheme",
+"type": "keyterm",
+"confidence": 0.195,
+"match_method": "canonical",
+"preferred_label": "хулить"
+},
+{
+"id": "keyterm:BeyondReproach",
+"type": "keyterm",
+"confidence": 0.195,
+"match_method": "canonical",
+"preferred_label": "безупречный"
 },
 {
 "id": "realia:Wine",
@@ -541,53 +541,18 @@
 "preferred_label": "Спаситель"
 },
 {
-"id": "keyterm:Encourage",
+"id": "keyterm:Life",
 "type": "keyterm",
 "confidence": 0.24,
 "match_method": "canonical",
-"preferred_label": "ободрять"
+"preferred_label": "Жизнь"
 },
 {
-"id": "keyterm:Cleanse.2",
+"id": "keyterm:Liberation",
 "type": "keyterm",
 "confidence": 0.24,
 "match_method": "canonical",
-"preferred_label": "очищать"
-},
-{
-"id": "keyterm:Ability",
-"type": "keyterm",
-"confidence": 0.24,
-"match_method": "canonical",
-"preferred_label": "Способность"
-},
-{
-"id": "keyterm:Lawless",
-"type": "keyterm",
-"confidence": 0.24,
-"match_method": "canonical",
-"preferred_label": "Беззаконный"
-},
-{
-"id": "keyterm:Always",
-"type": "keyterm",
-"confidence": 0.24,
-"match_method": "canonical",
-"preferred_label": "вовеки"
-},
-{
-"id": "keyterm:Salvation",
-"type": "keyterm",
-"confidence": 0.24,
-"match_method": "canonical",
-"preferred_label": "Спасение"
-},
-{
-"id": "keyterm:Glory",
-"type": "keyterm",
-"confidence": 0.24,
-"match_method": "canonical",
-"preferred_label": "слава"
+"preferred_label": "Освобождение"
 },
 {
 "id": "keyterm:AskFor",
@@ -597,11 +562,25 @@
 "preferred_label": "Просить"
 },
 {
-"id": "keyterm:Favor",
+"id": "keyterm:Hope",
 "type": "keyterm",
 "confidence": 0.24,
 "match_method": "canonical",
-"preferred_label": "Благоволение"
+"preferred_label": "надежда"
+},
+{
+"id": "keyterm:Lawless",
+"type": "keyterm",
+"confidence": 0.24,
+"match_method": "canonical",
+"preferred_label": "Беззаконный"
+},
+{
+"id": "keyterm:Salvation",
+"type": "keyterm",
+"confidence": 0.24,
+"match_method": "canonical",
+"preferred_label": "Спасение"
 },
 {
 "id": "person:Jesus.2",
@@ -611,25 +590,25 @@
 "preferred_label": "Иисус"
 },
 {
-"id": "keyterm:Life",
+"id": "keyterm:Worldly",
 "type": "keyterm",
 "confidence": 0.24,
 "match_method": "canonical",
-"preferred_label": "Жизнь"
+"preferred_label": "Мирской"
 },
 {
-"id": "keyterm:Authority.2",
+"id": "keyterm:Favor",
 "type": "keyterm",
 "confidence": 0.24,
 "match_method": "canonical",
-"preferred_label": "Власть"
+"preferred_label": "Благоволение"
 },
 {
-"id": "keyterm:Hope",
+"id": "keyterm:Ability",
 "type": "keyterm",
 "confidence": 0.24,
 "match_method": "canonical",
-"preferred_label": "надежда"
+"preferred_label": "Способность"
 },
 {
 "id": "keyterm:Happy",
@@ -639,18 +618,39 @@
 "preferred_label": "блаженный"
 },
 {
-"id": "keyterm:Worldly",
+"id": "keyterm:Encourage",
 "type": "keyterm",
 "confidence": 0.24,
 "match_method": "canonical",
-"preferred_label": "Мирской"
+"preferred_label": "ободрять"
 },
 {
-"id": "keyterm:Liberation",
+"id": "keyterm:Authority.2",
 "type": "keyterm",
 "confidence": 0.24,
 "match_method": "canonical",
-"preferred_label": "Освобождение"
+"preferred_label": "Власть"
+},
+{
+"id": "keyterm:Cleanse.2",
+"type": "keyterm",
+"confidence": 0.24,
+"match_method": "canonical",
+"preferred_label": "очищать"
+},
+{
+"id": "keyterm:Always",
+"type": "keyterm",
+"confidence": 0.24,
+"match_method": "canonical",
+"preferred_label": "вовеки"
+},
+{
+"id": "keyterm:Glory",
+"type": "keyterm",
+"confidence": 0.24,
+"match_method": "canonical",
+"preferred_label": "слава"
 }
 ]
 }
@@ -713,13 +713,6 @@
 ],
 "acai": [
 {
-"id": "keyterm:Savior",
-"type": "keyterm",
-"confidence": 0.2818,
-"match_method": "canonical",
-"preferred_label": "Спаситель"
-},
-{
 "id": "keyterm:Just",
 "type": "keyterm",
 "confidence": 0.2818,
@@ -732,6 +725,13 @@
 "confidence": 0.2818,
 "match_method": "canonical",
 "preferred_label": "ГОСПОДЬ"
+},
+{
+"id": "keyterm:Savior",
+"type": "keyterm",
+"confidence": 0.2818,
+"match_method": "canonical",
+"preferred_label": "Спаситель"
 },
 {
 "id": "keyterm:Worthless",
@@ -748,18 +748,11 @@
 "preferred_label": "кроткий"
 },
 {
-"id": "keyterm:Believe",
+"id": "keyterm:Sin",
 "type": "keyterm",
 "confidence": 0.1909,
 "match_method": "canonical",
-"preferred_label": "Верить"
-},
-{
-"id": "keyterm:Ability",
-"type": "keyterm",
-"confidence": 0.1909,
-"match_method": "canonical",
-"preferred_label": "Способность"
+"preferred_label": "Грешить"
 },
 {
 "id": "keyterm:Good",
@@ -769,60 +762,11 @@
 "preferred_label": "Добрый"
 },
 {
-"id": "keyterm:Blaspheme",
-"type": "keyterm",
-"confidence": 0.1909,
-"match_method": "canonical",
-"preferred_label": "хулить"
-},
-{
 "id": "keyterm:Authority.2",
 "type": "keyterm",
 "confidence": 0.1909,
 "match_method": "canonical",
 "preferred_label": "Власть"
-},
-{
-"id": "keyterm:Faithfulness",
-"type": "keyterm",
-"confidence": 0.1909,
-"match_method": "canonical",
-"preferred_label": "Верность"
-},
-{
-"id": "keyterm:SelfCondemned",
-"type": "keyterm",
-"confidence": 0.1909,
-"match_method": "canonical",
-"preferred_label": "Самоосужденный"
-},
-{
-"id": "deity:HolySpirit",
-"type": "deity",
-"confidence": 0.1909,
-"match_method": "canonical",
-"preferred_label": "Святой Дух"
-},
-{
-"id": "keyterm:Mercy",
-"type": "keyterm",
-"confidence": 0.1909,
-"match_method": "canonical",
-"preferred_label": "Милость"
-},
-{
-"id": "keyterm:Favor",
-"type": "keyterm",
-"confidence": 0.1909,
-"match_method": "canonical",
-"preferred_label": "Благоволение"
-},
-{
-"id": "person:Jesus.2",
-"type": "person",
-"confidence": 0.1909,
-"match_method": "canonical",
-"preferred_label": "Иисус"
 },
 {
 "id": "keyterm:Life",
@@ -832,25 +776,25 @@
 "preferred_label": "Жизнь"
 },
 {
-"id": "keyterm:Serve.2",
-"type": "keyterm",
-"confidence": 0.1909,
-"match_method": "canonical",
-"preferred_label": "Быть в рабстве"
-},
-{
-"id": "keyterm:Always",
-"type": "keyterm",
-"confidence": 0.1909,
-"match_method": "canonical",
-"preferred_label": "вовеки"
-},
-{
 "id": "keyterm:Salvation",
 "type": "keyterm",
 "confidence": 0.1909,
 "match_method": "canonical",
 "preferred_label": "Спасение"
+},
+{
+"id": "keyterm:Ability",
+"type": "keyterm",
+"confidence": 0.1909,
+"match_method": "canonical",
+"preferred_label": "Способность"
+},
+{
+"id": "keyterm:Blaspheme",
+"type": "keyterm",
+"confidence": 0.1909,
+"match_method": "canonical",
+"preferred_label": "хулить"
 },
 {
 "id": "keyterm:Kindness",
@@ -860,6 +804,27 @@
 "preferred_label": "Милость"
 },
 {
+"id": "keyterm:Always",
+"type": "keyterm",
+"confidence": 0.1909,
+"match_method": "canonical",
+"preferred_label": "вовеки"
+},
+{
+"id": "keyterm:Believe",
+"type": "keyterm",
+"confidence": 0.1909,
+"match_method": "canonical",
+"preferred_label": "Верить"
+},
+{
+"id": "keyterm:SelfCondemned",
+"type": "keyterm",
+"confidence": 0.1909,
+"match_method": "canonical",
+"preferred_label": "Самоосужденный"
+},
+{
 "id": "keyterm:Hope",
 "type": "keyterm",
 "confidence": 0.1909,
@@ -867,11 +832,46 @@
 "preferred_label": "надежда"
 },
 {
-"id": "keyterm:Sin",
+"id": "person:Jesus.2",
+"type": "person",
+"confidence": 0.1909,
+"match_method": "canonical",
+"preferred_label": "Иисус"
+},
+{
+"id": "keyterm:Serve.2",
 "type": "keyterm",
 "confidence": 0.1909,
 "match_method": "canonical",
-"preferred_label": "Грешить"
+"preferred_label": "Быть в рабстве"
+},
+{
+"id": "keyterm:Mercy",
+"type": "keyterm",
+"confidence": 0.1909,
+"match_method": "canonical",
+"preferred_label": "Милость"
+},
+{
+"id": "deity:HolySpirit",
+"type": "deity",
+"confidence": 0.1909,
+"match_method": "canonical",
+"preferred_label": "Святой Дух"
+},
+{
+"id": "keyterm:Favor",
+"type": "keyterm",
+"confidence": 0.1909,
+"match_method": "canonical",
+"preferred_label": "Благоволение"
+},
+{
+"id": "keyterm:Faithfulness",
+"type": "keyterm",
+"confidence": 0.1909,
+"match_method": "canonical",
+"preferred_label": "Верность"
 }
 ]
 }
@@ -913,13 +913,6 @@
 "preferred_label": "Артём"
 },
 {
-"id": "place:Nicopolis",
-"type": "place",
-"confidence": 0.3125,
-"match_method": "canonical",
-"preferred_label": "Никополь"
-},
-{
 "id": "person:Zenas",
 "type": "person",
 "confidence": 0.3125,
@@ -927,11 +920,18 @@
 "preferred_label": "Зина"
 },
 {
-"id": "keyterm:Believe",
+"id": "place:Nicopolis",
+"type": "place",
+"confidence": 0.3125,
+"match_method": "canonical",
+"preferred_label": "Никополь"
+},
+{
+"id": "keyterm:Friendship",
 "type": "keyterm",
 "confidence": 0.2625,
 "match_method": "canonical",
-"preferred_label": "Верить"
+"preferred_label": "дружба"
 },
 {
 "id": "keyterm:Favor",
@@ -948,11 +948,18 @@
 "preferred_label": "Решать"
 },
 {
-"id": "keyterm:Friendship",
+"id": "person:Apollos",
+"type": "person",
+"confidence": 0.2625,
+"match_method": "canonical",
+"preferred_label": "Аполлос"
+},
+{
+"id": "keyterm:Believe",
 "type": "keyterm",
 "confidence": 0.2625,
 "match_method": "canonical",
-"preferred_label": "дружба"
+"preferred_label": "Верить"
 },
 {
 "id": "person:Tychicus",
@@ -960,13 +967,6 @@
 "confidence": 0.2625,
 "match_method": "canonical",
 "preferred_label": "Тихик"
-},
-{
-"id": "person:Apollos",
-"type": "person",
-"confidence": 0.2625,
-"match_method": "canonical",
-"preferred_label": "Аполлос"
 }
 ]
 }
